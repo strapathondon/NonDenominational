@@ -1,0 +1,1533 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "WCP",
+  "title": "Worship & Christian Practice",
+  "plainLanguageTitle": "How Christians worship and practice their faith",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "WCP — Dividing Doctrines — Worship & Christian Practice (Working Bank) v1",
+    "friendEdition": "WCP — Dividing Doctrines Question Set v1 (Friend Feedback)"
+  },
+  "sections": [
+    {
+      "dimensionId": 76,
+      "title": "Regulative and Normative Principles",
+      "questions": [
+        {
+          "id": "WCP-76.1",
+          "prompt": "What determines which practices are acceptable in a Christian worship service?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "WCP-76.1/A",
+              "label": "A",
+              "text": "Only practices commanded by God in Scripture, explicitly or by necessary implication, may be included as elements of worship."
+            },
+            {
+              "id": "WCP-76.1/B",
+              "label": "B",
+              "text": "Practices are permissible unless Scripture forbids them, provided they are consistent with biblical teaching."
+            },
+            {
+              "id": "WCP-76.1/C",
+              "label": "C",
+              "text": "Worship should follow the authoritative liturgical tradition received and preserved by the Church."
+            },
+            {
+              "id": "WCP-76.1/D",
+              "label": "D",
+              "text": "Scripture establishes the essential purposes of worship, while the Church exercises contextual and pastoral discernment over its forms."
+            },
+            {
+              "id": "WCP-76.1/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "normative-principle",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "regulative-principle",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "WCP-76.1a",
+          "prompt": "What establishes sufficient biblical warrant for an element of worship?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "WCP-76.1/A"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  WCP-76.1 = A",
+          "choices": [
+            {
+              "id": "WCP-76.1a/A",
+              "label": "A",
+              "text": "Explicit biblical commands."
+            },
+            {
+              "id": "WCP-76.1a/B",
+              "label": "B",
+              "text": "Biblical commands together with binding apostolic examples and necessary implications."
+            },
+            {
+              "id": "WCP-76.1a/C",
+              "label": "C",
+              "text": "The broader pattern of worship throughout Scripture, insofar as it remains applicable under the New Covenant."
+            },
+            {
+              "id": "WCP-76.1a/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-76.2",
+          "prompt": "Should Christians distinguish between the elements of worship and their circumstances?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-76.2/A",
+              "label": "A",
+              "text": "Yes. Only biblically warranted elements are permissible; churches may exercise judgment concerning circumstances."
+            },
+            {
+              "id": "WCP-76.2/B",
+              "label": "B",
+              "text": "Yes, but the distinction is not always clear enough to function as a strict rule."
+            },
+            {
+              "id": "WCP-76.2/C",
+              "label": "C",
+              "text": "No strict distinction is necessary; all worship decisions should be evaluated according to biblical principles and edification."
+            },
+            {
+              "id": "WCP-76.2/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ],
+          "helpText": [
+            "An element is an act of worship, such as prayer or singing. A circumstance concerns how an act is arranged, such as its time or location."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "worship-circumstances",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "circumstances"
+            },
+            {
+              "termId": "worship-elements",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "elements of worship"
+            }
+          ]
+        },
+        {
+          "id": "WCP-76.3",
+          "prompt": "What authority does a church have to require worship practices not explicitly commanded in Scripture?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-76.3/A",
+              "label": "A",
+              "text": "A church may regulate circumstances but may not introduce or require additional elements of worship."
+            },
+            {
+              "id": "WCP-76.3/B",
+              "label": "B",
+              "text": "A church may establish appropriate practices for order and unity, but should not treat them as divine commands."
+            },
+            {
+              "id": "WCP-76.3/C",
+              "label": "C",
+              "text": "A church may authoritatively prescribe rites and ceremonies within its received ecclesiastical tradition."
+            },
+            {
+              "id": "WCP-76.3/D",
+              "label": "D",
+              "text": "Such practices should ordinarily remain matters of local discretion or individual Christian liberty."
+            },
+            {
+              "id": "WCP-76.3/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Deuteronomy 12:32, 1 Corinthians 14:26–40.",
+      "editorialNotes": [
+        "The governing principle and a proposed application are separate judgments."
+      ]
+    },
+    {
+      "dimensionId": 77,
+      "title": "Liturgy and Worship Forms",
+      "questions": [
+        {
+          "id": "WCP-77.1",
+          "prompt": "What form should a regular Christian worship service ordinarily take?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "WCP-77.1/A",
+              "label": "A",
+              "text": "A historically received and authoritative liturgy with prescribed prayers, readings, and rites."
+            },
+            {
+              "id": "WCP-77.1/B",
+              "label": "B",
+              "text": "A recognizable liturgical structure that preserves historic practices while allowing adaptation."
+            },
+            {
+              "id": "WCP-77.1/C",
+              "label": "C",
+              "text": "An orderly but flexible service organized around Scripture, prayer, praise, and preaching."
+            },
+            {
+              "id": "WCP-77.1/D",
+              "label": "D",
+              "text": "A substantially spontaneous service that permits the congregation and its leaders to respond freely during worship."
+            },
+            {
+              "id": "WCP-77.1/E",
+              "label": "E",
+              "text": "No single worship structure should be normative for all churches."
+            },
+            {
+              "id": "WCP-77.1/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "liturgy",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "WCP-77.1a",
+          "prompt": "Why should historic liturgical forms be retained?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "WCP-77.1/A",
+                "WCP-77.1/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  WCP-77.1 = A or B",
+          "choices": [
+            {
+              "id": "WCP-77.1a/A",
+              "label": "A",
+              "text": "They belong to the Church's authoritative and received tradition."
+            },
+            {
+              "id": "WCP-77.1a/B",
+              "label": "B",
+              "text": "They preserve theological continuity and protect worship from error."
+            },
+            {
+              "id": "WCP-77.1a/C",
+              "label": "C",
+              "text": "They provide valuable order and spiritual formation, but may be substantially revised."
+            },
+            {
+              "id": "WCP-77.1a/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "liturgy",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "liturgical forms"
+            }
+          ]
+        },
+        {
+          "id": "WCP-77.2",
+          "prompt": "Which elements should be present in every ordinary principal weekly worship service?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-77.2/A",
+              "label": "A",
+              "text": "Public reading of Scripture."
+            },
+            {
+              "id": "WCP-77.2/B",
+              "label": "B",
+              "text": "Preaching or exposition of Scripture."
+            },
+            {
+              "id": "WCP-77.2/C",
+              "label": "C",
+              "text": "Corporate prayer."
+            },
+            {
+              "id": "WCP-77.2/D",
+              "label": "D",
+              "text": "Congregational singing."
+            },
+            {
+              "id": "WCP-77.2/E",
+              "label": "E",
+              "text": "Celebration of the Lord's Supper or Eucharist."
+            },
+            {
+              "id": "WCP-77.2/F",
+              "label": "F",
+              "text": "Confession of faith or recitation of a creed."
+            },
+            {
+              "id": "WCP-77.2/G",
+              "label": "G",
+              "text": "A formal blessing or benediction."
+            },
+            {
+              "id": "WCP-77.2/H",
+              "label": "H",
+              "text": "No individual element on this list must occur at every such gathering."
+            },
+            {
+              "id": "WCP-77.2/I",
+              "label": "I",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-77.3",
+          "prompt": "What kinds of songs are appropriate for congregational worship?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-77.3/A",
+              "label": "A",
+              "text": "Only the biblical Psalms should be sung."
+            },
+            {
+              "id": "WCP-77.3/B",
+              "label": "B",
+              "text": "Only inspired biblical songs, including Psalms and other scriptural canticles, should be sung."
+            },
+            {
+              "id": "WCP-77.3/C",
+              "label": "C",
+              "text": "Psalms, hymns, and spiritual songs are appropriate when their teaching is faithful to Scripture."
+            },
+            {
+              "id": "WCP-77.3/D",
+              "label": "D",
+              "text": "A broad range of Christian songs is appropriate, including those emphasizing personal experience and devotion rather than explicit doctrinal teaching, provided they do not contradict the faith."
+            },
+            {
+              "id": "WCP-77.3/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-77.3a",
+          "prompt": "How strictly should song lyrics be evaluated for theological precision?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "WCP-77.3/C",
+                "WCP-77.3/D"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  WCP-77.3 = C or D",
+          "choices": [
+            {
+              "id": "WCP-77.3a/A",
+              "label": "A",
+              "text": "Every theological claim should be carefully consistent with the church's doctrine."
+            },
+            {
+              "id": "WCP-77.3a/B",
+              "label": "B",
+              "text": "Songs should be biblically sound in substance, with reasonable allowance for poetic expression."
+            },
+            {
+              "id": "WCP-77.3a/C",
+              "label": "C",
+              "text": "Songs may employ broad, experiential, or poetic language without satisfying the precision expected of doctrinal teaching."
+            },
+            {
+              "id": "WCP-77.3a/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-77.4",
+          "prompt": "What role should musical instruments have in corporate worship?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-77.4/A",
+              "label": "A",
+              "text": "Instruments should not accompany congregational worship because they lack sufficient New Covenant warrant."
+            },
+            {
+              "id": "WCP-77.4/B",
+              "label": "B",
+              "text": "Instruments are permissible but not required."
+            },
+            {
+              "id": "WCP-77.4/C",
+              "label": "C",
+              "text": "Instruments should ordinarily be included as a fitting expression of praise."
+            },
+            {
+              "id": "WCP-77.4/D",
+              "label": "D",
+              "text": "Instruments should generally be avoided for reasons of simplicity, reverence, or congregational participation, although they are not inherently forbidden."
+            },
+            {
+              "id": "WCP-77.4/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-77.5",
+          "prompt": "Should churches observe recurring Christian festivals and seasons, such as Christmas, Easter, Advent, and Lent?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-77.5/A",
+              "label": "A",
+              "text": "Churches should not institute additional recurring holy days as acts of corporate religious observance."
+            },
+            {
+              "id": "WCP-77.5/B",
+              "label": "B",
+              "text": "Such observances are permissible and beneficial, but should remain optional."
+            },
+            {
+              "id": "WCP-77.5/C",
+              "label": "C",
+              "text": "The historic Christian calendar should ordinarily shape the church's worship and spiritual life."
+            },
+            {
+              "id": "WCP-77.5/D",
+              "label": "D",
+              "text": "A church may establish certain feasts and seasons as obligatory observances for its members, even when those observances are not individually commanded in Scripture."
+            },
+            {
+              "id": "WCP-77.5/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-77.6",
+          "prompt": "What should occupy the central place in the regular gathered worship of the Church?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-77.6/A",
+              "label": "A",
+              "text": "The reading and preaching of God's Word."
+            },
+            {
+              "id": "WCP-77.6/B",
+              "label": "B",
+              "text": "The Word and the Lord's Supper or Eucharist as complementary centers."
+            },
+            {
+              "id": "WCP-77.6/C",
+              "label": "C",
+              "text": "The Eucharistic liturgy as the central act of the Church's corporate worship."
+            },
+            {
+              "id": "WCP-77.6/D",
+              "label": "D",
+              "text": "Prayer, praise, teaching, and other acts of worship without one necessarily taking precedence."
+            },
+            {
+              "id": "WCP-77.6/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-77.7",
+          "prompt": "Are dramatic presentations or choreographed dance appropriate within a Christian worship service?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-77.7/A",
+              "label": "A",
+              "text": "No. Such presentations should not be introduced as elements of worship without biblical warrant."
+            },
+            {
+              "id": "WCP-77.7/B",
+              "label": "B",
+              "text": "They may occasionally serve as illustrations or teaching aids, but should not ordinarily be treated as acts of worship."
+            },
+            {
+              "id": "WCP-77.7/C",
+              "label": "C",
+              "text": "They are legitimate forms of worship when conducted reverently and for the congregation's edification."
+            },
+            {
+              "id": "WCP-77.7/D",
+              "label": "D",
+              "text": "Their suitability depends on the specific form, context, and purpose rather than a universal rule."
+            },
+            {
+              "id": "WCP-77.7/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Colossians 3:16–17, 1 Corinthians 14:26–33.",
+      "editorialNotes": [
+        "At WCP-77.5, retain the wording “A church may establish” wherever it occurs. The authority claim should leave room for traditions that locate it in a particular church."
+      ]
+    },
+    {
+      "dimensionId": 78,
+      "title": "Sabbath and Lord's Day",
+      "questions": [
+        {
+          "id": "WCP-78.1",
+          "prompt": "How does the biblical Sabbath command apply to Christians under the New Covenant?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "WCP-78.1/A",
+              "label": "A",
+              "text": "The Sabbath command remains binding, and the seventh day (Saturday) is still the appointed day."
+            },
+            {
+              "id": "WCP-78.1/B",
+              "label": "B",
+              "text": "The Sabbath command remains binding, but the Christian Sabbath is now observed on the first day (Sunday)."
+            },
+            {
+              "id": "WCP-78.1/C",
+              "label": "C",
+              "text": "The principle of setting aside one day in seven remains binding, but the particular day is not universally fixed."
+            },
+            {
+              "id": "WCP-78.1/D",
+              "label": "D",
+              "text": "The Sabbath is fulfilled in Christ; Sunday is specially appointed for Christian worship, but is not a continuation of the Jewish Sabbath command."
+            },
+            {
+              "id": "WCP-78.1/E",
+              "label": "E",
+              "text": "The Sabbath is fulfilled in Christ, and Christians are not obligated to sanctify a particular day, although regular worship remains important."
+            },
+            {
+              "id": "WCP-78.1/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "new-covenant",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "New Covenant"
+            }
+          ]
+        },
+        {
+          "id": "WCP-78.1a",
+          "prompt": "What activities should ordinarily be avoided on the Sabbath?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "WCP-78.1/A",
+                "WCP-78.1/B",
+                "WCP-78.1/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  WCP-78.1 = A, B, or C",
+          "choices": [
+            {
+              "id": "WCP-78.1a/A",
+              "label": "A",
+              "text": "Ordinary employment, unnecessary commerce, and ordinary recreation, except for works of necessity and mercy."
+            },
+            {
+              "id": "WCP-78.1a/B",
+              "label": "B",
+              "text": "Ordinary work and commerce, while allowing recreation compatible with rest and worship."
+            },
+            {
+              "id": "WCP-78.1a/C",
+              "label": "C",
+              "text": "Activities that prevent worship and meaningful rest, with considerable individual discretion."
+            },
+            {
+              "id": "WCP-78.1a/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-78.1b",
+          "prompt": "What status should Sunday worship have?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "WCP-78.1/D",
+                "WCP-78.1/E"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  WCP-78.1 = D or E",
+          "choices": [
+            {
+              "id": "WCP-78.1b/A",
+              "label": "A",
+              "text": "Sunday is the appointed Christian day for regular corporate worship."
+            },
+            {
+              "id": "WCP-78.1b/B",
+              "label": "B",
+              "text": "Sunday follows a strong apostolic precedent and should ordinarily be preferred, but is not universally required."
+            },
+            {
+              "id": "WCP-78.1b/C",
+              "label": "C",
+              "text": "Christians should gather regularly, but no particular weekday is appointed by God."
+            },
+            {
+              "id": "WCP-78.1b/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-78.2",
+          "prompt": "To what extent is regular corporate worship obligatory for Christians?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-78.2/A",
+              "label": "A",
+              "text": "Christians are ordinarily obligated to gather for worship every week unless providentially prevented."
+            },
+            {
+              "id": "WCP-78.2/B",
+              "label": "B",
+              "text": "Corporate worship is a Christian duty, but Scripture does not establish a universally binding weekly frequency."
+            },
+            {
+              "id": "WCP-78.2/C",
+              "label": "C",
+              "text": "Corporate worship is strongly encouraged, but attendance frequency is principally a matter of individual conscience."
+            },
+            {
+              "id": "WCP-78.2/D",
+              "label": "D",
+              "text": "Christians may faithfully practice their faith without regular organized corporate worship."
+            },
+            {
+              "id": "WCP-78.2/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-78.3",
+          "prompt": "How should churches treat members who differ over Sabbath or Lord's Day observance?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-78.3/A",
+              "label": "A",
+              "text": "The church should teach and uphold a specific Sabbath obligation as binding on its members."
+            },
+            {
+              "id": "WCP-78.3/B",
+              "label": "B",
+              "text": "The church should maintain a common day of worship while permitting disagreement over restrictions on work and recreation."
+            },
+            {
+              "id": "WCP-78.3/C",
+              "label": "C",
+              "text": "The church should permit substantial liberty concerning both observance and the day itself, while encouraging regular assembly."
+            },
+            {
+              "id": "WCP-78.3/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "lord-day",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "Lord's Day"
+            }
+          ]
+        }
+      ],
+      "reading": "Exodus 20:8–11, Romans 14:5–6.",
+      "editorialNotes": [
+        "Distinguish the day on which Christians assemble from whether a Sabbath command continues."
+      ]
+    },
+    {
+      "dimensionId": 79,
+      "title": "Prayer and Intercession",
+      "questions": [
+        {
+          "id": "WCP-79.1",
+          "prompt": "To whom may Christian prayer properly be addressed?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "WCP-79.1/A",
+              "label": "A",
+              "text": "Prayer should be addressed to God the Father, through Jesus Christ, in the Holy Spirit."
+            },
+            {
+              "id": "WCP-79.1/B",
+              "label": "B",
+              "text": "Prayer should ordinarily be addressed to the Father, but direct prayer to Jesus Christ or the Holy Spirit is also appropriate."
+            },
+            {
+              "id": "WCP-79.1/C",
+              "label": "C",
+              "text": "Prayer may be addressed directly to any Person of the Trinity without a prescribed preference."
+            },
+            {
+              "id": "WCP-79.1/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ],
+          "helpText": [
+            "This concerns direct prayer to God. Requests for saintly intercession are addressed separately."
+          ]
+        },
+        {
+          "id": "WCP-79.2",
+          "prompt": "May Christians request the intercession of departed saints?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-79.2/A",
+              "label": "A",
+              "text": "No. Christians should direct their prayers to God and may request intercession from living believers, but not address the departed."
+            },
+            {
+              "id": "WCP-79.2/B",
+              "label": "B",
+              "text": "Departed believers may intercede for the Church in heaven, but Christians should not address requests to them."
+            },
+            {
+              "id": "WCP-79.2/C",
+              "label": "C",
+              "text": "Yes. Christians may request the intercession of departed saints, distinguishing such requests from the worship due to God alone."
+            },
+            {
+              "id": "WCP-79.2/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "intercession",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "intercession"
+            },
+            {
+              "termId": "invocation-of-saints",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "WCP-79.2a",
+          "prompt": "How important should the invocation of saints be in Christian devotional life?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "WCP-79.2/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  WCP-79.2 = C",
+          "choices": [
+            {
+              "id": "WCP-79.2a/A",
+              "label": "A",
+              "text": "It is permissible, but entirely optional."
+            },
+            {
+              "id": "WCP-79.2a/B",
+              "label": "B",
+              "text": "It is a valuable and encouraged expression of communion with the saints."
+            },
+            {
+              "id": "WCP-79.2a/C",
+              "label": "C",
+              "text": "It is an established and integral practice within the Church's devotional and liturgical tradition."
+            },
+            {
+              "id": "WCP-79.2a/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "invocation-of-saints",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "invocation of saints"
+            }
+          ]
+        },
+        {
+          "id": "WCP-79.3",
+          "prompt": "Should Christians pray for people who have died?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-79.3/A",
+              "label": "A",
+              "text": "Yes. Such prayers may benefit the departed, including those undergoing purification after death."
+            },
+            {
+              "id": "WCP-79.3/B",
+              "label": "B",
+              "text": "Yes. Christians should ask God to grant the departed mercy, rest, and blessedness without necessarily defining how those prayers operate."
+            },
+            {
+              "id": "WCP-79.3/C",
+              "label": "C",
+              "text": "Christians may commend the departed to God's mercy, but should not assume that prayer changes their eternal condition."
+            },
+            {
+              "id": "WCP-79.3/D",
+              "label": "D",
+              "text": "No. Prayer for the dead is not warranted by Scripture and should not be practiced."
+            },
+            {
+              "id": "WCP-79.3/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-79.4",
+          "prompt": "What relationship should established written prayers and spontaneous prayers have in Christian worship?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-79.4/A",
+              "label": "A",
+              "text": "Established liturgical prayers should be the ordinary foundation of public worship."
+            },
+            {
+              "id": "WCP-79.4/B",
+              "label": "B",
+              "text": "Written prayers and spontaneous prayers are both appropriate and should complement one another."
+            },
+            {
+              "id": "WCP-79.4/C",
+              "label": "C",
+              "text": "Spontaneous prayer should generally be preferred, although written prayers are permissible."
+            },
+            {
+              "id": "WCP-79.4/D",
+              "label": "D",
+              "text": "Spontaneous prayer alone should ordinarily be used, rather than prescribed prayer texts."
+            },
+            {
+              "id": "WCP-79.4/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-79.5",
+          "prompt": "Is fasting an expected practice for Christians today?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-79.5/A",
+              "label": "A",
+              "text": "Yes. Christians are obligated to observe prescribed fasting disciplines or seasons established by the Church."
+            },
+            {
+              "id": "WCP-79.5/B",
+              "label": "B",
+              "text": "Yes. Fasting is an expected Christian discipline, although its timing and frequency may vary."
+            },
+            {
+              "id": "WCP-79.5/C",
+              "label": "C",
+              "text": "Fasting is spiritually beneficial, but entirely voluntary."
+            },
+            {
+              "id": "WCP-79.5/D",
+              "label": "D",
+              "text": "Fasting may be practiced, but it carries no particular New Covenant expectation or spiritual importance."
+            },
+            {
+              "id": "WCP-79.5/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-79.5a",
+          "prompt": "Should churches organize or prescribe periods of corporate fasting?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "WCP-79.5/B",
+                "WCP-79.5/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  WCP-79.5 = B or C",
+          "choices": [
+            {
+              "id": "WCP-79.5a/A",
+              "label": "A",
+              "text": "Yes. Churches should regularly call their members to shared fasting."
+            },
+            {
+              "id": "WCP-79.5a/B",
+              "label": "B",
+              "text": "Yes, on particular occasions of prayer, repentance, or discernment, without establishing a universally binding calendar."
+            },
+            {
+              "id": "WCP-79.5a/C",
+              "label": "C",
+              "text": "Churches may encourage fasting, but participation and timing should remain matters of individual conscience."
+            },
+            {
+              "id": "WCP-79.5a/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "1 Timothy 2:1–5, Matthew 6:5–18.",
+      "editorialNotes": [
+        "Distinguish intercession, invocation, prayers for the departed, and fasting."
+      ]
+    },
+    {
+      "dimensionId": 80,
+      "title": "Images, Icons, and Veneration",
+      "questions": [
+        {
+          "id": "WCP-80.1",
+          "prompt": "Is it permissible to create visual depictions of Jesus Christ?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "WCP-80.1/A",
+              "label": "A",
+              "text": "No. Depicting Christ violates the prohibition against making images of God."
+            },
+            {
+              "id": "WCP-80.1/B",
+              "label": "B",
+              "text": "Yes. Images of Christ may be used for education, historical representation, or art, but should not receive religious veneration."
+            },
+            {
+              "id": "WCP-80.1/C",
+              "label": "C",
+              "text": "Yes. Images of Christ may be used devotionally and may receive appropriate veneration directed to the person represented rather than the material image."
+            },
+            {
+              "id": "WCP-80.1/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "icon",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "WCP-80.1a",
+          "prompt": "What role may images of Christ have in gathered worship?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "WCP-80.1/B",
+                "WCP-80.1/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  WCP-80.1 = B or C",
+          "choices": [
+            {
+              "id": "WCP-80.1a/A",
+              "label": "A",
+              "text": "They may be displayed as art or instruction, but should not function as devotional aids."
+            },
+            {
+              "id": "WCP-80.1a/B",
+              "label": "B",
+              "text": "They may serve as devotional aids that direct attention toward Christ, without receiving veneration."
+            },
+            {
+              "id": "WCP-80.1a/C",
+              "label": "C",
+              "text": "They may be venerated as holy icons, with honor directed toward Christ rather than the object itself."
+            },
+            {
+              "id": "WCP-80.1a/D",
+              "label": "D",
+              "text": "Although depictions of Christ are permissible elsewhere, they should not be used in corporate worship."
+            },
+            {
+              "id": "WCP-80.1a/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "veneration",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "WCP-80.2",
+          "prompt": "Is it permissible to represent God the Father visually?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-80.2/A",
+              "label": "A",
+              "text": "No. God the Father should not be visually depicted."
+            },
+            {
+              "id": "WCP-80.2/B",
+              "label": "B",
+              "text": "Symbolic imagery may refer to the Father, but artistic depictions purporting to portray his person are inappropriate."
+            },
+            {
+              "id": "WCP-80.2/C",
+              "label": "C",
+              "text": "Figurative artistic representations are permissible if understood as symbolic rather than literal portraits."
+            },
+            {
+              "id": "WCP-80.2/D",
+              "label": "D",
+              "text": "Such imagery may appropriately appear in Christian devotional or liturgical settings."
+            },
+            {
+              "id": "WCP-80.2/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-80.3",
+          "prompt": "What role may images of angels, Mary, and other saints have in Christian religious settings?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-80.3/A",
+              "label": "A",
+              "text": "Representations of these figures should not be used as religious images."
+            },
+            {
+              "id": "WCP-80.3/B",
+              "label": "B",
+              "text": "They may be displayed for historical remembrance, decoration, or instruction, but not venerated."
+            },
+            {
+              "id": "WCP-80.3/C",
+              "label": "C",
+              "text": "They may serve as devotional aids directing attention to exemplary figures in the faith, without receiving religious veneration."
+            },
+            {
+              "id": "WCP-80.3/D",
+              "label": "D",
+              "text": "They may receive appropriate religious veneration, distinct from the worship reserved for God."
+            },
+            {
+              "id": "WCP-80.3/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "icon",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "veneration",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "WCP-80.4",
+          "prompt": "How should acts such as bowing before, kissing, or offering incense to sacred images be understood?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-80.4/A",
+              "label": "A",
+              "text": "Such acts constitute prohibited religious devotion to images."
+            },
+            {
+              "id": "WCP-80.4/B",
+              "label": "B",
+              "text": "They are inappropriate practices, although the intent of the worshiper means they do not necessarily constitute idolatry in every instance."
+            },
+            {
+              "id": "WCP-80.4/C",
+              "label": "C",
+              "text": "They can be legitimate expressions of honor directed toward the person represented, rather than the physical object."
+            },
+            {
+              "id": "WCP-80.4/D",
+              "label": "D",
+              "text": "They are proper and established expressions of veneration within the Church's received liturgical tradition."
+            },
+            {
+              "id": "WCP-80.4/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "icon",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "veneration",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "WCP-80.5",
+          "prompt": "Are crosses and crucifixes appropriate for display in churches?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-80.5/A",
+              "label": "A",
+              "text": "Neither crosses nor crucifixes should serve as religious images or symbols in corporate worship."
+            },
+            {
+              "id": "WCP-80.5/B",
+              "label": "B",
+              "text": "A simple cross is appropriate, but a crucifix depicting Christ is not."
+            },
+            {
+              "id": "WCP-80.5/C",
+              "label": "C",
+              "text": "Both crosses and crucifixes are appropriate visual reminders of Christ's sacrifice, but neither should receive religious veneration."
+            },
+            {
+              "id": "WCP-80.5/D",
+              "label": "D",
+              "text": "Both are appropriate and may receive reverent honor within the Church's devotional tradition."
+            },
+            {
+              "id": "WCP-80.5/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ]
+        },
+        {
+          "id": "WCP-80.6",
+          "prompt": "Should relics or physical objects associated with saints have a role in Christian devotion?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "WCP-80.6/A",
+              "label": "A",
+              "text": "They should not be objects of religious honor or devotional practice."
+            },
+            {
+              "id": "WCP-80.6/B",
+              "label": "B",
+              "text": "They may be preserved as historical reminders, but should not receive religious veneration."
+            },
+            {
+              "id": "WCP-80.6/C",
+              "label": "C",
+              "text": "They may be appropriately honored or venerated in connection with the saints and God's work through them."
+            },
+            {
+              "id": "WCP-80.6/D",
+              "label": "D",
+              "text": "Unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "relic",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "relics"
+            }
+          ]
+        }
+      ],
+      "reading": "Exodus 20:4–6, Colossians 1:15.",
+      "editorialNotes": [
+        "Keep the permissibility of making an image separate from its devotional use or veneration."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Question IDs, answer choices, and existing review flags follow the current Friend Feedback edition. Use the dimension headings to enter any topic. For a guided reading, continue to the next main question after each applicable branch.",
+    "An opening question starts its topic. A common follow-up is available to all readers of that topic. Conditional follow-ups use the answer letters shown. Optional depth is by choice, and uncertainty alone never triggers a doctrinal inference."
+  ],
+  "relatedSets": [
+    "SPI",
+    "ECC"
+  ],
+  "vocabulary": [
+    {
+      "id": "regulative-principle",
+      "term": "Regulative principle of worship",
+      "kind": "position",
+      "definition": "The view that acts of gathered worship require authorization from Scripture, explicitly or by necessary implication.",
+      "status": "draft",
+      "references": [
+        "WCF 1.6, 21.1",
+        "WCP"
+      ],
+      "aliases": [
+        "RPW"
+      ]
+    },
+    {
+      "id": "normative-principle",
+      "term": "Normative principle of worship",
+      "kind": "position",
+      "definition": "The view that churches may choose practices for gathered worship within the limits of scriptural prohibitions and biblical teaching.",
+      "status": "draft",
+      "references": [
+        "WCP",
+        "AC art. XV"
+      ],
+      "aliases": [
+        "NPW"
+      ]
+    },
+    {
+      "id": "worship-elements",
+      "term": "Elements of worship",
+      "kind": "concept",
+      "definition": "The acts that constitute worship, such as prayer, Scripture reading, preaching, and singing.",
+      "status": "draft",
+      "references": [
+        "WCF 21.3–5",
+        "WCP"
+      ]
+    },
+    {
+      "id": "worship-circumstances",
+      "term": "Circumstances of worship",
+      "kind": "concept",
+      "definition": "Practical arrangements for carrying out acts of worship, such as the time and place of a service.",
+      "status": "draft",
+      "references": [
+        "WCF 1.6",
+        "WCP"
+      ]
+    },
+    {
+      "id": "liturgy",
+      "term": "Liturgy",
+      "kind": "concept",
+      "definition": "The ordered form of a community’s public worship, or in some traditions the name of a particular service.",
+      "status": "draft",
+      "references": [
+        "OCA Worship",
+        "WCP"
+      ]
+    },
+    {
+      "id": "lord-day",
+      "term": "Lord’s Day",
+      "kind": "concept",
+      "definition": "Sunday as the day associated with Christ’s resurrection and Christian gathering for worship.",
+      "status": "draft",
+      "references": [
+        "CCC 2174–2188",
+        "WCF 21.7–8",
+        "WCP"
+      ],
+      "aliases": [
+        "Christian Sunday"
+      ]
+    },
+    {
+      "id": "intercession",
+      "term": "Intercession",
+      "kind": "concept",
+      "definition": "Prayer offered on behalf of someone else.",
+      "status": "draft",
+      "references": [
+        "CCC 2634–2636",
+        "CHR",
+        "WCP"
+      ],
+      "aliases": [
+        "Intercessory prayer"
+      ]
+    },
+    {
+      "id": "invocation-of-saints",
+      "term": "Invocation of saints",
+      "kind": "concept",
+      "definition": "Addressing a departed saint to request their prayer or intercession.",
+      "status": "draft",
+      "references": [
+        "CCC 956, 2683",
+        "AC art. XXI",
+        "WCP"
+      ]
+    },
+    {
+      "id": "icon",
+      "term": "Icon",
+      "kind": "concept",
+      "definition": "A sacred image, especially a depiction of Christ, a saint, or a biblical event in Eastern Christian practice.",
+      "status": "draft",
+      "references": [
+        "OCA-ICON",
+        "CCC 1159–1162"
+      ],
+      "aliases": [
+        "Holy icon"
+      ]
+    },
+    {
+      "id": "veneration",
+      "term": "Veneration",
+      "kind": "concept",
+      "definition": "Religious honor shown to a saint, sacred image, or relic, distinguished by traditions that practice it from the worship due to God alone.",
+      "status": "draft",
+      "references": [
+        "OCA-ICON",
+        "CCC 2132",
+        "WCP"
+      ]
+    },
+    {
+      "id": "relic",
+      "term": "Relic",
+      "kind": "concept",
+      "definition": "A saint’s bodily remains or an object closely associated with a saint, kept for remembrance or devotion.",
+      "status": "draft",
+      "references": [
+        "CCC 1674",
+        "WCP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1603 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "SAC",
+  "title": "Sacramentology",
+  "plainLanguageTitle": "Sacraments and ordinances",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "SAC — Dividing Doctrines — Sacramentology (Working Bank) v1",
+    "friendEdition": "SAC — Dividing Doctrines Question Set v1 (Friend Feedback)"
+  },
+  "sections": [
+    {
+      "dimensionId": 58,
+      "title": "Nature and Number of Sacraments",
+      "questions": [
+        {
+          "id": "SAC-01",
+          "prompt": "How many sacraments or ordinances has Christ established for the Church?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SAC-01/A",
+              "label": "A",
+              "text": "Two: Baptism and the Lord's Supper / Eucharist / Holy Communion.",
+              "status": "needs_attention"
+            },
+            {
+              "id": "SAC-01/B",
+              "label": "B",
+              "text": "Seven: Baptism, Confirmation, Eucharist, Penance, Anointing of the Sick, Holy Orders, and Matrimony."
+            },
+            {
+              "id": "SAC-01/C",
+              "label": "C",
+              "text": "The Church's sacramental life should not be restricted to a fixed number of rites."
+            },
+            {
+              "id": "SAC-01/D",
+              "label": "D",
+              "text": "No outward ritual should be regarded as a universally required sacrament or ordinance."
+            },
+            {
+              "id": "SAC-01/E",
+              "label": "E",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "ordinance",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "ordinances"
+            },
+            {
+              "termId": "sacrament",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "sacraments"
+            }
+          ]
+        },
+        {
+          "id": "SAC-02",
+          "prompt": "What distinguishes a sacrament or ordinance from other Christian practices?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-02/A",
+              "label": "A",
+              "text": "It is a sacred rite instituted by Christ through which God promises to communicate grace."
+            },
+            {
+              "id": "SAC-02/B",
+              "label": "B",
+              "text": "It is a practice commanded by Christ as an outward expression of faith and obedience."
+            },
+            {
+              "id": "SAC-02/C",
+              "label": "C",
+              "text": "It is an outward practice through which the Church participates in God's sacred mysteries, whether or not Christ explicitly instituted that particular rite."
+            },
+            {
+              "id": "SAC-02/D",
+              "label": "D",
+              "text": "No outward practice has a uniquely sacramental status."
+            },
+            {
+              "id": "SAC-02/E",
+              "label": "E",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "ordinance",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "ordinance"
+            },
+            {
+              "termId": "sacrament",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "sacrament"
+            }
+          ]
+        },
+        {
+          "id": "SAC-02a",
+          "prompt": "Which additional rites should be regarded as sacraments or sacred mysteries in their own right?",
+          "selection": "multiple",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-01/B",
+                "SAC-01/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-01 = B or C",
+          "choices": [
+            {
+              "id": "SAC-02a/A",
+              "label": "A",
+              "text": "Confirmation or Chrismation."
+            },
+            {
+              "id": "SAC-02a/B",
+              "label": "B",
+              "text": "Confession or Reconciliation."
+            },
+            {
+              "id": "SAC-02a/C",
+              "label": "C",
+              "text": "Anointing of the Sick."
+            },
+            {
+              "id": "SAC-02a/D",
+              "label": "D",
+              "text": "Ordination or Holy Orders."
+            },
+            {
+              "id": "SAC-02a/E",
+              "label": "E",
+              "text": "Marriage."
+            },
+            {
+              "id": "SAC-02a/F",
+              "label": "F",
+              "text": "Foot washing."
+            },
+            {
+              "id": "SAC-02a/G",
+              "label": "G",
+              "text": "Additional rites recognized within the Church's sacramental life, without limiting that life to a fixed list."
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 28:19–20, Acts 2:42.",
+      "editorialNotes": [
+        "Keep the number of rites distinct from the way a rite conveys grace."
+      ]
+    },
+    {
+      "dimensionId": 59,
+      "title": "Infant Versus Believer's Baptism",
+      "questions": [
+        {
+          "id": "SAC-03",
+          "prompt": "Is the Church obligated to practice water baptism?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SAC-03/A",
+              "label": "A",
+              "text": "Yes. Christ commanded water baptism as an ongoing practice of the Church."
+            },
+            {
+              "id": "SAC-03/B",
+              "label": "B",
+              "text": "Water baptism is a legitimate Christian practice, but it is not obligatory."
+            },
+            {
+              "id": "SAC-03/C",
+              "label": "C",
+              "text": "No. The baptism that ultimately matters is spiritual, and outward water baptism is unnecessary."
+            },
+            {
+              "id": "SAC-03/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-04",
+          "prompt": "Who should receive Christian water baptism?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-03/A",
+                "SAC-03/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-03 = A or B",
+          "choices": [
+            {
+              "id": "SAC-04/A",
+              "label": "A",
+              "text": "Only those who personally profess faith in Jesus Christ."
+            },
+            {
+              "id": "SAC-04/B",
+              "label": "B",
+              "text": "Both professing believers and infants may properly receive baptism."
+            },
+            {
+              "id": "SAC-04/C",
+              "label": "C",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "believers-baptism",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "infant-baptism",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-04a",
+          "prompt": "On what grounds may an infant properly be baptized?",
+          "selection": "multiple",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-04/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-04 = B",
+          "choices": [
+            {
+              "id": "SAC-04a/A",
+              "label": "A",
+              "text": "Infants of believers belong within the covenant community and should receive its sign."
+            },
+            {
+              "id": "SAC-04a/B",
+              "label": "B",
+              "text": "God may grant regenerating or saving grace through baptism before the recipient can consciously profess faith."
+            },
+            {
+              "id": "SAC-04a/C",
+              "label": "C",
+              "text": "Baptism is an act of God's initiating grace, which precedes the recipient's personal response."
+            },
+            {
+              "id": "SAC-04a/D",
+              "label": "D",
+              "text": "Baptism incorporates the infant into the visible Christian community."
+            },
+            {
+              "id": "SAC-04a/E",
+              "label": "E",
+              "text": "I'm unsure of the theological basis, although I affirm the practice."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "infant-baptism",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-05",
+          "prompt": "If someone was baptized as an infant and later comes to profess faith, should that person be baptized again?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-04/A",
+                "SAC-04/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-04 = A or B",
+          "choices": [
+            {
+              "id": "SAC-05/A",
+              "label": "A",
+              "text": "Yes. Baptism should follow the individual's personal profession of faith."
+            },
+            {
+              "id": "SAC-05/B",
+              "label": "B",
+              "text": "No. Infant baptism is valid and should not be repeated."
+            },
+            {
+              "id": "SAC-05/C",
+              "label": "C",
+              "text": "Only if the original baptism was invalid for some reason other than the recipient's age."
+            },
+            {
+              "id": "SAC-05/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "believers-baptism",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-06",
+          "prompt": "Which methods of water baptism are valid?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-03/A",
+                "SAC-03/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-03 = A or B",
+          "choices": [
+            {
+              "id": "SAC-06/A",
+              "label": "A",
+              "text": "Immersion is required for valid baptism."
+            },
+            {
+              "id": "SAC-06/B",
+              "label": "B",
+              "text": "Immersion is the proper norm, but pouring or sprinkling may be valid under certain circumstances."
+            },
+            {
+              "id": "SAC-06/C",
+              "label": "C",
+              "text": "Immersion, pouring, and sprinkling are all valid methods of baptism."
+            },
+            {
+              "id": "SAC-06/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-07",
+          "prompt": "If a baptized Christian abandons the faith and later returns, should baptism be repeated?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-03/A",
+                "SAC-03/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-03 = A or B",
+          "choices": [
+            {
+              "id": "SAC-07/A",
+              "label": "A",
+              "text": "No. A valid baptism should never be repeated."
+            },
+            {
+              "id": "SAC-07/B",
+              "label": "B",
+              "text": "Yes. Baptism should accompany the person's renewed profession of faith."
+            },
+            {
+              "id": "SAC-07/C",
+              "label": "C",
+              "text": "It depends on whether the original baptism was valid, rather than simply on the person's period of unbelief."
+            },
+            {
+              "id": "SAC-07/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 2:38–39, Acts 8:35–38.",
+      "editorialNotes": [
+        "SAC-03 governs the water-baptism branches. A person who skips these can enter the next dimension."
+      ]
+    },
+    {
+      "dimensionId": 60,
+      "title": "Mode and Efficacy of Baptism",
+      "questions": [
+        {
+          "id": "SAC-08",
+          "prompt": "What does God accomplish through water baptism?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SAC-08/A",
+              "label": "A",
+              "text": "God ordinarily grants regeneration and forgiveness of sins through baptism."
+            },
+            {
+              "id": "SAC-08/B",
+              "label": "B",
+              "text": "Baptism is a divinely appointed sign and seal of God's covenant promises, but regeneration does not necessarily occur when baptism is administered."
+            },
+            {
+              "id": "SAC-08/C",
+              "label": "C",
+              "text": "Baptism publicly signifies faith, repentance, and union with Christ without itself conveying regenerating grace."
+            },
+            {
+              "id": "SAC-08/D",
+              "label": "D",
+              "text": "Water baptism does not accomplish anything spiritually necessary; the essential baptism is inward and spiritual."
+            },
+            {
+              "id": "SAC-08/E",
+              "label": "E",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "regeneration",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "baptismal-regeneration",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-09",
+          "prompt": "Is water baptism necessary for salvation?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-09/A",
+              "label": "A",
+              "text": "Yes. Water baptism is necessary for salvation, without exception."
+            },
+            {
+              "id": "SAC-09/B",
+              "label": "B",
+              "text": "Baptism is an ordinarily necessary means through which God grants saving grace, but God may save someone who does not receive it."
+            },
+            {
+              "id": "SAC-09/C",
+              "label": "C",
+              "text": "Baptism is commanded by Christ, but receiving it is not a condition or ordinarily necessary instrument of salvation."
+            },
+            {
+              "id": "SAC-09/D",
+              "label": "D",
+              "text": "No. Outward water baptism is not required for salvation or Christian obedience."
+            },
+            {
+              "id": "SAC-09/E",
+              "label": "E",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-11",
+          "prompt": "Is a baptism valid if the person administering it secretly lacks genuine Christian faith?",
+          "selection": "single",
+          "role": "Alternative draft",
+          "display": {
+            "guided": {
+              "variant": {
+                "groupId": "SAC-11",
+                "questionId": "SAC-11"
+              }
+            }
+          },
+          "displayNote": "Alternative draft  |  Needs attention",
+          "choices": [
+            {
+              "id": "SAC-11/A",
+              "label": "A",
+              "text": "Yes. The administrator's personal faith does not determine baptism's validity."
+            },
+            {
+              "id": "SAC-11/B",
+              "label": "B",
+              "text": "No. Genuine faith in the person administering baptism is necessary for its validity."
+            },
+            {
+              "id": "SAC-11/C",
+              "label": "C",
+              "text": "I'm unsure."
+            }
+          ],
+          "editorialReview": {
+            "status": "needs_attention",
+            "reason": "Alternative formulation in the SAC-11 review group."
+          },
+          "draftHover": {
+            "anchor": "secretly",
+            "text": "The fourth–fifth-century Donatist controversy concerned whether sacraments administered by compromised or unworthy ministers were valid. Augustine argued that baptism's validity rests on Christ rather than the personal worthiness of the minister. This was not exclusively a controversy about secretly unbelieving ministers.",
+            "status": "needs_attention"
+          },
+          "vocabularyLinks": [
+            {
+              "termId": "donatist-controversy-sac-11",
+              "placement": "inline",
+              "status": "needs_attention",
+              "anchor": "secretly"
+            }
+          ]
+        },
+        {
+          "id": "SAC-11B",
+          "prompt": "Can a baptism be valid if the person administering it holds seriously mistaken beliefs about God or Jesus Christ?",
+          "selection": "single",
+          "role": "Alternative draft",
+          "display": {
+            "guided": {
+              "variant": {
+                "groupId": "SAC-11",
+                "questionId": "SAC-11B"
+              }
+            }
+          },
+          "displayNote": "Alternative draft  |  Needs attention",
+          "choices": [
+            {
+              "id": "SAC-11B/A",
+              "label": "A",
+              "text": "Yes. The administrator's personal theological errors do not invalidate a baptism properly performed with the required Christian form and intention."
+            },
+            {
+              "id": "SAC-11B/B",
+              "label": "B",
+              "text": "It depends on the errors. Some theological misunderstandings may be compatible with valid baptism, while others fundamentally change its meaning."
+            },
+            {
+              "id": "SAC-11B/C",
+              "label": "C",
+              "text": "No. The administrator must personally hold an orthodox understanding of God and Jesus Christ."
+            },
+            {
+              "id": "SAC-11B/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ],
+          "editorialReview": {
+            "status": "needs_attention",
+            "reason": "Alternative formulation in the SAC-11 review group."
+          }
+        },
+        {
+          "id": "SAC-11a",
+          "prompt": "What makes a baptism valid?",
+          "selection": "multiple",
+          "role": "Optional depth",
+          "display": {
+            "optional": {
+              "any": [
+                {
+                  "answered": "SAC-11"
+                },
+                {
+                  "answered": "SAC-11B"
+                }
+              ]
+            }
+          },
+          "displayNote": "Optional depth  |  After either SAC-11 formulation",
+          "choices": [
+            {
+              "id": "SAC-11a/A",
+              "label": "A",
+              "text": "Water must be used."
+            },
+            {
+              "id": "SAC-11a/B",
+              "label": "B",
+              "text": "Baptism must be performed in the name of the Father, Son, and Holy Spirit."
+            },
+            {
+              "id": "SAC-11a/C",
+              "label": "C",
+              "text": "The person administering baptism must possess appropriate church authorization."
+            },
+            {
+              "id": "SAC-11a/D",
+              "label": "D",
+              "text": "The person receiving baptism must have personally professed faith."
+            },
+            {
+              "id": "SAC-11a/E",
+              "label": "E",
+              "text": "The administrator must intend to perform Christian baptism."
+            }
+          ]
+        }
+      ],
+      "reading": "Romans 6:3–4, 1 Peter 3:21.",
+      "editorialNotes": [
+        "SAC-11 and SAC-11B are both live alternatives. Each needs editorial attention. Do not require a reviewer or participant to answer both."
+      ]
+    },
+    {
+      "dimensionId": 61,
+      "title": "Christ's Presence in the Eucharist",
+      "questions": [
+        {
+          "id": "SAC-12",
+          "prompt": "In what manner is Christ present in the Lord's Supper / Eucharist / Holy Communion?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SAC-12/A",
+              "label": "A",
+              "text": "The bread and wine become Christ's body and blood in substance, although their appearances remain unchanged."
+            },
+            {
+              "id": "SAC-12/B",
+              "label": "B",
+              "text": "Christ's true body and blood are present and received with the bread and wine, which remain bread and wine."
+            },
+            {
+              "id": "SAC-12/C",
+              "label": "C",
+              "text": "The consecrated bread and wine truly become Christ's body and blood through a divine mystery whose manner need not be precisely defined."
+            },
+            {
+              "id": "SAC-12/D",
+              "label": "D",
+              "text": "Christ's body remains in heaven, but believers truly partake of Christ spiritually through the Holy Spirit in the Supper."
+            },
+            {
+              "id": "SAC-12/E",
+              "label": "E",
+              "text": "The bread and wine remain symbols through which believers remember Christ; Christ is not present in a distinct sacramental manner."
+            },
+            {
+              "id": "SAC-12/F",
+              "label": "F",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "lords-supper",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "Lord's Supper"
+            },
+            {
+              "termId": "real-presence",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "memorialism",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "sacramental-union",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "spiritual-presence",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "transubstantiation",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-12a",
+          "prompt": "Does Christ remain present in the consecrated elements after the celebration has ended?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-12/A",
+                "SAC-12/B",
+                "SAC-12/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-12 = A, B, or C",
+          "choices": [
+            {
+              "id": "SAC-12a/A",
+              "label": "A",
+              "text": "Yes. The consecrated elements remain Christ's body and blood."
+            },
+            {
+              "id": "SAC-12a/B",
+              "label": "B",
+              "text": "Christ's sacramental presence belongs to the instituted celebration and reception, rather than continuing independently afterward."
+            },
+            {
+              "id": "SAC-12a/C",
+              "label": "C",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-13",
+          "prompt": "What does an unbelieving person receive when participating in the Lord's Supper / Eucharist / Holy Communion?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-13/A",
+              "label": "A",
+              "text": "The person truly receives Christ's body and blood, though without the saving benefit of faithful reception."
+            },
+            {
+              "id": "SAC-13/B",
+              "label": "B",
+              "text": "The person receives the outward bread and wine but does not spiritually partake of Christ."
+            },
+            {
+              "id": "SAC-13/C",
+              "label": "C",
+              "text": "The person receives the symbolic elements, without any distinct sacramental reception of Christ."
+            },
+            {
+              "id": "SAC-13/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "real-presence",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-14",
+          "prompt": "Does the Lord's Supper / Eucharist / Holy Communion provide spiritual nourishment beyond the benefits of remembering Christ's death?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-14/A",
+              "label": "A",
+              "text": "Yes. Christ truly communicates grace through the sacrament itself."
+            },
+            {
+              "id": "SAC-14/B",
+              "label": "B",
+              "text": "Yes. The Holy Spirit uses the Supper to strengthen believers through faith and communion with Christ."
+            },
+            {
+              "id": "SAC-14/C",
+              "label": "C",
+              "text": "No distinct sacramental nourishment is given, although remembrance, worship, and obedience may strengthen believers."
+            },
+            {
+              "id": "SAC-14/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-15",
+          "prompt": "Which elements are necessary for a proper celebration of the Lord's Supper / Eucharist / Holy Communion?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-15/A",
+              "label": "A",
+              "text": "Bread and grape wine are necessary."
+            },
+            {
+              "id": "SAC-15/B",
+              "label": "B",
+              "text": "Bread and a grape-based drink are necessary, but fermented wine is not."
+            },
+            {
+              "id": "SAC-15/C",
+              "label": "C",
+              "text": "Other suitable foods and drinks may substitute for bread and wine."
+            },
+            {
+              "id": "SAC-15/D",
+              "label": "D",
+              "text": "No particular outward elements are necessary because ritual communion is not required."
+            },
+            {
+              "id": "SAC-15/E",
+              "label": "E",
+              "text": "I'm unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "1 Corinthians 10:16–17, 11:23–29.",
+      "editorialNotes": [
+        "A claim about Christ’s presence need not settle what an unbeliever receives or how long the presence continues."
+      ]
+    },
+    {
+      "dimensionId": 62,
+      "title": "Eucharistic Sacrifice",
+      "questions": [
+        {
+          "id": "SAC-16",
+          "prompt": "In what sense, if any, is the Eucharist a sacrifice?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SAC-16/A",
+              "label": "A",
+              "text": "Christ's one sacrifice on the cross is made sacramentally present and offered to God in the Eucharistic celebration."
+            },
+            {
+              "id": "SAC-16/B",
+              "label": "B",
+              "text": "The Eucharist is sacrificial in the sense that believers offer thanksgiving, praise, and themselves to God, without offering Christ as a propitiatory sacrifice."
+            },
+            {
+              "id": "SAC-16/C",
+              "label": "C",
+              "text": "The Eucharist commemorates Christ's completed sacrifice but is not itself a sacrifice offered to God."
+            },
+            {
+              "id": "SAC-16/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "lords-supper",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "Eucharist"
+            },
+            {
+              "termId": "eucharistic-sacrifice",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-16a",
+          "prompt": "Can the Eucharistic sacrifice be offered for the spiritual benefit of people who are not personally receiving Communion?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-16/A"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-16 = A",
+          "choices": [
+            {
+              "id": "SAC-16a/A",
+              "label": "A",
+              "text": "Yes. Its benefits may be applied to others, including the living and the departed."
+            },
+            {
+              "id": "SAC-16a/B",
+              "label": "B",
+              "text": "Yes, for the living, but not for the departed."
+            },
+            {
+              "id": "SAC-16a/C",
+              "label": "C",
+              "text": "No. Its sacramental benefits belong to those who personally participate."
+            },
+            {
+              "id": "SAC-16a/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-17",
+          "prompt": "What does it mean for the Church to celebrate the Lord's Supper / Eucharist / Holy Communion in remembrance of Christ?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-17/A",
+              "label": "A",
+              "text": "The Church sacramentally makes present Christ's saving work and participates in its benefits."
+            },
+            {
+              "id": "SAC-17/B",
+              "label": "B",
+              "text": "The Church remembers and proclaims Christ's saving work while believers genuinely commune with him through faith."
+            },
+            {
+              "id": "SAC-17/C",
+              "label": "C",
+              "text": "The Church recalls and proclaims Christ's saving work through a symbolic act of obedience."
+            },
+            {
+              "id": "SAC-17/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "memorialism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-18",
+          "prompt": "Does Christ's once-for-all sacrifice exclude any continuing sacrificial offering in Christian worship?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-18/A",
+              "label": "A",
+              "text": "No. Christ's one sacrifice may be sacramentally offered or made present without being repeated."
+            },
+            {
+              "id": "SAC-18/B",
+              "label": "B",
+              "text": "Christ's atoning sacrifice cannot be offered again, but Christians continue to offer sacrifices of praise, thanksgiving, and themselves."
+            },
+            {
+              "id": "SAC-18/C",
+              "label": "C",
+              "text": "Yes, if sacrifice means an offering for sin; Christian worship may remember Christ's sacrifice but cannot make another such offering."
+            },
+            {
+              "id": "SAC-18/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "once-for-all",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "once-for-all sacrifice"
+            },
+            {
+              "termId": "eucharistic-sacrifice",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Luke 22:19–20, Hebrews 9:24–28.",
+      "editorialNotes": [
+        "SAC-18 remains active with “once-for-all.” Preserve the distinction between repeating an offering and making it sacramentally present."
+      ]
+    },
+    {
+      "dimensionId": 63,
+      "title": "Sacramental Grace",
+      "questions": [
+        {
+          "id": "SAC-19",
+          "prompt": "How do sacraments or ordinances relate to God's grace?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SAC-19/A",
+              "label": "A",
+              "text": "God objectively works through properly administered sacraments to convey grace, although a recipient may obstruct its benefits."
+            },
+            {
+              "id": "SAC-19/B",
+              "label": "B",
+              "text": "The Holy Spirit uses sacraments as genuine means of grace, but their saving benefit depends on God's work and is not guaranteed by performing the rite."
+            },
+            {
+              "id": "SAC-19/C",
+              "label": "C",
+              "text": "Ordinances testify to God's grace and can strengthen believers through faith and obedience, but do not themselves convey grace in a distinct sacramental manner."
+            },
+            {
+              "id": "SAC-19/D",
+              "label": "D",
+              "text": "God's grace is not dependent upon any outward rites, which are unnecessary to the Christian life."
+            },
+            {
+              "id": "SAC-19/E",
+              "label": "E",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "ordinance",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "ordinances"
+            },
+            {
+              "termId": "sacrament",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "sacraments"
+            },
+            {
+              "termId": "means-of-grace",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "ex-opere-operato",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-20",
+          "prompt": "Who may properly administer baptism and the Lord's Supper / Eucharist / Holy Communion?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-20/A",
+              "label": "A",
+              "text": "These rites ordinarily require an ordained minister or priest, with limited exceptions where permitted."
+            },
+            {
+              "id": "SAC-20/B",
+              "label": "B",
+              "text": "They may be administered by a person authorized by the Christian congregation, whether ordained or not."
+            },
+            {
+              "id": "SAC-20/C",
+              "label": "C",
+              "text": "Any Christian believer may administer them without formal church authorization."
+            },
+            {
+              "id": "SAC-20/D",
+              "label": "D",
+              "text": "No specially appointed administrator is necessary because these outward rites are not obligatory."
+            },
+            {
+              "id": "SAC-20/E",
+              "label": "E",
+              "text": "I'm unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "ordination",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SAC-21",
+          "prompt": "Who should be admitted to the Lord's Supper / Eucharist / Holy Communion?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-21/A",
+              "label": "A",
+              "text": "Those permitted to receive Communion according to the sacramental fellowship and discipline of the particular Church."
+            },
+            {
+              "id": "SAC-21/B",
+              "label": "B",
+              "text": "Baptized Christians who profess faith and meet appropriate standards of spiritual self-examination, regardless of denomination."
+            },
+            {
+              "id": "SAC-21/C",
+              "label": "C",
+              "text": "All who genuinely profess faith in Christ, even if they have not been baptized."
+            },
+            {
+              "id": "SAC-21/D",
+              "label": "D",
+              "text": "Anyone who wishes to participate, including those still exploring Christian faith."
+            },
+            {
+              "id": "SAC-21/E",
+              "label": "E",
+              "text": "The outward rite of Communion is not required."
+            },
+            {
+              "id": "SAC-21/F",
+              "label": "F",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-21a",
+          "prompt": "May baptized infants or young children receive the Lord's Supper / Eucharist / Holy Communion before they can personally articulate their faith?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SAC-21/A",
+                "SAC-21/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  SAC-21 = A or B",
+          "choices": [
+            {
+              "id": "SAC-21a/A",
+              "label": "A",
+              "text": "Yes. Baptized infants and young children may receive Communion."
+            },
+            {
+              "id": "SAC-21a/B",
+              "label": "B",
+              "text": "Children may receive once they possess sufficient understanding or discernment, without necessarily making a formal public profession of faith."
+            },
+            {
+              "id": "SAC-21a/C",
+              "label": "C",
+              "text": "Children should wait until they can personally profess faith and meet the Church's requirements for admission."
+            },
+            {
+              "id": "SAC-21a/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-22",
+          "prompt": "How frequently should Christians celebrate the Lord's Supper / Eucharist / Holy Communion?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-22/A",
+              "label": "A",
+              "text": "The Church should ordinarily celebrate it every Lord's Day or more frequently."
+            },
+            {
+              "id": "SAC-22/B",
+              "label": "B",
+              "text": "It should be celebrated regularly, but Scripture does not prescribe a particular frequency."
+            },
+            {
+              "id": "SAC-22/C",
+              "label": "C",
+              "text": "Occasional observance is sufficient; frequent celebration is not necessary."
+            },
+            {
+              "id": "SAC-22/D",
+              "label": "D",
+              "text": "No particular observance of the outward Supper is required."
+            },
+            {
+              "id": "SAC-22/E",
+              "label": "E",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-23",
+          "prompt": "Is proper administration of the sacraments or ordinances necessary for a congregation to be recognized as a true Christian church?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-23/A",
+              "label": "A",
+              "text": "Yes. The proper administration of the sacraments is a defining mark of a true church."
+            },
+            {
+              "id": "SAC-23/B",
+              "label": "B",
+              "text": "Baptism and the Lord's Supper / Eucharist / Holy Communion are important commands, but failures in their administration do not necessarily invalidate a congregation's status as a Christian church."
+            },
+            {
+              "id": "SAC-23/C",
+              "label": "C",
+              "text": "No. A congregation may be a true Christian church without practicing outward sacraments or ordinances."
+            },
+            {
+              "id": "SAC-23/D",
+              "label": "D",
+              "text": "I'm unsure."
+            }
+          ]
+        },
+        {
+          "id": "SAC-24",
+          "prompt": "Can Christians validly celebrate the Lord's Supper / Eucharist / Holy Communion apart from an assembled congregation?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SAC-24/A",
+              "label": "A",
+              "text": "The rite requires a celebration authorized and administered by the Church, though Communion may be brought to people unable to attend."
+            },
+            {
+              "id": "SAC-24/B",
+              "label": "B",
+              "text": "Christians gathered outside a formal church service may celebrate it together."
+            },
+            {
+              "id": "SAC-24/C",
+              "label": "C",
+              "text": "An individual Christian may celebrate privately without other participants or church authorization."
+            },
+            {
+              "id": "SAC-24/D",
+              "label": "D",
+              "text": "Any Christian may celebrate it, individually or collectively, without formal church authorization."
+            },
+            {
+              "id": "SAC-24/E",
+              "label": "E",
+              "text": "Outward Communion is not required."
+            },
+            {
+              "id": "SAC-24/F",
+              "label": "F",
+              "text": "I'm unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 2:42, 1 Corinthians 11:26–29.",
+      "editorialNotes": [
+        "Separate the standing of the administrator, the recipient, and the worshiping community."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Question IDs, answer choices, and existing review flags follow the current Friend Feedback edition. Use the dimension headings to enter any topic. For a guided reading, continue to the next main question after each applicable branch.",
+    "An opening question starts its topic. A common follow-up is available to all readers of that topic. Conditional follow-ups use the answer letters shown. Optional depth is by choice, and uncertainty alone never triggers a doctrinal inference.",
+    "SAC-11 and SAC-11B are BOTH retained as alternative formulations and BOTH marked NEEDS ATTENTION until the issue is resolved. SAC-11a is optional depth, not an additional required answer.",
+    "Future hover annotation on “secretly” in SAC-11: The fourth–fifth-century Donatist controversy concerned whether sacraments administered by compromised or unworthy ministers were valid. Augustine argued that baptism's validity rests on Christ rather than the personal worthiness of the minister. This was not exclusively a controversy about secretly unbelieving ministers.",
+    "SAC-08a, SAC-10, and SAC-19a were removed as redundant; SAC-18 was restored. Question IDs intentionally retain their established names, including gaps."
+  ],
+  "relatedSets": [
+    "ECC",
+    "SOT"
+  ],
+  "variantGroups": [
+    {
+      "id": "SAC-11",
+      "members": [
+        "SAC-11",
+        "SAC-11B"
+      ],
+      "selected": null,
+      "status": "needs_attention"
+    }
+  ],
+  "retiredQuestionIds": [
+    "SAC-08a",
+    "SAC-10",
+    "SAC-19a"
+  ],
+  "vocabulary": [
+    {
+      "id": "sacramentology",
+      "term": "Sacramentology",
+      "kind": "concept",
+      "definition": "The study of sacraments or ordinances, including their meaning, practice, and relationship to grace.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ]
+    },
+    {
+      "id": "sacrament",
+      "term": "Sacrament",
+      "kind": "concept",
+      "definition": "A sacred rite held to be a sign of God’s grace, with traditions differing on which rites qualify and how God works through them.",
+      "status": "draft",
+      "references": [
+        "CCC 1131",
+        "WCF 27",
+        "OCA-SAC"
+      ],
+      "aliases": [
+        "Holy mystery",
+        "Sacred mystery"
+      ]
+    },
+    {
+      "id": "ordinance",
+      "term": "Ordinance",
+      "kind": "concept",
+      "definition": "A practice Christ commanded the Church to observe, especially baptism and the Lord’s Supper in traditions that use this term.",
+      "status": "draft",
+      "references": [
+        "BFM art. VII",
+        "SAC"
+      ]
+    },
+    {
+      "id": "infant-baptism",
+      "term": "Infant baptism",
+      "kind": "concept",
+      "definition": "The practice of baptizing infants, with traditions giving different reasons for doing so.",
+      "status": "draft",
+      "references": [
+        "CCC 1250–1252",
+        "WCF 28.4"
+      ],
+      "aliases": [
+        "Paedobaptism",
+        "Pedobaptism"
+      ]
+    },
+    {
+      "id": "believers-baptism",
+      "term": "Believer’s baptism",
+      "kind": "concept",
+      "definition": "Baptism administered to someone on the basis of their own profession of faith in Christ.",
+      "status": "draft",
+      "references": [
+        "BFM art. VII",
+        "SAC"
+      ],
+      "aliases": [
+        "Credobaptism"
+      ]
+    },
+    {
+      "id": "baptismal-regeneration",
+      "term": "Baptismal regeneration",
+      "kind": "concept",
+      "definition": "The teaching that God gives new spiritual life through baptism, understood in different ways across sacramental traditions.",
+      "status": "draft",
+      "references": [
+        "CCC 1213",
+        "AC art. IX",
+        "SAC"
+      ]
+    },
+    {
+      "id": "lords-supper",
+      "term": "Lord’s Supper",
+      "kind": "concept",
+      "definition": "The Christian rite of sharing bread and the cup as Jesus taught his disciples at the Last Supper.",
+      "status": "draft",
+      "references": [
+        "CCC 1328–1332",
+        "WCF 29",
+        "BFM art. VII"
+      ],
+      "aliases": [
+        "Eucharist",
+        "Holy Communion"
+      ]
+    },
+    {
+      "id": "real-presence",
+      "term": "Real presence",
+      "kind": "concept",
+      "definition": "The claim that Christ is genuinely present in the Lord’s Supper in a way distinctive to its celebration or reception.",
+      "status": "draft",
+      "references": [
+        "CCC-EU 1373–1377",
+        "AC art. X",
+        "WCF 29.7",
+        "OCA-SAC"
+      ],
+      "expandedNote": "The phrase leaves the mode of presence open. Catholic, Lutheran, Eastern Orthodox, and Reformed accounts can all affirm a real presence while making different claims about the bread and wine, the presence of Christ’s body and blood, and how participants receive Christ.",
+      "aliases": [
+        "Eucharistic presence"
+      ]
+    },
+    {
+      "id": "transubstantiation",
+      "term": "Transubstantiation",
+      "kind": "position",
+      "definition": "The Catholic teaching that the bread and wine change in substance into Christ’s body and blood while their outward properties remain.",
+      "status": "draft",
+      "references": [
+        "CCC-EU 1376"
+      ]
+    },
+    {
+      "id": "sacramental-union",
+      "term": "Sacramental union",
+      "kind": "position",
+      "definition": "In Lutheran theology, Christ’s true body and blood are present and received together with the bread and wine in the Lord’s Supper.",
+      "status": "draft",
+      "references": [
+        "AC art. X",
+        "FC art. VII"
+      ]
+    },
+    {
+      "id": "spiritual-presence",
+      "term": "Spiritual presence",
+      "kind": "position",
+      "definition": "In a classic Reformed account, believers truly receive and feed on Christ in the Supper through the Holy Spirit and by faith.",
+      "status": "draft",
+      "references": [
+        "WCF 29.7",
+        "SAC"
+      ]
+    },
+    {
+      "id": "memorialism",
+      "term": "Memorialism",
+      "kind": "position",
+      "definition": "A view of the Lord’s Supper that emphasizes remembering and proclaiming Christ’s death through a symbolic act of obedience.",
+      "status": "draft",
+      "references": [
+        "BFM art. VII",
+        "SAC"
+      ],
+      "aliases": [
+        "Memorial view"
+      ]
+    },
+    {
+      "id": "eucharistic-sacrifice",
+      "term": "Eucharistic sacrifice",
+      "kind": "concept",
+      "definition": "A description of the Eucharist as an offering, with disagreement over what is offered and how it relates to Christ’s sacrifice.",
+      "status": "draft",
+      "references": [
+        "CCC-EU 1362–1367",
+        "WCF 29.2",
+        "SAC"
+      ],
+      "expandedNote": "Catholic teaching understands Christ’s one sacrifice as made present and offered sacramentally in the Eucharist. Other traditions speak of an offering of praise, thanksgiving, or self-giving by the worshipers. The dispute concerns what occurs in worship and how it relates to the cross."
+    },
+    {
+      "id": "once-for-all",
+      "term": "Once-for-all sacrifice",
+      "kind": "concept",
+      "definition": "Christ’s definitive self-offering on the cross, completed once and understood to have lasting effect.",
+      "status": "draft",
+      "references": [
+        "CCC-EU 1366–1367",
+        "WCF 29.2",
+        "SAC"
+      ]
+    },
+    {
+      "id": "ex-opere-operato",
+      "term": "Ex opere operato",
+      "kind": "concept",
+      "definition": "In Catholic theology, sacraments act by virtue of Christ’s saving work when validly celebrated, independently of the minister’s personal holiness.",
+      "status": "draft",
+      "references": [
+        "CCC-SAC 1127–1128"
+      ]
+    },
+    {
+      "id": "donatist-controversy-sac-11",
+      "term": "Donatist controversy",
+      "kind": "annotation",
+      "definition": "An early North African dispute over whether compromised ministers could administer valid sacraments.",
+      "status": "needs_attention",
+      "references": [
+        "AUG",
+        "SAC"
+      ],
+      "expandedNote": "The dispute concerned ministers accused of betraying the faith during persecution and the standing of rival church communities. Augustine held that baptism belongs to Christ and can be valid despite the minister’s unworthiness. SAC-11 uses a narrower case involving a minister who privately lacks Christian faith."
+    }
+  ]
+}

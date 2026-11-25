@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "sets": [
+    {
+      "id": "PRO",
+      "file": "sets/PRO.json"
+    },
+    {
+      "id": "BIB",
+      "file": "sets/BIB.json"
+    },
+    {
+      "id": "TP",
+      "file": "sets/TP.json"
+    },
+    {
+      "id": "TRI",
+      "file": "sets/TRI.json"
+    },
+    {
+      "id": "CHR",
+      "file": "sets/CHR.json"
+    },
+    {
+      "id": "PNE",
+      "file": "sets/PNE.json"
+    },
+    {
+      "id": "ANT",
+      "file": "sets/ANT.json"
+    },
+    {
+      "id": "HAM",
+      "file": "sets/HAM.json"
+    },
+    {
+      "id": "SOT",
+      "file": "sets/SOT.json"
+    },
+    {
+      "id": "ECC",
+      "file": "sets/ECC.json"
+    },
+    {
+      "id": "SAC",
+      "file": "sets/SAC.json"
+    },
+    {
+      "id": "COV",
+      "file": "sets/COV.json"
+    },
+    {
+      "id": "ESCH",
+      "file": "sets/ESCH.json"
+    },
+    {
+      "id": "WCP",
+      "file": "sets/WCP.json"
+    },
+    {
+      "id": "ETH",
+      "file": "sets/ETH.json"
+    },
+    {
+      "id": "SPI",
+      "file": "sets/SPI.json"
+    }
+  ]
+}

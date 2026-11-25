@@ -1,0 +1,917 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "SPI",
+  "title": "Spirituality & Christian Life",
+  "plainLanguageTitle": "Spiritual growth and devotion",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "SPI — Dividing Doctrines — Spirituality & Christian Life (Working Bank) v1",
+    "friendEdition": "SPI — Dividing Doctrines — Spirituality & Christian Life (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 88,
+      "title": "Assurance and religious experience",
+      "questions": [
+        {
+          "id": "SPI-01",
+          "prompt": "A believer who once felt close to God has felt nothing in prayer for months. Which judgments could be warranted?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SPI-01/A",
+              "label": "A",
+              "text": "It establishes little about the person’s standing before God. God’s promise can be trusted in dryness."
+            },
+            {
+              "id": "SPI-01/B",
+              "label": "B",
+              "text": "It warrants asking about obstacles to communion, but it cannot settle whether faith is genuine."
+            },
+            {
+              "id": "SPI-01/C",
+              "label": "C",
+              "text": "I understand seasons of dryness as a possible part of growth in which familiar consolations fall away."
+            },
+            {
+              "id": "SPI-01/D",
+              "label": "D",
+              "text": "I think the sustained absence of any witness of the Spirit raises a serious question about assurance."
+            },
+            {
+              "id": "SPI-01/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "SPI-02",
+          "prompt": "How might a believer recognize the Spirit’s witness that they are God’s child?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-02/A",
+              "label": "A",
+              "text": "Trust in the promise of Christ through Scripture and the gospel."
+            },
+            {
+              "id": "SPI-02/B",
+              "label": "B",
+              "text": "A direct inward assurance of adoption."
+            },
+            {
+              "id": "SPI-02/C",
+              "label": "C",
+              "text": "The fruit of love, repentance, and obedience over time."
+            },
+            {
+              "id": "SPI-02/D",
+              "label": "D",
+              "text": "Baptism and participation in the worship and life of the church."
+            },
+            {
+              "id": "SPI-02/E",
+              "label": "E",
+              "text": "The testimony or discernment of other believers."
+            },
+            {
+              "id": "SPI-02/F",
+              "label": "F",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "assurance",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SPI-02a",
+          "prompt": "If an inward assurance and the observable direction of a person’s life seem to conflict, how should the assurance be treated?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SPI-02/B"
+              ]
+            }
+          },
+          "displayNote": "↳ After SPI-02, if B is selected.",
+          "choices": [
+            {
+              "id": "SPI-02a/A",
+              "label": "A",
+              "text": "It calls for testing in light of Scripture and the fruit of the person’s life."
+            },
+            {
+              "id": "SPI-02a/B",
+              "label": "B",
+              "text": "A genuine witness of the Spirit can sustain assurance through severe failure, while calling the person to repentance."
+            },
+            {
+              "id": "SPI-02a/C",
+              "label": "C",
+              "text": "I would distinguish the reliability of the Spirit’s witness from the person’s ability to identify a feeling as that witness."
+            },
+            {
+              "id": "SPI-02a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Romans 8:14–16, Psalm 42, 1 John 3:18–24.",
+      "introduction": [
+        "Assurance means confidence about one’s standing with God. Consolation is the felt comfort that may accompany trust."
+      ],
+      "editorialNotes": [
+        "SOT asks whether assurance is possible. Here ask what a believer can responsibly conclude from an experience or its absence."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Westminster Confession, chapter XVIII, on assurance and its interruption.",
+          "url": "https://www.wts.edu/wcf"
+        }
+      ]
+    },
+    {
+      "dimensionId": 89,
+      "title": "Means of grace",
+      "questions": [
+        {
+          "id": "SPI-03",
+          "prompt": "When Christians call something a means of grace, what do you understand them to claim?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SPI-03/A",
+              "label": "A",
+              "text": "God appointed an outward means through which he genuinely gives or strengthens grace."
+            },
+            {
+              "id": "SPI-03/B",
+              "label": "B",
+              "text": "It is a practice through which people become receptive to grace already freely offered."
+            },
+            {
+              "id": "SPI-03/C",
+              "label": "C",
+              "text": "God can use it for growth, though I would avoid giving an outward means a distinct status."
+            },
+            {
+              "id": "SPI-03/D",
+              "label": "D",
+              "text": "I would need to distinguish sacramental means from practices that dispose us to receive grace."
+            },
+            {
+              "id": "SPI-03/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "means-of-grace",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "means of grace"
+            }
+          ]
+        },
+        {
+          "id": "SPI-04",
+          "prompt": "Which practices would you count as ordinary means by which God nourishes believers?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-04/A",
+              "label": "A",
+              "text": "Hearing or reading Scripture."
+            },
+            {
+              "id": "SPI-04/B",
+              "label": "B",
+              "text": "Baptism and the Lord’s Supper."
+            },
+            {
+              "id": "SPI-04/C",
+              "label": "C",
+              "text": "Prayer."
+            },
+            {
+              "id": "SPI-04/D",
+              "label": "D",
+              "text": "Christian fellowship and mutual correction."
+            },
+            {
+              "id": "SPI-04/E",
+              "label": "E",
+              "text": "Works of mercy toward people in need."
+            },
+            {
+              "id": "SPI-04/F",
+              "label": "F",
+              "text": "Confession and absolution."
+            },
+            {
+              "id": "SPI-04/G",
+              "label": "G",
+              "text": "I do not use “means of grace” for particular practices."
+            },
+            {
+              "id": "SPI-04/H",
+              "label": "H",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "SPI-05",
+          "prompt": "What may a believer conclude if they participate faithfully in a means of grace but feel no immediate benefit?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-05/A",
+              "label": "A",
+              "text": "God can truly work through it without giving a detectable experience."
+            },
+            {
+              "id": "SPI-05/B",
+              "label": "B",
+              "text": "Its fruit may emerge through a faithful response over time. The act alone does not settle what has happened inwardly."
+            },
+            {
+              "id": "SPI-05/C",
+              "label": "C",
+              "text": "I would distinguish what God promises in that particular practice from what the believer happens to feel."
+            },
+            {
+              "id": "SPI-05/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "means-of-grace",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "means of grace"
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 2:42, Romans 10:17, 1 Corinthians 10:16–17.",
+      "editorialNotes": [
+        "“Means of grace” asks how God gives or strengthens grace. It should not assume a particular account of sacramental efficacy."
+      ],
+      "furtherStudy": [
+        {
+          "text": "United Methodist Church, “The Wesleyan Means of Grace,” including “works of piety and the works of mercy.”",
+          "url": "https://www.umc.org/content/the-wesleyan-means-of-grace"
+        }
+      ]
+    },
+    {
+      "dimensionId": 90,
+      "title": "Spiritual disciplines",
+      "questions": [
+        {
+          "id": "SPI-06",
+          "prompt": "What can a freely chosen discipline, such as a weekly fast, contribute to spiritual growth?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SPI-06/A",
+              "label": "A",
+              "text": "It trains desire and attention, and God can use that training in sanctification."
+            },
+            {
+              "id": "SPI-06/B",
+              "label": "B",
+              "text": "It can be a genuine act of ascetic cooperation with divine grace."
+            },
+            {
+              "id": "SPI-06/C",
+              "label": "C",
+              "text": "It can be helpful, but I would avoid assigning a practice spiritual value beyond its service to faith and love."
+            },
+            {
+              "id": "SPI-06/D",
+              "label": "D",
+              "text": "I would avoid voluntary rules that Scripture does not require."
+            },
+            {
+              "id": "SPI-06/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "spiritual-disciplines",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SPI-07",
+          "prompt": "If a person freely promises God to keep a rule of prayer, does missing it involve more than missing a helpful habit?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-07/A",
+              "label": "A",
+              "text": "Yes. A genuine vow creates a moral obligation, though release or changed circumstances may matter."
+            },
+            {
+              "id": "SPI-07/B",
+              "label": "B",
+              "text": "Only some formally recognized vows bind in that way. A personal rule need not be a vow."
+            },
+            {
+              "id": "SPI-07/C",
+              "label": "C",
+              "text": "A rule of prayer should remain revisable and should not become a new source of guilt."
+            },
+            {
+              "id": "SPI-07/D",
+              "label": "D",
+              "text": "It depends on whether the person intended a promise or a practical plan."
+            },
+            {
+              "id": "SPI-07/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "rule-of-life",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "rule of prayer"
+            }
+          ]
+        },
+        {
+          "id": "SPI-08",
+          "prompt": "Can a work of mercy, such as visiting a person who is isolated, also form the visitor spiritually?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-08/A",
+              "label": "A",
+              "text": "Yes. God can give grace to the person who serves through the service itself."
+            },
+            {
+              "id": "SPI-08/B",
+              "label": "B",
+              "text": "Yes. It trains habits of love and expresses grace the visitor has already received."
+            },
+            {
+              "id": "SPI-08/C",
+              "label": "C",
+              "text": "Both giving grace and forming habits can describe the same act."
+            },
+            {
+              "id": "SPI-08/D",
+              "label": "D",
+              "text": "I would speak of the neighbor’s need and faithful obedience without calling the work a spiritual discipline."
+            },
+            {
+              "id": "SPI-08/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "spiritual-disciplines",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "spiritual-formation",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 6:1–18, Colossians 2:20–23, 1 Timothy 4:7–8.",
+      "editorialNotes": [
+        "Distinguish a common rule, a voluntary vow, and a discipline chosen for one season."
+      ]
+    },
+    {
+      "dimensionId": 91,
+      "title": "Mysticism and contemplation",
+      "questions": [
+        {
+          "id": "SPI-09",
+          "prompt": "Can resting silently before God, without deliberate words or images, itself be prayer?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SPI-09/A",
+              "label": "A",
+              "text": "Yes. Loving attention to God can be genuine prayer even without words."
+            },
+            {
+              "id": "SPI-09/B",
+              "label": "B",
+              "text": "Yes, if the silence remains directed by a scriptural truth or conscious intention addressed to God."
+            },
+            {
+              "id": "SPI-09/C",
+              "label": "C",
+              "text": "Silence may prepare for prayer, but prayer itself requires some act of address, praise, or petition."
+            },
+            {
+              "id": "SPI-09/D",
+              "label": "D",
+              "text": "I am unsure how to distinguish receptive prayer from ordinary silence."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "contemplative-prayer",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SPI-10",
+          "prompt": "A Christian has a powerful impression that a particular decision is God’s will. Which claims about its authority would you affirm?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-10/A",
+              "label": "A",
+              "text": "It can be genuine personal guidance, subject to testing."
+            },
+            {
+              "id": "SPI-10/B",
+              "label": "B",
+              "text": "It can be a prompt for prayer and judgment without carrying divine authority of its own."
+            },
+            {
+              "id": "SPI-10/C",
+              "label": "C",
+              "text": "I would seek guidance through Scripture, wisdom, and counsel without treating private impressions as revelation."
+            },
+            {
+              "id": "SPI-10/D",
+              "label": "D",
+              "text": "An impression may guide the person who receives it but cannot alone bind another person’s conscience."
+            },
+            {
+              "id": "SPI-10/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "discernment",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SPI-10a",
+          "prompt": "Which considerations could lead the person to set that impression aside?",
+          "selection": "multiple",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SPI-10/A",
+                "SPI-10/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After SPI-10, if A or D is selected.",
+          "choices": [
+            {
+              "id": "SPI-10a/A",
+              "label": "A",
+              "text": "It conflicts with Scripture or a clear moral obligation."
+            },
+            {
+              "id": "SPI-10a/B",
+              "label": "B",
+              "text": "Trusted believers discern a serious error in it."
+            },
+            {
+              "id": "SPI-10a/C",
+              "label": "C",
+              "text": "Ordinary evidence shows a central assumption was mistaken."
+            },
+            {
+              "id": "SPI-10a/D",
+              "label": "D",
+              "text": "The impression imposes a duty on another person without independent grounds."
+            },
+            {
+              "id": "SPI-10a/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "discernment",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Psalm 131, Luke 10:38–42, 1 John 4:1–3.",
+      "editorialNotes": [
+        "Separate receptive silence, claims of private revelation, and union with God."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Catechism of the Catholic Church, §§2709–2719, on contemplative prayer.",
+          "url": "https://www.vatican.va/content/catechism/en/part_four/section_one/chapter_three/article_1/iii_contemplative_prayer.html"
+        },
+        {
+          "text": "Orthodox Church in America, The Orthodox Faith, “The Jesus Prayer,” on prayer of the heart.",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/spirituality/prayer-fasting-and-almsgiving/the-jesus-prayer"
+        }
+      ]
+    },
+    {
+      "dimensionId": 92,
+      "title": "Holiness and spiritual formation",
+      "questions": [
+        {
+          "id": "SPI-11",
+          "prompt": "What does participation in the divine nature mean for Christian growth?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SPI-11/A",
+              "label": "A",
+              "text": "By grace people truly share in God’s life while remaining creatures."
+            },
+            {
+              "id": "SPI-11/B",
+              "label": "B",
+              "text": "People become like God in holiness and love. I prefer to describe this as transformation into Christ’s likeness."
+            },
+            {
+              "id": "SPI-11/C",
+              "label": "C",
+              "text": "Union with Christ grounds a real sharing in his life, though I would leave the metaphysics open."
+            },
+            {
+              "id": "SPI-11/D",
+              "label": "D",
+              "text": "I understand participation chiefly as receiving God’s promises and escaping corrupt desires."
+            },
+            {
+              "id": "SPI-11/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "sanctification",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "theosis",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "union-with-christ",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SPI-12",
+          "prompt": "A mature Christian continues to struggle with a long-standing temptation. What would count as genuine growth?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-12/A",
+              "label": "A",
+              "text": "The temptation arises less often or with less force."
+            },
+            {
+              "id": "SPI-12/B",
+              "label": "B",
+              "text": "The person increasingly refuses consent and acts in love despite the temptation."
+            },
+            {
+              "id": "SPI-12/C",
+              "label": "C",
+              "text": "The person becomes more honest and quicker to seek forgiveness and help."
+            },
+            {
+              "id": "SPI-12/D",
+              "label": "D",
+              "text": "The person grows more patient with others who struggle."
+            },
+            {
+              "id": "SPI-12/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "SPI-13",
+          "prompt": "If two Christians follow very different patterns of prayer, fasting, and community life, what could make both patterns faithful?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-13/A",
+              "label": "A",
+              "text": "Practices may differ where both serve love of God and neighbor and honor what Christ commands."
+            },
+            {
+              "id": "SPI-13/B",
+              "label": "B",
+              "text": "Both can be faithful within a shared pattern of worship and discipline received from the church."
+            },
+            {
+              "id": "SPI-13/C",
+              "label": "C",
+              "text": "Distinct callings can carry genuinely different obligations, as in monastic and lay life."
+            },
+            {
+              "id": "SPI-13/D",
+              "label": "D",
+              "text": "I would judge their patterns principally by obedience to practices taught in Scripture."
+            },
+            {
+              "id": "SPI-13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "spiritual-formation",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SPI-14",
+          "prompt": "Does a believer need to live under a spiritual director, rule, or accountable community in order to grow in holiness?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SPI-14/A",
+              "label": "A",
+              "text": "Christians need the ordinary life of the church, but a particular director or personal rule is optional."
+            },
+            {
+              "id": "SPI-14/B",
+              "label": "B",
+              "text": "Accountability to a trusted guide or community is ordinarily integral to formation."
+            },
+            {
+              "id": "SPI-14/C",
+              "label": "C",
+              "text": "Some vocations entail a specific obedience to a rule or director that does not bind every believer."
+            },
+            {
+              "id": "SPI-14/D",
+              "label": "D",
+              "text": "I would treat each of these arrangements as a matter of discernment rather than a universal duty."
+            },
+            {
+              "id": "SPI-14/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "rule-of-life",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "John 15:1–11, 2 Corinthians 3:18, 2 Peter 1:3–8.",
+      "introduction": [
+        "Theosis, or deification, names a creature’s participation by grace in God’s life."
+      ],
+      "editorialNotes": [
+        "SOT treats perfection and perseverance. Here the issue is growth, participation, and signs by which maturity is recognized."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Church of the Nazarene, Articles of Faith, X, on holiness and sanctification.",
+          "url": "https://nazarene.org/resources/articles-of-faith/"
+        }
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "SOT",
+    "PNE",
+    "WCP"
+  ],
+  "vocabulary": [
+    {
+      "id": "means-of-grace",
+      "term": "Means of grace",
+      "kind": "concept",
+      "definition": "Practices or gifts through which God gives or strengthens grace, or through which believers receive it, depending on the tradition.",
+      "status": "draft",
+      "references": [
+        "WST Q88",
+        "WES",
+        "CCC 1127",
+        "SPI"
+      ]
+    },
+    {
+      "id": "spiritual-disciplines",
+      "term": "Spiritual disciplines",
+      "kind": "concept",
+      "definition": "Repeated practices such as prayer, fasting, and acts of mercy undertaken to grow in faith and love.",
+      "status": "draft",
+      "references": [
+        "OCA Spirituality",
+        "SPI"
+      ]
+    },
+    {
+      "id": "rule-of-life",
+      "term": "Rule of life",
+      "kind": "concept",
+      "definition": "A chosen or received pattern of practices and commitments that gives structure to a person’s or community’s spiritual life.",
+      "status": "draft",
+      "references": [
+        "SPI",
+        "OCA Spirituality"
+      ],
+      "aliases": [
+        "Rule of prayer"
+      ]
+    },
+    {
+      "id": "contemplative-prayer",
+      "term": "Contemplative prayer",
+      "kind": "concept",
+      "definition": "Prayer marked by receptive attention to God, often in silence or with few words.",
+      "status": "draft",
+      "references": [
+        "CCC 2709–2719",
+        "SPI"
+      ],
+      "aliases": [
+        "Contemplation"
+      ]
+    },
+    {
+      "id": "discernment",
+      "term": "Spiritual discernment",
+      "kind": "concept",
+      "definition": "Testing an impression, teaching, or course of action to judge whether it accords with God’s will.",
+      "status": "draft",
+      "references": [
+        "SPI",
+        "CCC 2690"
+      ],
+      "aliases": [
+        "Discernment"
+      ]
+    },
+    {
+      "id": "theosis",
+      "term": "Theosis",
+      "kind": "concept",
+      "definition": "Sharing in God’s life by grace while remaining a creature, a central way Eastern Orthodox theology describes salvation and growth.",
+      "status": "draft",
+      "references": [
+        "OCA-THEOSIS",
+        "CCC 460",
+        "SPI"
+      ],
+      "expandedNote": "“Deification” names union with and participation in God by grace. Eastern Orthodox accounts commonly distinguish participation in God’s life from possessing God’s essence. Christians in several other traditions also speak of participation in divine life, while explaining it in their own terms.",
+      "aliases": [
+        "Deification"
+      ]
+    },
+    {
+      "id": "spiritual-formation",
+      "term": "Spiritual formation",
+      "kind": "concept",
+      "definition": "The gradual shaping of a person’s habits, desires, and conduct toward maturity in Christ.",
+      "status": "draft",
+      "references": [
+        "SPI",
+        "OCA Spirituality"
+      ]
+    }
+  ]
+}

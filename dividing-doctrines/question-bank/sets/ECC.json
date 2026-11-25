@@ -1,0 +1,994 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "ECC",
+  "title": "Ecclesiology",
+  "plainLanguageTitle": "The Church",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "ECC — Dividing Doctrines — Ecclesiology (Working Bank) v1",
+    "friendEdition": "ECC — Dividing Doctrines — Ecclesiology (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 51,
+      "title": "Nature and marks of the Church",
+      "questions": [
+        {
+          "id": "ECC-01",
+          "prompt": "What must be present for a community to be recognized as a Christian church?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ECC-01/A",
+              "label": "A",
+              "text": "A people gathered in the name of Jesus Christ and confessing the apostolic faith."
+            },
+            {
+              "id": "ECC-01/B",
+              "label": "B",
+              "text": "Faithful proclamation of the gospel."
+            },
+            {
+              "id": "ECC-01/C",
+              "label": "C",
+              "text": "Baptism and the Lord’s Supper celebrated as Christ instituted them."
+            },
+            {
+              "id": "ECC-01/D",
+              "label": "D",
+              "text": "Recognized ministry in continuity with the apostles."
+            },
+            {
+              "id": "ECC-01/E",
+              "label": "E",
+              "text": "A community accountable for discipleship and discipline."
+            },
+            {
+              "id": "ECC-01/F",
+              "label": "F",
+              "text": "Visible communion with the wider church."
+            },
+            {
+              "id": "ECC-01/G",
+              "label": "G",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "marks-of-the-church",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "ECC-02",
+          "prompt": "Can a congregation be gravely defective in doctrine or practice and still be a church?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ECC-02/A",
+              "label": "A",
+              "text": "Yes, while the gospel and what constitutes a church remain present."
+            },
+            {
+              "id": "ECC-02/B",
+              "label": "B",
+              "text": "Its standing depends on its continuing communion with the body authorized to recognize it."
+            },
+            {
+              "id": "ECC-02/C",
+              "label": "C",
+              "text": "Christ alone knows its standing. Other Christians can judge particular errors without deciding whether it is a church."
+            },
+            {
+              "id": "ECC-02/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "marks-of-the-church",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "ECC-03",
+          "prompt": "Two congregations proclaim Christ faithfully but refuse communion with each other. What does their division show?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ECC-03/A",
+              "label": "A",
+              "text": "They can both be churches while bearing a real wound to Christian unity."
+            },
+            {
+              "id": "ECC-03/B",
+              "label": "B",
+              "text": "At least one lacks full visible communion with the church in a way that matters for its ecclesial standing."
+            },
+            {
+              "id": "ECC-03/C",
+              "label": "C",
+              "text": "Their separation may be faithful if communion would require denial of essential truth."
+            },
+            {
+              "id": "ECC-03/D",
+              "label": "D",
+              "text": "I would need to know why fellowship was broken before judging its significance."
+            },
+            {
+              "id": "ECC-03/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 2:42–47, Ephesians 4:1–16, Revelation 2:1–7.",
+      "introduction": [
+        "In these questions a local congregation, a wider communion, and the whole people of God are named separately where the distinction matters."
+      ],
+      "editorialNotes": [
+        "Ask what makes a community a church before asking how faithfully it lives out its calling. Reuse SAC-23 on the administration of the sacraments."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Vatican II, Lumen gentium, §§8 and 14–16, on the visible church and communion.",
+          "url": "https://www.vatican.va/content/dam/wss/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html"
+        }
+      ]
+    },
+    {
+      "dimensionId": 52,
+      "title": "Visible and invisible Church",
+      "questions": [
+        {
+          "id": "ECC-04",
+          "prompt": "How do those visibly associated with the church relate to those who truly belong to Christ?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ECC-04/A",
+              "label": "A",
+              "text": "The visible community includes some without saving faith. The church known perfectly to God consists of those truly united to Christ."
+            },
+            {
+              "id": "ECC-04/B",
+              "label": "B",
+              "text": "Christ founded one visible communion. People can belong to it outwardly in different degrees or fail to live by its grace."
+            },
+            {
+              "id": "ECC-04/C",
+              "label": "C",
+              "text": "A local church should ordinarily consist of professing believers, though the sincerity of professions is known fully to God."
+            },
+            {
+              "id": "ECC-04/D",
+              "label": "D",
+              "text": "I affirm a spiritual fellowship in Christ without identifying it with one visible body or boundary."
+            },
+            {
+              "id": "ECC-04/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "invisible-church",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "visible-church",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "ECC-04a",
+          "prompt": "Can people outside the visible boundaries of your own communion belong to Christ’s church?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "ECC-04/B",
+                "ECC-04/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After ECC-04, if B or D is selected.",
+          "choices": [
+            {
+              "id": "ECC-04a/A",
+              "label": "A",
+              "text": "Yes, as members of other churches in the full sense."
+            },
+            {
+              "id": "ECC-04a/B",
+              "label": "B",
+              "text": "Yes, through a real but imperfect communion with Christ’s church."
+            },
+            {
+              "id": "ECC-04a/C",
+              "label": "C",
+              "text": "They may belong to Christ in ways known to God, while the church’s visible boundaries remain definite."
+            },
+            {
+              "id": "ECC-04a/D",
+              "label": "D",
+              "text": "I identify belonging to Christ’s church with membership in the visible communion."
+            },
+            {
+              "id": "ECC-04a/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "visible-church",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 13:24–30, 2 Timothy 2:19, 1 Corinthians 12:12–27.",
+      "editorialNotes": [
+        "“Visible” and “invisible” can describe aspects of one church or express a distinction some traditions reject."
+      ]
+    },
+    {
+      "dimensionId": 53,
+      "title": "Church government and polity",
+      "questions": [
+        {
+          "id": "ECC-05",
+          "prompt": "A congregation disputes the removal of its pastor. Who has authority to make a binding ecclesial decision?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ECC-05/A",
+              "label": "A",
+              "text": "The local congregation has final authority."
+            },
+            {
+              "id": "ECC-05/B",
+              "label": "B",
+              "text": "The congregation’s elders have final local authority."
+            },
+            {
+              "id": "ECC-05/C",
+              "label": "C",
+              "text": "A council or assembly of elders beyond the congregation can give a binding judgment."
+            },
+            {
+              "id": "ECC-05/D",
+              "label": "D",
+              "text": "A bishop or other episcopal authority has jurisdiction."
+            },
+            {
+              "id": "ECC-05/E",
+              "label": "E",
+              "text": "Authority is shared, with different bodies able to authorize, review, or confirm the decision."
+            },
+            {
+              "id": "ECC-05/F",
+              "label": "F",
+              "text": "My tradition seeks corporate discernment and would frame this in terms of unity rather than final jurisdiction."
+            },
+            {
+              "id": "ECC-05/G",
+              "label": "G",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "church-polity",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "ECC-06",
+          "prompt": "Can a general council issue a doctrinal decision that binds local churches?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ECC-06/A",
+              "label": "A",
+              "text": "Yes, under the conditions that give a council authority over the whole church."
+            },
+            {
+              "id": "ECC-06/B",
+              "label": "B",
+              "text": "Yes, for churches accountable to that council, subject to correction by Scripture."
+            },
+            {
+              "id": "ECC-06/C",
+              "label": "C",
+              "text": "Its determinations carry weight but bind a congregation only through that congregation’s own reception."
+            },
+            {
+              "id": "ECC-06/D",
+              "label": "D",
+              "text": "A council may testify to truth but has no power to bind consciences by its own decision."
+            },
+            {
+              "id": "ECC-06/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 15:1–29, Acts 20:17–28, Matthew 18:15–20.",
+      "editorialNotes": [
+        "Do not infer the final seat of authority from the presence of bishops, elders, or congregational votes alone."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Baptist Faith and Message, article VI, on the local church and its offices.",
+          "url": "https://bfm.sbc.net/bfm2000/"
+        }
+      ]
+    },
+    {
+      "dimensionId": 54,
+      "title": "Ordination and ministerial offices",
+      "questions": [
+        {
+          "id": "ECC-07",
+          "prompt": "What does ordination do?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ECC-07/A",
+              "label": "A",
+              "text": "Through prayer and laying on of hands, God confers a sacramental gift for ordained ministry."
+            },
+            {
+              "id": "ECC-07/B",
+              "label": "B",
+              "text": "It authorizes someone to exercise a recognized ministry of word, sacrament, or oversight."
+            },
+            {
+              "id": "ECC-07/C",
+              "label": "C",
+              "text": "It publicly recognizes a calling and gifts God has already given."
+            },
+            {
+              "id": "ECC-07/D",
+              "label": "D",
+              "text": "I do not recognize a distinct ordained ministry."
+            },
+            {
+              "id": "ECC-07/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "ordination",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "ordination"
+            }
+          ]
+        },
+        {
+          "id": "ECC-08",
+          "prompt": "Which best describes oversight in your church’s understanding of ministry?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ECC-08/A",
+              "label": "A",
+              "text": "Bishops, presbyters or priests, and deacons constitute distinct orders."
+            },
+            {
+              "id": "ECC-08/B",
+              "label": "B",
+              "text": "Bishop and elder name the same governing or pastoral office, distinct from deacon."
+            },
+            {
+              "id": "ECC-08/C",
+              "label": "C",
+              "text": "Pastor or elder and deacon are local roles whose organization a congregation determines."
+            },
+            {
+              "id": "ECC-08/D",
+              "label": "D",
+              "text": "The Spirit may raise ministries without establishing a permanent set of offices."
+            },
+            {
+              "id": "ECC-08/E",
+              "label": "E",
+              "text": "I recognize a different structure, such as an ongoing fivefold ministry of apostles, prophets, evangelists, pastors, and teachers."
+            },
+            {
+              "id": "ECC-08/F",
+              "label": "F",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "ECC-09",
+          "prompt": "May someone with evident pastoral gifts exercise public oversight before receiving formal recognition?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ECC-09/A",
+              "label": "A",
+              "text": "Gifts alone do not authorize public oversight. Recognition by the proper ecclesial body is necessary."
+            },
+            {
+              "id": "ECC-09/B",
+              "label": "B",
+              "text": "A congregation’s call can authorize oversight before a formal ordination service."
+            },
+            {
+              "id": "ECC-09/C",
+              "label": "C",
+              "text": "In exceptional circumstances the church can receive ministry later recognized as a genuine call."
+            },
+            {
+              "id": "ECC-09/D",
+              "label": "D",
+              "text": "I do not distinguish a formal office of oversight from a ministry the community discerns as it occurs."
+            },
+            {
+              "id": "ECC-09/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 6:1–6, 1 Timothy 3:1–13, Titus 1:5–9.",
+      "editorialNotes": [
+        "Distinguish ordination’s effect from the list of offices a tradition recognizes."
+      ]
+    },
+    {
+      "dimensionId": 55,
+      "title": "Gender and church leadership",
+      "questions": [
+        {
+          "id": "ECC-10",
+          "prompt": "Which ministries, if recognized in your tradition, may women exercise on the same terms as men?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ECC-10/A",
+              "label": "A",
+              "text": "Serve as deacons."
+            },
+            {
+              "id": "ECC-10/B",
+              "label": "B",
+              "text": "Preach to the gathered congregation."
+            },
+            {
+              "id": "ECC-10/C",
+              "label": "C",
+              "text": "Teach adult men and women in settings outside gathered worship."
+            },
+            {
+              "id": "ECC-10/D",
+              "label": "D",
+              "text": "Serve as elders, presbyters, or priests."
+            },
+            {
+              "id": "ECC-10/E",
+              "label": "E",
+              "text": "Serve as senior pastors or bishops with final pastoral oversight."
+            },
+            {
+              "id": "ECC-10/F",
+              "label": "F",
+              "text": "I would reserve all the listed ministries to men.",
+              "exclusive": true
+            },
+            {
+              "id": "ECC-10/G",
+              "label": "G",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "ECC-10a",
+          "prompt": "If a church reserves an office to men, does that also reserve particular acts of teaching to men?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "ECC-10/A",
+                "ECC-10/B",
+                "ECC-10/C",
+                "ECC-10/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After ECC-10, if A or B or C or D is selected.",
+          "choices": [
+            {
+              "id": "ECC-10a/A",
+              "label": "A",
+              "text": "Yes, the restriction concerns the act of authoritative teaching as well as the office."
+            },
+            {
+              "id": "ECC-10a/B",
+              "label": "B",
+              "text": "A woman may teach or preach under the responsible oversight of those who hold the office."
+            },
+            {
+              "id": "ECC-10a/C",
+              "label": "C",
+              "text": "The office itself is reserved, but women may exercise the same acts of teaching without a special requirement of male oversight."
+            },
+            {
+              "id": "ECC-10a/D",
+              "label": "D",
+              "text": "I do not reserve an office to men."
+            },
+            {
+              "id": "ECC-10a/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Romans 16:1–7, Galatians 3:28, 1 Timothy 2:11–15.",
+      "editorialNotes": [
+        "Office, ordination, and acts of teaching can have different boundaries. Do not assume titles mean the same thing in every polity."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Assemblies of God, “Women in Ministerial Leadership,” on eligibility for ministry.",
+          "url": "https://ag.org/beliefs/Position-Papers/Women-in-Ministerial-Leadership"
+        }
+      ]
+    },
+    {
+      "dimensionId": 56,
+      "title": "Apostolic succession",
+      "questions": [
+        {
+          "id": "ECC-11",
+          "prompt": "What makes a church’s ministry apostolic?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ECC-11/A",
+              "label": "A",
+              "text": "Faithfulness to the apostles’ teaching."
+            },
+            {
+              "id": "ECC-11/B",
+              "label": "B",
+              "text": "Continuity in the apostolic mission of witness and service."
+            },
+            {
+              "id": "ECC-11/C",
+              "label": "C",
+              "text": "An unbroken succession of episcopal ordinations."
+            },
+            {
+              "id": "ECC-11/D",
+              "label": "D",
+              "text": "Recognition and communion among churches that continue the apostles’ ministry."
+            },
+            {
+              "id": "ECC-11/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "apostolic-succession",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "ECC-12",
+          "prompt": "Suppose a community preserves apostolic teaching but lacks demonstrable episcopal succession. How would you judge its ministry?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ECC-12/A",
+              "label": "A",
+              "text": "Its ministers can be fully authorized by a faithful church."
+            },
+            {
+              "id": "ECC-12/B",
+              "label": "B",
+              "text": "It can have real Christian ministry while lacking something required for the fullness of ordained ministry."
+            },
+            {
+              "id": "ECC-12/C",
+              "label": "C",
+              "text": "Apostolic teaching alone cannot supply valid sacramental ordination."
+            },
+            {
+              "id": "ECC-12/D",
+              "label": "D",
+              "text": "I would suspend judgment about historical succession rather than infer either validity or invalidity."
+            },
+            {
+              "id": "ECC-12/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "episcopal-succession",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "episcopal succession"
+            },
+            {
+              "termId": "apostolic-succession",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 1:15–26, 2 Timothy 2:2, 1 Timothy 4:14.",
+      "introduction": [
+        "Episcopal succession is a succession of bishops in ordained ministry."
+      ],
+      "editorialNotes": [
+        "Distinguish succession in teaching, succession in office, and sacramental recognition."
+      ],
+      "furtherStudy": [
+        {
+          "text": "World Council of Churches, Baptism, Eucharist and Ministry, “Ministry,” §§34–38, on succession in the apostolic tradition.",
+          "url": "https://www.oikoumene.org/resources/documents/baptism-eucharist-and-ministry-faith-and-order-paper-no-111-the-lima-text"
+        }
+      ]
+    },
+    {
+      "dimensionId": 57,
+      "title": "Church discipline",
+      "questions": [
+        {
+          "id": "ECC-13",
+          "prompt": "What can exclusion from church fellowship establish about a person’s standing before God?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ECC-13/A",
+              "label": "A",
+              "text": "It is a serious church judgment about a public profession. God alone knows the heart."
+            },
+            {
+              "id": "ECC-13/B",
+              "label": "B",
+              "text": "A duly authorized judgment has spiritual effect in the church’s exercise of the keys, while remaining ordered toward restoration."
+            },
+            {
+              "id": "ECC-13/C",
+              "label": "C",
+              "text": "It sets a boundary for communal life without issuing a judgment about salvation."
+            },
+            {
+              "id": "ECC-13/D",
+              "label": "D",
+              "text": "My tradition does not practice formal exclusion."
+            },
+            {
+              "id": "ECC-13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "church-discipline",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "ECC-14",
+          "prompt": "A disciplined leader repents and returns to fellowship. Can the original misconduct permanently disqualify that person from office?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ECC-14/A",
+              "label": "A",
+              "text": "Yes. Some misconduct permanently disqualifies a person from certain offices."
+            },
+            {
+              "id": "ECC-14/B",
+              "label": "B",
+              "text": "Permanent disqualification is possible, but only after a judgment about enduring qualifications or trust in the particular case."
+            },
+            {
+              "id": "ECC-14/C",
+              "label": "C",
+              "text": "No. The church may require time and evidence of fitness, but past misconduct cannot by itself create permanent ineligibility."
+            },
+            {
+              "id": "ECC-14/D",
+              "label": "D",
+              "text": "I do not recognize a distinct office that requires reinstatement."
+            },
+            {
+              "id": "ECC-14/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "ECC-15",
+          "prompt": "What should restoration to fellowship ordinarily require from a person under discipline?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ECC-15/A",
+              "label": "A",
+              "text": "A credible profession of repentance."
+            },
+            {
+              "id": "ECC-15/B",
+              "label": "B",
+              "text": "An end to the conduct for which the person was disciplined."
+            },
+            {
+              "id": "ECC-15/C",
+              "label": "C",
+              "text": "Reasonable efforts to make amends where possible."
+            },
+            {
+              "id": "ECC-15/D",
+              "label": "D",
+              "text": "A formal act of reconciliation or absolution by the responsible church authority."
+            },
+            {
+              "id": "ECC-15/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "church-discipline",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "discipline"
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 18:15–20, 1 Corinthians 5, 2 Corinthians 2:5–11.",
+      "editorialNotes": [
+        "Distinguish removal from fellowship, restrictions on particular ministries, and restoration to communion."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "SAC",
+    "WCP"
+  ],
+  "vocabulary": [
+    {
+      "id": "ecclesiology",
+      "term": "Ecclesiology",
+      "kind": "concept",
+      "definition": "The study of what the Church is, how it is ordered, and what it is called to do.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Doctrine of the Church"
+      ]
+    },
+    {
+      "id": "marks-of-the-church",
+      "term": "Marks of the Church",
+      "kind": "concept",
+      "definition": "Qualities by which Christians identify the Church or assess how faithfully a particular church lives.",
+      "status": "draft",
+      "references": [
+        "ECC",
+        "WCF 25",
+        "AC art. VII",
+        "CCC 811–870"
+      ]
+    },
+    {
+      "id": "visible-church",
+      "term": "Visible Church",
+      "kind": "concept",
+      "definition": "The Church as an identifiable community in history, with public confession, worship, and membership.",
+      "status": "draft",
+      "references": [
+        "WCF 25.2",
+        "ECC"
+      ]
+    },
+    {
+      "id": "invisible-church",
+      "term": "Invisible Church",
+      "kind": "concept",
+      "definition": "The Church considered as all who truly belong to Christ, whose full membership is known to God.",
+      "status": "draft",
+      "references": [
+        "WCF 25.1",
+        "ECC"
+      ]
+    },
+    {
+      "id": "church-polity",
+      "term": "Church polity",
+      "kind": "concept",
+      "definition": "The way a church organizes leadership, decision-making, and authority.",
+      "status": "draft",
+      "references": [
+        "ECC",
+        "WCF 30–31",
+        "AC arts. XIV and XXVIII"
+      ],
+      "aliases": [
+        "Church government"
+      ]
+    },
+    {
+      "id": "ordination",
+      "term": "Ordination",
+      "kind": "concept",
+      "definition": "A church’s formal act of setting someone apart for a recognized ministry or office.",
+      "status": "draft",
+      "references": [
+        "ECC",
+        "AC art. XIV",
+        "CCC 1536–1600"
+      ]
+    },
+    {
+      "id": "apostolic-succession",
+      "term": "Apostolic succession",
+      "kind": "concept",
+      "definition": "Continuity of the Church’s ministry with the apostles, understood in terms of handed-down teaching, succession in office, or both.",
+      "status": "draft",
+      "references": [
+        "CCC 861–862",
+        "OCA Sacraments",
+        "ECC"
+      ]
+    },
+    {
+      "id": "episcopal-succession",
+      "term": "Episcopal succession",
+      "kind": "concept",
+      "definition": "Continuity in the office of bishop through an identifiable succession of bishops.",
+      "status": "draft",
+      "references": [
+        "CCC 861–862",
+        "OCA Sacraments",
+        "ECC"
+      ]
+    },
+    {
+      "id": "church-discipline",
+      "term": "Church discipline",
+      "kind": "concept",
+      "definition": "A church’s formal response to serious wrongdoing or doctrinal error for the sake of correction, restoration, or the community’s care.",
+      "status": "draft",
+      "references": [
+        "WCF 30",
+        "ECC"
+      ]
+    }
+  ]
+}

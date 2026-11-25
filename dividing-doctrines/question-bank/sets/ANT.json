@@ -1,0 +1,765 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "ANT",
+  "title": "Anthropology",
+  "plainLanguageTitle": "Human nature and purpose",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "ANT — Dividing Doctrines — Anthropology (Working Bank) v1",
+    "friendEdition": "ANT — Dividing Doctrines — Anthropology (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 33,
+      "title": "Image of God",
+      "questions": [
+        {
+          "id": "ANT-01",
+          "prompt": "What does it mean for humans to bear God’s image?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ANT-01/A",
+              "label": "A",
+              "text": "Human beings are appointed to represent God and exercise care over creation."
+            },
+            {
+              "id": "ANT-01/B",
+              "label": "B",
+              "text": "Human nature reflects divine attributes through capacities such as reason and moral agency."
+            },
+            {
+              "id": "ANT-01/C",
+              "label": "C",
+              "text": "Human beings are made for communion with God and one another."
+            },
+            {
+              "id": "ANT-01/D",
+              "label": "D",
+              "text": "The image is understood most fully through Christ, in whose likeness humanity is renewed."
+            },
+            {
+              "id": "ANT-01/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "image-of-god",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "God’s image"
+            }
+          ]
+        },
+        {
+          "id": "ANT-02",
+          "prompt": "Has the fall changed whether a human being bears God’s image?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ANT-02/A",
+              "label": "A",
+              "text": "The image remains, although how people reflect God is damaged."
+            },
+            {
+              "id": "ANT-02/B",
+              "label": "B",
+              "text": "The image remains in one sense, while a likeness or original righteousness was lost and must be restored."
+            },
+            {
+              "id": "ANT-02/C",
+              "label": "C",
+              "text": "The image in the fullest sense is a calling realized only in union with Christ."
+            },
+            {
+              "id": "ANT-02/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "fall",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "fall"
+            },
+            {
+              "termId": "image-of-god",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "God’s image"
+            }
+          ]
+        },
+        {
+          "id": "ANT-03",
+          "prompt": "If a person loses the capacity to reason or communicate, what happens to their standing as God’s image-bearer?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ANT-03/A",
+              "label": "A",
+              "text": "Their standing is undiminished because the image belongs to human beings as such."
+            },
+            {
+              "id": "ANT-03/B",
+              "label": "B",
+              "text": "Their standing is undiminished because it rests on God’s call and relation to them."
+            },
+            {
+              "id": "ANT-03/C",
+              "label": "C",
+              "text": "Both accounts fit my understanding."
+            },
+            {
+              "id": "ANT-03/D",
+              "label": "D",
+              "text": "I understand “image” as a vocation or activity and would ground their undiminished dignity in another way."
+            },
+            {
+              "id": "ANT-03/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Genesis 1:26–28, Genesis 9:6, James 3:9.",
+      "introduction": [
+        "Capacity, relationship, and vocation offer different answers to what makes a human being an image-bearer."
+      ],
+      "editorialNotes": [
+        "Separate the meaning of the image from whether a person can lose it. A person’s ability to exercise a capacity does not measure human worth."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Baptist Faith and Message, article III, on humanity, the image of God, and dignity.",
+          "url": "https://bfm.sbc.net/bfm2000/"
+        }
+      ]
+    },
+    {
+      "dimensionId": 34,
+      "title": "Body and soul",
+      "questions": [
+        {
+          "id": "ANT-04",
+          "prompt": "What kind of unity is a human being?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ANT-04/A",
+              "label": "A",
+              "text": "An embodied person with an immaterial soul that can subsist apart from the body."
+            },
+            {
+              "id": "ANT-04/B",
+              "label": "B",
+              "text": "One living unity of matter and soul, with the soul as the form or life principle of the body."
+            },
+            {
+              "id": "ANT-04/C",
+              "label": "C",
+              "text": "A wholly physical person whom God can raise to life."
+            },
+            {
+              "id": "ANT-04/D",
+              "label": "D",
+              "text": "A unity of body, soul, and spirit, with soul and spirit genuinely distinct."
+            },
+            {
+              "id": "ANT-04/E",
+              "label": "E",
+              "text": "Scripture uses several terms for the whole person without settling a theory of composition."
+            },
+            {
+              "id": "ANT-04/F",
+              "label": "F",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "body-soul-dualism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "ANT-04a",
+          "prompt": "How does each person come to have an immaterial soul or spirit?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "ANT-04/A",
+                "ANT-04/B",
+                "ANT-04/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After ANT-04, if A or B or D is selected.",
+          "choices": [
+            {
+              "id": "ANT-04a/A",
+              "label": "A",
+              "text": "God directly creates each person’s soul."
+            },
+            {
+              "id": "ANT-04a/B",
+              "label": "B",
+              "text": "Human parents transmit the whole human nature, including its immaterial aspect."
+            },
+            {
+              "id": "ANT-04a/C",
+              "label": "C",
+              "text": "The person’s immaterial life emerges in the coming-to-be of the whole human being."
+            },
+            {
+              "id": "ANT-04a/D",
+              "label": "D",
+              "text": "I affirm an immaterial aspect but have no settled view of its origin."
+            }
+          ]
+        },
+        {
+          "id": "ANT-05",
+          "prompt": "Must a resurrected body have material continuity with the body that died?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ANT-05/A",
+              "label": "A",
+              "text": "Yes. God raises and transforms that very body, however profoundly it changes."
+            },
+            {
+              "id": "ANT-05/B",
+              "label": "B",
+              "text": "No. God can give the same person a newly constituted body without material continuity."
+            },
+            {
+              "id": "ANT-05/C",
+              "label": "C",
+              "text": "I affirm the resurrection of the same person but leave the question of material continuity open."
+            },
+            {
+              "id": "ANT-05/D",
+              "label": "D",
+              "text": "I understand resurrection chiefly as continued or renewed spiritual life."
+            },
+            {
+              "id": "ANT-05/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "bodily-resurrection",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Genesis 2:7, Ecclesiastes 12:7, 1 Corinthians 15:35–49.",
+      "editorialNotes": [
+        "Do not derive a view of the intermediate state from a theory of human composition. ESCH treats the state of the dead separately."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Compendium of the Catechism, questions 69–72, on body, soul, and the human person.",
+          "url": "https://www.vatican.va/content/dam/wss/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html"
+        }
+      ]
+    },
+    {
+      "dimensionId": 35,
+      "title": "Human freedom and the will",
+      "questions": [
+        {
+          "id": "ANT-06",
+          "prompt": "For a choice to be free, must the person have been able to choose otherwise under exactly the same circumstances?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ANT-06/A",
+              "label": "A",
+              "text": "Yes. A genuine alternative must have been possible."
+            },
+            {
+              "id": "ANT-06/B",
+              "label": "B",
+              "text": "No. Acting willingly for one’s own reasons can be free even if the choice was certain."
+            },
+            {
+              "id": "ANT-06/C",
+              "label": "C",
+              "text": "Freedom requires that I be the source of my action, whether or not an alternative was possible."
+            },
+            {
+              "id": "ANT-06/D",
+              "label": "D",
+              "text": "I doubt one account of freedom fits every kind of choice."
+            },
+            {
+              "id": "ANT-06/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "compatibilism",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "libertarian-freedom",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "ANT-07",
+          "prompt": "Suppose a person acts willingly from a character shaped by influences they never chose. What bears on their responsibility?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ANT-07/A",
+              "label": "A",
+              "text": "Whether the action expresses the person’s own intentions."
+            },
+            {
+              "id": "ANT-07/B",
+              "label": "B",
+              "text": "Whether the person could recognize and respond to moral reasons."
+            },
+            {
+              "id": "ANT-07/C",
+              "label": "C",
+              "text": "Whether a different action was genuinely within reach."
+            },
+            {
+              "id": "ANT-07/D",
+              "label": "D",
+              "text": "Whether the person had meaningful agency in forming the habit or character involved."
+            },
+            {
+              "id": "ANT-07/E",
+              "label": "E",
+              "text": "Whether coercion, compulsion, or diminished understanding impaired agency."
+            },
+            {
+              "id": "ANT-07/F",
+              "label": "F",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "ANT-08",
+          "prompt": "Can the redeemed be fully free in the life to come if they can no longer choose evil?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ANT-08/A",
+              "label": "A",
+              "text": "Yes. Freedom reaches its fullness when the will loves the good without division."
+            },
+            {
+              "id": "ANT-08/B",
+              "label": "B",
+              "text": "Yes, if their fidelity remains freely theirs even though their falling away is certain never to occur."
+            },
+            {
+              "id": "ANT-08/C",
+              "label": "C",
+              "text": "No. Meaningful freedom would still include a real ability to turn from the good."
+            },
+            {
+              "id": "ANT-08/D",
+              "label": "D",
+              "text": "I would leave the exact capacities of the resurrected will open."
+            },
+            {
+              "id": "ANT-08/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Deuteronomy 30:19, John 8:34–36, Philippians 2:12–13.",
+      "editorialNotes": [
+        "These questions concern agency in general. HAM and SOT separately ask what grace enables."
+      ]
+    },
+    {
+      "dimensionId": 36,
+      "title": "Origin and nature of humanity",
+      "questions": [
+        {
+          "id": "ANT-09",
+          "prompt": "What relationship do you see between God’s creation of human beings and biological ancestry?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ANT-09/A",
+              "label": "A",
+              "text": "God created the first humans by a distinct act without biological descent from earlier life."
+            },
+            {
+              "id": "ANT-09/B",
+              "label": "B",
+              "text": "God brought human beings into existence through biological ancestry shared with other living things."
+            },
+            {
+              "id": "ANT-09/C",
+              "label": "C",
+              "text": "God used some continuity with earlier life alongside a special bodily creation of one or more first humans."
+            },
+            {
+              "id": "ANT-09/D",
+              "label": "D",
+              "text": "I affirm God as creator while leaving the biological history open."
+            },
+            {
+              "id": "ANT-09/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "ANT-10",
+          "prompt": "How do you understand Adam in relation to the rest of humanity?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ANT-10/A",
+              "label": "A",
+              "text": "A historical individual from whom all humans are biologically descended."
+            },
+            {
+              "id": "ANT-10/B",
+              "label": "B",
+              "text": "A historical individual who represents humanity, whether or not all humans descend biologically from him."
+            },
+            {
+              "id": "ANT-10/C",
+              "label": "C",
+              "text": "A figure representing humanity whose theological role does not require a historical individual."
+            },
+            {
+              "id": "ANT-10/D",
+              "label": "D",
+              "text": "I affirm the narrative’s teaching without deciding the historical question."
+            },
+            {
+              "id": "ANT-10/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "ANT-10a",
+          "prompt": "What would Adam’s historical existence establish about the earliest human population?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "ANT-10/A",
+                "ANT-10/B"
+              ]
+            }
+          },
+          "displayNote": "↳ After ANT-10, if A or B is selected.",
+          "choices": [
+            {
+              "id": "ANT-10a/A",
+              "label": "A",
+              "text": "Adam and Eve were the sole biological ancestors at the beginning of humanity."
+            },
+            {
+              "id": "ANT-10a/B",
+              "label": "B",
+              "text": "They could have lived within a larger population while becoming ancestors or representatives of others."
+            },
+            {
+              "id": "ANT-10a/C",
+              "label": "C",
+              "text": "Theological representation and population size are separate questions. I take no position on the latter."
+            },
+            {
+              "id": "ANT-10a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Genesis 2–3, Romans 5:12–21, 1 Corinthians 15:45–49.",
+      "editorialNotes": [
+        "Ask about divine creation, biological ancestry, and Adam’s representative role separately."
+      ],
+      "furtherStudy": [
+        {
+          "text": "BioLogos, “Were Adam and Eve Historical Figures?” Several models are distinguished within evolutionary creation.",
+          "url": "https://biologos.org/common-questions/were-adam-and-eve-historical-figures?modal=about"
+        }
+      ]
+    },
+    {
+      "dimensionId": 37,
+      "title": "Human sexuality and marriage",
+      "questions": [
+        {
+          "id": "ANT-11",
+          "prompt": "What significance does the creation of humans as male and female have for marriage?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "ANT-11/A",
+              "label": "A",
+              "text": "Sexual difference belongs to what constitutes a marriage."
+            },
+            {
+              "id": "ANT-11/B",
+              "label": "B",
+              "text": "Sexual difference is part of the creation account but is not necessary for every marriage."
+            },
+            {
+              "id": "ANT-11/C",
+              "label": "C",
+              "text": "I regard marriage principally as a social covenant and do not derive its definition from this passage."
+            },
+            {
+              "id": "ANT-11/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "ANT-12",
+          "prompt": "What place does an unmarried life have in the human calling?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ANT-12/A",
+              "label": "A",
+              "text": "Marriage and singleness can each be a complete vocation of Christian service."
+            },
+            {
+              "id": "ANT-12/B",
+              "label": "B",
+              "text": "Consecrated celibacy has a particular spiritual excellence alongside the goodness of marriage."
+            },
+            {
+              "id": "ANT-12/C",
+              "label": "C",
+              "text": "Marriage is the ordinary vocation. Lifelong singleness has a distinct calling only in particular circumstances."
+            },
+            {
+              "id": "ANT-12/D",
+              "label": "D",
+              "text": "I do not think a person needs to identify a special vocation to live faithfully unmarried."
+            },
+            {
+              "id": "ANT-12/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "ANT-13",
+          "prompt": "Does the creation of man and woman by itself establish an enduring order of authority in marriage?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "ANT-13/A",
+              "label": "A",
+              "text": "Yes. Creation grounds an asymmetry of responsibility or headship as well as equal dignity."
+            },
+            {
+              "id": "ANT-13/B",
+              "label": "B",
+              "text": "No. It grounds shared vocation and mutual partnership without establishing a standing hierarchy."
+            },
+            {
+              "id": "ANT-13/C",
+              "label": "C",
+              "text": "I would consider creation together with later biblical teaching before inferring any authority structure."
+            },
+            {
+              "id": "ANT-13/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Genesis 1:27, Matthew 19:3–12, 1 Corinthians 7:7–8.",
+      "editorialNotes": [
+        "Reserve specific judgments about conduct, divorce, and civil policy for Christian Ethics."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "HAM",
+    "ETH"
+  ],
+  "vocabulary": [
+    {
+      "id": "theological-anthropology",
+      "term": "Theological anthropology",
+      "kind": "concept",
+      "definition": "The study of human nature, vocation, freedom, and destiny in relation to God.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Anthropology"
+      ]
+    },
+    {
+      "id": "image-of-god",
+      "term": "Image of God",
+      "kind": "concept",
+      "definition": "The special likeness or representative calling that Scripture ascribes to human beings in relation to God.",
+      "status": "draft",
+      "references": [
+        "CCC 355–361",
+        "WCF 4.2",
+        "ANT"
+      ],
+      "aliases": [
+        "Imago Dei",
+        "Image-bearer"
+      ]
+    },
+    {
+      "id": "body-soul-dualism",
+      "term": "Body–soul dualism",
+      "kind": "position",
+      "definition": "The view that a human being includes a physical body and an immaterial soul that can be distinguished from it.",
+      "status": "draft",
+      "references": [
+        "ANT",
+        "CCC 362–368"
+      ]
+    },
+    {
+      "id": "libertarian-freedom",
+      "term": "Libertarian freedom",
+      "kind": "position",
+      "definition": "A view of free choice that requires the choice to be undetermined by prior conditions, often understood as genuine ability to do otherwise.",
+      "status": "draft",
+      "references": [
+        "SEP-PROV",
+        "SEP-COMP"
+      ],
+      "aliases": [
+        "Libertarian free will"
+      ]
+    },
+    {
+      "id": "compatibilism",
+      "term": "Compatibilism",
+      "kind": "position",
+      "definition": "The view that meaningful human freedom can coexist with determinism, such as when someone acts from their own reasons or desires.",
+      "status": "draft",
+      "references": [
+        "SEP-COMP",
+        "ANT"
+      ],
+      "aliases": [
+        "Compatibilist freedom"
+      ]
+    }
+  ]
+}

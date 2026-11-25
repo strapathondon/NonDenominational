@@ -1,0 +1,291 @@
+[
+  {
+    "id": "PRO",
+    "title": "PRO - Dividing Doctrines — (Friend Feedback Copy)",
+    "scope": "Project question source"
+  },
+  {
+    "id": "BIB",
+    "title": "BIB - Dividing Doctrines —  Question Bank and Branching v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "TP",
+    "title": "TP — Dividing Doctrines — Theology Proper (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "TRI",
+    "title": "TRI — Dividing Doctrines — Trinitarian Theology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "CHR",
+    "title": "CHR — Dividing Doctrines — Christology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "PNE",
+    "title": "PNE — Dividing Doctrines — Pneumatology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "ANT",
+    "title": "ANT — Dividing Doctrines — Anthropology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "HAM",
+    "title": "HAM — Dividing Doctrines — Hamartiology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "SOT",
+    "title": "SOT — Dividing Doctrines — Soteriology (Working Bank, Reconstructed) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "ECC",
+    "title": "ECC — Dividing Doctrines — Ecclesiology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "SAC",
+    "title": "SAC — Dividing Doctrines — Sacramentology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "COV",
+    "title": "COV — Dividing Doctrines — Covenant & Biblical Theology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "ESCH",
+    "title": "ESCH — Dividing Doctrines — Eschatology (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "WCP",
+    "title": "WCP — Dividing Doctrines — Worship & Christian Practice (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "ETH",
+    "title": "ETH — Dividing Doctrines — Christian Ethics (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "SPI",
+    "title": "SPI — Dividing Doctrines — Spirituality & Christian Life (Working Bank) v1",
+    "scope": "Project question source"
+  },
+  {
+    "id": "IDX",
+    "title": "Dividing Doctrines Question Set Index",
+    "scope": "Project index and question-set versions"
+  },
+  {
+    "id": "AC",
+    "title": "Augsburg Confession",
+    "scope": "Lutheran confession",
+    "url": "https://bookofconcord.org/augsburg-confession/"
+  },
+  {
+    "id": "AG",
+    "title": "Statement of Fundamental Truths",
+    "scope": "Assemblies of God (USA)",
+    "url": "https://ag.org/en-US/Beliefs/Statement-of-Fundamental-Truths"
+  },
+  {
+    "id": "AUG",
+    "title": "On Baptism, Against the Donatists, Book III",
+    "scope": "Augustine, translated primary source",
+    "url": "https://www.newadvent.org/fathers/14083.htm"
+  },
+  {
+    "id": "BFM",
+    "title": "Baptist Faith and Message 2000",
+    "scope": "Southern Baptist Convention confession",
+    "url": "https://bfm.sbc.net/bfm2000/"
+  },
+  {
+    "id": "CCC",
+    "title": "Catechism of the Catholic Church",
+    "scope": "Catholic catechism, paragraph numbers in Terms",
+    "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
+  },
+  {
+    "id": "CCC-EU",
+    "title": "Catechism, Eucharistic sacrifice and presence",
+    "scope": "Catholic catechism, paragraphs 1356–1381",
+    "url": "https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_one/article_3/v_the_sacramental_sacrifice_thanksgiving_memorial_presence.index.html"
+  },
+  {
+    "id": "CCC-SAC",
+    "title": "Catechism, The Sacraments of Salvation",
+    "scope": "Catholic catechism, paragraphs 1127–1128",
+    "url": "https://www.vatican.va/content/catechism/en/part_two/section_one/chapter_one/article_2/iv_the_sacraments_of_salvation.index.html"
+  },
+  {
+    "id": "CHAL",
+    "title": "Definition of Chalcedon",
+    "scope": "Council of Chalcedon, 451, translated primary source",
+    "url": "https://www.newadvent.org/fathers/3811.htm"
+  },
+  {
+    "id": "CSBI",
+    "title": "Chicago Statement on Biblical Inerrancy",
+    "scope": "International Council on Biblical Inerrancy, hosted by Moody Bible Institute",
+    "url": "https://www.moodybible.org/beliefs/chicago-statement-biblical-inerrancy/"
+  },
+  {
+    "id": "DH",
+    "title": "Dignitatis Humanae",
+    "scope": "Vatican II declaration on religious freedom",
+    "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651207_dignitatis-humanae_en.html"
+  },
+  {
+    "id": "DORT",
+    "title": "Canons of Dort",
+    "scope": "Reformed confession, Christian Reformed Church edition",
+    "url": "https://www.crcna.org/welcome/beliefs/confessions/canons-dort"
+  },
+  {
+    "id": "DV",
+    "title": "Dei Verbum",
+    "scope": "Vatican II Dogmatic Constitution on Divine Revelation",
+    "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html"
+  },
+  {
+    "id": "FC",
+    "title": "Formula of Concord, Solid Declaration",
+    "scope": "Lutheran confession",
+    "url": "https://bookofconcord.org/solid-declaration/"
+  },
+  {
+    "id": "FIL",
+    "title": "The Filioque: A Church-Dividing Issue?",
+    "scope": "North American Orthodox–Catholic Theological Consultation",
+    "url": "https://www.assemblyofbishops.org/ministries/ecumenical-and-interfaith-dialogues/orthodox-catholic/filioque-a-church-dividing-issue"
+  },
+  {
+    "id": "FRAMEWORKS",
+    "title": "Progressive Covenantalism and New Covenant Theology",
+    "scope": "Stephen J. Wellum, The Gospel Coalition, comparative overview from a stated perspective",
+    "url": "https://www.thegospelcoalition.org/essay/progressive-covenantalism-and-new-covenant-theology/"
+  },
+  {
+    "id": "GIFTS",
+    "title": "Cessationism & Continuationism",
+    "scope": "Heritage Hills Baptist Church position paper, summary of both positions",
+    "url": "https://hhbc.com/mt-content/uploads/2025/01/eld-cessationism-continuationism.pdf"
+  },
+  {
+    "id": "JDDJ",
+    "title": "Joint Declaration on the Doctrine of Justification",
+    "scope": "Lutheran World Federation and Roman Catholic Church, paragraphs in Terms",
+    "url": "https://lutheranworld.org/resources/publication-joint-declaration-doctrine-justification"
+  },
+  {
+    "id": "MCUSA",
+    "title": "Peace, Justice, and Nonresistance",
+    "scope": "Mennonite Church USA confession, article 22",
+    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/peace-justice-and-nonresistance/"
+  },
+  {
+    "id": "MILL",
+    "title": "Views of the Millennium",
+    "scope": "Alan S. Bandy, The Gospel Coalition, comparative overview",
+    "url": "https://www.thegospelcoalition.org/essay/views-of-the-millennium/"
+  },
+  {
+    "id": "OCA",
+    "title": "The Orthodox Faith",
+    "scope": "Orthodox Church in America, survey of doctrine, worship, and spirituality",
+    "url": "https://www.oca.org/orthodoxy/the-orthodox-faith"
+  },
+  {
+    "id": "OCA-ICON",
+    "title": "Incarnation, section on the Iconoclastic Controversy",
+    "scope": "Orthodox Church in America, on icons and veneration",
+    "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/doctrine-scripture/the-symbol-of-faith/incarnation"
+  },
+  {
+    "id": "OCA-SAC",
+    "title": "The Sacraments",
+    "scope": "Orthodox Church in America, introduction to the holy mysteries",
+    "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/worship/the-sacraments/the-sacraments"
+  },
+  {
+    "id": "OCA-SIN",
+    "title": "Original Sin",
+    "scope": "Orthodox Church in America, pastoral Q&A",
+    "url": "https://www.oca.org/questions/teaching/original-sin"
+  },
+  {
+    "id": "OCA-THEOSIS",
+    "title": "Spirituality",
+    "scope": "Greek Orthodox Archdiocese of America, section on theosis",
+    "url": "https://www.goarch.org/-/spirituality"
+  },
+  {
+    "id": "PSUB",
+    "title": "Substitutionary Atonement",
+    "scope": "The Gospel Coalition, describes penal substitution and other atonement models",
+    "url": "https://www.thegospelcoalition.org/essay/substitutionary-atonement/"
+  },
+  {
+    "id": "REM",
+    "title": "Five Articles of the Remonstrance",
+    "scope": "1610 text, translated in Philip Schaff, Creeds of Christendom",
+    "url": "https://ccel.org/ccel/schaff/creeds3/creeds3.iv.xv.html"
+  },
+  {
+    "id": "SEP-COMP",
+    "title": "Compatibilism",
+    "scope": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/compatibilism/"
+  },
+  {
+    "id": "SEP-DS",
+    "title": "Divine Simplicity",
+    "scope": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/archives/sum2023/entries/divine-simplicity/"
+  },
+  {
+    "id": "SEP-PROV",
+    "title": "Divine Providence",
+    "scope": "Stanford Encyclopedia of Philosophy, section on middle knowledge",
+    "url": "https://plato.stanford.edu/entries/providence-divine/"
+  },
+  {
+    "id": "TULIP-HIST",
+    "title": "Where Did TULIP Come From?",
+    "scope": "Ligonier, on the history of the mnemonic",
+    "url": "https://learn.ligonier.org/podcasts/ask-ligonier/where-did-tulip-come-from"
+  },
+  {
+    "id": "USCCB-WAR",
+    "title": "The Catechism of the Catholic Church on Just War Doctrine",
+    "scope": "US Conference of Catholic Bishops, from Catechism paragraphs 2307–2317",
+    "url": "https://www.usccb.org/resources/The%20Catechism%20of%20the%20Catholic%20Church%20on%20Just%20War%20Doctrine.pdf"
+  },
+  {
+    "id": "WCF",
+    "title": "Westminster Confession of Faith",
+    "scope": "Reformed confession, Orthodox Presbyterian Church edition",
+    "url": "https://opc.org/wcf.html"
+  },
+  {
+    "id": "WES",
+    "title": "Distinctive Wesleyan Emphases",
+    "scope": "United Methodist Church, from the Book of Discipline",
+    "url": "https://www.umc.org/en/content/distinctive-wesleyan-emphases"
+  },
+  {
+    "id": "WST",
+    "title": "Westminster Shorter Catechism",
+    "scope": "Reformed catechism, Orthodox Presbyterian Church edition",
+    "url": "https://opc.org/sc.html"
+  }
+]

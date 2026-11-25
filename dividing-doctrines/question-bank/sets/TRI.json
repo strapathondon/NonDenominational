@@ -1,0 +1,816 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "TRI",
+  "title": "Trinitarian Theology",
+  "plainLanguageTitle": "The Trinity",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "TRI — Dividing Doctrines — Trinitarian Theology (Working Bank) v1",
+    "friendEdition": "TRI — Dividing Doctrines — Trinitarian Theology (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 18,
+      "title": "Trinitarian orthodoxy",
+      "questions": [
+        {
+          "id": "TRI-01",
+          "prompt": "Do you confess one God in three eternally distinct persons, the Father, the Son, and the Holy Spirit, each fully God?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TRI-01/A",
+              "label": "A",
+              "text": "Yes."
+            },
+            {
+              "id": "TRI-01/B",
+              "label": "B",
+              "text": "I affirm one God and the full divinity of Father, Son, and Spirit, but need to understand what “person” means here."
+            },
+            {
+              "id": "TRI-01/C",
+              "label": "C",
+              "text": "I hold a different understanding of God and would like to identify the point of difference."
+            },
+            {
+              "id": "TRI-01/D",
+              "label": "D",
+              "text": "I have not formed a view."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "trinity",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TRI-01a",
+          "prompt": "Which part of the confession would you like to clarify or question?",
+          "selection": "multiple",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "TRI-01/B",
+                "TRI-01/C"
+              ]
+            }
+          },
+          "displayNote": "↳ After TRI-01, if B or C is selected.",
+          "choices": [
+            {
+              "id": "TRI-01a/A",
+              "label": "A",
+              "text": "Whether the three are eternally distinct."
+            },
+            {
+              "id": "TRI-01a/B",
+              "label": "B",
+              "text": "Whether the Son is fully divine."
+            },
+            {
+              "id": "TRI-01a/C",
+              "label": "C",
+              "text": "Whether the Spirit is fully divine and personal."
+            },
+            {
+              "id": "TRI-01a/D",
+              "label": "D",
+              "text": "What makes the three one God."
+            },
+            {
+              "id": "TRI-01a/E",
+              "label": "E",
+              "text": "Whether human words such as “person” can express this mystery."
+            }
+          ]
+        },
+        {
+          "id": "TRI-02",
+          "prompt": "When Christians say the Father and Son are distinct, what distinction do you understand them to affirm?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-02/A",
+              "label": "A",
+              "text": "The Father and Son are really distinct persons who share the one undivided divine being."
+            },
+            {
+              "id": "TRI-02/B",
+              "label": "B",
+              "text": "Father and Son describe different ways the one divine person is known."
+            },
+            {
+              "id": "TRI-02/C",
+              "label": "C",
+              "text": "The Father and Son are distinct beings whose unity consists in perfect agreement."
+            },
+            {
+              "id": "TRI-02/D",
+              "label": "D",
+              "text": "I affirm a real distinction but do not know how to express it."
+            },
+            {
+              "id": "TRI-02/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "consubstantial",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TRI-03",
+          "prompt": "What does worship directed to the Son or the Spirit express?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-03/A",
+              "label": "A",
+              "text": "The same divine worship is due to Father, Son, and Spirit."
+            },
+            {
+              "id": "TRI-03/B",
+              "label": "B",
+              "text": "I worship the Father through the Son in the Spirit and am uncertain about addressing distinct persons directly."
+            },
+            {
+              "id": "TRI-03/C",
+              "label": "C",
+              "text": "I distinguish the unique worship due to the Father from the honor due to the Son or Spirit."
+            },
+            {
+              "id": "TRI-03/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Deuteronomy 6:4, Matthew 28:19, 2 Corinthians 13:13–14.",
+      "introduction": [
+        "In Nicene usage, “person” distinguishes Father, Son, and Spirit within one divine being."
+      ],
+      "editorialNotes": [
+        "Only an explicit affirmation supports a Nicene profile. Uncertainty, unfamiliar terminology, and an explicit disagreement must remain distinguishable."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Nicene-Constantinopolitan Creed, in The Orthodox Faith.",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/doctrine-scripture/the-symbol-of-faith/nicene-creed"
+        }
+      ]
+    },
+    {
+      "dimensionId": 19,
+      "title": "Eternal relations of origin",
+      "questions": [
+        {
+          "id": "TRI-04",
+          "prompt": "What does it mean to call the Son eternally begotten of the Father?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TRI-04/A",
+              "label": "A",
+              "text": "The Son eternally receives the one undivided divine nature from the Father and has no beginning."
+            },
+            {
+              "id": "TRI-04/B",
+              "label": "B",
+              "text": "The Son is eternally Son, but I hesitate to describe this as receiving his divine life from the Father."
+            },
+            {
+              "id": "TRI-04/C",
+              "label": "C",
+              "text": "Sonship describes the incarnation or messianic mission. I do not affirm an eternal relation of begetting."
+            },
+            {
+              "id": "TRI-04/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "eternal-generation",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "eternally begotten"
+            }
+          ]
+        },
+        {
+          "id": "TRI-05",
+          "prompt": "What distinguishes the divine persons eternally?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-05/A",
+              "label": "A",
+              "text": "Their relations of origin, such as the Father begetting and the Son being begotten."
+            },
+            {
+              "id": "TRI-05/B",
+              "label": "B",
+              "text": "Distinct relationships of authority and obedience."
+            },
+            {
+              "id": "TRI-05/C",
+              "label": "C",
+              "text": "Distinct personal identities that I would affirm without specifying how they differ."
+            },
+            {
+              "id": "TRI-05/D",
+              "label": "D",
+              "text": "I understand the distinctions as beginning with God’s work in creation or redemption."
+            },
+            {
+              "id": "TRI-05/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "TRI-06",
+          "prompt": "Does calling the Father the source of the Son imply that the Father is more divine?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-06/A",
+              "label": "A",
+              "text": "No. Eternal origin can distinguish persons without dividing or grading their divinity."
+            },
+            {
+              "id": "TRI-06/B",
+              "label": "B",
+              "text": "No. I affirm equal divinity, but hesitate to call the Father the source of the Son’s divinity."
+            },
+            {
+              "id": "TRI-06/C",
+              "label": "C",
+              "text": "Yes. I understand originating and receiving divinity as implying different ranks of being."
+            },
+            {
+              "id": "TRI-06/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "eternal-generation",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "John 1:1–18, John 5:26, Hebrews 1:1–5.",
+      "editorialNotes": [
+        "“Begotten” asks about relation of origin. It need not imply a beginning or lesser divinity."
+      ]
+    },
+    {
+      "dimensionId": 20,
+      "title": "Procession of the Holy Spirit",
+      "questions": [
+        {
+          "id": "TRI-07",
+          "prompt": "How would you describe the Holy Spirit’s eternal origin?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TRI-07/A",
+              "label": "A",
+              "text": "The Spirit proceeds from the Father alone as the sole cause of the Spirit’s personal existence."
+            },
+            {
+              "id": "TRI-07/B",
+              "label": "B",
+              "text": "The Spirit proceeds from the Father and the Son together as one principle."
+            },
+            {
+              "id": "TRI-07/C",
+              "label": "C",
+              "text": "I affirm procession from the Father through the Son and prefer to leave the Son’s precise role in that formula open."
+            },
+            {
+              "id": "TRI-07/D",
+              "label": "D",
+              "text": "I affirm that the Spirit is eternal but would leave the manner of origin undefined."
+            },
+            {
+              "id": "TRI-07/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "procession",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TRI-07a",
+          "prompt": "What does sending the Spirit into the world tell us about the Spirit’s eternal origin?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "TRI-07/A",
+                "TRI-07/B",
+                "TRI-07/C"
+              ]
+            }
+          },
+          "displayNote": "↳ After TRI-07, if A or B or C is selected.",
+          "choices": [
+            {
+              "id": "TRI-07a/A",
+              "label": "A",
+              "text": "The Son’s sending of the Spirit reveals an eternal role of the Son in the Spirit’s procession."
+            },
+            {
+              "id": "TRI-07a/B",
+              "label": "B",
+              "text": "The Son truly sends the Spirit in history, but sending does not by itself establish that the Son is a cause of the Spirit’s existence."
+            },
+            {
+              "id": "TRI-07a/C",
+              "label": "C",
+              "text": "I would not draw a conclusion about eternal origin from these passages alone."
+            },
+            {
+              "id": "TRI-07a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "procession",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TRI-08",
+          "prompt": "May a church use the words “and the Son” when reciting the creed’s statement that the Spirit proceeds from the Father?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-08/A",
+              "label": "A",
+              "text": "Yes. They fittingly confess the faith and may be included in the creed."
+            },
+            {
+              "id": "TRI-08/B",
+              "label": "B",
+              "text": "The teaching can have an orthodox meaning, but the common creed should retain its received wording."
+            },
+            {
+              "id": "TRI-08/C",
+              "label": "C",
+              "text": "No. The addition expresses a doctrinal error."
+            },
+            {
+              "id": "TRI-08/D",
+              "label": "D",
+              "text": "I would receive both liturgical forms and leave the choice to each communion."
+            },
+            {
+              "id": "TRI-08/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "filioque",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "and the Son"
+            },
+            {
+              "termId": "nicene-creed",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TRI-09",
+          "prompt": "If two churches agree to recite the creed in its original form, does that settle their disagreement about the Spirit?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-09/A",
+              "label": "A",
+              "text": "Yes, if both receive its teaching in the same sense."
+            },
+            {
+              "id": "TRI-09/B",
+              "label": "B",
+              "text": "It resolves the wording used in worship but leaves the underlying question about eternal procession to be examined."
+            },
+            {
+              "id": "TRI-09/C",
+              "label": "C",
+              "text": "I would regard the remaining theological question as permissible diversity once the common confession is shared."
+            },
+            {
+              "id": "TRI-09/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "filioque",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "nicene-creed",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "John 15:26, John 16:13–15, Galatians 4:6.",
+      "introduction": [
+        "Filioque means “and the Son.” It is an addition to the Latin wording of the creed’s statement about the Spirit."
+      ],
+      "editorialNotes": [
+        "Keep the theology of procession separate from the authority to amend a creed. “Through the Son” has more than one use."
+      ],
+      "furtherStudy": [
+        {
+          "text": "North American Orthodox–Catholic consultation, The Filioque. The creed calls the Spirit “the Lord, the Giver of life.”",
+          "url": "https://www.usccb.org/resources/filioque-a-church-dividing-issue.pdf"
+        }
+      ]
+    },
+    {
+      "dimensionId": 21,
+      "title": "Economic and immanent Trinity",
+      "questions": [
+        {
+          "id": "TRI-10",
+          "prompt": "When the Father creates through the Son in the Spirit, whose action is creation?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TRI-10/A",
+              "label": "A",
+              "text": "One undivided divine action in which each person acts according to his personal relation."
+            },
+            {
+              "id": "TRI-10/B",
+              "label": "B",
+              "text": "Coordinated actions of three distinct agents who share a common purpose."
+            },
+            {
+              "id": "TRI-10/C",
+              "label": "C",
+              "text": "I affirm the biblical description and leave the relation between the persons’ actions open."
+            },
+            {
+              "id": "TRI-10/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "economic-trinity",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "immanent-trinity",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TRI-11",
+          "prompt": "Does Jesus’ obedience to the Father disclose an eternal ordering of authority among the divine persons?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-11/A",
+              "label": "A",
+              "text": "Yes. An eternal relation of authority and submission is consistent with equal divinity."
+            },
+            {
+              "id": "TRI-11/B",
+              "label": "B",
+              "text": "The obedience belongs to the incarnate Son’s mission. I would not affirm eternal submission on that basis."
+            },
+            {
+              "id": "TRI-11/C",
+              "label": "C",
+              "text": "The mission reveals an eternal filial relation, but authority and submission are inadequate descriptions of it."
+            },
+            {
+              "id": "TRI-11/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "economic-trinity",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "immanent-trinity",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TRI-12",
+          "prompt": "Who became incarnate when Jesus was conceived?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-12/A",
+              "label": "A",
+              "text": "The Son alone assumed human nature, through the common work of Father, Son, and Spirit."
+            },
+            {
+              "id": "TRI-12/B",
+              "label": "B",
+              "text": "Only the Son was active in bringing about the incarnation."
+            },
+            {
+              "id": "TRI-12/C",
+              "label": "C",
+              "text": "I would say that God became human without personally distinguishing the Son from the Father and Spirit."
+            },
+            {
+              "id": "TRI-12/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "incarnation",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "incarnate"
+            }
+          ]
+        },
+        {
+          "id": "TRI-13",
+          "prompt": "When Jesus says only the Father knows the day or hour, what conclusion about divine knowledge follows?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TRI-13/A",
+              "label": "A",
+              "text": "The incarnate Son speaks according to his human knowledge. The divine knowledge is one."
+            },
+            {
+              "id": "TRI-13/B",
+              "label": "B",
+              "text": "The text concerns what the Son was sent to disclose and does not establish a difference in divine knowledge."
+            },
+            {
+              "id": "TRI-13/C",
+              "label": "C",
+              "text": "I understand the persons as having genuinely distinct access to some knowledge."
+            },
+            {
+              "id": "TRI-13/D",
+              "label": "D",
+              "text": "I affirm the text without settling how the incarnate Son’s knowing relates to the Father’s."
+            },
+            {
+              "id": "TRI-13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "John 5:19, John 14:9–11, 1 Corinthians 15:24–28.",
+      "introduction": [
+        "The economic Trinity concerns God’s actions toward creation. The immanent Trinity concerns God’s eternal life."
+      ],
+      "editorialNotes": [
+        "Do not infer eternal authority relations from the incarnation without asking. Distinguish common divine action from the Son’s unique assumption of humanity."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "CHR",
+    "PNE"
+  ],
+  "vocabulary": [
+    {
+      "id": "trinity",
+      "term": "Trinity",
+      "kind": "concept",
+      "definition": "The Christian confession of one God in three eternally distinct persons, the Father, the Son, and the Holy Spirit, each fully God.",
+      "status": "draft",
+      "references": [
+        "OCA Nicene Creed",
+        "WCF 2.3"
+      ],
+      "aliases": [
+        "Triune God"
+      ]
+    },
+    {
+      "id": "nicene-creed",
+      "term": "Nicene Creed",
+      "kind": "concept",
+      "definition": "The creed rooted in the Councils of Nicaea and Constantinople that confesses the Father, Son, and Holy Spirit and summarizes the Christian faith.",
+      "status": "draft",
+      "references": [
+        "OCA Nicene Creed",
+        "FIL"
+      ],
+      "aliases": [
+        "Niceno-Constantinopolitan Creed"
+      ]
+    },
+    {
+      "id": "consubstantial",
+      "term": "Consubstantial",
+      "kind": "concept",
+      "definition": "Sharing the same essence or being, as the Nicene Creed says of the Son in relation to the Father.",
+      "status": "draft",
+      "references": [
+        "OCA Nicene Creed",
+        "CHAL"
+      ],
+      "aliases": [
+        "Of one essence",
+        "Of one substance",
+        "Homoousios"
+      ]
+    },
+    {
+      "id": "eternal-generation",
+      "term": "Eternal generation",
+      "kind": "concept",
+      "definition": "The Son’s eternal relation of origin from the Father, expressed in the creed as being begotten of the Father.",
+      "status": "draft",
+      "references": [
+        "OCA Nicene Creed",
+        "FIL"
+      ],
+      "aliases": [
+        "Eternally begotten"
+      ]
+    },
+    {
+      "id": "procession",
+      "term": "Procession of the Holy Spirit",
+      "kind": "concept",
+      "definition": "The Holy Spirit’s eternal relation of origin within the Trinity.",
+      "status": "draft",
+      "references": [
+        "FIL"
+      ],
+      "expandedNote": "The Spirit’s procession concerns his eternal origin. His mission concerns his being sent into the world. Churches differ on how the Son relates to the Spirit’s eternal origin and on what the Spirit’s mission reveals about that relation.",
+      "aliases": [
+        "Eternal procession"
+      ]
+    },
+    {
+      "id": "filioque",
+      "term": "Filioque",
+      "kind": "concept",
+      "definition": "Latin for “and the Son,” a phrase added in the West to the creed’s statement that the Holy Spirit proceeds from the Father.",
+      "status": "draft",
+      "references": [
+        "FIL"
+      ],
+      "expandedNote": "Catholic and Eastern Orthodox discussions distinguish wording in the creed from the underlying doctrine. They also distinguish the Father as source, the Son’s relationship to the Spirit, and the Spirit’s being sent in history. Agreement about a creed’s wording can leave theological questions to resolve.",
+      "aliases": [
+        "And the Son"
+      ]
+    },
+    {
+      "id": "economic-trinity",
+      "term": "Economic Trinity",
+      "kind": "concept",
+      "definition": "The Father, Son, and Holy Spirit considered in their actions toward creation, especially in the work of salvation.",
+      "status": "draft",
+      "references": [
+        "TRI",
+        "FIL"
+      ]
+    },
+    {
+      "id": "immanent-trinity",
+      "term": "Immanent Trinity",
+      "kind": "concept",
+      "definition": "The Father, Son, and Holy Spirit considered in God’s own eternal life and relations.",
+      "status": "draft",
+      "references": [
+        "TRI",
+        "FIL"
+      ]
+    }
+  ]
+}

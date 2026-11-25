@@ -1,0 +1,628 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dividing Doctrines question set, version 1",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "plainLanguageTitle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "edition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "featuredQuestionId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sources": {
+      "type": "object",
+      "properties": {
+        "workingBank": {
+          "type": "string",
+          "minLength": 1
+        },
+        "friendEdition": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "workingBank",
+        "friendEdition"
+      ],
+      "additionalProperties": false
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/section"
+      },
+      "minItems": 1
+    },
+    "relatedSets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "variantGroups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/variantGroup"
+      },
+      "minItems": 0
+    },
+    "retiredQuestionIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "editorialNotes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/term"
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "$schema",
+    "schemaVersion",
+    "id",
+    "title",
+    "plainLanguageTitle",
+    "edition",
+    "featuredQuestionId",
+    "sources",
+    "sections",
+    "vocabulary"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "condition": {
+      "oneOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "selectedAny": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "selectedAny"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "answered": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "answered"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "unasked": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "unasked"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "confirmed": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "confirmed"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "variant": {
+              "type": "object",
+              "properties": {
+                "groupId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "questionId": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "groupId",
+                "questionId"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "variant"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "all": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "any": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "choice": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "exclusive": {
+          "type": "boolean"
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "needs_attention"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "text"
+      ],
+      "additionalProperties": false
+    },
+    "glossaryLink": {
+      "type": "object",
+      "properties": {
+        "termId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "placement": {
+          "enum": [
+            "inline",
+            "sidebar",
+            "after_answer"
+          ]
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "needs_attention"
+          ]
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "termId",
+        "placement",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "term": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "term": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "position",
+            "concept",
+            "annotation"
+          ]
+        },
+        "definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "needs_attention"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "expandedNote": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "term",
+        "kind",
+        "definition",
+        "status",
+        "references"
+      ],
+      "additionalProperties": false
+    },
+    "question": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selection": {
+          "enum": [
+            "single",
+            "multiple"
+          ]
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "display": {
+          "type": "object",
+          "properties": {
+            "guided": {
+              "$ref": "#/$defs/condition"
+            },
+            "optional": {
+              "$ref": "#/$defs/condition"
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "minProperties": 1
+        },
+        "displayNote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "friendDisplayNote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recommendWhen": {
+          "$ref": "#/$defs/condition"
+        },
+        "reviewPriorAnswers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "shortTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "choices": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/choice"
+          },
+          "minItems": 1
+        },
+        "editorialNotes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "routingNotes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "helpText": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "editorialReview": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "draft",
+                "needs_attention"
+              ]
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "workingBankPrompt": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "status",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "vocabularyLinks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/glossaryLink"
+          },
+          "minItems": 0
+        },
+        "draftHover": {
+          "type": "object",
+          "properties": {
+            "anchor": {
+              "type": "string",
+              "minLength": 1
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "draft",
+                "needs_attention"
+              ]
+            }
+          },
+          "required": [
+            "anchor",
+            "text",
+            "status"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "prompt",
+        "selection",
+        "role",
+        "display",
+        "choices",
+        "displayNote"
+      ],
+      "additionalProperties": false
+    },
+    "section": {
+      "type": "object",
+      "properties": {
+        "dimensionId": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "in_development"
+          ]
+        },
+        "reading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "furtherStudy": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "text",
+              "url"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "introduction": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "editorialNotes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/question"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "dimensionId",
+        "title",
+        "questions"
+      ],
+      "additionalProperties": false
+    },
+    "variantGroup": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2
+        },
+        "selected": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "needs_attention"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "members",
+        "selected",
+        "status"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

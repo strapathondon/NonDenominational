@@ -1,0 +1,1593 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "PRO",
+  "title": "Prolegomena & Theological Method",
+  "plainLanguageTitle": "How we know and study God",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "(ARCHIVE) PRO - Dividing Doctrines — Question Bank and Branching v1",
+    "friendEdition": "PRO - Dividing Doctrines — (Friend Feedback Copy)"
+  },
+  "sections": [
+    {
+      "dimensionId": 1,
+      "title": "Sources of Theological Knowledge",
+      "questions": [
+        {
+          "id": "P1.1",
+          "prompt": "Through which of the following can human beings genuinely learn something true about God?",
+          "selection": "multiple",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering this dimension.",
+          "choices": [
+            {
+              "id": "P1.1/A",
+              "label": "A",
+              "text": "The Bible"
+            },
+            {
+              "id": "P1.1/B",
+              "label": "B",
+              "text": "Creation and the natural world"
+            },
+            {
+              "id": "P1.1/C",
+              "label": "C",
+              "text": "Human reason and logical reflection"
+            },
+            {
+              "id": "P1.1/D",
+              "label": "D",
+              "text": "Conscience and moral awareness"
+            },
+            {
+              "id": "P1.1/E",
+              "label": "E",
+              "text": "Personal spiritual experiences"
+            },
+            {
+              "id": "P1.1/F",
+              "label": "F",
+              "text": "The historical teaching of the Church"
+            },
+            {
+              "id": "P1.1/G",
+              "label": "G",
+              "text": "Apostolic teachings transmitted outside Scripture"
+            },
+            {
+              "id": "P1.1/H",
+              "label": "H",
+              "text": "Contemporary prophecy or divine communication"
+            },
+            {
+              "id": "P1.1/I",
+              "label": "I",
+              "text": "Unsure"
+            },
+            {
+              "id": "P1.1/J",
+              "label": "J",
+              "text": "None of these"
+            },
+            {
+              "id": "P1.1/K",
+              "label": "K",
+              "text": "Other"
+            }
+          ],
+          "shortTitle": "Sources of knowledge",
+          "routingNotes": [
+            "If at least one source A–H is selected, present P1.2. If J alone is selected, offer an optional clarification of whether the respondent rejects the premise of theological knowledge; do not force Christian-authority questions. If I is selected, allow the respondent to explore P1.2 without assigning a label."
+          ],
+          "editorialNotes": [
+            "A person can recognize multiple sources without considering all of them equally authoritative."
+          ]
+        },
+        {
+          "id": "P1.2",
+          "prompt": "Which of these may legitimately establish a belief that Christians are obligated to accept?",
+          "selection": "multiple",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P1.1/A",
+                "P1.1/B",
+                "P1.1/C",
+                "P1.1/D",
+                "P1.1/E",
+                "P1.1/F",
+                "P1.1/G",
+                "P1.1/H"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "P1.1/I"
+              ]
+            }
+          },
+          "displayNote": "After P1.1 when any knowledge source A–H is recognized; optional when P1.1=I.",
+          "choices": [
+            {
+              "id": "P1.2/A",
+              "label": "A",
+              "text": "Scripture, including conclusions properly derived from it."
+            },
+            {
+              "id": "P1.2/B",
+              "label": "B",
+              "text": "Authentic apostolic tradition transmitted beyond Scripture."
+            },
+            {
+              "id": "P1.2/C",
+              "label": "C",
+              "text": "Authoritative doctrinal decisions of the Church."
+            },
+            {
+              "id": "P1.2/D",
+              "label": "D",
+              "text": "New revelations or prophetic messages."
+            },
+            {
+              "id": "P1.2/E",
+              "label": "E",
+              "text": "Human reasoning or experience independently of divine revelation."
+            },
+            {
+              "id": "P1.2/F",
+              "label": "F",
+              "text": "No source can establish universally binding Christian doctrine."
+            },
+            {
+              "id": "P1.2/G",
+              "label": "G",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P1.1 recognizes a source of knowledge",
+          "shortTitle": "Sources of binding doctrinal authority",
+          "routingNotes": [
+            "If B, C, or D is selected, flag P1.4 as especially important. If A–E are selected, show P1.3 to clarify ranking and final arbitration. If F is selected alongside A–E, ask the respondent to distinguish 'helpful or true' from 'binding' rather than immediately marking a contradiction."
+          ],
+          "editorialNotes": [
+            "Keep 'source of knowledge' separate from 'authority to obligate belief'."
+          ]
+        },
+        {
+          "id": "P1.3",
+          "prompt": "When disagreements arise over Christian doctrine, which description best reflects how the disagreement should ultimately be settled?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P1.2/A",
+                "P1.2/B",
+                "P1.2/C",
+                "P1.2/D",
+                "P1.2/E"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "P1.2/F",
+                "P1.2/G"
+              ]
+            }
+          },
+          "displayNote": "After P1.2 when any of A–E is chosen; optional when P1.2=F or G.",
+          "choices": [
+            {
+              "id": "P1.3/A",
+              "label": "A",
+              "text": "Scripture is the only infallible rule; all other authorities must be tested against it."
+            },
+            {
+              "id": "P1.3/B",
+              "label": "B",
+              "text": "Scripture and authentic apostolic Tradition are received together, with the Church's authoritative teaching office interpreting them."
+            },
+            {
+              "id": "P1.3/C",
+              "label": "C",
+              "text": "Scripture must be understood within the Holy Tradition of the Church, including its received conciliar and liturgical witness."
+            },
+            {
+              "id": "P1.3/D",
+              "label": "D",
+              "text": "Scripture is primary, but tradition, reason, and experience are essential resources in theological judgment."
+            },
+            {
+              "id": "P1.3/E",
+              "label": "E",
+              "text": "Scripture is important, but theological claims ultimately remain subject to independent reason, experience, or other standards."
+            },
+            {
+              "id": "P1.3/F",
+              "label": "F",
+              "text": "I have not determined how such disagreements should be resolved."
+            }
+          ],
+          "friendDisplayNote": "If P1.2 recognizes a binding doctrinal source",
+          "shortTitle": "Ultimate authority in disputes",
+          "routingNotes": [
+            "If B, C, D, or E, offer P1.4 to clarify whether any doctrine could bind independently of Scripture. If A, optionally offer P1.4 as a consistency check. Save a provisional authority-model label, not a denomination."
+          ],
+          "editorialNotes": [
+            "Possible signals: sola Scriptura; Catholic Scripture–Tradition–Magisterium; Orthodox Holy Tradition; Wesleyan theological method; other models. These descriptions are not exclusive denominational categories."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "apostolic-tradition",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "magisterium",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "sola-scriptura",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "P1.4",
+          "prompt": "Can Christians be obligated to believe a doctrine that cannot be established from Scripture, either directly or by sound inference?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "any": [
+                {
+                  "selectedAny": [
+                    "P1.2/B",
+                    "P1.2/C",
+                    "P1.2/D"
+                  ]
+                },
+                {
+                  "selectedAny": [
+                    "P1.3/B",
+                    "P1.3/C",
+                    "P1.3/D",
+                    "P1.3/E"
+                  ]
+                }
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "P1.3/A"
+              ]
+            }
+          },
+          "displayNote": "Triggered by P1.2=B/C/D, or P1.3=B/C/D/E; optionally by P1.3=A for confirmation.",
+          "choices": [
+            {
+              "id": "P1.4/A",
+              "label": "A",
+              "text": "No. All universally binding Christian doctrine must be established from Scripture."
+            },
+            {
+              "id": "P1.4/B",
+              "label": "B",
+              "text": "Yes, if the doctrine belongs to authentic apostolic Tradition preserved by the Church."
+            },
+            {
+              "id": "P1.4/C",
+              "label": "C",
+              "text": "Yes, if it is established through a legitimate authoritative development or judgment of the Church."
+            },
+            {
+              "id": "P1.4/D",
+              "label": "D",
+              "text": "Yes, new divine revelation can establish additional binding doctrine."
+            },
+            {
+              "id": "P1.4/E",
+              "label": "E",
+              "text": "No universal standard determines what all Christians must believe."
+            },
+            {
+              "id": "P1.4/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P1.2 selects B, C, or D; or P1.3 selects B–E",
+          "shortTitle": "Extra-scriptural binding doctrine",
+          "routingNotes": [
+            "B/C → later questions on apostolic continuity, doctrinal development, ecclesial authority. D → P2.4–P2.5 on contemporary revelation. E → record rejection of binding authority. A in combination with P1.2=B/C should prompt clarification, not an automatic inconsistency verdict."
+          ],
+          "editorialNotes": [
+            "Differentiate authority to interpret, authority to define, and origin of the doctrine."
+          ]
+        }
+      ],
+      "introduction": [
+        "How do we know what we know about God?"
+      ]
+    },
+    {
+      "dimensionId": 2,
+      "title": "General and Special Revelation",
+      "questions": [
+        {
+          "id": "P2.1",
+          "prompt": "Can someone learn genuine truths about God without ever reading or hearing the Bible?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering this dimension.",
+          "choices": [
+            {
+              "id": "P2.1/A",
+              "label": "A",
+              "text": "Yes, through creation, conscience, or other generally available means."
+            },
+            {
+              "id": "P2.1/B",
+              "label": "B",
+              "text": "Yes, but only if God communicates specially to that person."
+            },
+            {
+              "id": "P2.1/C",
+              "label": "C",
+              "text": "No. Genuine knowledge of God requires biblical revelation."
+            },
+            {
+              "id": "P2.1/D",
+              "label": "D",
+              "text": "I am uncertain."
+            },
+            {
+              "id": "P2.1/E",
+              "label": "E",
+              "text": "I reject the premise that God reveals himself to humanity."
+            }
+          ],
+          "shortTitle": "Knowing God without the Bible",
+          "routingNotes": [
+            "A → P2.2 and potentially P2.3. B → P2.3 (special communication without the Bible). C → skip P2.2 and P2.3 unless the respondent chooses them. D → optional explanation of general/special revelation. E → skip revelation follow-ups that presume revelation."
+          ],
+          "editorialNotes": [
+            "General revelation concerns what God makes broadly known; special revelation concerns particular divine self-disclosure."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "general-revelation",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "P2.2",
+          "prompt": "What can humanity genuinely know about God through creation, conscience, or natural reasoning?",
+          "selection": "multiple",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P2.1/A"
+              ]
+            }
+          },
+          "displayNote": "Only if P2.1=A.",
+          "choices": [
+            {
+              "id": "P2.2/A",
+              "label": "A",
+              "text": "That God exists."
+            },
+            {
+              "id": "P2.2/B",
+              "label": "B",
+              "text": "Something about God's power, wisdom, or character."
+            },
+            {
+              "id": "P2.2/C",
+              "label": "C",
+              "text": "Some genuine moral obligations."
+            },
+            {
+              "id": "P2.2/D",
+              "label": "D",
+              "text": "That humanity is accountable to God."
+            },
+            {
+              "id": "P2.2/E",
+              "label": "E",
+              "text": "Enough knowledge to understand the way of salvation."
+            },
+            {
+              "id": "P2.2/F",
+              "label": "F",
+              "text": "Very little can be known with confidence."
+            },
+            {
+              "id": "P2.2/G",
+              "label": "G",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P2.1 selects A",
+          "shortTitle": "Content of general revelation",
+          "routingNotes": [
+            "If E is selected, prioritize P2.3 to determine whether knowledge available to all is considered sufficient for salvation. Other responses can optionally lead to P2.3. F paired with strong affirmations A–E may warrant a confidence-level follow-up."
+          ],
+          "editorialNotes": [
+            "Do not infer a person's doctrine of salvation merely from affirming general revelation."
+          ]
+        },
+        {
+          "id": "P2.3",
+          "prompt": "Is the knowledge available through general revelation sufficient for a person to be saved without receiving the explicit proclamation of Jesus Christ?",
+          "selection": "single",
+          "role": "CONDITIONAL / CROSS-CATEGORY",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P2.1/A",
+                "P2.1/B"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "P2.1/C"
+              ]
+            }
+          },
+          "displayNote": "If P2.1=A or B; especially if P2.2=E. May instead be answered in Soteriology and reused here.",
+          "choices": [
+            {
+              "id": "P2.3/A",
+              "label": "A",
+              "text": "No. General revelation does not communicate sufficient saving knowledge."
+            },
+            {
+              "id": "P2.3/B",
+              "label": "B",
+              "text": "General revelation alone is insufficient, but God may save some who have not heard the gospel through other operations of his grace."
+            },
+            {
+              "id": "P2.3/C",
+              "label": "C",
+              "text": "Yes. A person may be saved by responding faithfully to the revelation available to them."
+            },
+            {
+              "id": "P2.3/D",
+              "label": "D",
+              "text": "I believe salvation is possible apart from explicit Christian revelation, but for different reasons."
+            },
+            {
+              "id": "P2.3/E",
+              "label": "E",
+              "text": "I am unsure."
+            }
+          ],
+          "recommendWhen": {
+            "selectedAny": [
+              "P2.2/E"
+            ]
+          },
+          "friendDisplayNote": "If P2.1 selects A or B (especially if P2.2 selects E)",
+          "shortTitle": "Revelation and salvation",
+          "routingNotes": [
+            "Store response once and link to Soteriology and religious exclusivism/inclusivism. If P2.1=B, clarify that the person may be describing special revelation to an individual rather than general revelation alone."
+          ],
+          "editorialNotes": [
+            "This question reaches beyond Prolegomena. Do not duplicate it when the user later enters Soteriology."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "general-revelation",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "general revelation"
+            }
+          ]
+        },
+        {
+          "id": "P2.4",
+          "prompt": "Does God continue to communicate revelations to people beyond those recorded in Scripture?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P2.1/A",
+                "P2.1/B",
+                "P2.1/C",
+                "P2.1/D"
+              ]
+            }
+          },
+          "displayNote": "After P2.1 for A–D; skip by default for P2.1=E.",
+          "choices": [
+            {
+              "id": "P2.4/A",
+              "label": "A",
+              "text": "God's foundational, doctrinal revelation is complete, though he continues guiding believers through providence and illumination."
+            },
+            {
+              "id": "P2.4/B",
+              "label": "B",
+              "text": "God may communicate through prophecy, visions, dreams, or other impressions today, but these do not establish new universally binding doctrine."
+            },
+            {
+              "id": "P2.4/C",
+              "label": "C",
+              "text": "God continues to give revelations that can establish binding teaching for the Church."
+            },
+            {
+              "id": "P2.4/D",
+              "label": "D",
+              "text": "I do not believe God gives direct revelation today."
+            },
+            {
+              "id": "P2.4/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P2.1 selects A–D",
+          "shortTitle": "Continuing special revelation",
+          "routingNotes": [
+            "B/C → P2.5. C also flags P1.4 for review if user previously denied any extra-scriptural binding revelation. A/D → no required P2.5. A choice does not automatically imply cessationism."
+          ],
+          "editorialNotes": [
+            "Do not conflate a closed canon with cessationism or contemporary noncanonical prophecy."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "providence",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "special-revelation",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "P2.5",
+          "prompt": "How should a claim to have received a message from God be evaluated?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "any": [
+                {
+                  "selectedAny": [
+                    "P2.4/B",
+                    "P2.4/C"
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "selectedAny": [
+                        "P1.4/D"
+                      ]
+                    },
+                    {
+                      "unasked": "P2.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "displayNote": "Only if P2.4=B or C (or P1.4=D where P2.4 has not yet been asked).",
+          "choices": [
+            {
+              "id": "P2.5/A",
+              "label": "A",
+              "text": "It must conform to Scripture and cannot establish independent doctrine."
+            },
+            {
+              "id": "P2.5/B",
+              "label": "B",
+              "text": "It must conform to Scripture and be discerned through the Church or spiritual community."
+            },
+            {
+              "id": "P2.5/C",
+              "label": "C",
+              "text": "Its authenticity can be established through prophetic fulfillment, signs, or other evidence."
+            },
+            {
+              "id": "P2.5/D",
+              "label": "D",
+              "text": "Genuine spiritual experience can provide sufficient personal assurance."
+            },
+            {
+              "id": "P2.5/E",
+              "label": "E",
+              "text": "Several of these considerations are necessary."
+            },
+            {
+              "id": "P2.5/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P2.4 selects B or C",
+          "shortTitle": "Testing contemporary revelation",
+          "routingNotes": [
+            "If E, optionally ask which tests apply and which have priority. Contrast with P1.2/P1.4 when respondent treats prophecy as universally binding."
+          ],
+          "editorialNotes": [
+            "Distinguish personal guidance, local prophetic claims, and public doctrinal authority."
+          ]
+        }
+      ],
+      "introduction": [
+        "What has God revealed, to whom, and through what means?"
+      ]
+    },
+    {
+      "dimensionId": 3,
+      "title": "Faith and Reason",
+      "questions": [
+        {
+          "id": "P3.1",
+          "prompt": "Can something genuinely revealed by God contradict what sound reasoning demonstrates to be true?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering this dimension.",
+          "choices": [
+            {
+              "id": "P3.1/A",
+              "label": "A",
+              "text": "No. Genuine divine revelation and sound reasoning cannot ultimately contradict one another."
+            },
+            {
+              "id": "P3.1/B",
+              "label": "B",
+              "text": "Yes. Faith may require accepting something even when reason demonstrates the opposite."
+            },
+            {
+              "id": "P3.1/C",
+              "label": "C",
+              "text": "Human reason cannot reliably evaluate divine revelation, so the comparison is inappropriate."
+            },
+            {
+              "id": "P3.1/D",
+              "label": "D",
+              "text": "I do not believe divine revelation has special authority over rational inquiry."
+            },
+            {
+              "id": "P3.1/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ],
+          "shortTitle": "Harmony of faith and reason",
+          "routingNotes": [
+            "A–D → offer P3.2 for a practical test of their method; A, C, or D can also lead to P3.3. E → allow a short explanation distinguishing 'above reason' from 'contrary to reason'."
+          ],
+          "editorialNotes": [
+            "Do not infer 'fideism' or 'rationalism' from one answer alone."
+          ]
+        },
+        {
+          "id": "P3.2",
+          "prompt": "Suppose a traditional interpretation of Scripture appears to conflict with a strongly supported conclusion from reason or scientific investigation. How should a Christian respond?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P3.1/A",
+                "P3.1/B",
+                "P3.1/C",
+                "P3.1/D"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "P3.1/E"
+              ]
+            }
+          },
+          "displayNote": "After P3.1=A–D; optional after E.",
+          "choices": [
+            {
+              "id": "P3.2/A",
+              "label": "A",
+              "text": "Reconsider both the biblical interpretation and the reasoning or evidence before reaching a conclusion."
+            },
+            {
+              "id": "P3.2/B",
+              "label": "B",
+              "text": "Maintain the traditional biblical interpretation unless there is compelling reason to reconsider it."
+            },
+            {
+              "id": "P3.2/C",
+              "label": "C",
+              "text": "Reconsider the biblical interpretation in light of the evidence, even if doing so requires departing from tradition."
+            },
+            {
+              "id": "P3.2/D",
+              "label": "D",
+              "text": "Maintain the biblical interpretation even if the apparent contradiction cannot be resolved."
+            },
+            {
+              "id": "P3.2/E",
+              "label": "E",
+              "text": "Give priority to the rational or scientific conclusion over the religious claim."
+            },
+            {
+              "id": "P3.2/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P3.1 selects A–D",
+          "shortTitle": "When Scripture and evidence appear to conflict",
+          "routingNotes": [
+            "A–C → later Hermeneutics questions on interpretation, accommodation, genre, and what can legitimately revise an interpretation. D/E → optionally ask whether the conflict concerns revelation itself or its human interpretation."
+          ],
+          "editorialNotes": [
+            "A conflict with a biblical interpretation is not automatically a conflict with biblical revelation."
+          ]
+        },
+        {
+          "id": "P3.3",
+          "prompt": "Can human reasoning, without relying on Scripture, establish that God exists?",
+          "selection": "single",
+          "role": "OPTIONAL DEPTH FOLLOW-UP",
+          "display": {
+            "optional": true
+          },
+          "displayNote": "After P3.1=A/C/D, or selected by a respondent interested in apologetics; may be offered to all if appropriate.",
+          "choices": [
+            {
+              "id": "P3.3/A",
+              "label": "A",
+              "text": "Yes. God's existence can be demonstrated through sound philosophical arguments."
+            },
+            {
+              "id": "P3.3/B",
+              "label": "B",
+              "text": "Reason can provide persuasive evidence for God's existence, but not conclusive demonstration."
+            },
+            {
+              "id": "P3.3/C",
+              "label": "C",
+              "text": "Reason can support belief in God, but belief ultimately depends on revelation or faith."
+            },
+            {
+              "id": "P3.3/D",
+              "label": "D",
+              "text": "No. Human reasoning cannot independently establish God's existence."
+            },
+            {
+              "id": "P3.3/E",
+              "label": "E",
+              "text": "I do not believe philosophical arguments establish or substantially support God's existence."
+            },
+            {
+              "id": "P3.3/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "recommendWhen": {
+            "selectedAny": [
+              "P3.1/A",
+              "P3.1/C",
+              "P3.1/D"
+            ]
+          },
+          "friendDisplayNote": "Optional deeper question, especially after P3.1 selects A, C, or D",
+          "shortTitle": "Reason and God's existence",
+          "routingNotes": [
+            "B–E → P3.4 is especially useful. A → optionally ask whether rational demonstration is necessary for justified faith. Record apologetic associations provisionally, not as definitive identifications."
+          ],
+          "editorialNotes": [
+            "Possible associations: natural theology, classical apologetics, evidentialism, presuppositionalism, fideism."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "natural-theology",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "P3.4",
+          "prompt": "Must a person possess sufficient rational evidence before their religious faith is justified?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "any": [
+                {
+                  "selectedAny": [
+                    "P3.3/B",
+                    "P3.3/C",
+                    "P3.3/D",
+                    "P3.3/E"
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "selectedAny": [
+                        "P3.1/B",
+                        "P3.1/C"
+                      ]
+                    },
+                    {
+                      "confirmed": "rationalJustificationNeedsClarification"
+                    }
+                  ]
+                }
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "P3.3/A"
+              ]
+            }
+          },
+          "displayNote": "If P3.3=B/C/D/E, or if P3.1=B/C raises questions about justification; optional for P3.3=A.",
+          "choices": [
+            {
+              "id": "P3.4/A",
+              "label": "A",
+              "text": "Yes. Religious belief should be based on evidence sufficient to rationally establish its truth."
+            },
+            {
+              "id": "P3.4/B",
+              "label": "B",
+              "text": "Evidence and reasoning matter, but faith need not rest on conclusive proof."
+            },
+            {
+              "id": "P3.4/C",
+              "label": "C",
+              "text": "Faith can be justified through God's trustworthy revelation, even without independent rational proof."
+            },
+            {
+              "id": "P3.4/D",
+              "label": "D",
+              "text": "Genuine faith does not depend on rational justification."
+            },
+            {
+              "id": "P3.4/E",
+              "label": "E",
+              "text": "I reject the premise that religious faith needs a distinct kind of justification."
+            },
+            {
+              "id": "P3.4/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P3.3 selects B–E, or P3.1 selects B or C",
+          "shortTitle": "Rational justification of religious faith",
+          "routingNotes": [
+            "If C/D, do not merge as identical: C rests on the trustworthiness of revelation, D may reflect a broader rejection of justification. Later apologetics questions can differentiate these."
+          ],
+          "editorialNotes": [
+            "A respondent can value evidence without making conclusive proof a prerequisite to faith."
+          ]
+        }
+      ],
+      "introduction": [
+        "How should rational thought, evidence, and faith relate?"
+      ]
+    },
+    {
+      "dimensionId": 4,
+      "title": "Role of Philosophy",
+      "questions": [
+        {
+          "id": "P4.1",
+          "prompt": "What role should philosophy play in Christian theology?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering this dimension.",
+          "choices": [
+            {
+              "id": "P4.1/A",
+              "label": "A",
+              "text": "Philosophy is indispensable to the systematic understanding and articulation of doctrine."
+            },
+            {
+              "id": "P4.1/B",
+              "label": "B",
+              "text": "Philosophy is a valuable tool but must remain subordinate to divine revelation."
+            },
+            {
+              "id": "P4.1/C",
+              "label": "C",
+              "text": "Philosophy may help clarify ideas but should have little influence on doctrinal conclusions."
+            },
+            {
+              "id": "P4.1/D",
+              "label": "D",
+              "text": "Christian theology should avoid dependence on philosophical systems and ideas."
+            },
+            {
+              "id": "P4.1/E",
+              "label": "E",
+              "text": "Philosophy and rational inquiry should be free to correct or reject theological claims."
+            },
+            {
+              "id": "P4.1/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "shortTitle": "Place of philosophy in theology",
+          "routingNotes": [
+            "A–D → P4.2. A/B/E → P4.3. A–D → P4.4 as optional deeper question. F → offer an example before classification."
+          ],
+          "editorialNotes": [
+            "Distinguish the use of philosophical tools from submitting theology to an entire philosophical system."
+          ]
+        },
+        {
+          "id": "P4.2",
+          "prompt": "Is it legitimate for Christians to use philosophical concepts or terminology not explicitly found in the Bible to formulate doctrine? For example, the historical Church has used terms such as essence, person, and substance when discussing the Trinity.",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P4.1/A",
+                "P4.1/B",
+                "P4.1/C",
+                "P4.1/D"
+              ]
+            }
+          },
+          "displayNote": "If P4.1=A/B/C/D.",
+          "choices": [
+            {
+              "id": "P4.2/A",
+              "label": "A",
+              "text": "Yes. Such terms can be necessary to express revealed truths accurately."
+            },
+            {
+              "id": "P4.2/B",
+              "label": "B",
+              "text": "Yes. They can be useful, provided they faithfully explain biblical teaching."
+            },
+            {
+              "id": "P4.2/C",
+              "label": "C",
+              "text": "Such terms may help discussion but should not become necessary conditions of orthodoxy."
+            },
+            {
+              "id": "P4.2/D",
+              "label": "D",
+              "text": "No. Required doctrines should be stated exclusively in biblical language."
+            },
+            {
+              "id": "P4.2/E",
+              "label": "E",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P4.1 selects A–D",
+          "shortTitle": "Extra-biblical philosophical terminology",
+          "routingNotes": [
+            "A/B/C → may trigger P4.3 to distinguish clarifying doctrine from making philosophical premises doctrinally binding. D → later discuss use of extra-biblical language in the creeds."
+          ],
+          "editorialNotes": [
+            "An extra-biblical term does not necessarily describe an extra-biblical doctrine."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "consubstantial",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "P4.3",
+          "prompt": "Can a theological conclusion derived partly from philosophical reasoning legitimately become something Christians are obligated to believe?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "any": [
+                {
+                  "selectedAny": [
+                    "P4.1/A",
+                    "P4.1/B",
+                    "P4.1/E"
+                  ]
+                },
+                {
+                  "selectedAny": [
+                    "P4.2/A",
+                    "P4.2/B",
+                    "P4.2/C"
+                  ]
+                }
+              ]
+            },
+            "optional": {
+              "any": [
+                {
+                  "answered": "P4.1"
+                },
+                {
+                  "answered": "P4.2"
+                }
+              ]
+            }
+          },
+          "displayNote": "If P4.1=A/B/E or P4.2=A/B/C; optional for other selections.",
+          "choices": [
+            {
+              "id": "P4.3/A",
+              "label": "A",
+              "text": "Yes, if it necessarily follows from biblical teaching."
+            },
+            {
+              "id": "P4.3/B",
+              "label": "B",
+              "text": "Yes, if it is authoritatively established by the Church's legitimate doctrinal authority."
+            },
+            {
+              "id": "P4.3/C",
+              "label": "C",
+              "text": "Philosophical arguments may strongly support a doctrine but cannot independently make it obligatory."
+            },
+            {
+              "id": "P4.3/D",
+              "label": "D",
+              "text": "Yes. A sufficiently sound philosophical demonstration can establish a binding theological truth even without scriptural support."
+            },
+            {
+              "id": "P4.3/E",
+              "label": "E",
+              "text": "No. Doctrinal obligations should never depend on philosophical reasoning."
+            },
+            {
+              "id": "P4.3/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P4.1 selects A, B, or E; or P4.2 selects A–C",
+          "shortTitle": "Philosophical reasoning and binding doctrine",
+          "routingNotes": [
+            "Compare A/B/D with P1.3–P1.4, where the respondent specifies the grounds of doctrinal authority. If apparent conflict, ask whether philosophy supplies an argument or independently establishes obligation."
+          ],
+          "editorialNotes": [
+            "Separate discovering truth, defending truth, and possessing authority to require belief."
+          ]
+        },
+        {
+          "id": "P4.4",
+          "prompt": "How should Christians approach philosophical systems that were developed outside Christianity?",
+          "selection": "single",
+          "role": "OPTIONAL DEPTH FOLLOW-UP",
+          "display": {
+            "optional": {
+              "selectedAny": [
+                "P4.1/A",
+                "P4.1/B",
+                "P4.1/C",
+                "P4.1/D"
+              ]
+            }
+          },
+          "displayNote": "After P4.1=A/B/C/D; can also be selected directly by users exploring philosophical method.",
+          "choices": [
+            {
+              "id": "P4.4/A",
+              "label": "A",
+              "text": "They may be incorporated extensively when compatible with revealed truth."
+            },
+            {
+              "id": "P4.4/B",
+              "label": "B",
+              "text": "Individual ideas may be adopted, but the broader systems must be critically evaluated."
+            },
+            {
+              "id": "P4.4/C",
+              "label": "C",
+              "text": "They should be used cautiously because they can distort biblical teaching."
+            },
+            {
+              "id": "P4.4/D",
+              "label": "D",
+              "text": "They should generally be rejected as foundations for Christian theology."
+            },
+            {
+              "id": "P4.4/E",
+              "label": "E",
+              "text": "Their validity should be judged independently of Christian theological commitments."
+            },
+            {
+              "id": "P4.4/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "Optional deeper question after P4.1 selects A–D",
+          "shortTitle": "Philosophical systems outside Christianity",
+          "routingNotes": [
+            "A/B/C → optionally present a concrete doctrinal argument and ask whether its assumptions are legitimate. D/E → optional example that tests the practical limits of their position."
+          ],
+          "editorialNotes": [
+            "A concrete argument can be more diagnostic than asking whether someone 'likes philosophy'."
+          ]
+        }
+      ],
+      "introduction": [
+        "How should philosophical concepts and systems contribute to theology?"
+      ]
+    },
+    {
+      "dimensionId": 5,
+      "title": "Authority of Creeds and Confessions",
+      "questions": [
+        {
+          "id": "P5.1",
+          "prompt": "What authority should historic Christian creeds and confessions possess?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering this dimension.",
+          "choices": [
+            {
+              "id": "P5.1/A",
+              "label": "A",
+              "text": "They are valuable summaries of biblical truth, but all remain subject to correction by Scripture."
+            },
+            {
+              "id": "P5.1/B",
+              "label": "B",
+              "text": "Doctrinal definitions of legitimately received ecumenical councils can possess binding, authoritative status."
+            },
+            {
+              "id": "P5.1/C",
+              "label": "C",
+              "text": "Creeds and doctrinal definitions possess binding authority when authentically taught by the Church's legitimate teaching office."
+            },
+            {
+              "id": "P5.1/D",
+              "label": "D",
+              "text": "They provide important historical guidance but should not bind individual Christian belief."
+            },
+            {
+              "id": "P5.1/E",
+              "label": "E",
+              "text": "They are unnecessary or potentially harmful attempts to impose human formulations on faith."
+            },
+            {
+              "id": "P5.1/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "shortTitle": "Status of creeds and confessions",
+          "routingNotes": [
+            "A–D → P5.2 and P5.3 as appropriate. A/B/C → P5.5 to identify the respondent's confessional relationship. E → optionally ask whether their concern is with creed content or imposed authority."
+          ],
+          "editorialNotes": [
+            "Affirming what a creed teaches and accepting an institution's authority to bind consciences are separate beliefs."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "confession-of-faith",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "confessions"
+            },
+            {
+              "termId": "creed",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "creeds"
+            }
+          ]
+        },
+        {
+          "id": "P5.2",
+          "prompt": "May a church legitimately require its members or leaders to affirm an established confession of faith?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P5.1/A",
+                "P5.1/B",
+                "P5.1/C",
+                "P5.1/D"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "P5.1/E"
+              ]
+            }
+          },
+          "displayNote": "After P5.1=A/B/C/D; optional for P5.1=E if user wants to clarify opposition.",
+          "choices": [
+            {
+              "id": "P5.2/A",
+              "label": "A",
+              "text": "Yes. Both members and leaders may be required to affirm the confession."
+            },
+            {
+              "id": "P5.2/B",
+              "label": "B",
+              "text": "Yes, particularly church leaders, but some qualified exceptions may be permitted."
+            },
+            {
+              "id": "P5.2/C",
+              "label": "C",
+              "text": "Churches may require agreement on essential Christian doctrines but should allow disagreement on secondary matters."
+            },
+            {
+              "id": "P5.2/D",
+              "label": "D",
+              "text": "Confessions may guide teaching but should not be conditions of church membership or leadership."
+            },
+            {
+              "id": "P5.2/E",
+              "label": "E",
+              "text": "No. Requiring adherence to a human confession improperly restricts Christian conscience."
+            },
+            {
+              "id": "P5.2/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P5.1 selects A–D",
+          "shortTitle": "Requiring confessional agreement",
+          "routingNotes": [
+            "A–C → later Ecclesiology questions on ministerial subscription, membership, discipline, and permissible exceptions. D/E → note non-binding or anti-subscription stance."
+          ],
+          "editorialNotes": [
+            "Member requirements and officer/minister requirements may differ; separate them later if this distinction matters."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "confession-of-faith",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "confession of faith"
+            }
+          ]
+        },
+        {
+          "id": "P5.3",
+          "prompt": "If you become convinced that an established creed or confession contains an error, what should you do?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "P5.1/A",
+                "P5.1/B",
+                "P5.1/C",
+                "P5.1/D"
+              ]
+            }
+          },
+          "displayNote": "If P5.1=A/B/C/D; skip by default if P5.1=E.",
+          "choices": [
+            {
+              "id": "P5.3/A",
+              "label": "A",
+              "text": "Reject or seek correction of the erroneous teaching on the basis of Scripture."
+            },
+            {
+              "id": "P5.3/B",
+              "label": "B",
+              "text": "Examine the issue carefully, allowing for the possibility that the historic Church understands the matter better than I do."
+            },
+            {
+              "id": "P5.3/C",
+              "label": "C",
+              "text": "Submit to the binding judgment of the Church's legitimate teaching authority."
+            },
+            {
+              "id": "P5.3/D",
+              "label": "D",
+              "text": "Maintain my own convictions without expecting the confession to change."
+            },
+            {
+              "id": "P5.3/E",
+              "label": "E",
+              "text": "I am unsure."
+            }
+          ],
+          "friendDisplayNote": "If P5.1 selects A–D",
+          "shortTitle": "Individual conviction versus confession",
+          "routingNotes": [
+            "Compare with P1.3 and P5.1. Apparent tension between A and C can prompt a specific question about the respondent's criteria for identifying a legitimate doctrinal error."
+          ],
+          "editorialNotes": [
+            "This tests how claimed authority functions under actual disagreement."
+          ]
+        },
+        {
+          "id": "P5.4",
+          "prompt": "Which of these historic Christian doctrinal statements do you affirm?",
+          "selection": "multiple",
+          "role": "COMMON / OPTIONAL INVENTORY",
+          "display": {
+            "optional": true
+          },
+          "displayNote": "Available to every respondent; suggest after P5.1=A/B/C/D, and always accessible from topic exploration.",
+          "choices": [
+            {
+              "id": "P5.4/A",
+              "label": "A",
+              "text": "Apostles' Creed"
+            },
+            {
+              "id": "P5.4/B",
+              "label": "B",
+              "text": "Niceno-Constantinopolitan Creed"
+            },
+            {
+              "id": "P5.4/C",
+              "label": "C",
+              "text": "Chalcedonian Definition"
+            },
+            {
+              "id": "P5.4/D",
+              "label": "D",
+              "text": "Athanasian Creed"
+            },
+            {
+              "id": "P5.4/E",
+              "label": "E",
+              "text": "Other historic creed or doctrinal statement"
+            },
+            {
+              "id": "P5.4/F",
+              "label": "F",
+              "text": "I have not studied these closely enough to answer"
+            },
+            {
+              "id": "P5.4/G",
+              "label": "G",
+              "text": "I reject the use of historic creeds as doctrinal standards"
+            }
+          ],
+          "recommendWhen": {
+            "selectedAny": [
+              "P5.1/A",
+              "P5.1/B",
+              "P5.1/C",
+              "P5.1/D"
+            ]
+          },
+          "friendDisplayNote": "Optional creed inventory after P5.1",
+          "shortTitle": "Historic creeds actually affirmed",
+          "routingNotes": [
+            "If B → offer a careful Filioque follow-up in a later Christology/Pneumatology module. If C → avoid assuming identical interpretations among Chalcedonian and Oriental Orthodox traditions. If E → collect the named document. If F → label knowledge as undetermined, not rejection. If G occurs with specific creeds A–D, clarify acceptance of content versus rejection of binding use."
+          ],
+          "editorialNotes": [
+            "Affirming a creed's content does not establish why the respondent regards it as authoritative."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "nicene-creed",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "P5.5",
+          "prompt": "Does your own theological position, or that of your church, formally adhere to an established confession or doctrinal standard?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "any": [
+                {
+                  "selectedAny": [
+                    "P5.1/A",
+                    "P5.1/B",
+                    "P5.1/C"
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "answered": "P5.4"
+                    },
+                    {
+                      "confirmed": "meaningfulCreedSelection"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "displayNote": "After P5.1=A/B/C or a meaningful selection in P5.4; accessible directly for users who identify a confession.",
+          "choices": [
+            {
+              "id": "P5.5/A",
+              "label": "A",
+              "text": "Yes, with full subscription."
+            },
+            {
+              "id": "P5.5/B",
+              "label": "B",
+              "text": "Yes, with qualified subscription or permitted exceptions."
+            },
+            {
+              "id": "P5.5/C",
+              "label": "C",
+              "text": "Yes, as a general guide rather than a binding standard."
+            },
+            {
+              "id": "P5.5/D",
+              "label": "D",
+              "text": "No, although I affirm some historic creeds."
+            },
+            {
+              "id": "P5.5/E",
+              "label": "E",
+              "text": "No, I do not formally subscribe to a creed or confession."
+            },
+            {
+              "id": "P5.5/F",
+              "label": "F",
+              "text": "Unsure."
+            }
+          ],
+          "friendDisplayNote": "If P5.1 selects A–C, or the respondent affirms a creed in P5.4",
+          "shortTitle": "Formal confessional identity",
+          "routingNotes": [
+            "If A/B/C → ask 'Which confession or statement?' with examples: Westminster Standards; Three Forms of Unity; Augsburg Confession; Thirty-Nine Articles; Baptist confessions; Methodist doctrinal standards; other. Do not infer full personal agreement from formal affiliation."
+          ],
+          "editorialNotes": [
+            "If respondent is answering about their own beliefs and their church separately, store two distinct affiliations."
+          ]
+        }
+      ],
+      "status": "in_development",
+      "introduction": [
+        "What doctrinal authority belongs to historical Christian statements of faith?"
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "FOUNDATIONAL — the opening question for a dimension; always available and used by default.",
+    "COMMON FOLLOW-UP — usually shown after a foundational answer, provided the answer does not make the question inapplicable.",
+    "CONDITIONAL FOLLOW-UP — shown only when specified answers or earlier responses create a need for clarification.",
+    "OPTIONAL DEPTH FOLLOW-UP — available to interested users or guided exploration when useful, not required for a reliable base profile.",
+    "CROSS-CATEGORY — asked once and reused elsewhere in the theological profile.",
+    "DISPLAY RULE lists the proposed answer-level trigger. ROUTING lists what to show or save after an answer. These are draft product rules, not immutable theological classifications.",
+    "All questions remain accessible in topic mode regardless of conditional routing. Default guided progression prioritizes foundational questions and the follow-ups needed to classify a response responsibly.",
+    "Use 'unsure' without penalty. Avoid claiming contradiction until an apparent tension has been clarified. A source of knowledge, a binding authority, a confession's doctrinal content, and acceptance of that confession's authority are not equivalent.",
+    "1. The five FOUNDATIONAL items are P1.1, P2.1, P3.1, P4.1, and P5.1. The remaining 17 are common, conditional, inventory, or optional-depth follow-ups.",
+    "2. Suggested triggers are editorial defaults. Branching should be evaluated with real respondents and expert theological review before making it deterministic.",
+    "3. Use stable IDs for choices and questions; store selections and uncertainty separately. Avoid treating multi-select choices as ordered unless a subsequent question specifically asks for priority.",
+    "4. Preserve answers across both guided and topical modes. If the same underlying issue is encountered twice (such as P2.3 and Soteriology), reuse the existing response and permit revision.",
+    "5. Report provisional classifications with explicit explanations. A denomination or tradition must never be inferred confidently from a single response.",
+    "6. Future specialized follow-ups, such as Filioque, ministerial subscription, or continuationism/cessationism, belong in their own doctrinal modules and can be linked here.",
+    "7. This is an evolving question bank; conceptual framing and answer wording should be checked for fidelity by representatives of the traditions characterized."
+  ],
+  "vocabulary": [
+    {
+      "id": "prolegomena",
+      "term": "Prolegomena",
+      "kind": "concept",
+      "definition": "The introductory study of where Christian theology gets its knowledge and how Christians reason from their sources.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Theological method"
+      ]
+    },
+    {
+      "id": "general-revelation",
+      "term": "General revelation",
+      "kind": "concept",
+      "definition": "What God makes known through means generally available to people, such as creation or conscience.",
+      "status": "draft",
+      "references": [
+        "WCF 1.1",
+        "DV 3"
+      ]
+    },
+    {
+      "id": "special-revelation",
+      "term": "Special revelation",
+      "kind": "concept",
+      "definition": "God’s particular self-disclosure through words or acts, such as the prophets, Jesus Christ, and Scripture.",
+      "status": "draft",
+      "references": [
+        "DV 2–4",
+        "WCF 1.1"
+      ],
+      "expandedNote": "The term can cover more than written Scripture. Christians differ over whether and in what sense particular messages from God continue today, and what authority such messages would carry for an individual or a church."
+    },
+    {
+      "id": "natural-theology",
+      "term": "Natural theology",
+      "kind": "concept",
+      "definition": "Reasoning about God from the natural world or ordinary human experience without relying on particular divine revelations.",
+      "status": "draft",
+      "references": [
+        "PRO",
+        "TP"
+      ]
+    },
+    {
+      "id": "creed",
+      "term": "Creed",
+      "kind": "concept",
+      "definition": "A formal summary of Christian belief that a person or church may publicly recite or affirm.",
+      "status": "draft",
+      "references": [
+        "PRO",
+        "OCA Doctrine and Scripture"
+      ]
+    },
+    {
+      "id": "confession-of-faith",
+      "term": "Confession of faith",
+      "kind": "concept",
+      "definition": "A formal statement of faith that sets out the doctrines a church, tradition, or group professes.",
+      "status": "draft",
+      "references": [
+        "PRO",
+        "WCF"
+      ],
+      "aliases": [
+        "Confession"
+      ]
+    },
+    {
+      "id": "magisterium",
+      "term": "Magisterium",
+      "kind": "concept",
+      "definition": "The Roman Catholic Church’s authoritative teaching office, exercised by the pope and the bishops in communion with him.",
+      "status": "draft",
+      "references": [
+        "DV 10"
+      ],
+      "aliases": [
+        "Teaching office"
+      ]
+    }
+  ]
+}

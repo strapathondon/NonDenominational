@@ -1,0 +1,1486 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "ESCH",
+  "title": "Eschatology",
+  "plainLanguageTitle": "The end times and eternal destiny",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "ESCH — Dividing Doctrines — Eschatology (Working Bank) v1",
+    "friendEdition": "ESCH- Dividing Doctrines Question Set v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 71,
+      "title": "The Return of Christ",
+      "questions": [
+        {
+          "id": "E1",
+          "prompt": "Which statement best describes your understanding of Jesus Christ’s return?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "E1/A",
+              "label": "A",
+              "text": "Jesus will personally, visibly, and bodily return in the future."
+            },
+            {
+              "id": "E1/B",
+              "label": "B",
+              "text": "Jesus will return in the future, but primarily in a spiritual or nonbodily sense."
+            },
+            {
+              "id": "E1/C",
+              "label": "C",
+              "text": "Biblical prophecies of Christ’s return have already been fulfilled."
+            },
+            {
+              "id": "E1/D",
+              "label": "D",
+              "text": "Scripture does not teach a future return of Christ."
+            },
+            {
+              "id": "E1/E",
+              "label": "E",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "parousia",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E1.1",
+          "prompt": "Must certain prophetic events occur before Christ returns?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E1/A",
+                "E1/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E1 = A or B",
+          "choices": [
+            {
+              "id": "E1.1/A",
+              "label": "A",
+              "text": "No; Christ could return at any moment without additional events needing fulfillment."
+            },
+            {
+              "id": "E1.1/B",
+              "label": "B",
+              "text": "Yes; certain identifiable events must occur first."
+            },
+            {
+              "id": "E1.1/C",
+              "label": "C",
+              "text": "Some events may remain, but Scripture does not establish a necessary sequence."
+            },
+            {
+              "id": "E1.1/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        },
+        {
+          "id": "E1.2",
+          "prompt": "How do you understand the New Testament’s descriptions of Christ coming in glory?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E1/B",
+                "E1/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E1 = B or C",
+          "choices": [
+            {
+              "id": "E1.2/A",
+              "label": "A",
+              "text": "They describe historical manifestations of divine judgment or kingdom authority."
+            },
+            {
+              "id": "E1.2/B",
+              "label": "B",
+              "text": "They describe a future spiritual manifestation rather than a bodily appearance."
+            },
+            {
+              "id": "E1.2/C",
+              "label": "C",
+              "text": "They combine historical and future spiritual fulfillments."
+            },
+            {
+              "id": "E1.2/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 1:9–11, Matthew 24:36–44.",
+      "editorialNotes": [
+        "Preserve the E-series IDs used in friend comments even though the order differs from the taxonomy."
+      ]
+    },
+    {
+      "dimensionId": 72,
+      "title": "The Intermediate State",
+      "questions": [
+        {
+          "id": "E2",
+          "prompt": "What happens to a person between physical death and the final resurrection?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "E2/A",
+              "label": "A",
+              "text": "The person continues consciously while awaiting bodily resurrection."
+            },
+            {
+              "id": "E2/B",
+              "label": "B",
+              "text": "The person remains unconscious until resurrection."
+            },
+            {
+              "id": "E2/C",
+              "label": "C",
+              "text": "The person immediately enters their final resurrected existence."
+            },
+            {
+              "id": "E2/D",
+              "label": "D",
+              "text": "Scripture does not establish a particular intermediate state clearly."
+            },
+            {
+              "id": "E2/E",
+              "label": "E",
+              "text": "The whole person dies, with no conscious soul surviving death; God restores the person at resurrection."
+            },
+            {
+              "id": "E2/F",
+              "label": "F",
+              "text": "Unsure / I don't know enough yet"
+            },
+            {
+              "id": "E2/G",
+              "label": "G",
+              "text": "I reject the premise of this question"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "intermediate-state",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E2.1",
+          "prompt": "What happens to believers immediately after death?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E2/A"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E2 = A",
+          "choices": [
+            {
+              "id": "E2.1/A",
+              "label": "A",
+              "text": "They enter God’s presence, perfected in holiness."
+            },
+            {
+              "id": "E2.1/B",
+              "label": "B",
+              "text": "They enter God’s presence but may undergo further purification."
+            },
+            {
+              "id": "E2.1/C",
+              "label": "C",
+              "text": "They enter a temporary state of purification before full communion with God."
+            },
+            {
+              "id": "E2.1/D",
+              "label": "D",
+              "text": "They consciously rest with Christ while awaiting resurrection; Scripture leaves the question of further purification unresolved."
+            },
+            {
+              "id": "E2.1/E",
+              "label": "E",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "purgatory",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E2.2",
+          "prompt": "Can someone who dies unreconciled to God subsequently be reconciled to him?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "E2.2/A",
+              "label": "A",
+              "text": "No; death ends the opportunity for repentance and reconciliation."
+            },
+            {
+              "id": "E2.2/B",
+              "label": "B",
+              "text": "Yes; reconciliation remains possible after death."
+            },
+            {
+              "id": "E2.2/C",
+              "label": "C",
+              "text": "Scripture does not clearly establish whether this is possible."
+            }
+          ]
+        }
+      ],
+      "reading": "Luke 23:43, Philippians 1:20–24.",
+      "editorialNotes": [
+        "Distinguish the condition of the dead before resurrection from the final state."
+      ]
+    },
+    {
+      "dimensionId": 73,
+      "title": "Resurrection and Final Judgment",
+      "questions": [
+        {
+          "id": "E3",
+          "prompt": "Which statement best describes the future resurrection of the dead?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "E3/A",
+              "label": "A",
+              "text": "All human beings, righteous and unrighteous, will be bodily raised."
+            },
+            {
+              "id": "E3/B",
+              "label": "B",
+              "text": "The righteous will experience bodily resurrection, but the unrighteous will not."
+            },
+            {
+              "id": "E3/C",
+              "label": "C",
+              "text": "Resurrection principally describes spiritual transformation, not a future bodily event for all people."
+            },
+            {
+              "id": "E3/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "bodily-resurrection",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "resurrection of the dead"
+            }
+          ]
+        },
+        {
+          "id": "E3.1",
+          "prompt": "Will the resurrection occur in one event or in distinct stages?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E3/A"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E3 = A",
+          "choices": [
+            {
+              "id": "E3.1/A",
+              "label": "A",
+              "text": "One general resurrection of the righteous and unrighteous."
+            },
+            {
+              "id": "E3.1/B",
+              "label": "B",
+              "text": "Multiple resurrections separated by identifiable periods or events."
+            },
+            {
+              "id": "E3.1/C",
+              "label": "C",
+              "text": "Scripture does not establish the sequence clearly."
+            },
+            {
+              "id": "E3.1/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        },
+        {
+          "id": "E3.2",
+          "prompt": "How do you understand the final judgment?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "E3.2/A",
+              "label": "A",
+              "text": "A future universal judgment in which all humanity appears before Christ."
+            },
+            {
+              "id": "E3.2/B",
+              "label": "B",
+              "text": "Multiple future judgments involving different groups or stages."
+            },
+            {
+              "id": "E3.2/C",
+              "label": "C",
+              "text": "The language primarily represents God’s judgments within history rather than one future universal event."
+            },
+            {
+              "id": "E3.2/D",
+              "label": "D",
+              "text": "Individuals undergo judgment after death, followed by a universal final judgment at the resurrection."
+            },
+            {
+              "id": "E3.2/E",
+              "label": "E",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "final-judgment",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "final judgment"
+            }
+          ]
+        },
+        {
+          "id": "E3.3",
+          "prompt": "How do believers participate in judgment?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E3.2/A",
+                "E3.2/B",
+                "E3.2/D"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E3.2 = A, B, or D",
+          "choices": [
+            {
+              "id": "E3.3/A",
+              "label": "A",
+              "text": "Believers give an account of their lives, but their salvation is secured through Christ."
+            },
+            {
+              "id": "E3.3/B",
+              "label": "B",
+              "text": "Believers’ final salvation is evaluated in relation to their faith and deeds."
+            },
+            {
+              "id": "E3.3/C",
+              "label": "C",
+              "text": "Believers are exempt from the final judgment entirely."
+            },
+            {
+              "id": "E3.3/D",
+              "label": "D",
+              "text": "Believers' judgment concerns reward or loss of reward, not whether they are saved."
+            },
+            {
+              "id": "E3.3/E",
+              "label": "E",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        }
+      ],
+      "reading": "John 5:28–29, 1 Corinthians 15:35–54.",
+      "editorialNotes": [
+        "E3.3 follows choices in E3.2. Opening resurrection selections alone do not govern that question."
+      ]
+    },
+    {
+      "dimensionId": 74,
+      "title": "Eternal Punishment and Reconciliation",
+      "questions": [
+        {
+          "id": "E4",
+          "prompt": "What is the ultimate destiny of those who stand condemned before God?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "E4/A",
+              "label": "A",
+              "text": "Eternal, conscious punishment."
+            },
+            {
+              "id": "E4/B",
+              "label": "B",
+              "text": "Final destruction, resulting in the end of conscious existence."
+            },
+            {
+              "id": "E4/C",
+              "label": "C",
+              "text": "Punishment or correction that ultimately ends in reconciliation with God."
+            },
+            {
+              "id": "E4/D",
+              "label": "D",
+              "text": "Scripture does not reveal their ultimate destiny with sufficient clarity to affirm one outcome."
+            },
+            {
+              "id": "E4/E",
+              "label": "E",
+              "text": "The condemned are permanently excluded from God's kingdom, without a settled view on continued consciousness versus destruction."
+            },
+            {
+              "id": "E4/F",
+              "label": "F",
+              "text": "Unsure / I don't know enough yet"
+            },
+            {
+              "id": "E4/G",
+              "label": "G",
+              "text": "I reject the premise of this question"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "annihilationism",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "eternal-conscious-punishment",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "universal-reconciliation",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E4.1",
+          "prompt": "How should biblical descriptions of eternal punishment be understood?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E4/A"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E4 = A",
+          "choices": [
+            {
+              "id": "E4.1/A",
+              "label": "A",
+              "text": "Fire, darkness, and torment refer substantially to literal realities."
+            },
+            {
+              "id": "E4.1/B",
+              "label": "B",
+              "text": "These descriptions are largely figurative expressions of real, everlasting conscious punishment."
+            },
+            {
+              "id": "E4.1/C",
+              "label": "C",
+              "text": "Scripture establishes conscious eternal punishment without revealing its precise experiential nature."
+            },
+            {
+              "id": "E4.1/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "eternal-conscious-punishment",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E4.2",
+          "prompt": "What makes the punishment everlasting?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E4/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E4 = B",
+          "choices": [
+            {
+              "id": "E4.2/A",
+              "label": "A",
+              "text": "Its irreversible result: the condemned are ultimately destroyed."
+            },
+            {
+              "id": "E4.2/B",
+              "label": "B",
+              "text": "The condemned experience conscious punishment that ends in destruction."
+            },
+            {
+              "id": "E4.2/C",
+              "label": "C",
+              "text": "Scripture does not establish whether destruction is preceded by conscious punishment."
+            },
+            {
+              "id": "E4.2/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "annihilationism",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E4.3",
+          "prompt": "How certain is universal reconciliation?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E4/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E4 = C",
+          "choices": [
+            {
+              "id": "E4.3/A",
+              "label": "A",
+              "text": "Scripture teaches that all people will ultimately be reconciled to God."
+            },
+            {
+              "id": "E4.3/B",
+              "label": "B",
+              "text": "Universal reconciliation is my hope, but I cannot affirm it as certain."
+            },
+            {
+              "id": "E4.3/C",
+              "label": "C",
+              "text": "I believe universal reconciliation is possible, but remain undecided."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "universal-reconciliation",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "universal reconciliation"
+            }
+          ]
+        },
+        {
+          "id": "E4.4",
+          "prompt": "How does final reconciliation occur?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E4/C"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E4 = C",
+          "choices": [
+            {
+              "id": "E4.4/A",
+              "label": "A",
+              "text": "Through repentance and reconciliation made possible after death."
+            },
+            {
+              "id": "E4.4/B",
+              "label": "B",
+              "text": "Through God’s ultimate restorative judgment, though the process is not clearly revealed."
+            },
+            {
+              "id": "E4.4/C",
+              "label": "C",
+              "text": "Through Christ's ultimate victory over sin and death, bringing all persons into reconciliation without a separately described postmortem decision."
+            },
+            {
+              "id": "E4.4/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 25:31–46, Romans 5:18, Revelation 20:11–15.",
+      "editorialNotes": [
+        "Universal hope, certainty, duration, and the mechanism of reconciliation are distinct convictions."
+      ]
+    },
+    {
+      "dimensionId": 75,
+      "title": "New Heavens and New Earth",
+      "questions": [
+        {
+          "id": "E5",
+          "prompt": "What is the final state of creation and the redeemed?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "E5/A",
+              "label": "A",
+              "text": "God renews and transforms the present creation, where the redeemed live bodily forever."
+            },
+            {
+              "id": "E5/B",
+              "label": "B",
+              "text": "God replaces the present creation with a wholly new created order, where the redeemed live bodily forever."
+            },
+            {
+              "id": "E5/C",
+              "label": "C",
+              "text": "The eternal state is principally a nonmaterial heavenly existence."
+            },
+            {
+              "id": "E5/D",
+              "label": "D",
+              "text": "New creation primarily describes a spiritual reality already being fulfilled."
+            },
+            {
+              "id": "E5/E",
+              "label": "E",
+              "text": "New creation is already inaugurated in Christ and will be consummated in a future bodily renewal of creation."
+            },
+            {
+              "id": "E5/F",
+              "label": "F",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        },
+        {
+          "id": "E5.1",
+          "prompt": "How should descriptions of the New Jerusalem and renewed creation be understood?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E5/A",
+                "E5/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E5 = A or B",
+          "choices": [
+            {
+              "id": "E5.1/A",
+              "label": "A",
+              "text": "Primarily as descriptions of actual future places and conditions."
+            },
+            {
+              "id": "E5.1/B",
+              "label": "B",
+              "text": "Primarily as symbolic descriptions of a real future embodied existence."
+            },
+            {
+              "id": "E5.1/C",
+              "label": "C",
+              "text": "As a combination of literal and symbolic realities."
+            },
+            {
+              "id": "E5.1/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        },
+        {
+          "id": "E5.2",
+          "prompt": "Will the redeemed continue meaningful activity in the new creation?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E5/A",
+                "E5/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E5 = A or B",
+          "choices": [
+            {
+              "id": "E5.2/A",
+              "label": "A",
+              "text": "Yes; work, stewardship, relationships, and worship will continue in redeemed forms."
+            },
+            {
+              "id": "E5.2/B",
+              "label": "B",
+              "text": "Eternity will primarily consist of worship and communion with God, without necessarily retaining earthly activities."
+            },
+            {
+              "id": "E5.2/C",
+              "label": "C",
+              "text": "Scripture does not specify enough to determine this."
+            }
+          ]
+        }
+      ],
+      "reading": "Romans 8:18–25, Revelation 21:1–5.",
+      "editorialNotes": [
+        "The friend edition directs E5.1 and E5.2 to A/B. E also affirms future renewal. Review whether readers choosing E should see those follow-ups in a future revision."
+      ]
+    },
+    {
+      "dimensionId": 69,
+      "title": "The Millennium",
+      "questions": [
+        {
+          "id": "E6",
+          "prompt": "How do you understand the thousand-year reign described in Revelation 20?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "E6/A",
+              "label": "A",
+              "text": "Christ returns before a future reign on earth, during which the millennium takes place."
+            },
+            {
+              "id": "E6/B",
+              "label": "B",
+              "text": "Christ returns after an era in which the gospel and his kingdom achieve widespread influence."
+            },
+            {
+              "id": "E6/C",
+              "label": "C",
+              "text": "The millennium symbolizes Christ’s present reign until his return, without requiring a distinct future era of worldwide gospel ascendancy."
+            },
+            {
+              "id": "E6/D",
+              "label": "D",
+              "text": "The thousand years should not be fitted into any of these chronological frameworks."
+            },
+            {
+              "id": "E6/E",
+              "label": "E",
+              "text": "The millennium is already underway, and Christ's present reign will culminate in an era of widespread gospel flourishing before his return."
+            },
+            {
+              "id": "E6/F",
+              "label": "F",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "millennium",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "amillennialism",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "postmillennialism",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "premillennialism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E6.1",
+          "prompt": "Must the millennium last exactly one thousand calendar years?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E6/A"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E6 = A",
+          "choices": [
+            {
+              "id": "E6.1/A",
+              "label": "A",
+              "text": "Yes; the duration is literal."
+            },
+            {
+              "id": "E6.1/B",
+              "label": "B",
+              "text": "No; the thousand years represents an extended but not necessarily exact period."
+            },
+            {
+              "id": "E6.1/C",
+              "label": "C",
+              "text": "Scripture does not establish whether the number is literal."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "millennium",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E6.2",
+          "prompt": "How should the first resurrection in Revelation 20 be understood?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "E6.2/A",
+              "label": "A",
+              "text": "A future bodily resurrection occurring before the millennial reign."
+            },
+            {
+              "id": "E6.2/B",
+              "label": "B",
+              "text": "Spiritual regeneration or participation in Christ’s resurrection life."
+            },
+            {
+              "id": "E6.2/C",
+              "label": "C",
+              "text": "The heavenly life and reign of departed believers with Christ."
+            },
+            {
+              "id": "E6.2/D",
+              "label": "D",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        },
+        {
+          "id": "E6.3",
+          "prompt": "What do you expect to happen to the gospel’s influence before Christ returns?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "E6.3/A",
+              "label": "A",
+              "text": "It will progressively transform nations and societies on a widespread scale."
+            },
+            {
+              "id": "E6.3/B",
+              "label": "B",
+              "text": "It will advance significantly, but righteousness and opposition will continue until Christ returns."
+            },
+            {
+              "id": "E6.3/C",
+              "label": "C",
+              "text": "The world will experience increasing rebellion and opposition to Christianity."
+            },
+            {
+              "id": "E6.3/D",
+              "label": "D",
+              "text": "Scripture does not establish a predictable global trajectory."
+            },
+            {
+              "id": "E6.3/E",
+              "label": "E",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        },
+        {
+          "id": "E6.4",
+          "prompt": "What future role, if any, does national or ethnic Israel have in God’s promises?",
+          "selection": "single",
+          "role": "Optional depth",
+          "display": {
+            "optional": true
+          },
+          "displayNote": "Optional depth  |  Available by choice",
+          "choices": [
+            {
+              "id": "E6.4/A",
+              "label": "A",
+              "text": "Israel retains a distinct prophetic future and covenantal role alongside the church."
+            },
+            {
+              "id": "E6.4/B",
+              "label": "B",
+              "text": "Israel has a promised future conversion or restoration within the one people of God."
+            },
+            {
+              "id": "E6.4/C",
+              "label": "C",
+              "text": "The promises are fulfilled in Christ and his people without requiring a distinct future national fulfillment."
+            },
+            {
+              "id": "E6.4/D",
+              "label": "D",
+              "text": "Israel will experience a future national or territorial restoration, but has no separate way of salvation or covenant membership apart from Christ."
+            },
+            {
+              "id": "E6.4/E",
+              "label": "E",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        }
+      ],
+      "reading": "Revelation 20:1–10.",
+      "editorialNotes": [
+        "E6.4 is optional and overlaps the Israel dimension in COV. Reuse the answer when possible."
+      ]
+    },
+    {
+      "dimensionId": 70,
+      "title": "Tribulation and Rapture",
+      "questions": [
+        {
+          "id": "E7",
+          "prompt": "How do you understand the great tribulation described in biblical prophecy?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "E7/A",
+              "label": "A",
+              "text": "It primarily refers to events fulfilled in the first century."
+            },
+            {
+              "id": "E7/B",
+              "label": "B",
+              "text": "It describes suffering and persecution throughout the church age."
+            },
+            {
+              "id": "E7/C",
+              "label": "C",
+              "text": "It primarily refers to a distinct period of intensified suffering still to come."
+            },
+            {
+              "id": "E7/D",
+              "label": "D",
+              "text": "It has historical and recurring fulfillments, possibly culminating in a final tribulation."
+            },
+            {
+              "id": "E7/E",
+              "label": "E",
+              "text": "It does not describe an identifiable historical period."
+            },
+            {
+              "id": "E7/F",
+              "label": "F",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "great-tribulation",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "great tribulation"
+            }
+          ]
+        },
+        {
+          "id": "E7.1",
+          "prompt": "How do you understand the gathering of believers to Christ in 1 Thessalonians 4?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E1/A",
+                "E1/B"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E1 = A or B",
+          "choices": [
+            {
+              "id": "E7.1/A",
+              "label": "A",
+              "text": "Believers are gathered to Christ in an event distinct from and earlier than his public return."
+            },
+            {
+              "id": "E7.1/B",
+              "label": "B",
+              "text": "Believers are gathered to Christ as part of his one public return."
+            },
+            {
+              "id": "E7.1/C",
+              "label": "C",
+              "text": "The passage primarily describes spiritual realities, rather than a literal future gathering."
+            },
+            {
+              "id": "E7.1/D",
+              "label": "D",
+              "text": "Only some believers will be gathered before Christ's public return, with other believers gathered later (a partial-rapture view)."
+            },
+            {
+              "id": "E7.1/E",
+              "label": "E",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        },
+        {
+          "id": "E7.2",
+          "prompt": "When does the initial gathering occur relative to a future tribulation?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "E7.1/A",
+                "E7.1/D"
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E7.1 = A or D",
+          "choices": [
+            {
+              "id": "E7.2/A",
+              "label": "A",
+              "text": "Before the tribulation begins."
+            },
+            {
+              "id": "E7.2/B",
+              "label": "B",
+              "text": "Around the midpoint of the tribulation."
+            },
+            {
+              "id": "E7.2/C",
+              "label": "C",
+              "text": "After significant tribulation, but before the final outpouring of divine wrath."
+            },
+            {
+              "id": "E7.2/D",
+              "label": "D",
+              "text": "At the conclusion of the tribulation, shortly before Christ’s public appearance."
+            },
+            {
+              "id": "E7.2/E",
+              "label": "E",
+              "text": "The gathering is separate, but its timing is unknown."
+            },
+            {
+              "id": "E7.2/F",
+              "label": "F",
+              "text": "I reject the premise of this question"
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "rapture",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "E7.3",
+          "prompt": "Will the church experience it?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "any": [
+                {
+                  "selectedAny": [
+                    "E7/C"
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "selectedAny": [
+                        "E7/D"
+                      ]
+                    },
+                    {
+                      "confirmed": "futureTribulationAffirmed"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "displayNote": "Conditional follow-up  |  E7 = C, or E7 = D with a future tribulation affirmed",
+          "choices": [
+            {
+              "id": "E7.3/A",
+              "label": "A",
+              "text": "Yes; the church will endure the tribulation."
+            },
+            {
+              "id": "E7.3/B",
+              "label": "B",
+              "text": "No; the church will be removed before the tribulation."
+            },
+            {
+              "id": "E7.3/C",
+              "label": "C",
+              "text": "The church will experience part of it but be delivered before its conclusion."
+            },
+            {
+              "id": "E7.3/D",
+              "label": "D",
+              "text": "The church will remain on earth through the tribulation but will be protected from divine wrath without being removed."
+            },
+            {
+              "id": "E7.3/E",
+              "label": "E",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 24:15–31, 1 Thessalonians 4:13–18.",
+      "editorialNotes": [
+        "E7.1 draws on E1, not E7. In E7.3, ask readers choosing E7-D whether their answer actually includes a future tribulation."
+      ]
+    },
+    {
+      "dimensionId": null,
+      "title": "Supplemental: Reading Revelation",
+      "questions": [
+        {
+          "id": "X1",
+          "prompt": "Which approaches best describe how you interpret Revelation’s visions?",
+          "selection": "multiple",
+          "role": "Optional depth",
+          "display": {
+            "optional": true
+          },
+          "displayNote": "Optional depth  |  Available by choice",
+          "choices": [
+            {
+              "id": "X1/A",
+              "label": "A",
+              "text": "Many visions principally describe events in the first century."
+            },
+            {
+              "id": "X1/B",
+              "label": "B",
+              "text": "The visions trace events across the history of the church."
+            },
+            {
+              "id": "X1/C",
+              "label": "C",
+              "text": "Many visions principally describe events still future."
+            },
+            {
+              "id": "X1/D",
+              "label": "D",
+              "text": "The visions portray recurring spiritual realities and conflicts throughout history."
+            },
+            {
+              "id": "X1/E",
+              "label": "E",
+              "text": "Different sections require different interpretive approaches."
+            },
+            {
+              "id": "X1/F",
+              "label": "F",
+              "text": "Unsure / I don't know enough yet"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Question IDs, answer choices, and existing review flags follow the current Friend Feedback edition. Use the dimension headings to enter any topic. For a guided reading, continue to the next main question after each applicable branch.",
+    "An opening question starts its topic. A common follow-up is available to all readers of that topic. Conditional follow-ups use the answer letters shown. Optional depth is by choice, and uncertainty alone never triggers a doctrinal inference."
+  ],
+  "relatedSets": [
+    "COV",
+    "ANT"
+  ],
+  "vocabulary": [
+    {
+      "id": "eschatology",
+      "term": "Eschatology",
+      "kind": "concept",
+      "definition": "The study of last things, including Christ’s return, resurrection, judgment, and the destiny of creation.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Doctrine of last things"
+      ]
+    },
+    {
+      "id": "parousia",
+      "term": "Parousia",
+      "kind": "concept",
+      "definition": "A New Testament term for arrival or presence, commonly used in theology for Christ’s coming.",
+      "status": "draft",
+      "references": [
+        "ESCH",
+        "CCC 668–682"
+      ],
+      "aliases": [
+        "Second Coming",
+        "Return of Christ"
+      ]
+    },
+    {
+      "id": "intermediate-state",
+      "term": "Intermediate state",
+      "kind": "concept",
+      "definition": "The condition of the dead between bodily death and the final resurrection.",
+      "status": "draft",
+      "references": [
+        "WCF 32",
+        "ESCH"
+      ]
+    },
+    {
+      "id": "purgatory",
+      "term": "Purgatory",
+      "kind": "concept",
+      "definition": "In Catholic theology, the final purification after death of people who die in God’s friendship and will enter heaven.",
+      "status": "draft",
+      "references": [
+        "CCC 1030–1032"
+      ]
+    },
+    {
+      "id": "bodily-resurrection",
+      "term": "Bodily resurrection",
+      "kind": "concept",
+      "definition": "God’s raising of the dead to embodied life.",
+      "status": "draft",
+      "references": [
+        "WCF 32",
+        "CCC 988–1004"
+      ],
+      "aliases": [
+        "Resurrection of the dead"
+      ]
+    },
+    {
+      "id": "final-judgment",
+      "term": "Final judgment",
+      "kind": "concept",
+      "definition": "God’s ultimate judgment of humanity, in which Christ discloses and judges human lives.",
+      "status": "draft",
+      "references": [
+        "WCF 33",
+        "CCC 1038–1041"
+      ],
+      "aliases": [
+        "Last judgment"
+      ]
+    },
+    {
+      "id": "annihilationism",
+      "term": "Annihilationism",
+      "kind": "position",
+      "definition": "The view that the wicked ultimately cease to exist as persons under divine judgment.",
+      "status": "draft",
+      "references": [
+        "ESCH"
+      ]
+    },
+    {
+      "id": "universal-reconciliation",
+      "term": "Universal reconciliation",
+      "kind": "concept",
+      "definition": "The final reconciliation of all people to God through Christ, which Christians may affirm as certain, hope for, or reject.",
+      "status": "draft",
+      "references": [
+        "ESCH"
+      ]
+    },
+    {
+      "id": "eternal-conscious-punishment",
+      "term": "Eternal conscious punishment",
+      "kind": "position",
+      "definition": "The view that those finally condemned remain conscious and experience divine punishment without end.",
+      "status": "draft",
+      "references": [
+        "ESCH",
+        "WCF 33.2",
+        "CCC 1033–1035"
+      ]
+    },
+    {
+      "id": "millennium",
+      "term": "Millennium",
+      "kind": "concept",
+      "definition": "The thousand-year reign described in Revelation 20, interpreted differently as to timing, nature, and duration.",
+      "status": "draft",
+      "references": [
+        "MILL"
+      ],
+      "aliases": [
+        "Millennial reign"
+      ]
+    },
+    {
+      "id": "premillennialism",
+      "term": "Premillennialism",
+      "kind": "position",
+      "definition": "The view that Christ will return before a future millennial reign.",
+      "status": "draft",
+      "references": [
+        "MILL"
+      ],
+      "aliases": [
+        "Premillennial"
+      ]
+    },
+    {
+      "id": "postmillennialism",
+      "term": "Postmillennialism",
+      "kind": "position",
+      "definition": "The view that Christ will return after a period in which the gospel and his kingdom achieve widespread influence.",
+      "status": "draft",
+      "references": [
+        "MILL"
+      ],
+      "aliases": [
+        "Postmillennial"
+      ]
+    },
+    {
+      "id": "amillennialism",
+      "term": "Amillennialism",
+      "kind": "position",
+      "definition": "The view that Revelation’s millennium signifies Christ’s reign in the present age leading up to his return.",
+      "status": "draft",
+      "references": [
+        "MILL"
+      ],
+      "aliases": [
+        "Amillennial"
+      ]
+    },
+    {
+      "id": "rapture",
+      "term": "Rapture",
+      "kind": "concept",
+      "definition": "The catching up of believers to meet Christ, described in 1 Thessalonians 4, with differing views of its timing and relationship to his return.",
+      "status": "draft",
+      "references": [
+        "ESCH",
+        "AG art. 13"
+      ]
+    },
+    {
+      "id": "great-tribulation",
+      "term": "Great tribulation",
+      "kind": "concept",
+      "definition": "Severe distress described in biblical prophecy, with differing views on when it occurs and whom it concerns.",
+      "status": "draft",
+      "references": [
+        "ESCH"
+      ],
+      "aliases": [
+        "Tribulation"
+      ]
+    }
+  ]
+}

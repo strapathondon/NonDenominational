@@ -1,0 +1,943 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "TP",
+  "title": "Theology Proper",
+  "plainLanguageTitle": "The nature and character of God",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "TP — Dividing Doctrines — Theology Proper (Working Bank) v1",
+    "friendEdition": "TP — Dividing Doctrines — Theology Proper (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 12,
+      "title": "Existence and knowability of God",
+      "questions": [
+        {
+          "id": "TP-01",
+          "prompt": "Can a person know that God exists by reflecting on the world before hearing the Christian gospel?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TP-01/A",
+              "label": "A",
+              "text": "Yes. The world gives grounds for a demonstration that God exists."
+            },
+            {
+              "id": "TP-01/B",
+              "label": "B",
+              "text": "Yes. The world gives genuine knowledge of God even if no demonstration compels assent."
+            },
+            {
+              "id": "TP-01/C",
+              "label": "C",
+              "text": "The world can prompt belief, but knowledge that God exists requires a further act of revelation."
+            },
+            {
+              "id": "TP-01/D",
+              "label": "D",
+              "text": "I doubt that anyone can know that God exists."
+            },
+            {
+              "id": "TP-01/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "natural-theology",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TP-02",
+          "prompt": "When we say “God is good,” how does “good” relate to goodness in a human being?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-02/A",
+              "label": "A",
+              "text": "It has a common core of meaning in both uses, though God’s goodness is unlimited."
+            },
+            {
+              "id": "TP-02/B",
+              "label": "B",
+              "text": "Created goodness resembles God’s goodness in a way that supports truthful speech by analogy."
+            },
+            {
+              "id": "TP-02/C",
+              "label": "C",
+              "text": "The word chiefly tells us what God is not, or how we experience God’s action. God’s own goodness exceeds our concepts."
+            },
+            {
+              "id": "TP-02/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "TP-03",
+          "prompt": "Could someone know true things about God without knowing God personally?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-03/A",
+              "label": "A",
+              "text": "Yes. Knowing truths about God and being reconciled to him are distinct."
+            },
+            {
+              "id": "TP-03/B",
+              "label": "B",
+              "text": "Even limited true knowledge of God already involves some personal encounter, though it need not amount to saving communion."
+            },
+            {
+              "id": "TP-03/C",
+              "label": "C",
+              "text": "I reserve “knowing God” for personal communion and would call the first kind knowledge about God."
+            },
+            {
+              "id": "TP-03/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Exodus 33:18–23, Romans 1:18–21, John 1:18.",
+      "introduction": [
+        "To know God truly is to know something true of God. To comprehend God would be to know God exhaustively."
+      ],
+      "editorialNotes": [
+        "Distinguish whether God exists, whether reason can demonstrate it, and whether a human mind can comprehend God."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Westminster Confession, II.1–2, on God and his perfections.",
+          "url": "https://www.wts.edu/wcf"
+        }
+      ]
+    },
+    {
+      "dimensionId": 13,
+      "title": "Divine attributes and simplicity",
+      "questions": [
+        {
+          "id": "TP-04",
+          "prompt": "Are God’s wisdom, goodness, and power distinct realities in God?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TP-04/A",
+              "label": "A",
+              "text": "They are the one divine reality understood under different descriptions."
+            },
+            {
+              "id": "TP-04/B",
+              "label": "B",
+              "text": "They are really distinguishable in God while inseparable in the one divine life."
+            },
+            {
+              "id": "TP-04/C",
+              "label": "C",
+              "text": "I affirm that God has all three attributes but think their relation to God’s being is beyond our judgment."
+            },
+            {
+              "id": "TP-04/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "divine-simplicity",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TP-04a",
+          "prompt": "Can creatures share in God’s own life while God’s essence remains beyond their reach?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "TP-04/A",
+                "TP-04/B",
+                "TP-04/C"
+              ]
+            }
+          },
+          "displayNote": "↳ After TP-04, if A or B or C is selected.",
+          "choices": [
+            {
+              "id": "TP-04a/A",
+              "label": "A",
+              "text": "Yes, through God’s uncreated energies, his real activity and self-giving."
+            },
+            {
+              "id": "TP-04a/B",
+              "label": "B",
+              "text": "Yes, through a participation in God that I would explain without an essence–energies distinction."
+            },
+            {
+              "id": "TP-04a/C",
+              "label": "C",
+              "text": "Creatures receive God’s gifts and fellowship, but I would reserve “sharing in God’s own life” for God alone."
+            },
+            {
+              "id": "TP-04a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "theosis",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TP-05",
+          "prompt": "Does God need an actual creation in order to be loving?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-05/A",
+              "label": "A",
+              "text": "No. God’s love is eternally complete in the life of Father, Son, and Spirit."
+            },
+            {
+              "id": "TP-05/B",
+              "label": "B",
+              "text": "No. God can be loving without having to exercise love toward any creature."
+            },
+            {
+              "id": "TP-05/C",
+              "label": "C",
+              "text": "Yes. Some relationship to creatures belongs necessarily to God’s loving life."
+            },
+            {
+              "id": "TP-05/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "aseity",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TP-06",
+          "prompt": "Does divine omnipotence include the power to determine a creature’s choice while leaving that choice free?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-06/A",
+              "label": "A",
+              "text": "Yes. God can determine a choice that a creature makes willingly."
+            },
+            {
+              "id": "TP-06/B",
+              "label": "B",
+              "text": "No. A choice determined in that way would lack the freedom in question. This is a limit of what the description means, rather than a defect in God’s power."
+            },
+            {
+              "id": "TP-06/C",
+              "label": "C",
+              "text": "God has power over the outcome but ordinarily chooses to permit creatures to determine their response. I leave the hypothetical open."
+            },
+            {
+              "id": "TP-06/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "compatibilism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Exodus 3:14, Deuteronomy 6:4, James 1:17.",
+      "introduction": [
+        "Divine simplicity means that God is not composed of parts. The dispute includes what that implies about God’s attributes."
+      ],
+      "editorialNotes": [
+        "Participation in divine energies and division of God into parts are different claims."
+      ],
+      "furtherStudy": [
+        {
+          "text": "St Andrews Encyclopaedia of Theology, “Divine Energies,” on the essence–energies distinction.",
+          "url": "https://www.saet.ac.uk/Christianity/DivineEnergies"
+        }
+      ]
+    },
+    {
+      "dimensionId": 14,
+      "title": "Divine sovereignty and providence",
+      "questions": [
+        {
+          "id": "TP-07",
+          "prompt": "A person freely does something cruel. How does that particular act relate to God’s providence?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TP-07/A",
+              "label": "A",
+              "text": "God ordained that this particular event occur through the person’s own act."
+            },
+            {
+              "id": "TP-07/B",
+              "label": "B",
+              "text": "God chose to permit this particular event without determining the person’s decision."
+            },
+            {
+              "id": "TP-07/C",
+              "label": "C",
+              "text": "God created a world in which such decisions are possible without choosing each instance in advance."
+            },
+            {
+              "id": "TP-07/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "providence",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "providence"
+            }
+          ]
+        },
+        {
+          "id": "TP-08",
+          "prompt": "Can a prayer make a difference to what God does?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-08/A",
+              "label": "A",
+              "text": "Yes. God appoints the prayer as a real means by which he brings about the answer."
+            },
+            {
+              "id": "TP-08/B",
+              "label": "B",
+              "text": "Yes. God can choose one course over another in response to the prayer."
+            },
+            {
+              "id": "TP-08/C",
+              "label": "C",
+              "text": "Prayer changes those who pray, but I do not think it affects events outside them."
+            },
+            {
+              "id": "TP-08/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "TP-09",
+          "prompt": "If a harvest grows entirely through rainfall, soil, and human work, what would it mean to say that God gave it?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-09/A",
+              "label": "A",
+              "text": "God continuously gives being and power to those real causes as they act."
+            },
+            {
+              "id": "TP-09/B",
+              "label": "B",
+              "text": "God sustains the created order, and its regular operation is sufficient to explain this harvest without a distinct divine determination of it."
+            },
+            {
+              "id": "TP-09/C",
+              "label": "C",
+              "text": "Saying that God gave it expresses gratitude, while leaving the relation between divine and natural causation unspecified."
+            },
+            {
+              "id": "TP-09/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "providence",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Genesis 50:20, Matthew 10:29–31, Acts 2:23.",
+      "editorialNotes": [
+        "Ask separately whether an event falls within providence and whether God causes the evil in it."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Stanford Encyclopedia of Philosophy, “Divine Providence,” on competing accounts of providence.",
+          "url": "https://plato.stanford.edu/entries/providence-divine/"
+        }
+      ]
+    },
+    {
+      "dimensionId": 15,
+      "title": "Foreknowledge and middle knowledge",
+      "questions": [
+        {
+          "id": "TP-10",
+          "prompt": "Before a person makes a free choice, does God already know exactly what the person will choose?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TP-10/A",
+              "label": "A",
+              "text": "Yes. Every future choice is definitely known to God."
+            },
+            {
+              "id": "TP-10/B",
+              "label": "B",
+              "text": "Some future choices remain open. God knows every possibility and whatever is already settled."
+            },
+            {
+              "id": "TP-10/C",
+              "label": "C",
+              "text": "I affirm complete divine knowledge but think “before” is misleading because God knows all times timelessly."
+            },
+            {
+              "id": "TP-10/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "foreknowledge",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TP-10a",
+          "prompt": "What explains God’s knowledge of what a free creature would do in circumstances that never occur?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "TP-10/A",
+                "TP-10/C"
+              ]
+            }
+          },
+          "displayNote": "↳ After TP-10, if A or C is selected.",
+          "choices": [
+            {
+              "id": "TP-10a/A",
+              "label": "A",
+              "text": "These truths are available to God logically before he chooses which world to create. This is called middle knowledge."
+            },
+            {
+              "id": "TP-10a/B",
+              "label": "B",
+              "text": "These truths depend on what God would decree in those circumstances."
+            },
+            {
+              "id": "TP-10a/C",
+              "label": "C",
+              "text": "There may be no definite fact about what a free creature would choose in every such circumstance."
+            },
+            {
+              "id": "TP-10a/D",
+              "label": "D",
+              "text": "God knows the answer, but I do not claim to know the basis or logical order of that knowledge."
+            },
+            {
+              "id": "TP-10a/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "libertarian-freedom",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "middle-knowledge",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "1 Samuel 23:9–13, Psalm 139:1–6, Matthew 11:21–23.",
+      "introduction": [
+        "A counterfactual asks what a person would freely do in a situation that does not actually occur."
+      ],
+      "editorialNotes": [
+        "Exhaustive foreknowledge does not settle what grounds God’s knowledge or how free choices are made."
+      ]
+    },
+    {
+      "dimensionId": 16,
+      "title": "Divine immutability and impassibility",
+      "questions": [
+        {
+          "id": "TP-11",
+          "prompt": "When Scripture says God relents, what changes?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TP-11/A",
+              "label": "A",
+              "text": "The situation and God’s dealings with creatures change while God’s eternal purpose remains the same."
+            },
+            {
+              "id": "TP-11/B",
+              "label": "B",
+              "text": "God can genuinely revise a particular intention while remaining faithful in character and promise."
+            },
+            {
+              "id": "TP-11/C",
+              "label": "C",
+              "text": "The language portrays events from a human perspective. I would leave the question of change in God open."
+            },
+            {
+              "id": "TP-11/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "immutability",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TP-12",
+          "prompt": "When his people suffer, can God suffer with them in his divine life?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-12/A",
+              "label": "A",
+              "text": "God loves and knows sufferers perfectly without undergoing suffering in his divine nature."
+            },
+            {
+              "id": "TP-12/B",
+              "label": "B",
+              "text": "God freely makes himself vulnerable to suffering with creatures."
+            },
+            {
+              "id": "TP-12/C",
+              "label": "C",
+              "text": "Being affected by creatures belongs intrinsically to God’s relational life."
+            },
+            {
+              "id": "TP-12/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "impassibility",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TP-13",
+          "prompt": "Can God make a promise whose fulfillment genuinely depends on what a person later chooses?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-13/A",
+              "label": "A",
+              "text": "Yes. God can commit without change to acting differently under different conditions."
+            },
+            {
+              "id": "TP-13/B",
+              "label": "B",
+              "text": "Yes. There can be a genuinely open outcome to which God responds as it develops."
+            },
+            {
+              "id": "TP-13/C",
+              "label": "C",
+              "text": "Apparent conditions are themselves included in a settled divine purpose."
+            },
+            {
+              "id": "TP-13/D",
+              "label": "D",
+              "text": "I would decide from the terms of the promise in each passage."
+            },
+            {
+              "id": "TP-13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Malachi 3:6, Hosea 11:8–9, John 11:33–36.",
+      "introduction": [
+        "Impassibility concerns whether God can undergo suffering or be acted upon. It has consequences for how Christians understand divine compassion."
+      ],
+      "editorialNotes": [
+        "The question about God’s suffering concerns the divine nature. Christ’s human suffering has its own place in Christology."
+      ]
+    },
+    {
+      "dimensionId": 17,
+      "title": "Divine decrees",
+      "questions": [
+        {
+          "id": "TP-14",
+          "prompt": "What does God settle by his eternal purpose?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "TP-14/A",
+              "label": "A",
+              "text": "Everything that comes to pass, including what occurs through creaturely causes."
+            },
+            {
+              "id": "TP-14/B",
+              "label": "B",
+              "text": "Some outcomes are settled specifically. Other events take place within limits God establishes."
+            },
+            {
+              "id": "TP-14/C",
+              "label": "C",
+              "text": "God’s ultimate ends are settled, but much of the course toward them develops in interaction with creatures."
+            },
+            {
+              "id": "TP-14/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "decree",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "TP-14a",
+          "prompt": "When theologians speak of an order in God’s decrees, what kind of order makes sense to you?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "TP-14/A",
+                "TP-14/B"
+              ]
+            }
+          },
+          "displayNote": "↳ After TP-14, if A or B is selected.",
+          "choices": [
+            {
+              "id": "TP-14a/A",
+              "label": "A",
+              "text": "A logical order in one eternal purpose can clarify the relation between creation, the fall, and redemption."
+            },
+            {
+              "id": "TP-14a/B",
+              "label": "B",
+              "text": "The distinctions help us tell the biblical story, but they do not establish priorities in the divine mind."
+            },
+            {
+              "id": "TP-14a/C",
+              "label": "C",
+              "text": "I understand divine decisions as genuinely successive."
+            },
+            {
+              "id": "TP-14a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "decree",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "God’s decrees"
+            }
+          ]
+        },
+        {
+          "id": "TP-15",
+          "prompt": "If God commands something that he knows will never occur, what does the command express?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "TP-15/A",
+              "label": "A",
+              "text": "God can truly will something as a moral duty without decreeing its occurrence."
+            },
+            {
+              "id": "TP-15/B",
+              "label": "B",
+              "text": "The command expresses a genuine divine desire that creatures can frustrate."
+            },
+            {
+              "id": "TP-15/C",
+              "label": "C",
+              "text": "A command identifies the good without telling us whether God desires that particular history to unfold."
+            },
+            {
+              "id": "TP-15/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Ephesians 1:3–11, Acts 4:27–28, 1 Timothy 2:1–4.",
+      "editorialNotes": [
+        "For the object and basis of saving election, use Soteriology. This dimension asks about the scope and order of the decree."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "SOT",
+    "ANT"
+  ],
+  "vocabulary": [
+    {
+      "id": "theology-proper",
+      "term": "Theology Proper",
+      "kind": "concept",
+      "definition": "The study of God’s existence, attributes, and relation to creation.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Doctrine of God"
+      ]
+    },
+    {
+      "id": "divine-simplicity",
+      "term": "Divine simplicity",
+      "kind": "concept",
+      "definition": "The teaching that God is without parts and that his attributes are inseparable from who he is.",
+      "status": "draft",
+      "references": [
+        "SEP-DS",
+        "WCF 2.1"
+      ]
+    },
+    {
+      "id": "providence",
+      "term": "Divine providence",
+      "kind": "concept",
+      "definition": "God’s ongoing care for and governance of creation, including how events and creaturely actions relate to his rule.",
+      "status": "draft",
+      "references": [
+        "SEP-PROV",
+        "WCF 5"
+      ],
+      "aliases": [
+        "Providence"
+      ]
+    },
+    {
+      "id": "aseity",
+      "term": "Divine aseity",
+      "kind": "concept",
+      "definition": "God’s independence from everything else for his existence and fullness of life.",
+      "status": "draft",
+      "references": [
+        "WCF 2.2",
+        "TP"
+      ],
+      "aliases": [
+        "Aseity",
+        "Divine self-existence"
+      ]
+    },
+    {
+      "id": "foreknowledge",
+      "term": "Divine foreknowledge",
+      "kind": "concept",
+      "definition": "God’s knowledge of events before they occur, as described from the standpoint of creatures who experience time.",
+      "status": "draft",
+      "references": [
+        "SEP-PROV",
+        "TP"
+      ],
+      "aliases": [
+        "Foreknowledge"
+      ]
+    },
+    {
+      "id": "middle-knowledge",
+      "term": "Middle knowledge",
+      "kind": "position",
+      "definition": "In Molinism, God’s knowledge of what any free creature would choose in any possible set of circumstances, logically prior to his decision to create.",
+      "status": "draft",
+      "references": [
+        "SEP-PROV Middle Knowledge"
+      ],
+      "expandedNote": "“Middle” refers to logical order. This knowledge is placed between God’s knowledge of general possibilities and his knowledge of the world he chooses to create. The theory aims to explain how God can govern history while creatures have libertarian freedom.",
+      "aliases": [
+        "Scientia media"
+      ]
+    },
+    {
+      "id": "immutability",
+      "term": "Divine immutability",
+      "kind": "concept",
+      "definition": "The teaching that God is unchanging, with disagreement over how this applies to his actions and relationships in time.",
+      "status": "draft",
+      "references": [
+        "WCF 2.1",
+        "TP"
+      ],
+      "aliases": [
+        "Immutability"
+      ]
+    },
+    {
+      "id": "impassibility",
+      "term": "Divine impassibility",
+      "kind": "concept",
+      "definition": "The teaching that God cannot be made to suffer or undergo emotional change through the action of creatures.",
+      "status": "draft",
+      "references": [
+        "WCF 2.1",
+        "TP"
+      ],
+      "aliases": [
+        "Impassibility"
+      ]
+    },
+    {
+      "id": "decree",
+      "term": "Divine decree",
+      "kind": "concept",
+      "definition": "God’s eternal decision or purpose concerning what will happen in creation.",
+      "status": "draft",
+      "references": [
+        "WCF 3",
+        "TP"
+      ],
+      "aliases": [
+        "God’s decrees"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,831 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "PNE",
+  "title": "Pneumatology",
+  "plainLanguageTitle": "The Holy Spirit",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "PNE — Dividing Doctrines — Pneumatology (Working Bank) v1",
+    "friendEdition": "PNE — Dividing Doctrines — Pneumatology (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 28,
+      "title": "Personhood and deity of the Holy Spirit",
+      "questions": [
+        {
+          "id": "PNE-01",
+          "prompt": "Who is the Holy Spirit who speaks and gives gifts in Scripture?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "PNE-01/A",
+              "label": "A",
+              "text": "A divine person, distinct from the Father and Son and fully sharing the one divine being."
+            },
+            {
+              "id": "PNE-01/B",
+              "label": "B",
+              "text": "God present and active, though I am unsure what calling the Spirit a distinct person entails."
+            },
+            {
+              "id": "PNE-01/C",
+              "label": "C",
+              "text": "God’s power or activity without a distinct personal identity."
+            },
+            {
+              "id": "PNE-01/D",
+              "label": "D",
+              "text": "A personal spiritual being who does not share God’s full divinity."
+            },
+            {
+              "id": "PNE-01/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "PNE-02",
+          "prompt": "When the Spirit guides a church, what forms may that guidance take?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-02/A",
+              "label": "A",
+              "text": "Illuminating Scripture as the church reads it."
+            },
+            {
+              "id": "PNE-02/B",
+              "label": "B",
+              "text": "Giving wisdom through communal deliberation and ordinary judgment."
+            },
+            {
+              "id": "PNE-02/C",
+              "label": "C",
+              "text": "Prompting particular actions through inward impressions."
+            },
+            {
+              "id": "PNE-02/D",
+              "label": "D",
+              "text": "Communicating a specific message through prophetic speech today."
+            },
+            {
+              "id": "PNE-02/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "PNE-03",
+          "prompt": "May a Christian directly ask the Holy Spirit for help in prayer?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-03/A",
+              "label": "A",
+              "text": "Yes. The Spirit may be personally invoked."
+            },
+            {
+              "id": "PNE-03/B",
+              "label": "B",
+              "text": "I would ordinarily pray to the Father through the Son in the Spirit, but leave direct invocation to the believer’s judgment."
+            },
+            {
+              "id": "PNE-03/C",
+              "label": "C",
+              "text": "I believe prayer should be addressed to the Father or the Son and would rule out direct invocation of the Spirit."
+            },
+            {
+              "id": "PNE-03/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "John 14:15–17, Acts 5:3–4, 1 Corinthians 12:11.",
+      "editorialNotes": [
+        "TRI asks about eternal relations. Here the subject is the Spirit’s identity and activity."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Nicene-Constantinopolitan Creed, on the Spirit as Lord and giver of life.",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/doctrine-scripture/the-symbol-of-faith/nicene-creed"
+        }
+      ]
+    },
+    {
+      "dimensionId": 29,
+      "title": "Regeneration and indwelling",
+      "questions": [
+        {
+          "id": "PNE-04",
+          "prompt": "Does every person who belongs to Christ have the indwelling Holy Spirit?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "PNE-04/A",
+              "label": "A",
+              "text": "Yes, from the beginning of that person’s life in Christ."
+            },
+            {
+              "id": "PNE-04/B",
+              "label": "B",
+              "text": "The Spirit is at work from the beginning, but indwelling in its proper sense can come later."
+            },
+            {
+              "id": "PNE-04/C",
+              "label": "C",
+              "text": "I would describe indwelling primarily as God dwelling in a people and hesitate to assign it to each individual."
+            },
+            {
+              "id": "PNE-04/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "indwelling",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "indwelling"
+            }
+          ]
+        },
+        {
+          "id": "PNE-05",
+          "prompt": "Before Pentecost, how did the Spirit’s presence with faithful Israelites compare with his presence in believers today?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-05/A",
+              "label": "A",
+              "text": "The Spirit already indwelt believers. Pentecost extended or publicly manifested that gift in a new way."
+            },
+            {
+              "id": "PNE-05/B",
+              "label": "B",
+              "text": "The Spirit gave life and empowered particular people, but abiding indwelling for all believers belongs to the new covenant."
+            },
+            {
+              "id": "PNE-05/C",
+              "label": "C",
+              "text": "The biblical language establishes both continuity and newness without specifying who was inwardly indwelt."
+            },
+            {
+              "id": "PNE-05/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "indwelling",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "PNE-06",
+          "prompt": "When someone falls seriously into sin, what can it mean that the Spirit is grieved?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-06/A",
+              "label": "A",
+              "text": "Fellowship and the enjoyment of grace can be impaired while the Spirit’s indwelling continues."
+            },
+            {
+              "id": "PNE-06/B",
+              "label": "B",
+              "text": "A person can so resist grace that the Spirit’s saving indwelling is lost."
+            },
+            {
+              "id": "PNE-06/C",
+              "label": "C",
+              "text": "I affirm that sin harms communion, while leaving the question of loss for the case of final repudiation."
+            },
+            {
+              "id": "PNE-06/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "John 3:5–8, Romans 8:9–16, Ephesians 1:13–14.",
+      "editorialNotes": [
+        "Regeneration means being given new life. Reuse Soteriology for its logical order relative to faith."
+      ]
+    },
+    {
+      "dimensionId": 30,
+      "title": "Baptism and filling of the Holy Spirit",
+      "questions": [
+        {
+          "id": "PNE-07",
+          "prompt": "What do you mean by “baptism in the Holy Spirit”?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "PNE-07/A",
+              "label": "A",
+              "text": "The Spirit’s work of incorporating a person into Christ when Christian life begins."
+            },
+            {
+              "id": "PNE-07/B",
+              "label": "B",
+              "text": "A gift of empowerment for witness distinct from conversion, ordinarily sought by those who already believe."
+            },
+            {
+              "id": "PNE-07/C",
+              "label": "C",
+              "text": "A gift received in Christian initiation, including its sacramental dimensions."
+            },
+            {
+              "id": "PNE-07/D",
+              "label": "D",
+              "text": "Scripture uses this language in more than one way, and I would distinguish those uses."
+            },
+            {
+              "id": "PNE-07/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "spirit-baptism",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "baptism in the Holy Spirit"
+            }
+          ]
+        },
+        {
+          "id": "PNE-07a",
+          "prompt": "When a person receives an empowerment distinct from conversion, must there be an observable initial sign?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "PNE-07/B",
+                "PNE-07/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After PNE-07, if B or D is selected.",
+          "choices": [
+            {
+              "id": "PNE-07a/A",
+              "label": "A",
+              "text": "Speaking in tongues is the initial physical evidence."
+            },
+            {
+              "id": "PNE-07a/B",
+              "label": "B",
+              "text": "A recognizable sign may accompany it, but no one sign is necessary."
+            },
+            {
+              "id": "PNE-07a/C",
+              "label": "C",
+              "text": "An identifiable outward sign is unnecessary."
+            },
+            {
+              "id": "PNE-07a/D",
+              "label": "D",
+              "text": "I do not affirm an empowerment distinct from conversion."
+            },
+            {
+              "id": "PNE-07a/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "PNE-08",
+          "prompt": "If someone already has the Spirit, what can it mean to be filled with the Spirit again?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-08/A",
+              "label": "A",
+              "text": "Fresh empowerment for a particular act of witness or service."
+            },
+            {
+              "id": "PNE-08/B",
+              "label": "B",
+              "text": "A renewed yielding of the person’s life to God."
+            },
+            {
+              "id": "PNE-08/C",
+              "label": "C",
+              "text": "A fresh awareness or manifestation of a gift already received."
+            },
+            {
+              "id": "PNE-08/D",
+              "label": "D",
+              "text": "I reserve “filled with the Spirit” for a single decisive event."
+            },
+            {
+              "id": "PNE-08/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 2:1–21, Acts 8:14–17, 1 Corinthians 12:13, Ephesians 5:18.",
+      "introduction": [
+        "Christian initiation refers to entry into Christian life. Traditions differ on how faith, baptism, and chrismation or confirmation belong together."
+      ],
+      "editorialNotes": [
+        "Leave room to affirm repeated empowerment under different names."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Assemblies of God, Statement of Fundamental Truths, §§7–8. The text calls Spirit baptism an “enduement of power for life and service.”",
+          "url": "https://ag.org/en-US/Beliefs/Statement-of-Fundamental-Truths"
+        }
+      ]
+    },
+    {
+      "dimensionId": 31,
+      "title": "Continuationism and cessationism",
+      "questions": [
+        {
+          "id": "PNE-09",
+          "prompt": "Should congregations today expect the gifts associated with the apostles to continue?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "PNE-09/A",
+              "label": "A",
+              "text": "All kinds of gifts remain available to the church."
+            },
+            {
+              "id": "PNE-09/B",
+              "label": "B",
+              "text": "Some gifts belonged to the church’s foundation, while others continue. Which gifts matter here."
+            },
+            {
+              "id": "PNE-09/C",
+              "label": "C",
+              "text": "The gifts of new revelation and the signs that authenticated the apostles have fulfilled their purpose."
+            },
+            {
+              "id": "PNE-09/D",
+              "label": "D",
+              "text": "I am open to such gifts but do not think Scripture establishes a regular expectation."
+            },
+            {
+              "id": "PNE-09/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "cessationism",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "continuationism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "PNE-09a",
+          "prompt": "Which claims would you affirm today?",
+          "selection": "multiple",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "PNE-09/B",
+                "PNE-09/C",
+                "PNE-09/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After PNE-09, if B or C or D is selected.",
+          "choices": [
+            {
+              "id": "PNE-09a/A",
+              "label": "A",
+              "text": "God may heal in answer to prayer."
+            },
+            {
+              "id": "PNE-09a/B",
+              "label": "B",
+              "text": "God may give a person a recurring gift of healing."
+            },
+            {
+              "id": "PNE-09a/C",
+              "label": "C",
+              "text": "God may bring about an extraordinary sign in a new missionary setting."
+            },
+            {
+              "id": "PNE-09a/D",
+              "label": "D",
+              "text": "An apostle with the foundational authority of the first witnesses may be appointed today."
+            },
+            {
+              "id": "PNE-09a/E",
+              "label": "E",
+              "text": "I affirm none of these claims."
+            },
+            {
+              "id": "PNE-09a/F",
+              "label": "F",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "PNE-10",
+          "prompt": "If someone reports a striking event after prayer, what can that event alone establish?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-10/A",
+              "label": "A",
+              "text": "It may give reason to thank God, while the person’s teaching and claimed authority require separate testing."
+            },
+            {
+              "id": "PNE-10/B",
+              "label": "B",
+              "text": "A sufficiently clear sign can also give positive evidence that the messenger was sent by God."
+            },
+            {
+              "id": "PNE-10/C",
+              "label": "C",
+              "text": "An event alone cannot establish that a specific spiritual gift is operating."
+            },
+            {
+              "id": "PNE-10/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "cessationism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "1 Corinthians 12–14, Ephesians 2:20, Hebrews 2:3–4.",
+      "editorialNotes": [
+        "A belief that a gift ceased does not entail that God no longer heals or answers prayer."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Orthodox Presbyterian Church, New Horizons, on the cessation of certain gifts and the continuation of others.",
+          "url": "https://www.opc.org/nh.html?article_id=83"
+        }
+      ]
+    },
+    {
+      "dimensionId": 32,
+      "title": "Prophecy, tongues, and healing",
+      "questions": [
+        {
+          "id": "PNE-11",
+          "prompt": "If someone says, “The Spirit has given me a message for this congregation,” how should the congregation receive it?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "PNE-11/A",
+              "label": "A",
+              "text": "As a possible prophecy whose report or interpretation can contain human error."
+            },
+            {
+              "id": "PNE-11/B",
+              "label": "B",
+              "text": "As a claim to speak God’s own words. A genuine prophecy would be true in what it asserts."
+            },
+            {
+              "id": "PNE-11/C",
+              "label": "C",
+              "text": "As a possible impression or pastoral application, since I do not expect fresh prophecy today."
+            },
+            {
+              "id": "PNE-11/D",
+              "label": "D",
+              "text": "As a claim I would examine without first deciding how to classify it."
+            },
+            {
+              "id": "PNE-11/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "discernment",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "PNE-12",
+          "prompt": "Which kinds of speech could count as the gift of tongues?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-12/A",
+              "label": "A",
+              "text": "A human language the speaker has not learned."
+            },
+            {
+              "id": "PNE-12/B",
+              "label": "B",
+              "text": "Prayer or praise in speech that need not correspond to a known human language."
+            },
+            {
+              "id": "PNE-12/C",
+              "label": "C",
+              "text": "A public message requiring interpretation for the congregation."
+            },
+            {
+              "id": "PNE-12/D",
+              "label": "D",
+              "text": "I think the biblical gift was real but would not identify contemporary speech as an instance."
+            },
+            {
+              "id": "PNE-12/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "tongues",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "gift of tongues"
+            }
+          ]
+        },
+        {
+          "id": "PNE-13",
+          "prompt": "What may a church promise when it prays for someone to be healed?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-13/A",
+              "label": "A",
+              "text": "It may promise God’s care and ask confidently, while leaving the present outcome to God."
+            },
+            {
+              "id": "PNE-13/B",
+              "label": "B",
+              "text": "Bodily healing is provided in Christ’s saving work and believers may seek it, even when healing does not occur now."
+            },
+            {
+              "id": "PNE-13/C",
+              "label": "C",
+              "text": "God promises present bodily healing to each believer who meets the promise’s conditions."
+            },
+            {
+              "id": "PNE-13/D",
+              "label": "D",
+              "text": "I would avoid treating prayer for healing as grounded in a specific promise of present healing."
+            },
+            {
+              "id": "PNE-13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "PNE-14",
+          "prompt": "If someone speaks in tongues in gathered worship and no one interprets, how should the congregation respond?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "PNE-14/A",
+              "label": "A",
+              "text": "Public speech should cease. The person may pray quietly to God."
+            },
+            {
+              "id": "PNE-14/B",
+              "label": "B",
+              "text": "Joint prayer or praise in tongues may be permissible even when a message addressed to the congregation would require interpretation."
+            },
+            {
+              "id": "PNE-14/C",
+              "label": "C",
+              "text": "I would not make provision for public tongues in the church today."
+            },
+            {
+              "id": "PNE-14/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "tongues",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "tongues"
+            }
+          ]
+        }
+      ],
+      "reading": "Acts 2:5–12, 1 Corinthians 14:26–33, James 5:14–16.",
+      "editorialNotes": [
+        "Test prophecy, tongues, and healing separately. A judgment about one does not decide the other two."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "TRI",
+    "SOT",
+    "SPI"
+  ],
+  "vocabulary": [
+    {
+      "id": "pneumatology",
+      "term": "Pneumatology",
+      "kind": "concept",
+      "definition": "The study of the person and work of the Holy Spirit.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Doctrine of the Holy Spirit"
+      ]
+    },
+    {
+      "id": "indwelling",
+      "term": "Indwelling of the Holy Spirit",
+      "kind": "concept",
+      "definition": "The Holy Spirit’s abiding presence in a believer or among God’s people.",
+      "status": "draft",
+      "references": [
+        "PNE",
+        "CCC 683–747"
+      ],
+      "aliases": [
+        "Indwelling"
+      ]
+    },
+    {
+      "id": "spirit-baptism",
+      "term": "Baptism in the Holy Spirit",
+      "kind": "concept",
+      "definition": "A biblical expression for receiving the Holy Spirit or being baptized through his action, understood differently across Christian traditions.",
+      "status": "draft",
+      "references": [
+        "AG arts. 7–8",
+        "PNE"
+      ],
+      "expandedNote": "Some connect the expression to conversion and incorporation into Christ. Classical Pentecostal accounts, such as the Assemblies of God’s, speak of an empowering experience distinct from and subsequent to new birth. Traditions can distinguish initiation, empowerment, and later fillings in different ways.",
+      "aliases": [
+        "Spirit baptism",
+        "Baptism with the Holy Spirit"
+      ]
+    },
+    {
+      "id": "continuationism",
+      "term": "Continuationism",
+      "kind": "position",
+      "definition": "The view that gifts such as prophecy and tongues remain available to the Church after the apostolic age.",
+      "status": "draft",
+      "references": [
+        "GIFTS",
+        "PNE"
+      ],
+      "aliases": [
+        "Continuationist"
+      ]
+    },
+    {
+      "id": "cessationism",
+      "term": "Cessationism",
+      "kind": "position",
+      "definition": "The view that certain gifts associated with the apostolic era, such as prophecy or tongues, no longer continue as ordinary gifts of the Church.",
+      "status": "draft",
+      "references": [
+        "GIFTS",
+        "PNE"
+      ],
+      "expandedNote": "The scope varies with the person and tradition. A person can hold this view and still affirm that God heals, guides, and answers prayer today. The disagreement concerns which gifts or offices continue and in what sense they are available to the Church.",
+      "aliases": [
+        "Cessationist"
+      ]
+    },
+    {
+      "id": "tongues",
+      "term": "Gift of tongues",
+      "kind": "concept",
+      "definition": "Spirit-enabled speech described in the New Testament, with differing views about whether it must be a recognizable human language.",
+      "status": "draft",
+      "references": [
+        "AG art. 8",
+        "PNE"
+      ],
+      "aliases": [
+        "Speaking in tongues",
+        "Glossolalia"
+      ]
+    }
+  ]
+}

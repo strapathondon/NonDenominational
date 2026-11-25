@@ -1,0 +1,859 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "COV",
+  "title": "Covenant & Biblical Theology",
+  "plainLanguageTitle": "God’s covenants with humanity",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "COV — Dividing Doctrines — Covenant & Biblical Theology (Working Bank) v1",
+    "friendEdition": "COV — Dividing Doctrines — Covenant & Biblical Theology (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 64,
+      "title": "Covenant theology",
+      "questions": [
+        {
+          "id": "COV-01",
+          "prompt": "What best explains the unity of God’s saving dealings across biblical history?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "COV-01/A",
+              "label": "A",
+              "text": "One covenant of grace is administered in different ways across the biblical covenants."
+            },
+            {
+              "id": "COV-01/B",
+              "label": "B",
+              "text": "One saving purpose unfolds through distinct covenants and reaches its goal in the new covenant, without requiring one overarching covenant of grace."
+            },
+            {
+              "id": "COV-01/C",
+              "label": "C",
+              "text": "Distinct divine administrations preserve significant differences in God’s dealings with Israel and the church."
+            },
+            {
+              "id": "COV-01/D",
+              "label": "D",
+              "text": "I trace several interlocking promises without adopting a single organizing framework."
+            },
+            {
+              "id": "COV-01/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "covenant-of-grace",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "covenant-theology",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "COV-02",
+          "prompt": "Was Adam in a covenant in which life was promised on condition of obedience?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-02/A",
+              "label": "A",
+              "text": "Yes. A covenant of works or life links Adam’s obedience to the life of those he represents."
+            },
+            {
+              "id": "COV-02/B",
+              "label": "B",
+              "text": "Adam had a covenantal calling, but I would not describe the promised outcome as earned by his works."
+            },
+            {
+              "id": "COV-02/C",
+              "label": "C",
+              "text": "God gave Adam commands and consequences, but I would not infer a covenant of this kind."
+            },
+            {
+              "id": "COV-02/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "covenant",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "covenant"
+            },
+            {
+              "termId": "covenant-of-works",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "COV-02a",
+          "prompt": "How does Christ’s obedience relate to Adam’s calling?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "COV-02/A",
+                "COV-02/B"
+              ]
+            }
+          },
+          "displayNote": "↳ After COV-02, if A or B is selected.",
+          "choices": [
+            {
+              "id": "COV-02a/A",
+              "label": "A",
+              "text": "Christ fulfills the obedience required of humanity as the last Adam."
+            },
+            {
+              "id": "COV-02a/B",
+              "label": "B",
+              "text": "Christ recapitulates and heals Adam’s failed vocation, but I would avoid describing it as fulfillment of the same covenantal condition."
+            },
+            {
+              "id": "COV-02a/C",
+              "label": "C",
+              "text": "I affirm the Adam–Christ parallel but do not derive a covenantal arrangement from it."
+            },
+            {
+              "id": "COV-02a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "covenant-of-works",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "COV-03",
+          "prompt": "Was the new covenant already the saving reality enjoyed by believers before Christ’s coming?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-03/A",
+              "label": "A",
+              "text": "Yes. Earlier believers shared in the same covenant of grace under earlier administrations."
+            },
+            {
+              "id": "COV-03/B",
+              "label": "B",
+              "text": "They received the benefits of Christ’s future work by promise, while the new covenant itself was established in history by Christ."
+            },
+            {
+              "id": "COV-03/C",
+              "label": "C",
+              "text": "I affirm that they were saved through God’s grace but avoid calling their covenant relationship the new covenant."
+            },
+            {
+              "id": "COV-03/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "covenant-of-grace",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Genesis 17:1–14, Romans 5:12–21, Galatians 3:15–29.",
+      "introduction": [
+        "An administration is a historical form in which God orders a covenant relationship."
+      ],
+      "editorialNotes": [
+        "Distinguish a theological covenant inferred from Scripture from a covenant explicitly named in a passage."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Westminster Confession, chapter VII, on covenant and its administrations.",
+          "url": "https://www.wts.edu/wcf"
+        },
+        {
+          "text": "Second London Baptist Confession, chapter VII, on the revelation of the covenant of grace.",
+          "url": "https://1689londonbaptistconfession.com/7/"
+        }
+      ]
+    },
+    {
+      "dimensionId": 65,
+      "title": "Dispensationalism",
+      "questions": [
+        {
+          "id": "COV-04",
+          "prompt": "When the New Testament describes a new administration in God’s plan, what changes?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "COV-04/A",
+              "label": "A",
+              "text": "The terms under which God orders a community’s life change, while salvation is always by grace."
+            },
+            {
+              "id": "COV-04/B",
+              "label": "B",
+              "text": "A new phase brings earlier covenant promises to fulfillment and transforms the identity or obligations of their recipients."
+            },
+            {
+              "id": "COV-04/C",
+              "label": "C",
+              "text": "It is chiefly a change in the clarity or form of administration of one covenant of grace."
+            },
+            {
+              "id": "COV-04/D",
+              "label": "D",
+              "text": "I need to judge each change separately and do not see one answer applying to every transition."
+            },
+            {
+              "id": "COV-04/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "dispensationalism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "COV-05",
+          "prompt": "Is Christ’s present reign already a fulfillment of the promise of David’s throne?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-05/A",
+              "label": "A",
+              "text": "Yes. That promise is being fulfilled in Christ’s present kingship."
+            },
+            {
+              "id": "COV-05/B",
+              "label": "B",
+              "text": "Yes, in an inaugurated sense, with a further earthly fulfillment still expected."
+            },
+            {
+              "id": "COV-05/C",
+              "label": "C",
+              "text": "Christ reigns now, but his specifically Davidic reign awaits a future fulfillment."
+            },
+            {
+              "id": "COV-05/D",
+              "label": "D",
+              "text": "Scripture establishes Christ’s kingship more clearly than the relationship between its present and future forms."
+            },
+            {
+              "id": "COV-05/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "dispensationalism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Ephesians 1:9–10, Ephesians 3:1–6, Romans 11:25–29.",
+      "editorialNotes": [
+        "Distinguish the existence of historical stages from the specific claims of dispensational systems."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Dallas Theological Seminary, Doctrinal Statement, article V. The dispensations are described as “stewardships by which God administers His purpose.”",
+          "url": "https://www.dts.edu/why-dts/doctrinal-statement"
+        }
+      ]
+    },
+    {
+      "dimensionId": 66,
+      "title": "New Covenant theology",
+      "questions": [
+        {
+          "id": "COV-06",
+          "prompt": "Who belongs to the new covenant itself?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "COV-06/A",
+              "label": "A",
+              "text": "All who are inwardly renewed and know the Lord."
+            },
+            {
+              "id": "COV-06/B",
+              "label": "B",
+              "text": "Believers and their children can belong to its visible administration, even though inward renewal is not identical with outward membership."
+            },
+            {
+              "id": "COV-06/C",
+              "label": "C",
+              "text": "People enter a real covenantal relationship through Christian initiation and may subsequently fall away."
+            },
+            {
+              "id": "COV-06/D",
+              "label": "D",
+              "text": "I distinguish present participation from a future fulfillment for Israel and need to specify which is meant."
+            },
+            {
+              "id": "COV-06/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "new-covenant",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "new covenant"
+            },
+            {
+              "termId": "covenant",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "COV-07",
+          "prompt": "In what sense has the Sinai covenant become obsolete?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-07/A",
+              "label": "A",
+              "text": "The covenant as a whole has reached its goal. Christians receive their obligations through Christ."
+            },
+            {
+              "id": "COV-07/B",
+              "label": "B",
+              "text": "Its ceremonial and national forms have expired, while its moral law continues to bind as moral law."
+            },
+            {
+              "id": "COV-07/C",
+              "label": "C",
+              "text": "Its role in covenant administration has changed, but aspects remain especially significant for Jewish followers of Jesus."
+            },
+            {
+              "id": "COV-07/D",
+              "label": "D",
+              "text": "I do not think “obsolete” means that Israel’s covenant with God has simply ended."
+            },
+            {
+              "id": "COV-07/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "new-covenant-theology",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "COV-08",
+          "prompt": "When Jesus calls a commandment new, where does its authority for Christians lie?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-08/A",
+              "label": "A",
+              "text": "In Christ’s own authority as lawgiver of the new covenant."
+            },
+            {
+              "id": "COV-08/B",
+              "label": "B",
+              "text": "In Christ’s authoritative exposition of the moral law already binding on humanity."
+            },
+            {
+              "id": "COV-08/C",
+              "label": "C",
+              "text": "In both the continuing moral claim and its new pattern in Christ’s own life and love."
+            },
+            {
+              "id": "COV-08/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "new-covenant-theology",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Jeremiah 31:31–34, Luke 22:20, Hebrews 8:6–13.",
+      "editorialNotes": [
+        "Do not infer infant baptism from a covenant label. Ask who belongs to the new covenant and reuse SAC for the rite."
+      ],
+      "furtherStudy": [
+        {
+          "text": "A. Blake White, New Covenant Theology questions, §§1–3, on the new covenant and the law of Christ.",
+          "url": "https://crosstocrown.org/wp-content/uploads/2014/08/NCT-Questions.pdf"
+        },
+        {
+          "text": "Peter Gentry and Stephen Wellum, Kingdom through Covenant, on progressive covenantalism.",
+          "url": "https://www.crossway.org/books/kingdom-through-covenant-case-2/"
+        }
+      ]
+    },
+    {
+      "dimensionId": 67,
+      "title": "Israel and the Church",
+      "questions": [
+        {
+          "id": "COV-09",
+          "prompt": "How do gentile believers in Christ relate to the covenant people of Israel?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "COV-09/A",
+              "label": "A",
+              "text": "They are grafted into one people of God while Israel retains a distinctive identity and calling."
+            },
+            {
+              "id": "COV-09/B",
+              "label": "B",
+              "text": "Promises to Israel reach their fulfillment in Christ and the people united to him, without a separate covenant destiny for national Israel."
+            },
+            {
+              "id": "COV-09/C",
+              "label": "C",
+              "text": "Israel and the church remain distinct recipients of promises even as both depend on God’s grace."
+            },
+            {
+              "id": "COV-09/D",
+              "label": "D",
+              "text": "Gentile Christians share Israel’s blessings, while the enduring covenant with the Jewish people should be affirmed on its own terms."
+            },
+            {
+              "id": "COV-09/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "COV-10",
+          "prompt": "Must the land promises to Abraham have a future territorial fulfillment for his physical descendants?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-10/A",
+              "label": "A",
+              "text": "Yes. A particular territorial fulfillment remains promised."
+            },
+            {
+              "id": "COV-10/B",
+              "label": "B",
+              "text": "Their fulfillment expands in Christ to the inheritance of the whole renewed creation."
+            },
+            {
+              "id": "COV-10/C",
+              "label": "C",
+              "text": "They were fulfilled in Israel’s history and need no further territorial fulfillment."
+            },
+            {
+              "id": "COV-10/D",
+              "label": "D",
+              "text": "A historical fulfillment and a future territorial fulfillment can both belong to the promise."
+            },
+            {
+              "id": "COV-10/E",
+              "label": "E",
+              "text": "I would leave the form of fulfillment open."
+            }
+          ]
+        },
+        {
+          "id": "COV-11",
+          "prompt": "What do you expect from Paul’s words about “all Israel” in Romans 11:26?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-11/A",
+              "label": "A",
+              "text": "A future large-scale turning of Jewish people to Christ."
+            },
+            {
+              "id": "COV-11/B",
+              "label": "B",
+              "text": "The salvation of the full number of Jewish believers across history."
+            },
+            {
+              "id": "COV-11/C",
+              "label": "C",
+              "text": "The salvation of the whole people of God, Jews and gentiles in Christ."
+            },
+            {
+              "id": "COV-11/D",
+              "label": "D",
+              "text": "A divine saving purpose for Israel whose timing or manner Paul leaves mysterious."
+            },
+            {
+              "id": "COV-11/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Genesis 12:1–3, Ephesians 2:11–22, Romans 9–11.",
+      "introduction": [
+        "Distinguish a claim about the Jewish people from a claim about a modern state or government."
+      ],
+      "editorialNotes": [
+        "Distinguish Jewish identity, covenant standing, land, and future conversion. None alone settles a present political judgment."
+      ]
+    },
+    {
+      "dimensionId": 68,
+      "title": "Continuity of biblical law",
+      "questions": [
+        {
+          "id": "COV-12",
+          "prompt": "On what grounds can an Old Testament command bind a Christian today?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "COV-12/A",
+              "label": "A",
+              "text": "It expresses enduring moral law rooted in God’s character or creation."
+            },
+            {
+              "id": "COV-12/B",
+              "label": "B",
+              "text": "Christ or his apostles reaffirm it as part of the law of Christ."
+            },
+            {
+              "id": "COV-12/C",
+              "label": "C",
+              "text": "Its underlying justice still directs Christian judgment, though its ancient form may differ."
+            },
+            {
+              "id": "COV-12/D",
+              "label": "D",
+              "text": "A command given in Torah remains binding unless Scripture gives reason for a change."
+            },
+            {
+              "id": "COV-12/E",
+              "label": "E",
+              "text": "It continues to bind Jewish believers as a covenant vocation even where gentile believers have a different obligation."
+            },
+            {
+              "id": "COV-12/F",
+              "label": "F",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "COV-12a",
+          "prompt": "What force might Israel’s civil penalties have for present civil authorities?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "COV-12/A",
+                "COV-12/C",
+                "COV-12/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After COV-12, if A or C or D is selected.",
+          "choices": [
+            {
+              "id": "COV-12a/A",
+              "label": "A",
+              "text": "Their principles of justice remain instructive while the specific penalties belonged to Israel’s polity."
+            },
+            {
+              "id": "COV-12a/B",
+              "label": "B",
+              "text": "The specified penalties retain presumptive authority unless later revelation changes them."
+            },
+            {
+              "id": "COV-12a/C",
+              "label": "C",
+              "text": "They witness to God’s judgment but are not a pattern for contemporary civil penalties."
+            },
+            {
+              "id": "COV-12a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "COV-13",
+          "prompt": "If the apostles never repeat the command to leave gleanings for the poor, what obligation follows for a Christian grower?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-13/A",
+              "label": "A",
+              "text": "The specific agricultural practice remains binding where applicable."
+            },
+            {
+              "id": "COV-13/B",
+              "label": "B",
+              "text": "The practice embodies an enduring obligation to provide for neighbors, whose form may vary."
+            },
+            {
+              "id": "COV-13/C",
+              "label": "C",
+              "text": "It instructs Christian generosity through Israel’s example, while the obligation is grounded in Christ’s teaching."
+            },
+            {
+              "id": "COV-13/D",
+              "label": "D",
+              "text": "I see a commendable practice here without deriving a duty for every grower."
+            },
+            {
+              "id": "COV-13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "COV-14",
+          "prompt": "Does distinguishing moral, ceremonial, and civil laws determine which Mosaic commands bind Christians?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "COV-14/A",
+              "label": "A",
+              "text": "Yes, if the categories are applied with attention to the purpose of each law."
+            },
+            {
+              "id": "COV-14/B",
+              "label": "B",
+              "text": "The categories help interpret a law, but fulfillment in Christ ultimately determines its present force."
+            },
+            {
+              "id": "COV-14/C",
+              "label": "C",
+              "text": "I regard the Sinai law as a covenantal whole and would avoid using this division to carry some parts across directly."
+            },
+            {
+              "id": "COV-14/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 5:17–20, Acts 15:19–29, Galatians 6:2.",
+      "editorialNotes": [
+        "For Sabbath practice see WCP. Distinguish being instructed by a law from standing under its covenantal jurisdiction."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "SAC",
+    "ESCH",
+    "WCP"
+  ],
+  "vocabulary": [
+    {
+      "id": "covenant",
+      "term": "Biblical covenant",
+      "kind": "concept",
+      "definition": "A binding relationship established by God, expressed through promises and sometimes obligations or signs.",
+      "status": "draft",
+      "references": [
+        "COV",
+        "WCF 7",
+        "CCC 54–64"
+      ],
+      "aliases": [
+        "Covenant"
+      ]
+    },
+    {
+      "id": "covenant-theology",
+      "term": "Covenant theology",
+      "kind": "position",
+      "definition": "A family of Christian frameworks that sees God’s covenants as organizing the unity and development of the biblical story.",
+      "status": "draft",
+      "references": [
+        "WCF 7",
+        "COV",
+        "FRAMEWORKS"
+      ],
+      "aliases": [
+        "Federal theology"
+      ]
+    },
+    {
+      "id": "covenant-of-works",
+      "term": "Covenant of works",
+      "kind": "position",
+      "definition": "In classic Reformed theology, God’s covenant with Adam, in which life was promised on condition of obedience.",
+      "status": "draft",
+      "references": [
+        "WCF 7.2",
+        "COV"
+      ],
+      "aliases": [
+        "Covenant of life"
+      ]
+    },
+    {
+      "id": "covenant-of-grace",
+      "term": "Covenant of grace",
+      "kind": "position",
+      "definition": "In classic Reformed theology, God’s saving covenant with fallen humanity through Christ, administered in different ways across biblical history.",
+      "status": "draft",
+      "references": [
+        "WCF 7.3–7.6",
+        "COV"
+      ]
+    },
+    {
+      "id": "dispensationalism",
+      "term": "Dispensationalism",
+      "kind": "position",
+      "definition": "A family of frameworks that distinguishes administrations in God’s plan and typically gives Israel and the Church distinguishable roles.",
+      "status": "draft",
+      "references": [
+        "COV",
+        "FRAMEWORKS"
+      ]
+    },
+    {
+      "id": "new-covenant-theology",
+      "term": "New Covenant Theology",
+      "kind": "position",
+      "definition": "A framework that stresses the new covenant’s distinctness and understands the Mosaic law’s authority for Christians through Christ and his teaching.",
+      "status": "draft",
+      "references": [
+        "COV",
+        "FRAMEWORKS"
+      ],
+      "aliases": [
+        "NCT"
+      ]
+    },
+    {
+      "id": "new-covenant",
+      "term": "New covenant",
+      "kind": "concept",
+      "definition": "The covenant promised in Jeremiah and inaugurated through Jesus Christ, associated with forgiveness and God’s law written on the heart.",
+      "status": "draft",
+      "references": [
+        "COV",
+        "WCF 7.6",
+        "CCC 1965–1974"
+      ]
+    }
+  ]
+}

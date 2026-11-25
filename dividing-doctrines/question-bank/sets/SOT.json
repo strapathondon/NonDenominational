@@ -1,0 +1,2088 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "SOT",
+  "title": "Soteriology",
+  "plainLanguageTitle": "Salvation",
+  "edition": "reconstructed-draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "SOT — Dividing Doctrines — Soteriology (Working Bank, Reconstructed) v1",
+    "friendEdition": "SOT — Dividing Doctrines — Soteriology (Friend Feedback, Reconstructed) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 43,
+      "title": "Election and predestination",
+      "questions": [
+        {
+          "id": "SOT-R01",
+          "prompt": "In passages that describe God choosing people, what purposes can “election” name?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SOT-R01/A",
+              "label": "A",
+              "text": "Choosing people for salvation and final glory."
+            },
+            {
+              "id": "SOT-R01/B",
+              "label": "B",
+              "text": "Choosing a people to belong to God in covenant."
+            },
+            {
+              "id": "SOT-R01/C",
+              "label": "C",
+              "text": "Appointing someone to a task or office."
+            },
+            {
+              "id": "SOT-R01/D",
+              "label": "D",
+              "text": "Choosing Christ as the representative in whom others are chosen."
+            },
+            {
+              "id": "SOT-R01/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "election",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "election"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R02",
+          "prompt": "When Ephesians says believers were chosen “in Christ,” whom do you understand God to have chosen?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R02/A",
+              "label": "A",
+              "text": "Particular persons, chosen in union with Christ."
+            },
+            {
+              "id": "SOT-R02/B",
+              "label": "B",
+              "text": "Christ and his people as a body, with individuals sharing that election through union with him."
+            },
+            {
+              "id": "SOT-R02/C",
+              "label": "C",
+              "text": "Both a corporate people and particular persons, without reducing one choice to the other."
+            },
+            {
+              "id": "SOT-R02/D",
+              "label": "D",
+              "text": "The passage concerns the vocation or destiny of believers and leaves the selection of particular persons unresolved."
+            },
+            {
+              "id": "SOT-R02/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "election",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R03",
+          "prompt": "On what basis does God elect people to salvation?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R03/A",
+              "label": "A",
+              "text": "Unconditionally, according to God’s sovereign purpose."
+            },
+            {
+              "id": "SOT-R03/B",
+              "label": "B",
+              "text": "In view of foreknown faith or response to grace."
+            },
+            {
+              "id": "SOT-R03/C",
+              "label": "C",
+              "text": "Primarily in Christ corporately, with individuals participating through union with him."
+            },
+            {
+              "id": "SOT-R03/D",
+              "label": "D",
+              "text": "I read election here as God appointing a people to a vocation or destiny, and would ask a different question about how individuals are saved."
+            },
+            {
+              "id": "SOT-R03/E",
+              "label": "E",
+              "text": "I have not settled how these claims relate."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "conditional-election",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "unconditional-election",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R03a",
+          "prompt": "When a person comes to belong to the chosen people, was that individual’s inclusion itself chosen beforehand?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SOT-R03/C",
+                "SOT-R03/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After SOT-R03, if C or D is selected.",
+          "choices": [
+            {
+              "id": "SOT-R03a/A",
+              "label": "A",
+              "text": "Yes. The choice of Christ and his people includes a prior choice of particular members."
+            },
+            {
+              "id": "SOT-R03a/B",
+              "label": "B",
+              "text": "Its basis is the person’s grace-enabled response and union with Christ."
+            },
+            {
+              "id": "SOT-R03a/C",
+              "label": "C",
+              "text": "The corporate promise identifies the people and their destiny without deciding in advance who will enter."
+            },
+            {
+              "id": "SOT-R03a/D",
+              "label": "D",
+              "text": "I would leave the basis of individual inclusion open."
+            }
+          ]
+        }
+      ],
+      "reading": "Deuteronomy 7:6–8, Ephesians 1:3–14, 1 Peter 2:9–10.",
+      "editorialNotes": [
+        "Distinguish the object, purpose, and ground of election. “Corporate” does not by itself rule out a choice of particular individuals."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Brian Abasciano, “Clearing Up Misconceptions about Corporate Election.” In his account, “the group is elected primarily and individuals secondarily.”",
+          "url": "https://evangelicalarminians.org/wp-content/uploads/2013/04/Abasciano.-Clearing-Up-Misconceptions-about-Corporate-Election.-ATJ.pdf"
+        }
+      ]
+    },
+    {
+      "dimensionId": 44,
+      "title": "Unconditional and conditional election",
+      "questions": [
+        {
+          "id": "SOT-R04",
+          "prompt": "When Paul says that those God foreknew he also predestined, what does “foreknew” signify?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SOT-R04/A",
+              "label": "A",
+              "text": "God knew and set his covenant love on particular people beforehand."
+            },
+            {
+              "id": "SOT-R04/B",
+              "label": "B",
+              "text": "God knew beforehand who would freely respond to his grace."
+            },
+            {
+              "id": "SOT-R04/C",
+              "label": "C",
+              "text": "God knew beforehand the people identified in Christ and the destiny appointed to them."
+            },
+            {
+              "id": "SOT-R04/D",
+              "label": "D",
+              "text": "Foreknowledge need not be the basis of election. The passage leaves their precise relationship open."
+            },
+            {
+              "id": "SOT-R04/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "predestination",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "predestined"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R05",
+          "prompt": "Does God’s election imply a corresponding decision concerning those finally lost?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R05/A",
+              "label": "A",
+              "text": "God chooses some for salvation and passes over others, who are judged for their sin."
+            },
+            {
+              "id": "SOT-R05/B",
+              "label": "B",
+              "text": "God positively ordains both election and reprobation, while the grounds for salvation and condemnation differ."
+            },
+            {
+              "id": "SOT-R05/C",
+              "label": "C",
+              "text": "God desires all to be saved and condemns those who resist grace. There is no corresponding individual decree of reprobation."
+            },
+            {
+              "id": "SOT-R05/D",
+              "label": "D",
+              "text": "I would affirm election without drawing a conclusion about a decree concerning the lost."
+            },
+            {
+              "id": "SOT-R05/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "predestination",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R06",
+          "prompt": "Can an invitation to believe be sincere if God does not give every hearer the same saving grace?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R06/A",
+              "label": "A",
+              "text": "Yes. The invitation truthfully promises salvation to everyone who believes."
+            },
+            {
+              "id": "SOT-R06/B",
+              "label": "B",
+              "text": "A sincere saving invitation requires that each hearer be genuinely enabled to respond."
+            },
+            {
+              "id": "SOT-R06/C",
+              "label": "C",
+              "text": "I distinguish God’s command, desire, and purpose, and would need to know which sense of sincerity is meant."
+            },
+            {
+              "id": "SOT-R06/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "limited-atonement",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R07",
+          "prompt": "If God takes foreseen faith into account, would this make election depend on human merit?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R07/A",
+              "label": "A",
+              "text": "Yes. Making a person’s response decisive gives that person a ground of distinction that unconditional election excludes."
+            },
+            {
+              "id": "SOT-R07/B",
+              "label": "B",
+              "text": "No. Receiving a gift through grace-enabled faith does not earn it."
+            },
+            {
+              "id": "SOT-R07/C",
+              "label": "C",
+              "text": "I reject the premise that election turns on comparing individuals’ merits or responses. I begin with God’s purpose in Christ for a people."
+            },
+            {
+              "id": "SOT-R07/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "conditional-election",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "unconditional-election",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Romans 8:28–30, Romans 9:10–18, 2 Thessalonians 2:13.",
+      "introduction": [
+        "Reprobation concerns God’s judgment or decree regarding those finally lost. Accounts differ on the relation between passing over and actively condemning."
+      ],
+      "editorialNotes": [
+        "Keep foreknowledge, permission, passing over, and an active decree of condemnation distinct."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Canons of Dort, first head, on election and reprobation.",
+          "url": "https://www.rca.org/about/theology/creeds-and-confessions/canons-of-dort/"
+        }
+      ]
+    },
+    {
+      "dimensionId": 45,
+      "title": "Calling and prevenient grace",
+      "questions": [
+        {
+          "id": "SOT-R08",
+          "prompt": "Is there a difference between hearing the gospel invitation and being called inwardly by God?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SOT-R08/A",
+              "label": "A",
+              "text": "Yes. An inward call infallibly brings the person to faith."
+            },
+            {
+              "id": "SOT-R08/B",
+              "label": "B",
+              "text": "Yes. An inward call makes a real response possible but remains resistible."
+            },
+            {
+              "id": "SOT-R08/C",
+              "label": "C",
+              "text": "God works through the outward word itself. I would hesitate to posit a separate inward call."
+            },
+            {
+              "id": "SOT-R08/D",
+              "label": "D",
+              "text": "I affirm several ways God calls without drawing that distinction."
+            },
+            {
+              "id": "SOT-R08/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "effectual-calling",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R09",
+          "prompt": "Who receives grace that makes an initial response to God possible?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R09/A",
+              "label": "A",
+              "text": "All people receive some enabling grace before their response."
+            },
+            {
+              "id": "SOT-R09/B",
+              "label": "B",
+              "text": "Those reached by the word or another divinely appointed means receive such enabling grace."
+            },
+            {
+              "id": "SOT-R09/C",
+              "label": "C",
+              "text": "God grants saving ability particularly to those whom he effectually calls."
+            },
+            {
+              "id": "SOT-R09/D",
+              "label": "D",
+              "text": "I would not say fallen people require a distinct enabling grace to begin seeking God."
+            },
+            {
+              "id": "SOT-R09/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "effectual-calling",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "prevenient-grace",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R09a",
+          "prompt": "Can someone who receives this enabling grace finally resist it?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SOT-R09/A",
+                "SOT-R09/B"
+              ]
+            }
+          },
+          "displayNote": "↳ After SOT-R09, if A or B is selected.",
+          "choices": [
+            {
+              "id": "SOT-R09a/A",
+              "label": "A",
+              "text": "Yes. God makes a response possible without making it certain."
+            },
+            {
+              "id": "SOT-R09a/B",
+              "label": "B",
+              "text": "A person can resist for a time, but God can overcome that resistance by a further grace."
+            },
+            {
+              "id": "SOT-R09a/C",
+              "label": "C",
+              "text": "No. Where this grace is truly given, it eventually accomplishes its saving purpose."
+            },
+            {
+              "id": "SOT-R09a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "irresistible-grace",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R10",
+          "prompt": "When two people hear the same gospel and only one believes, which claim can you affirm?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R10/A",
+              "label": "A",
+              "text": "A difference in God’s effectual work explains the decisive difference."
+            },
+            {
+              "id": "SOT-R10/B",
+              "label": "B",
+              "text": "Grace genuinely enables both, and the difference includes their own distinct responses."
+            },
+            {
+              "id": "SOT-R10/C",
+              "label": "C",
+              "text": "I affirm both God’s sole credit for salvation and human responsibility for refusal, while declining to locate a decisive difference."
+            },
+            {
+              "id": "SOT-R10/D",
+              "label": "D",
+              "text": "I do not think the outward similarity tells us enough about either person’s encounter with grace."
+            },
+            {
+              "id": "SOT-R10/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "effectual-calling",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "irresistible-grace",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "monergism",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "synergism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R11",
+          "prompt": "Must a person hear an explicit proclamation of Christ in order to be saved through him?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R11/A",
+              "label": "A",
+              "text": "Explicit faith in Christ is ordinarily required, with possible exceptions for those incapable of hearing or responding."
+            },
+            {
+              "id": "SOT-R11/B",
+              "label": "B",
+              "text": "Christ can save someone who responds to available grace without explicit knowledge of him."
+            },
+            {
+              "id": "SOT-R11/C",
+              "label": "C",
+              "text": "Explicit conscious faith in Christ is necessary in every case."
+            },
+            {
+              "id": "SOT-R11/D",
+              "label": "D",
+              "text": "Christ alone saves, but I would leave the conditions for people beyond the reach of proclamation to God."
+            },
+            {
+              "id": "SOT-R11/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "John 6:44–45, Acts 16:14, Titus 2:11.",
+      "introduction": [
+        "Prevenient grace means grace that comes before a human response. Traditions differ about its scope and effect."
+      ],
+      "editorialNotes": [
+        "A universal offer, universal enabling, and an inward call that attains its end are distinct."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Church of the Nazarene, Articles of Faith, VII–X, on enabling grace and sanctification.",
+          "url": "https://nazarene.org/resources/articles-of-faith/"
+        }
+      ]
+    },
+    {
+      "dimensionId": 46,
+      "title": "Regeneration and conversion",
+      "questions": [
+        {
+          "id": "SOT-R12",
+          "prompt": "What is regeneration, or the new birth?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SOT-R12/A",
+              "label": "A",
+              "text": "God’s giving spiritual life to a person who would otherwise remain unable to turn to him."
+            },
+            {
+              "id": "SOT-R12/B",
+              "label": "B",
+              "text": "God’s gift of a new life in Christ to a person who responds in faith."
+            },
+            {
+              "id": "SOT-R12/C",
+              "label": "C",
+              "text": "God’s gift of new life in Christian initiation, ordinarily through baptism."
+            },
+            {
+              "id": "SOT-R12/D",
+              "label": "D",
+              "text": "I affirm a real new beginning but would distinguish its meaning from questions about its timing."
+            },
+            {
+              "id": "SOT-R12/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "regeneration",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "regeneration"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R13",
+          "prompt": "If a person believes and receives new life together, which explains the other?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R13/A",
+              "label": "A",
+              "text": "God’s giving life makes the person’s first act of saving faith possible and certain."
+            },
+            {
+              "id": "SOT-R13/B",
+              "label": "B",
+              "text": "Prior enabling grace makes faith possible, and God grants new birth through faith."
+            },
+            {
+              "id": "SOT-R13/C",
+              "label": "C",
+              "text": "Faith and new birth belong to one saving event, and Scripture does not require a logical order between them."
+            },
+            {
+              "id": "SOT-R13/D",
+              "label": "D",
+              "text": "This framing assumes conscious faith at the moment of new birth and does not fit every case."
+            },
+            {
+              "id": "SOT-R13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "regeneration",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "monergism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R13a",
+          "prompt": "How might new life precede an articulate profession of faith?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SOT-R13/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After SOT-R13, if D is selected.",
+          "choices": [
+            {
+              "id": "SOT-R13a/A",
+              "label": "A",
+              "text": "God can give new life through baptism before a recipient can profess faith."
+            },
+            {
+              "id": "SOT-R13a/B",
+              "label": "B",
+              "text": "God can regenerate an infant or someone otherwise unable to articulate belief apart from any prescribed outward means."
+            },
+            {
+              "id": "SOT-R13a/C",
+              "label": "C",
+              "text": "A person can trust before being able to describe what they believe."
+            },
+            {
+              "id": "SOT-R13a/D",
+              "label": "D",
+              "text": "I leave the manner of God’s work in these cases open."
+            }
+          ]
+        },
+        {
+          "id": "SOT-R14",
+          "prompt": "What must “repent” mean when the gospel calls someone to repentance?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R14/A",
+              "label": "A",
+              "text": "Turning from sin toward God belongs intrinsically to saving faith."
+            },
+            {
+              "id": "SOT-R14/B",
+              "label": "B",
+              "text": "Repentance and faith are distinguishable but inseparable responses to grace."
+            },
+            {
+              "id": "SOT-R14/C",
+              "label": "C",
+              "text": "Saving faith is trust in Christ. Turning from sin is a necessary fruit or subsequent call to discipleship."
+            },
+            {
+              "id": "SOT-R14/D",
+              "label": "D",
+              "text": "I would distinguish sorrow, changed allegiance, and subsequent conduct before answering."
+            },
+            {
+              "id": "SOT-R14/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "conversion",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R15",
+          "prompt": "Can someone be genuinely converted without identifying a particular moment of conversion?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R15/A",
+              "label": "A",
+              "text": "Yes. Faith can emerge within a life of Christian nurture without a remembered turning point."
+            },
+            {
+              "id": "SOT-R15/B",
+              "label": "B",
+              "text": "A decisive change is necessary, but a person need not know when it occurred."
+            },
+            {
+              "id": "SOT-R15/C",
+              "label": "C",
+              "text": "Ordinarily a person should be able to identify a conscious decision or turning point."
+            },
+            {
+              "id": "SOT-R15/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "conversion",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "converted"
+            }
+          ]
+        }
+      ],
+      "reading": "John 3:3–8, Acts 2:37–39, Titus 3:4–7.",
+      "editorialNotes": [
+        "Distinguish logical priority from a measurable interval. SAC addresses the efficacy of baptism."
+      ]
+    },
+    {
+      "dimensionId": 47,
+      "title": "Justification and imputed righteousness",
+      "questions": [
+        {
+          "id": "SOT-R16",
+          "prompt": "What happens when God justifies a sinner?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SOT-R16/A",
+              "label": "A",
+              "text": "God declares the sinner righteous on account of Christ. Inward renewal accompanies this as a distinct gift."
+            },
+            {
+              "id": "SOT-R16/B",
+              "label": "B",
+              "text": "God forgives sins and makes the sinner righteous inwardly. Renewal belongs to justification itself."
+            },
+            {
+              "id": "SOT-R16/C",
+              "label": "C",
+              "text": "Justification declares who belongs to God’s covenant people through Christ."
+            },
+            {
+              "id": "SOT-R16/D",
+              "label": "D",
+              "text": "I understand it within a larger work of healing and union with Christ and hesitate to isolate a single act."
+            },
+            {
+              "id": "SOT-R16/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "justification",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "justifies"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R17",
+          "prompt": "What grounds a believer’s righteous standing before God?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R17/A",
+              "label": "A",
+              "text": "Christ’s righteousness is counted as the believer’s through faith."
+            },
+            {
+              "id": "SOT-R17/B",
+              "label": "B",
+              "text": "Christ brings believers into a right relationship with God through union with him, without a separate transfer of righteousness."
+            },
+            {
+              "id": "SOT-R17/C",
+              "label": "C",
+              "text": "Christ’s merits ground the gift of grace by which the believer is inwardly made righteous."
+            },
+            {
+              "id": "SOT-R17/D",
+              "label": "D",
+              "text": "I affirm that Christ alone grounds salvation without a settled view of the mechanism."
+            },
+            {
+              "id": "SOT-R17/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "union-with-christ",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "imputation",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R17a",
+          "prompt": "What is counted to the believer as Christ’s righteousness?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SOT-R17/A"
+              ]
+            }
+          },
+          "displayNote": "↳ After SOT-R17, if A is selected.",
+          "choices": [
+            {
+              "id": "SOT-R17a/A",
+              "label": "A",
+              "text": "His lifelong obedience together with his atoning death."
+            },
+            {
+              "id": "SOT-R17a/B",
+              "label": "B",
+              "text": "His obedience in his saving death, without positing a separate imputation of lifelong law-keeping."
+            },
+            {
+              "id": "SOT-R17a/C",
+              "label": "C",
+              "text": "I affirm imputation without dividing Christ’s obedience into components."
+            },
+            {
+              "id": "SOT-R17a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "imputation",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R18",
+          "prompt": "How is an adult initially justified?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R18/A",
+              "label": "A",
+              "text": "Through faith alone, understood as receiving Christ."
+            },
+            {
+              "id": "SOT-R18/B",
+              "label": "B",
+              "text": "Through faith working in love, as grace brings the person into a renewed relationship with God."
+            },
+            {
+              "id": "SOT-R18/C",
+              "label": "C",
+              "text": "Through grace in baptism, with faith and repentance in adult initiation."
+            },
+            {
+              "id": "SOT-R18/D",
+              "label": "D",
+              "text": "I understand these as aspects of one response and would resist selecting one as the exclusive instrument."
+            },
+            {
+              "id": "SOT-R18/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "faith-alone",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R19",
+          "prompt": "Can a person already justified grow in justification?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R19/A",
+              "label": "A",
+              "text": "No. The verdict is complete, although holiness and assurance can grow."
+            },
+            {
+              "id": "SOT-R19/B",
+              "label": "B",
+              "text": "Yes. A justified person can grow in the righteousness received by grace."
+            },
+            {
+              "id": "SOT-R19/C",
+              "label": "C",
+              "text": "I distinguish a present justification and a future judgment or vindication, rather than speaking of an increasing verdict."
+            },
+            {
+              "id": "SOT-R19/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "justification",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "justification"
+            }
+          ]
+        }
+      ],
+      "reading": "Romans 3:21–28, Romans 4:1–8, James 2:20–26.",
+      "introduction": [
+        "Imputation means counting righteousness to someone. Infusion describes grace that inwardly makes a person righteous."
+      ],
+      "editorialNotes": [
+        "Ask what justification is, what grounds it, and how it is received. Shared words can conceal different judgments about inward renewal."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Lutheran–Catholic Joint Declaration on the Doctrine of Justification, §§15–18 and 22–27.",
+          "url": "https://lutheranworld.org/sites/default/files/2022-02/original_jddj_english.pdf"
+        }
+      ]
+    },
+    {
+      "dimensionId": 48,
+      "title": "Faith, works, and cooperation",
+      "questions": [
+        {
+          "id": "SOT-R20",
+          "prompt": "What role do good works have in relation to saving faith?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SOT-R20/A",
+              "label": "A",
+              "text": "They necessarily follow living faith and give evidence of it."
+            },
+            {
+              "id": "SOT-R20/B",
+              "label": "B",
+              "text": "Grace-enabled love and obedience belong to the living faith through which one remains in a saving relationship."
+            },
+            {
+              "id": "SOT-R20/C",
+              "label": "C",
+              "text": "Works are commanded and may evidence faith, but their absence alone cannot establish that faith never saved."
+            },
+            {
+              "id": "SOT-R20/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "faith-alone",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R21",
+          "prompt": "When Christians speak of cooperating with grace, what can they properly mean?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R21/A",
+              "label": "A",
+              "text": "Receiving God’s gift without earning it."
+            },
+            {
+              "id": "SOT-R21/B",
+              "label": "B",
+              "text": "Freely responding to an enabling grace that could be resisted."
+            },
+            {
+              "id": "SOT-R21/C",
+              "label": "C",
+              "text": "Actively participating in sanctification after God gives new life."
+            },
+            {
+              "id": "SOT-R21/D",
+              "label": "D",
+              "text": "Performing works, enabled by grace, to which God freely promises a reward."
+            },
+            {
+              "id": "SOT-R21/E",
+              "label": "E",
+              "text": "I avoid “cooperation” because I think it obscures God’s agency even when qualified."
+            },
+            {
+              "id": "SOT-R21/F",
+              "label": "F",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "monergism",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "synergism",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R22",
+          "prompt": "What role do works play at the final judgment?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R22/A",
+              "label": "A",
+              "text": "They publicly reveal a person’s relation to Christ."
+            },
+            {
+              "id": "SOT-R22/B",
+              "label": "B",
+              "text": "They are a real criterion of judgment, as the fruit of grace, without earning initial salvation."
+            },
+            {
+              "id": "SOT-R22/C",
+              "label": "C",
+              "text": "They bear on rewards while a believer’s entry into eternal life rests on Christ alone."
+            },
+            {
+              "id": "SOT-R22/D",
+              "label": "D",
+              "text": "I affirm judgment according to deeds but leave its relation to justification open."
+            },
+            {
+              "id": "SOT-R22/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "SOT-R22a",
+          "prompt": "If God rewards a believer’s grace-enabled works, in what sense are they deserving of reward?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SOT-R22/B",
+                "SOT-R22/C"
+              ]
+            }
+          },
+          "displayNote": "↳ After SOT-R22, if B or C is selected.",
+          "choices": [
+            {
+              "id": "SOT-R22a/A",
+              "label": "A",
+              "text": "God freely promised the reward and crowns what his own grace produced, so merit depends entirely on that gracious order."
+            },
+            {
+              "id": "SOT-R22a/B",
+              "label": "B",
+              "text": "I affirm reward under a promise but reserve “merit” for Christ’s work alone."
+            },
+            {
+              "id": "SOT-R22a/C",
+              "label": "C",
+              "text": "The language of reward describes God’s generous recognition of faithfulness without implying a debt."
+            },
+            {
+              "id": "SOT-R22a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "SOT-R23",
+          "prompt": "A professing believer has little visible fruit for years. What conclusion may another Christian draw?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R23/A",
+              "label": "A",
+              "text": "The profession deserves serious examination, but another person cannot know the heart with certainty."
+            },
+            {
+              "id": "SOT-R23/B",
+              "label": "B",
+              "text": "Genuine salvation can coexist with prolonged unfruitfulness. The person should still be called to discipleship."
+            },
+            {
+              "id": "SOT-R23/C",
+              "label": "C",
+              "text": "Persistently refusing grace can endanger a real saving relationship, even if faith was once genuine."
+            },
+            {
+              "id": "SOT-R23/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Ephesians 2:8–10, James 2:14–26, Philippians 2:12–13.",
+      "editorialNotes": [
+        "Cooperation can refer to receiving grace, living by grace, or meriting reward. Ask which is meant."
+      ]
+    },
+    {
+      "dimensionId": 49,
+      "title": "Sanctification and perfection",
+      "questions": [
+        {
+          "id": "SOT-R24",
+          "prompt": "How does sanctification ordinarily unfold?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SOT-R24/A",
+              "label": "A",
+              "text": "God sets believers apart decisively and progressively conforms them to Christ throughout life."
+            },
+            {
+              "id": "SOT-R24/B",
+              "label": "B",
+              "text": "Growth ordinarily continues and may include a distinct work of entire sanctification."
+            },
+            {
+              "id": "SOT-R24/C",
+              "label": "C",
+              "text": "Christian growth is best described as lifelong participation in God’s life through grace."
+            },
+            {
+              "id": "SOT-R24/D",
+              "label": "D",
+              "text": "I use several of these descriptions and would not make them competing accounts."
+            },
+            {
+              "id": "SOT-R24/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "sanctification",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "sanctification"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R25",
+          "prompt": "Can a believer attain perfect love in this life?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R25/A",
+              "label": "A",
+              "text": "Yes. Grace can so order a person’s love that they are free from willful sin, while growth and human limitations remain."
+            },
+            {
+              "id": "SOT-R25/B",
+              "label": "B",
+              "text": "A person may reach deep maturity, but sinful desires and failures remain until final glorification."
+            },
+            {
+              "id": "SOT-R25/C",
+              "label": "C",
+              "text": "Christians are commanded to seek perfection, but I would leave open whether anyone reaches it in this life."
+            },
+            {
+              "id": "SOT-R25/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "christian-perfection",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R25a",
+          "prompt": "What can still occur in a person whose love has been perfected?",
+          "selection": "multiple",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SOT-R25/A"
+              ]
+            }
+          },
+          "displayNote": "↳ After SOT-R25, if A is selected.",
+          "choices": [
+            {
+              "id": "SOT-R25a/A",
+              "label": "A",
+              "text": "Temptation."
+            },
+            {
+              "id": "SOT-R25a/B",
+              "label": "B",
+              "text": "Mistakes of judgment or ignorance."
+            },
+            {
+              "id": "SOT-R25a/C",
+              "label": "C",
+              "text": "Further growth in love and wisdom."
+            },
+            {
+              "id": "SOT-R25a/D",
+              "label": "D",
+              "text": "A later fall from this state."
+            },
+            {
+              "id": "SOT-R25a/E",
+              "label": "E",
+              "text": "I have not settled which limitations remain.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "christian-perfection",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R26",
+          "prompt": "What makes sanctifying effort compatible with grace?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R26/A",
+              "label": "A",
+              "text": "Grace enables real, active obedience throughout a believer’s life."
+            },
+            {
+              "id": "SOT-R26/B",
+              "label": "B",
+              "text": "The believer acts because Christ is at work within them. I would hesitate to call that a joint contribution."
+            },
+            {
+              "id": "SOT-R26/C",
+              "label": "C",
+              "text": "The primary response is surrender and trust, out of which transformed action grows."
+            },
+            {
+              "id": "SOT-R26/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "SOT-R27",
+          "prompt": "Is there a decisive work of grace after conversion that every believer should seek for sanctification?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R27/A",
+              "label": "A",
+              "text": "Yes. God calls believers to seek a distinct work of cleansing or entire sanctification."
+            },
+            {
+              "id": "SOT-R27/B",
+              "label": "B",
+              "text": "A decisive experience of surrender or renewal is possible, but its form and timing are not a universal pattern."
+            },
+            {
+              "id": "SOT-R27/C",
+              "label": "C",
+              "text": "No. Believers should seek holiness daily, without expecting a second work distinct in kind from the grace of conversion."
+            },
+            {
+              "id": "SOT-R27/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "sanctification",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "sanctification"
+            }
+          ]
+        }
+      ],
+      "reading": "1 Thessalonians 5:23–24, Philippians 3:12–14, 1 John 1:8–10.",
+      "editorialNotes": [
+        "Ask what “perfection” means before treating it as a claim to infallibility or to freedom from temptation."
+      ]
+    },
+    {
+      "dimensionId": 50,
+      "title": "Perseverance, assurance, and apostasy",
+      "questions": [
+        {
+          "id": "SOT-R28",
+          "prompt": "Can someone who truly belongs to Christ finally fall away and be lost?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "SOT-R28/A",
+              "label": "A",
+              "text": "No. God preserves those truly united to Christ and brings them to perseverance."
+            },
+            {
+              "id": "SOT-R28/B",
+              "label": "B",
+              "text": "No. A person once saved remains secure, even if they later fail to persevere in faith."
+            },
+            {
+              "id": "SOT-R28/C",
+              "label": "C",
+              "text": "Yes. A person can repudiate a real saving relationship with Christ."
+            },
+            {
+              "id": "SOT-R28/D",
+              "label": "D",
+              "text": "I take the warnings seriously and leave the relation between warning and final outcome unresolved."
+            },
+            {
+              "id": "SOT-R28/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "apostasy",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "eternal-security",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "perseverance",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R28a",
+          "prompt": "If someone who truly shared in salvation repudiates the faith, can that person be restored?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "SOT-R28/C",
+                "SOT-R28/D"
+              ]
+            }
+          },
+          "displayNote": "↳ After SOT-R28, if C or D is selected.",
+          "choices": [
+            {
+              "id": "SOT-R28a/A",
+              "label": "A",
+              "text": "Yes. Repentance and renewed faith can restore a real saving relationship."
+            },
+            {
+              "id": "SOT-R28a/B",
+              "label": "B",
+              "text": "Some forms of apostasy can be restored, while the decisive repudiation described in certain warnings is final."
+            },
+            {
+              "id": "SOT-R28a/C",
+              "label": "C",
+              "text": "I understand such a final repudiation to exclude restoration."
+            },
+            {
+              "id": "SOT-R28a/D",
+              "label": "D",
+              "text": "I leave the limits of restoration to God."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "apostasy",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R29",
+          "prompt": "What kind of assurance is available to a believer now?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R29/A",
+              "label": "A",
+              "text": "A well-grounded certainty of present and final salvation is possible."
+            },
+            {
+              "id": "SOT-R29/B",
+              "label": "B",
+              "text": "A believer can know they are presently in grace without certainty about their own future perseverance."
+            },
+            {
+              "id": "SOT-R29/C",
+              "label": "C",
+              "text": "Confident hope is appropriate, while certainty about one’s final state ordinarily exceeds what is given."
+            },
+            {
+              "id": "SOT-R29/D",
+              "label": "D",
+              "text": "I would distinguish trust in Christ’s promise from a judgment about my own condition."
+            },
+            {
+              "id": "SOT-R29/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "assurance",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "SOT-R30",
+          "prompt": "If someone once professed faith and now repudiates Christ, what can their present rejection show?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R30/A",
+              "label": "A",
+              "text": "Final repudiation would reveal that the original profession did not express saving faith."
+            },
+            {
+              "id": "SOT-R30/B",
+              "label": "B",
+              "text": "They may have genuinely believed and subsequently fallen from grace."
+            },
+            {
+              "id": "SOT-R30/C",
+              "label": "C",
+              "text": "They may remain saved despite their present unbelief."
+            },
+            {
+              "id": "SOT-R30/D",
+              "label": "D",
+              "text": "Their rejection calls for a response now, but observers cannot reconstruct their spiritual history with certainty."
+            },
+            {
+              "id": "SOT-R30/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "SOT-R31",
+          "prompt": "What purpose do biblical warnings of falling away serve for believers?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "SOT-R31/A",
+              "label": "A",
+              "text": "They are one of the means God uses to preserve believers in faith."
+            },
+            {
+              "id": "SOT-R31/B",
+              "label": "B",
+              "text": "They describe a real danger of losing salvation that believers must heed."
+            },
+            {
+              "id": "SOT-R31/C",
+              "label": "C",
+              "text": "They warn of discipline, loss of reward, or exposure of false profession without the loss of salvation once received."
+            },
+            {
+              "id": "SOT-R31/D",
+              "label": "D",
+              "text": "Different warning passages address different dangers and need separate interpretation."
+            },
+            {
+              "id": "SOT-R31/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "John 10:27–30, Hebrews 6:4–12, 1 John 5:11–13.",
+      "editorialNotes": [
+        "Treat present assurance, final security, the interpretation of apostasy, and restoration as separate judgments."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Westminster Confession, chapters XVII–XVIII, on perseverance and assurance.",
+          "url": "https://www.wts.edu/wcf"
+        }
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify.",
+    "This reconstruction follows the previously documented eight dimensions, 31 main questions and seven branches. The earlier election prompt is retained at SOT-R03. Wording and original ID mappings for the rest could not be verified. The R-series keeps these items distinct from earlier SOT IDs."
+  ],
+  "relatedSets": [
+    "HAM",
+    "CHR",
+    "SAC",
+    "SPI"
+  ],
+  "vocabulary": [
+    {
+      "id": "soteriology",
+      "term": "Soteriology",
+      "kind": "concept",
+      "definition": "The study of what salvation is, how God accomplishes it, and how people receive and live in it.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Doctrine of salvation"
+      ]
+    },
+    {
+      "id": "tulip",
+      "term": "TULIP",
+      "kind": "concept",
+      "definition": "An English mnemonic for total depravity, unconditional election, limited atonement, irresistible grace, and perseverance of the saints.",
+      "status": "draft",
+      "references": [
+        "DORT",
+        "TULIP-HIST"
+      ],
+      "expandedNote": "The acronym summarizes five teachings associated with the Reformed response to the Remonstrants at Dort. It is a later mnemonic, and the Canons use a different order and structure. Individual terms deserve their own definitions because the shorthand can obscure important distinctions.",
+      "aliases": [
+        "Five points of Calvinism"
+      ]
+    },
+    {
+      "id": "election",
+      "term": "Election",
+      "kind": "concept",
+      "definition": "God’s choice of people for a purpose, such as belonging to his covenant people, serving a calling, or receiving salvation.",
+      "status": "draft",
+      "references": [
+        "SOT",
+        "WCF 3",
+        "DORT I"
+      ],
+      "aliases": [
+        "Divine election"
+      ]
+    },
+    {
+      "id": "predestination",
+      "term": "Predestination",
+      "kind": "concept",
+      "definition": "God’s determination beforehand of a person’s or people’s ultimate destiny or end.",
+      "status": "draft",
+      "references": [
+        "WCF 3",
+        "SOT"
+      ]
+    },
+    {
+      "id": "unconditional-election",
+      "term": "Unconditional election",
+      "kind": "position",
+      "definition": "The view that God’s choice of whom to save depends on his gracious purpose apart from any foreseen faith or merit in those chosen.",
+      "status": "draft",
+      "references": [
+        "DORT I.7–9",
+        "WCF 3.5"
+      ]
+    },
+    {
+      "id": "conditional-election",
+      "term": "Conditional election",
+      "kind": "position",
+      "definition": "The view that God’s choice of whom to save is conditioned on faith, commonly understood as faith he knows beforehand and enables by grace.",
+      "status": "draft",
+      "references": [
+        "SOT",
+        "REM art. 1"
+      ]
+    },
+    {
+      "id": "prevenient-grace",
+      "term": "Prevenient grace",
+      "kind": "concept",
+      "definition": "Grace that comes before a person’s response to God and enables that response.",
+      "status": "draft",
+      "references": [
+        "WES",
+        "JDDJ §§19–21",
+        "SOT"
+      ],
+      "expandedNote": "In Wesleyan theology, God gives prevenient grace to all people, enabling a response that a person can resist. Other Christian traditions also speak of grace preceding human response while differing over whom it is given to and how it brings about faith.",
+      "aliases": [
+        "Preventing grace"
+      ]
+    },
+    {
+      "id": "effectual-calling",
+      "term": "Effectual calling",
+      "kind": "position",
+      "definition": "In Reformed theology, God’s inward call that brings those he calls to faith in Christ.",
+      "status": "draft",
+      "references": [
+        "WCF 10",
+        "DORT III/IV.10–12"
+      ],
+      "aliases": [
+        "Effectual call"
+      ]
+    },
+    {
+      "id": "irresistible-grace",
+      "term": "Irresistible grace",
+      "kind": "position",
+      "definition": "The Reformed teaching that God’s saving grace effectively brings those he calls to a willing response of faith.",
+      "status": "draft",
+      "references": [
+        "DORT III/IV.10–16",
+        "WCF 10.1"
+      ],
+      "aliases": [
+        "Efficacious grace"
+      ]
+    },
+    {
+      "id": "regeneration",
+      "term": "Regeneration",
+      "kind": "concept",
+      "definition": "God’s work of giving a person new spiritual life, often called the new birth.",
+      "status": "draft",
+      "references": [
+        "DORT III/IV.11–12",
+        "CCC 1213",
+        "SOT"
+      ],
+      "aliases": [
+        "New birth",
+        "Being born again"
+      ]
+    },
+    {
+      "id": "conversion",
+      "term": "Conversion",
+      "kind": "concept",
+      "definition": "A person’s turning to God in repentance and faith, whether experienced suddenly or gradually.",
+      "status": "draft",
+      "references": [
+        "SOT",
+        "WCF 14–15",
+        "CCC 1427–1433"
+      ]
+    },
+    {
+      "id": "justification",
+      "term": "Justification",
+      "kind": "concept",
+      "definition": "God’s saving work of putting sinners right with himself through Christ.",
+      "status": "draft",
+      "references": [
+        "JDDJ §§22–24",
+        "WCF 11",
+        "CCC 1987–1995"
+      ],
+      "expandedNote": "Reformed and Lutheran confessions commonly describe justification as God’s declaration that sinners are righteous in Christ and distinguish it from inward renewal. Catholic teaching includes forgiveness and inward renewal in justification. The disagreement matters when someone asks whether a justified person can grow in justification."
+    },
+    {
+      "id": "faith-alone",
+      "term": "Justification by faith alone",
+      "kind": "position",
+      "definition": "The Protestant teaching that justification is received through faith in Christ, with good works as the fruit of faith.",
+      "status": "draft",
+      "references": [
+        "WCF 11.2",
+        "JDDJ §§25–27"
+      ],
+      "aliases": [
+        "Sola fide",
+        "Faith alone"
+      ]
+    },
+    {
+      "id": "imputation",
+      "term": "Imputed righteousness",
+      "kind": "concept",
+      "definition": "The teaching that Christ’s righteousness is counted as belonging to the believer.",
+      "status": "draft",
+      "references": [
+        "WCF 11.1",
+        "JDDJ §§22–23"
+      ],
+      "aliases": [
+        "Imputation"
+      ]
+    },
+    {
+      "id": "union-with-christ",
+      "term": "Union with Christ",
+      "kind": "concept",
+      "definition": "The believer’s spiritual participation in Christ and in the benefits of his life, death, and resurrection.",
+      "status": "draft",
+      "references": [
+        "JDDJ §§22–24",
+        "WCF 26.1",
+        "SOT"
+      ]
+    },
+    {
+      "id": "monergism",
+      "term": "Monergism",
+      "kind": "position",
+      "definition": "The view that God alone brings about the saving change under discussion, especially regeneration.",
+      "status": "draft",
+      "references": [
+        "DORT III/IV.10–16",
+        "SOT"
+      ]
+    },
+    {
+      "id": "synergism",
+      "term": "Synergism",
+      "kind": "position",
+      "definition": "A view in which human response or cooperation, enabled by grace, has a real role in the saving change under discussion.",
+      "status": "draft",
+      "references": [
+        "JDDJ §§19–21",
+        "SOT"
+      ]
+    },
+    {
+      "id": "sanctification",
+      "term": "Sanctification",
+      "kind": "concept",
+      "definition": "God’s work of making people holy, including the transformation of their lives into greater likeness to Christ.",
+      "status": "draft",
+      "references": [
+        "WCF 13",
+        "WES",
+        "CCC 1989–1995"
+      ]
+    },
+    {
+      "id": "christian-perfection",
+      "term": "Christian perfection",
+      "kind": "position",
+      "definition": "In Wesleyan usage, a work of grace in which love for God and neighbor governs the believer’s heart and life.",
+      "status": "draft",
+      "references": [
+        "WES",
+        "SOT"
+      ],
+      "aliases": [
+        "Entire sanctification",
+        "Perfect love"
+      ]
+    },
+    {
+      "id": "perseverance",
+      "term": "Perseverance of the saints",
+      "kind": "position",
+      "definition": "The Reformed teaching that God preserves those truly united to Christ so they continue in faith to the end.",
+      "status": "draft",
+      "references": [
+        "WCF 17",
+        "DORT V"
+      ]
+    },
+    {
+      "id": "eternal-security",
+      "term": "Eternal security",
+      "kind": "concept",
+      "definition": "The belief that someone truly saved will remain saved, with differences over how that security relates to continuing faith.",
+      "status": "draft",
+      "references": [
+        "SOT",
+        "WCF 17"
+      ],
+      "aliases": [
+        "Once saved, always saved"
+      ]
+    },
+    {
+      "id": "apostasy",
+      "term": "Apostasy",
+      "kind": "concept",
+      "definition": "A person’s repudiation or abandonment of a faith they previously professed.",
+      "status": "draft",
+      "references": [
+        "SOT",
+        "CCC 2089"
+      ],
+      "aliases": [
+        "Falling away"
+      ]
+    },
+    {
+      "id": "assurance",
+      "term": "Assurance of salvation",
+      "kind": "concept",
+      "definition": "A person’s confidence that they belong to Christ or are in a saving relationship with God.",
+      "status": "draft",
+      "references": [
+        "WCF 18",
+        "WES"
+      ],
+      "aliases": [
+        "Assurance"
+      ]
+    }
+  ]
+}

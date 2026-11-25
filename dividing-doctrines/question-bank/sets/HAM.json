@@ -1,0 +1,880 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "HAM",
+  "title": "Hamartiology",
+  "plainLanguageTitle": "Sin and its effects",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "HAM — Dividing Doctrines — Hamartiology (Working Bank) v1",
+    "friendEdition": "HAM — Dividing Doctrines — Hamartiology (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 38,
+      "title": "Original sin",
+      "questions": [
+        {
+          "id": "HAM-01",
+          "prompt": "How does Adam’s sin affect a person before that person has chosen anything?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "HAM-01/A",
+              "label": "A",
+              "text": "Humanity shares both a damaged nature and liability to judgment through Adam."
+            },
+            {
+              "id": "HAM-01/B",
+              "label": "B",
+              "text": "We inherit a wounded condition and mortality. Personal culpability belongs to our own sin."
+            },
+            {
+              "id": "HAM-01/C",
+              "label": "C",
+              "text": "We enter a world shaped by others’ sin, without inheriting a sinful nature or guilt."
+            },
+            {
+              "id": "HAM-01/D",
+              "label": "D",
+              "text": "I affirm universal human sinfulness but do not claim to know how Adam’s act is transmitted to us."
+            },
+            {
+              "id": "HAM-01/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "fall",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "ancestral-sin",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "HAM-02",
+          "prompt": "In what sense can Paul say that all sinned in connection with one man?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-02/A",
+              "label": "A",
+              "text": "Adam acted as humanity’s appointed representative."
+            },
+            {
+              "id": "HAM-02/B",
+              "label": "B",
+              "text": "Humanity was in some real sense present or participating in Adam."
+            },
+            {
+              "id": "HAM-02/C",
+              "label": "C",
+              "text": "Adam opened the reign of sin and death under which each person comes to sin."
+            },
+            {
+              "id": "HAM-02/D",
+              "label": "D",
+              "text": "Adam portrays the universal human turning from God."
+            },
+            {
+              "id": "HAM-02/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "HAM-03",
+          "prompt": "If humanity inherited mortality without individual guilt for Adam’s act, would everyone still need Christ?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-03/A",
+              "label": "A",
+              "text": "Yes. Deliverance from corruption and death is itself a saving work only Christ can accomplish."
+            },
+            {
+              "id": "HAM-03/B",
+              "label": "B",
+              "text": "Yes. Universal personal sin also gives everyone capable of personal action a need for forgiveness."
+            },
+            {
+              "id": "HAM-03/C",
+              "label": "C",
+              "text": "Both claims belong together in my account."
+            },
+            {
+              "id": "HAM-03/D",
+              "label": "D",
+              "text": "I do not accept the proposed distinction between inherited mortality and liability in Adam."
+            },
+            {
+              "id": "HAM-03/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "ancestral-sin",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Genesis 3, Romans 5:12–21, 1 Corinthians 15:21–22.",
+      "introduction": [
+        "Ancestral sin is a term especially common in Eastern Christian discussions of humanity’s inheritance from Adam."
+      ],
+      "editorialNotes": [
+        "A historical account of Adam is available in ANT. Here the issue is the connection between Adam’s sin and ours."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Orthodox Church in America, “St. Augustine & Original Sin.” Its account speaks of the “consequences” of sin, “the chief of which is death.”",
+          "url": "https://www.oca.org/questions/teaching/st.-augustine-original-sin"
+        },
+        {
+          "text": "Westminster Confession, chapter VI, on the fall, guilt, and corruption.",
+          "url": "https://www.wts.edu/wcf"
+        }
+      ]
+    },
+    {
+      "dimensionId": 39,
+      "title": "Inherited guilt and corruption",
+      "questions": [
+        {
+          "id": "HAM-04",
+          "prompt": "If an infant has done no deliberate wrong, what could “original sin” mean in that infant’s case?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "HAM-04/A",
+              "label": "A",
+              "text": "The infant stands in Adam’s guilt through representation, even without a personal act."
+            },
+            {
+              "id": "HAM-04/B",
+              "label": "B",
+              "text": "The infant lacks original holiness and needs healing or grace, without bearing personal blame for Adam’s act."
+            },
+            {
+              "id": "HAM-04/C",
+              "label": "C",
+              "text": "The infant inherits mortality and life in a disordered world, without a transmitted sinful condition."
+            },
+            {
+              "id": "HAM-04/D",
+              "label": "D",
+              "text": "The term should be reserved for personal sin and therefore does not apply to the infant."
+            },
+            {
+              "id": "HAM-04/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "original-sin",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "original sin"
+            }
+          ]
+        },
+        {
+          "id": "HAM-04a",
+          "prompt": "Does forgiveness or removal of original sin remove every inclination toward sin?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "HAM-04/A",
+                "HAM-04/B"
+              ]
+            }
+          },
+          "displayNote": "↳ After HAM-04, if A or B is selected.",
+          "choices": [
+            {
+              "id": "HAM-04a/A",
+              "label": "A",
+              "text": "No. The inclination remains and is itself sinful even when resisted."
+            },
+            {
+              "id": "HAM-04a/B",
+              "label": "B",
+              "text": "No. The inclination remains, but it becomes personal sin through consent."
+            },
+            {
+              "id": "HAM-04a/C",
+              "label": "C",
+              "text": "God can also cleanse an inherited disposition to sin in a further work of grace."
+            },
+            {
+              "id": "HAM-04a/D",
+              "label": "D",
+              "text": "I would distinguish forgiveness from healing but am unsure how to classify the remaining inclination."
+            },
+            {
+              "id": "HAM-04a/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "original-sin",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "original sin"
+            }
+          ]
+        },
+        {
+          "id": "HAM-05",
+          "prompt": "Does sharing in the effects of wrongdoing necessarily mean sharing the wrongdoer’s guilt?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-05/A",
+              "label": "A",
+              "text": "No. A person can suffer consequences without being guilty of the act."
+            },
+            {
+              "id": "HAM-05/B",
+              "label": "B",
+              "text": "Usually no, but a representative relationship can make another’s act judicially count as one’s own."
+            },
+            {
+              "id": "HAM-05/C",
+              "label": "C",
+              "text": "A community can bear real corporate guilt without every member bearing the same personal culpability."
+            },
+            {
+              "id": "HAM-05/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Psalm 51:5, Ezekiel 18:19–20, Romans 5:16–19.",
+      "editorialNotes": [
+        "Separate personal blame, a judicial status, and the effects of living under sin and death."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Compendium of the Catechism, questions 75–78, on original sin and its consequences.",
+          "url": "https://www.vatican.va/content/dam/wss/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html"
+        }
+      ]
+    },
+    {
+      "dimensionId": 40,
+      "title": "Total depravity and moral inability",
+      "questions": [
+        {
+          "id": "HAM-06",
+          "prompt": "How far does sin reach into human nature?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "HAM-06/A",
+              "label": "A",
+              "text": "It affects every faculty, including our capacity to turn to God."
+            },
+            {
+              "id": "HAM-06/B",
+              "label": "B",
+              "text": "It deeply wounds human nature while leaving a natural capacity to begin seeking God."
+            },
+            {
+              "id": "HAM-06/C",
+              "label": "C",
+              "text": "It concerns our actual choices and habits more than any inherited impairment of our faculties."
+            },
+            {
+              "id": "HAM-06/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "total-depravity",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "HAM-07",
+          "prompt": "A person who does not believe in God cares for an enemy at real personal cost. What could you affirm about the act?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-07/A",
+              "label": "A",
+              "text": "It is genuinely good toward the neighbor, while lacking what would make it righteous before God in the fullest sense."
+            },
+            {
+              "id": "HAM-07/B",
+              "label": "B",
+              "text": "It can be pleasing to God as an act of love even without the person’s explicit faith."
+            },
+            {
+              "id": "HAM-07/C",
+              "label": "C",
+              "text": "Its goodness is already a sign of grace at work, though I would leave the person’s standing before God open."
+            },
+            {
+              "id": "HAM-07/D",
+              "label": "D",
+              "text": "I would distinguish degrees of goodness without making the person’s explicit beliefs decisive."
+            },
+            {
+              "id": "HAM-07/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "total-depravity",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "John 6:44, Romans 3:9–18, Ephesians 2:1–5.",
+      "editorialNotes": [
+        "“Total” can refer to the reach of sin across human faculties. It does not quantify the cruelty of any individual."
+      ]
+    },
+    {
+      "dimensionId": 41,
+      "title": "Nature and consequences of sin",
+      "questions": [
+        {
+          "id": "HAM-08",
+          "prompt": "Which realities can properly be called sin?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "HAM-08/A",
+              "label": "A",
+              "text": "A deliberate wrongful act."
+            },
+            {
+              "id": "HAM-08/B",
+              "label": "B",
+              "text": "Failure to do good that one owes another."
+            },
+            {
+              "id": "HAM-08/C",
+              "label": "C",
+              "text": "An inward desire contrary to love of God or neighbor, even before deliberate consent."
+            },
+            {
+              "id": "HAM-08/D",
+              "label": "D",
+              "text": "A settled disposition turning a person away from God."
+            },
+            {
+              "id": "HAM-08/E",
+              "label": "E",
+              "text": "A communal practice or institution that does wrong, even where responsibility is distributed."
+            },
+            {
+              "id": "HAM-08/F",
+              "label": "F",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "HAM-09",
+          "prompt": "Once an unwanted temptation arises, at what point is there personal sin?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-09/A",
+              "label": "A",
+              "text": "The disordered desire can itself be sinful even when the person resists it."
+            },
+            {
+              "id": "HAM-09/B",
+              "label": "B",
+              "text": "Personal sin begins when the person welcomes or consents to the desire."
+            },
+            {
+              "id": "HAM-09/C",
+              "label": "C",
+              "text": "The answer depends on whether we mean an involuntary attraction, a cultivated desire, or a deliberate intention."
+            },
+            {
+              "id": "HAM-09/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "HAM-10",
+          "prompt": "Are some sins different in kind in their effect on a believer’s communion with God?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-10/A",
+              "label": "A",
+              "text": "Yes. Certain grave sins can destroy that communion when knowingly and deliberately chosen."
+            },
+            {
+              "id": "HAM-10/B",
+              "label": "B",
+              "text": "Sins vary greatly in gravity, but I do not divide them into kinds that retain or destroy saving grace."
+            },
+            {
+              "id": "HAM-10/C",
+              "label": "C",
+              "text": "Persistent or repudiating sin can break communion, though I would not define the divide by a fixed class of acts."
+            },
+            {
+              "id": "HAM-10/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "mortal-sin",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "venial-sin",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "HAM-11",
+          "prompt": "When someone fails to help a neighbor, which considerations bear on whether the omission is sinful?",
+          "selection": "multiple",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-11/A",
+              "label": "A",
+              "text": "Yes. Love of neighbor can create a real obligation in the circumstances."
+            },
+            {
+              "id": "HAM-11/B",
+              "label": "B",
+              "text": "Yes, when the omission violates an identifiable duty of one’s role or an applicable moral command."
+            },
+            {
+              "id": "HAM-11/C",
+              "label": "C",
+              "text": "There may be a generous action one could take without its omission necessarily being sin."
+            },
+            {
+              "id": "HAM-11/D",
+              "label": "D",
+              "text": "The answer depends on the person’s knowledge, ability, and competing responsibilities."
+            },
+            {
+              "id": "HAM-11/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 5:21–28, James 4:17, 1 John 5:16–17.",
+      "editorialNotes": [
+        "Distinguish temptation, consent, omission, structural wrong, and degrees of sin."
+      ]
+    },
+    {
+      "dimensionId": 42,
+      "title": "Human ability after the Fall",
+      "questions": [
+        {
+          "id": "HAM-12",
+          "prompt": "Before receiving grace that enables a response, can a fallen person take the first step toward saving faith?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "HAM-12/A",
+              "label": "A",
+              "text": "No. God must first give life or enable a response."
+            },
+            {
+              "id": "HAM-12/B",
+              "label": "B",
+              "text": "A person can begin to seek God, but cannot reach saving faith without further grace."
+            },
+            {
+              "id": "HAM-12/C",
+              "label": "C",
+              "text": "I reject the imagined starting point. God’s enabling presence already reaches every person."
+            },
+            {
+              "id": "HAM-12/D",
+              "label": "D",
+              "text": "The capacity to answer God belongs to created human nature even after the fall."
+            },
+            {
+              "id": "HAM-12/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "editorialReview": {
+            "status": "needs_attention",
+            "workingBankPrompt": "Before any grace that enables a response, can a fallen person take the first step toward saving faith?",
+            "reason": "The current friend edition has the displayed wording. The working bank retains this earlier formulation."
+          },
+          "vocabularyLinks": [
+            {
+              "termId": "moral-inability",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "prevenient-grace",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "total-depravity",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "HAM-12a",
+          "prompt": "If two people hear the same invitation and only one believes, what might account for the difference?",
+          "selection": "multiple",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "HAM-12/A",
+                "HAM-12/C"
+              ]
+            }
+          },
+          "displayNote": "↳ After HAM-12, if A or C is selected.",
+          "choices": [
+            {
+              "id": "HAM-12a/A",
+              "label": "A",
+              "text": "God gave an effectual grace that brought one person to faith."
+            },
+            {
+              "id": "HAM-12a/B",
+              "label": "B",
+              "text": "Both were enabled by grace, and one freely resisted."
+            },
+            {
+              "id": "HAM-12a/C",
+              "label": "C",
+              "text": "Their histories, understanding, or circumstances affect how the invitation is received."
+            },
+            {
+              "id": "HAM-12a/D",
+              "label": "D",
+              "text": "The difference is real, but Scripture does not reveal enough to assign a decisive explanation."
+            },
+            {
+              "id": "HAM-12a/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "HAM-13",
+          "prompt": "How does an enduring habit of sin affect a person’s responsibility?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-13/A",
+              "label": "A",
+              "text": "It may deepen responsibility when a person has repeatedly chosen and cultivated it."
+            },
+            {
+              "id": "HAM-13/B",
+              "label": "B",
+              "text": "It may diminish responsibility for particular acts by reducing freedom or awareness."
+            },
+            {
+              "id": "HAM-13/C",
+              "label": "C",
+              "text": "Both can be true of the same person at different stages or in different respects."
+            },
+            {
+              "id": "HAM-13/D",
+              "label": "D",
+              "text": "Responsibility rests on the act’s moral character regardless of how the habit formed."
+            },
+            {
+              "id": "HAM-13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "HAM-14",
+          "prompt": "When Scripture calls people “dead” in sin, what should the image lead us to affirm?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "HAM-14/A",
+              "label": "A",
+              "text": "A radical inability to come to saving faith unless God first gives life."
+            },
+            {
+              "id": "HAM-14/B",
+              "label": "B",
+              "text": "Alienation from God and bondage to sin, overcome by a grace that can be resisted."
+            },
+            {
+              "id": "HAM-14/C",
+              "label": "C",
+              "text": "A real condition of estrangement, without the image by itself settling the order of grace and response."
+            },
+            {
+              "id": "HAM-14/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "moral-inability",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "John 15:5, Romans 8:7–8, Acts 17:26–28.",
+      "editorialNotes": [
+        "Do not treat unaided ability and an ability already restored by grace as the same answer."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Church of the Nazarene, Articles of Faith, V and VII, on sin and prevenient grace.",
+          "url": "https://nazarene.org/resources/articles-of-faith/"
+        },
+        {
+          "text": "Formula of Concord, Solid Declaration II, on the will and conversion.",
+          "url": "https://bookofconcord.org/solid-declaration/"
+        }
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "ANT",
+    "SOT"
+  ],
+  "vocabulary": [
+    {
+      "id": "hamartiology",
+      "term": "Hamartiology",
+      "kind": "concept",
+      "definition": "The study of sin, its origins, its effects, and human responsibility.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Doctrine of sin"
+      ]
+    },
+    {
+      "id": "fall",
+      "term": "The Fall",
+      "kind": "concept",
+      "definition": "The biblical account of humanity’s first disobedience and the resulting condition of life estranged from God.",
+      "status": "draft",
+      "references": [
+        "CCC 385–421",
+        "WCF 6"
+      ],
+      "aliases": [
+        "Fall of humanity"
+      ]
+    },
+    {
+      "id": "original-sin",
+      "term": "Original sin",
+      "kind": "concept",
+      "definition": "Humanity’s fallen condition connected to Adam’s sin and present before a person chooses to sin.",
+      "status": "draft",
+      "references": [
+        "WCF 6.3",
+        "CCC 404–405",
+        "OCA-SIN"
+      ],
+      "expandedNote": "Traditions differ over what is inherited. The Westminster Confession speaks of imputed guilt and corrupted nature. The Catholic Catechism calls original sin a condition inherited by Adam’s descendants and distinguishes it from their personal fault. An Eastern Orthodox account emphasizes humanity’s inheritance of death and corruption."
+    },
+    {
+      "id": "ancestral-sin",
+      "term": "Ancestral sin",
+      "kind": "concept",
+      "definition": "A term used in Eastern Orthodox theology for humanity’s inheritance of death and corruption through Adam’s disobedience.",
+      "status": "draft",
+      "references": [
+        "OCA-SIN"
+      ]
+    },
+    {
+      "id": "total-depravity",
+      "term": "Total depravity",
+      "kind": "position",
+      "definition": "The Reformed teaching that sin affects every part of human nature and leaves people unable to turn to God in saving faith apart from grace.",
+      "status": "draft",
+      "references": [
+        "DORT III/IV.1–4",
+        "WCF 6.2, 9.3"
+      ],
+      "expandedNote": "“Total” refers to the reach of sin across the person. The doctrine can distinguish ordinary acts of human kindness from the ability to turn to God for salvation. HAM-06 and HAM-07 explore those questions separately.",
+      "aliases": [
+        "Radical corruption"
+      ]
+    },
+    {
+      "id": "moral-inability",
+      "term": "Moral inability",
+      "kind": "concept",
+      "definition": "The inability of fallen people to turn to God in saving faith apart from enabling grace.",
+      "status": "draft",
+      "references": [
+        "DORT III/IV.3",
+        "WCF 9.3",
+        "WES"
+      ],
+      "aliases": [
+        "Spiritual inability"
+      ]
+    },
+    {
+      "id": "mortal-sin",
+      "term": "Mortal sin",
+      "kind": "concept",
+      "definition": "In Catholic theology, a sin that destroys charity in the heart when it involves grave matter, full knowledge, and deliberate consent.",
+      "status": "draft",
+      "references": [
+        "CCC 1855–1861"
+      ]
+    },
+    {
+      "id": "venial-sin",
+      "term": "Venial sin",
+      "kind": "concept",
+      "definition": "In Catholic theology, a sin that wounds charity in the heart while leaving the person’s friendship with God intact.",
+      "status": "draft",
+      "references": [
+        "CCC 1862–1863"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1750 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "BIB",
+  "title": "Bibliology",
+  "plainLanguageTitle": "The Bible",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "BIB - Dividing Doctrines —  Question Bank and Branching v1",
+    "friendEdition": "BIB- Dividing Doctrines — Bibliology Questions (Friend Feedback Copy)"
+  },
+  "sections": [
+    {
+      "dimensionId": 6,
+      "title": "Inspiration of Scripture",
+      "questions": [
+        {
+          "id": "BIB-1.1",
+          "prompt": "What do you believe makes the Bible different from other religious or Christian writings?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering Inspiration.",
+          "choices": [
+            {
+              "id": "BIB-1.1/A",
+              "label": "A",
+              "text": "All its canonical writings are uniquely inspired by God."
+            },
+            {
+              "id": "BIB-1.1/B",
+              "label": "B",
+              "text": "Only some of its writings are uniquely inspired by God."
+            },
+            {
+              "id": "BIB-1.1/C",
+              "label": "C",
+              "text": "It bears a distinctive witness to God, but its writings need not all be uniquely divinely inspired."
+            },
+            {
+              "id": "BIB-1.1/D",
+              "label": "D",
+              "text": "I do not believe it possesses a unique divine status."
+            }
+          ],
+          "shortTitle": "Unique divine status",
+          "routingNotes": [
+            "A/B → identify the scope and mode of inspiration (1.2–1.3). C → 1.2–1.4 to clarify what 'witness' and inspiration mean. D → offer further questions only by choice, without assuming divine inspiration."
+          ],
+          "editorialNotes": [
+            "Do not infer a particular theory of inspiration from the mere affirmation that Scripture is uniquely inspired."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "inspiration",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-1.2",
+          "prompt": "How do you understand the process of biblical inspiration?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-1.1/A",
+                "BIB-1.1/B",
+                "BIB-1.1/C"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-1.1/D"
+              ]
+            }
+          },
+          "displayNote": "After BIB-1.1 selects A, B, or C; optional after D.",
+          "choices": [
+            {
+              "id": "BIB-1.2/A",
+              "label": "A",
+              "text": "God superintended the human authors so that their writings communicated exactly what He intended, through their own language and personalities."
+            },
+            {
+              "id": "BIB-1.2/B",
+              "label": "B",
+              "text": "God guided the authors toward His intended message without necessarily determining their particular expressions."
+            },
+            {
+              "id": "BIB-1.2/C",
+              "label": "C",
+              "text": "God inspired the authors' experiences and understanding, but their written accounts may also reflect mistaken human judgments."
+            },
+            {
+              "id": "BIB-1.2/D",
+              "label": "D",
+              "text": "I understand inspiration primarily as the spiritual significance of the writings rather than divine direction of their composition."
+            }
+          ],
+          "friendDisplayNote": "After BIB-1.1 selects A, B, or C; optional after D.",
+          "shortTitle": "Mode of inspiration",
+          "routingNotes": [
+            "A → 1.3 and 1.4 to test extent of inspiration. B/C → 1.3 and 1.4 to clarify whether the text's assertions are guaranteed true. D → record a non-superintendence account of inspiration without assuming rejection of Scripture's value."
+          ],
+          "editorialNotes": [
+            "The alternatives are draft descriptions; review whether B and C blur important distinctions."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "inspiration",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-1.3",
+          "prompt": "To what extent does divine inspiration apply to the biblical text?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-1.1/A",
+                "BIB-1.1/B",
+                "BIB-1.1/C"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-1.1/D"
+              ]
+            }
+          },
+          "displayNote": "After BIB-1.1 selects A, B, or C; optional after D.",
+          "choices": [
+            {
+              "id": "BIB-1.3/A",
+              "label": "A",
+              "text": "The entirety of the original writings, including their words."
+            },
+            {
+              "id": "BIB-1.3/B",
+              "label": "B",
+              "text": "The essential theological message, but not necessarily every particular statement."
+            },
+            {
+              "id": "BIB-1.3/C",
+              "label": "C",
+              "text": "Certain books, passages, or portions rather than the entire collection."
+            },
+            {
+              "id": "BIB-1.3/D",
+              "label": "D",
+              "text": "I don't believe inspiration should be understood as applying directly to the written text."
+            }
+          ],
+          "friendDisplayNote": "After BIB-1.1 selects A, B, or C; optional after D.",
+          "shortTitle": "Extent of inspiration",
+          "routingNotes": [
+            "A/B/C → 1.4 about whether inspired assertions are affirmed by God. C → later return to which books or passages are inspired (Canon). D → retain the respondent's distinction between inspired person, experience, and text."
+          ],
+          "editorialNotes": [
+            "A view about the original writings should not be conflated with a claim about every surviving copy."
+          ]
+        },
+        {
+          "id": "BIB-1.4",
+          "prompt": "Does biblical inspiration mean that everything Scripture actually asserts is also affirmed by God?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP / CROSS-CATEGORY",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-1.1/A",
+                "BIB-1.1/B",
+                "BIB-1.1/C"
+              ]
+            }
+          },
+          "displayNote": "If BIB-1.1 selects A–C, especially after BIB-1.2 or 1.3.",
+          "choices": [
+            {
+              "id": "BIB-1.4/A",
+              "label": "A",
+              "text": "Yes, when the text is correctly understood according to its intended meaning."
+            },
+            {
+              "id": "BIB-1.4/B",
+              "label": "B",
+              "text": "Only what it asserts concerning God, salvation, or essential doctrine."
+            },
+            {
+              "id": "BIB-1.4/C",
+              "label": "C",
+              "text": "Not necessarily; inspired authors can make claims God does not affirm."
+            },
+            {
+              "id": "BIB-1.4/D",
+              "label": "D",
+              "text": "I haven't reached a conclusion."
+            }
+          ],
+          "friendDisplayNote": "If BIB-1.1 selects A–C, especially after BIB-1.2 or 1.3.",
+          "shortTitle": "Inspiration and divine affirmation",
+          "routingNotes": [
+            "A → compare with BIB-2.1 on inerrancy; B/C → clarify which assertions or domains are excepted; D → no inerrancy classification until more information. Reuse this response in Inerrancy and Infallibility."
+          ],
+          "editorialNotes": [
+            "Differentiate what a passage asserts from what it merely quotes, narrates, or describes."
+          ]
+        }
+      ],
+      "introduction": [
+        "In what sense, and to what extent, is Scripture inspired by God?"
+      ]
+    },
+    {
+      "dimensionId": 7,
+      "title": "Inerrancy and Infallibility",
+      "questions": [
+        {
+          "id": "BIB-2.1",
+          "prompt": "Can Scripture, as originally written and properly interpreted, contain a false assertion?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering Inerrancy and Infallibility.",
+          "choices": [
+            {
+              "id": "BIB-2.1/A",
+              "label": "A",
+              "text": "No. Everything it actually affirms is true."
+            },
+            {
+              "id": "BIB-2.1/B",
+              "label": "B",
+              "text": "It may contain errors in historical, scientific, or incidental details, but not in its essential saving teaching."
+            },
+            {
+              "id": "BIB-2.1/C",
+              "label": "C",
+              "text": "Yes. It may contain errors even in some theological assertions."
+            },
+            {
+              "id": "BIB-2.1/D",
+              "label": "D",
+              "text": "I'm undecided."
+            }
+          ],
+          "shortTitle": "Truthfulness of original writings",
+          "routingNotes": [
+            "A → 2.2–2.4, including how to handle apparent discrepancies. B/C → 2.2–2.3 to distinguish infallibility from unrestricted truthfulness. D → offer explanatory depth without labeling."
+          ],
+          "editorialNotes": [
+            "Avoid confusing an unresolved apparent contradiction with a demonstrated false assertion."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "inerrancy",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-2.2",
+          "prompt": "What does it mean to say Scripture is infallible?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "answered": "BIB-2.1"
+            }
+          },
+          "displayNote": "After BIB-2.1, especially A, B, or C.",
+          "choices": [
+            {
+              "id": "BIB-2.2/A",
+              "label": "A",
+              "text": "Scripture cannot fail or mislead in anything it genuinely teaches."
+            },
+            {
+              "id": "BIB-2.2/B",
+              "label": "B",
+              "text": "Scripture cannot fail in accomplishing its divinely intended purpose, particularly concerning salvation."
+            },
+            {
+              "id": "BIB-2.2/C",
+              "label": "C",
+              "text": "Scripture is profoundly trustworthy but not incapable of error."
+            },
+            {
+              "id": "BIB-2.2/D",
+              "label": "D",
+              "text": "I do not affirm biblical infallibility."
+            }
+          ],
+          "recommendWhen": {
+            "selectedAny": [
+              "BIB-2.1/A",
+              "BIB-2.1/B",
+              "BIB-2.1/C"
+            ]
+          },
+          "friendDisplayNote": "After BIB-2.1, especially A, B, or C.",
+          "shortTitle": "Meaning of infallibility",
+          "routingNotes": [
+            "Record separately whether the respondent affirms inerrancy and the scope of infallibility. Do not assume they regard the two terms as synonyms."
+          ],
+          "editorialNotes": [
+            "Answer choices A and B may overlap; refine for independence in the next editorial pass."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "infallibility",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-2.3",
+          "prompt": "How should apparent contradictions between biblical passages be understood?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-2.1/A",
+                "BIB-2.1/B",
+                "BIB-2.1/C"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-2.1/D"
+              ]
+            }
+          },
+          "displayNote": "After BIB-2.1 selects A, B, or C; optional after D.",
+          "choices": [
+            {
+              "id": "BIB-2.3/A",
+              "label": "A",
+              "text": "All genuine apparent contradictions have resolutions consistent with the truth of every biblical assertion, even if we have not discovered them."
+            },
+            {
+              "id": "BIB-2.3/B",
+              "label": "B",
+              "text": "Differences between accounts need to be evaluated in light of genre, perspective, and the authors' intended claims; exact agreement in every detail is not always required."
+            },
+            {
+              "id": "BIB-2.3/C",
+              "label": "C",
+              "text": "Some passages may genuinely contradict one another in their factual assertions."
+            },
+            {
+              "id": "BIB-2.3/D",
+              "label": "D",
+              "text": "I am uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-2.1 selects A, B, or C; optional after D.",
+          "shortTitle": "Apparent contradictions",
+          "routingNotes": [
+            "A/B → distinguish confidence in noncontradiction from the interpretive method used to investigate it; C → ask whether alleged contradictions affect the author's intended claims. Link to Hermeneutics."
+          ],
+          "editorialNotes": [
+            "A and B are potentially compatible, so these should ultimately become separate questions or a multi-select."
+          ]
+        },
+        {
+          "id": "BIB-2.4",
+          "prompt": "How do manuscript variations and transmission errors affect claims of biblical inerrancy?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP / CROSS-CATEGORY",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-2.1/A",
+                "BIB-2.1/B",
+                "BIB-2.1/C"
+              ]
+            }
+          },
+          "displayNote": "After BIB-2.1 selects A–C, especially A; also accessible from BIB-5.5.",
+          "choices": [
+            {
+              "id": "BIB-2.4/A",
+              "label": "A",
+              "text": "Inerrancy applies strictly to the original writings; later copying errors do not invalidate it."
+            },
+            {
+              "id": "BIB-2.4/B",
+              "label": "B",
+              "text": "God has preserved an identifiable textual tradition or received text without error."
+            },
+            {
+              "id": "BIB-2.4/C",
+              "label": "C",
+              "text": "The loss of the original manuscripts makes claims about complete inerrancy difficult to establish."
+            },
+            {
+              "id": "BIB-2.4/D",
+              "label": "D",
+              "text": "I do not have a settled position."
+            }
+          ],
+          "recommendWhen": {
+            "selectedAny": [
+              "BIB-2.1/A"
+            ]
+          },
+          "friendDisplayNote": "After BIB-2.1 selects A–C, especially A; also accessible from BIB-5.5.",
+          "shortTitle": "Transmission and inerrancy",
+          "routingNotes": [
+            "A/B/C → store textual-preservation convictions separately from inerrancy. Reuse in Biblical Canon (BIB-5.5–5.6)."
+          ],
+          "editorialNotes": [
+            "Preservation and inerrancy are related but independent claims; textual critics disagree about specific readings even while affirming inspiration."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "inerrancy",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "introduction": [
+        "Can Scripture affirm something false, and in what sense can it be trusted?"
+      ]
+    },
+    {
+      "dimensionId": 8,
+      "title": "Sufficiency of Scripture",
+      "questions": [
+        {
+          "id": "BIB-3.1",
+          "prompt": "Does Scripture contain everything necessary to know the way of salvation?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering Sufficiency of Scripture.",
+          "choices": [
+            {
+              "id": "BIB-3.1/A",
+              "label": "A",
+              "text": "Yes. Scripture provides all necessary saving doctrine without requiring additional revelation or tradition."
+            },
+            {
+              "id": "BIB-3.1/B",
+              "label": "B",
+              "text": "Scripture contains the essential saving message, but authoritative tradition or Church teaching is necessary for its reliable interpretation."
+            },
+            {
+              "id": "BIB-3.1/C",
+              "label": "C",
+              "text": "No. Some indispensable teachings are transmitted outside Scripture."
+            },
+            {
+              "id": "BIB-3.1/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "shortTitle": "Sufficiency for salvation",
+          "routingNotes": [
+            "A → 3.2 and 3.4. B/C → prioritize 3.2 and Scripture and Tradition 4.1–4.2. D → retain uncertainty without a theological label."
+          ],
+          "editorialNotes": [
+            "Separate sufficiency of content from the alleged necessity of an authoritative interpreter."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "scripture-sufficiency",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-3.2",
+          "prompt": "Must every doctrine binding upon Christians be established by Scripture?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-3.1/A",
+                "BIB-3.1/B",
+                "BIB-3.1/C"
+              ]
+            }
+          },
+          "displayNote": "After BIB-3.1 selects A–C; also reusable from BIB-4.1.",
+          "choices": [
+            {
+              "id": "BIB-3.2/A",
+              "label": "A",
+              "text": "Yes, either expressly or by necessary implication."
+            },
+            {
+              "id": "BIB-3.2/B",
+              "label": "B",
+              "text": "No. Authentic apostolic traditions outside Scripture may also establish binding doctrines."
+            },
+            {
+              "id": "BIB-3.2/C",
+              "label": "C",
+              "text": "No. The Church may authoritatively establish binding doctrinal formulations beyond what can be demonstrated from Scripture."
+            },
+            {
+              "id": "BIB-3.2/D",
+              "label": "D",
+              "text": "I am undecided."
+            }
+          ],
+          "friendDisplayNote": "After BIB-3.1 selects A–C; also reusable from BIB-4.1.",
+          "shortTitle": "Sufficiency for binding doctrine",
+          "routingNotes": [
+            "A → 3.3 and 4.1. B/C → 4.2 and 4.5 for sources and development of authority. D → no sola Scriptura label."
+          ],
+          "editorialNotes": [
+            "An authority to interpret Scripture is not identical to an authority to supply new doctrinal content."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "scripture-sufficiency",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-3.3",
+          "prompt": "How should Scripture regulate the worship and practices of the Church?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-3.2/A",
+                "BIB-3.2/B",
+                "BIB-3.2/C"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-3.2/D"
+              ]
+            }
+          },
+          "displayNote": "After BIB-3.2 selects A–C; optional after D.",
+          "choices": [
+            {
+              "id": "BIB-3.3/A",
+              "label": "A",
+              "text": "Only practices commanded or warranted by Scripture should be adopted as elements of worship."
+            },
+            {
+              "id": "BIB-3.3/B",
+              "label": "B",
+              "text": "Practices not forbidden by Scripture may be adopted when consistent with Christian teaching."
+            },
+            {
+              "id": "BIB-3.3/C",
+              "label": "C",
+              "text": "Scripture and authoritative ecclesiastical tradition together regulate worship."
+            },
+            {
+              "id": "BIB-3.3/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-3.2 selects A–C; optional after D.",
+          "shortTitle": "Sufficiency and worship",
+          "routingNotes": [
+            "A/B → examine the respondent's understanding of warranted elements versus circumstances of worship; C → connect to 4.1 and 4.3. Do not equate practices with doctrine generally."
+          ],
+          "editorialNotes": [
+            "The alternatives approximate different regulative and normative models but may require additional nuance."
+          ]
+        },
+        {
+          "id": "BIB-3.4",
+          "prompt": "Is Scripture sufficiently clear for ordinary believers to understand its essential saving teachings?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-3.1/A",
+                "BIB-3.1/B",
+                "BIB-3.1/C"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-3.1/D"
+              ]
+            }
+          },
+          "displayNote": "After BIB-3.1 selects A–C; optional after D.",
+          "choices": [
+            {
+              "id": "BIB-3.4/A",
+              "label": "A",
+              "text": "Yes. With ordinary means of study, believers can understand those teachings without an infallible human interpreter."
+            },
+            {
+              "id": "BIB-3.4/B",
+              "label": "B",
+              "text": "The teachings can be understood, but an authoritative Church interpreter is necessary for their reliable determination."
+            },
+            {
+              "id": "BIB-3.4/C",
+              "label": "C",
+              "text": "The essential teachings are not reliably clear without extensive theological or institutional mediation."
+            },
+            {
+              "id": "BIB-3.4/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-3.1 selects A–C; optional after D.",
+          "shortTitle": "Clarity of saving teaching",
+          "routingNotes": [
+            "A → record an affirmation of clarity of essential teaching; B/C → distinguish claims about clarity from institutional authority. Cross-reference Scripture and Tradition."
+          ],
+          "editorialNotes": [
+            "Perspicuity concerns essential saving teachings, not universal ease of interpretation."
+          ]
+        },
+        {
+          "id": "BIB-3.5",
+          "prompt": "Can general revelation through creation and conscience alone provide the knowledge necessary for saving faith?",
+          "selection": "single",
+          "role": "CROSS-CATEGORY / OPTIONAL DEPTH FOLLOW-UP",
+          "display": {
+            "optional": {
+              "answered": "BIB-3.1"
+            }
+          },
+          "displayNote": "After BIB-3.1, or reuse the respondent's Prolegomena revelation-and-salvation answer.",
+          "choices": [
+            {
+              "id": "BIB-3.5/A",
+              "label": "A",
+              "text": "No. Special revelation is necessary to make the way of salvation known."
+            },
+            {
+              "id": "BIB-3.5/B",
+              "label": "B",
+              "text": "Yes. General revelation itself can provide sufficient saving knowledge."
+            },
+            {
+              "id": "BIB-3.5/C",
+              "label": "C",
+              "text": "I'm uncertain or believe the question needs qualification."
+            }
+          ],
+          "reviewPriorAnswers": [
+            "P2.3"
+          ],
+          "friendDisplayNote": "After BIB-3.1, or reuse the respondent's Prolegomena revelation-and-salvation answer.",
+          "shortTitle": "Necessity of special revelation",
+          "routingNotes": [
+            "Store or reuse from Prolegomena; avoid asking twice. If B, explore whether this is a statement about available saving knowledge or God's gracious provision apart from the gospel."
+          ],
+          "editorialNotes": [
+            "Necessity of special revelation is a distinct doctrinal attribute, housed here for the smaller taxonomy."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "special-revelation",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "introduction": [
+        "What is Scripture sufficient for, and where are its limits?"
+      ]
+    },
+    {
+      "dimensionId": 9,
+      "title": "Scripture and Tradition",
+      "questions": [
+        {
+          "id": "BIB-4.1",
+          "prompt": "What should serve as the ultimate authority when Christians disagree about doctrine?",
+          "selection": "single",
+          "role": "FOUNDATIONAL / CROSS-CATEGORY",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering Scripture and Tradition, unless already answered in Prolegomena.",
+          "choices": [
+            {
+              "id": "BIB-4.1/A",
+              "label": "A",
+              "text": "Scripture, as the only infallible rule of faith, above all ecclesiastical traditions and judgments."
+            },
+            {
+              "id": "BIB-4.1/B",
+              "label": "B",
+              "text": "Scripture and apostolic Tradition together, authoritatively interpreted by the Church's teaching office."
+            },
+            {
+              "id": "BIB-4.1/C",
+              "label": "C",
+              "text": "Scripture as an essential and authoritative part of the Church's living Holy Tradition."
+            },
+            {
+              "id": "BIB-4.1/D",
+              "label": "D",
+              "text": "No single infallible authority can conclusively settle all doctrinal controversies."
+            },
+            {
+              "id": "BIB-4.1/E",
+              "label": "E",
+              "text": "I'm uncertain."
+            }
+          ],
+          "reviewPriorAnswers": [
+            "P1.3"
+          ],
+          "shortTitle": "Ultimate authority in disputes",
+          "routingNotes": [
+            "A → 4.2–4.4, often as consistency checks. B/C → 4.2–4.5 on unwritten tradition and Church authority. D → 4.3–4.4 to distinguish historical guidance from binding determination."
+          ],
+          "editorialNotes": [
+            "This substantially overlaps Prolegomena's ultimate-authority question. Reuse that response if present and ask new questions only as needed."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "sola-scriptura",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-4.2",
+          "prompt": "Can an unwritten apostolic tradition possess binding divine authority?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-4.1/A",
+                "BIB-4.1/B",
+                "BIB-4.1/C"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-4.1/D",
+                "BIB-4.1/E"
+              ]
+            }
+          },
+          "displayNote": "After BIB-4.1 selects A, B, or C; optional after D or E.",
+          "choices": [
+            {
+              "id": "BIB-4.2/A",
+              "label": "A",
+              "text": "Yes, if it is authentically transmitted from the apostles."
+            },
+            {
+              "id": "BIB-4.2/B",
+              "label": "B",
+              "text": "No. Only apostolic teaching preserved in Scripture can bind Christians as an infallible doctrinal rule."
+            },
+            {
+              "id": "BIB-4.2/C",
+              "label": "C",
+              "text": "Possibly, but reliably identifying authentic unwritten apostolic traditions is difficult."
+            },
+            {
+              "id": "BIB-4.2/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-4.1 selects A, B, or C; optional after D or E.",
+          "shortTitle": "Unwritten apostolic Tradition",
+          "routingNotes": [
+            "A → 4.5 about development and authoritative formulation. B → 4.3–4.4 as limits on church authority. C → record epistemic hesitation rather than rejecting tradition outright."
+          ],
+          "editorialNotes": [
+            "Tradition as historical evidence, tradition as authentic apostolic revelation, and tradition as a binding authority are different."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "apostolic-tradition",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-4.3",
+          "prompt": "What authority should historic creeds and Church councils possess?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
+          "display": {
+            "guided": {
+              "answered": "BIB-4.1"
+            }
+          },
+          "displayNote": "After BIB-4.1; reuse from Prolegomena's creeds/confessions dimension when available.",
+          "choices": [
+            {
+              "id": "BIB-4.3/A",
+              "label": "A",
+              "text": "They deserve substantial respect, but their conclusions remain correctable by Scripture."
+            },
+            {
+              "id": "BIB-4.3/B",
+              "label": "B",
+              "text": "Certain authoritative decisions of the Church are protected from doctrinal error."
+            },
+            {
+              "id": "BIB-4.3/C",
+              "label": "C",
+              "text": "Creeds and councils are useful historical witnesses but should not themselves bind Christian belief."
+            },
+            {
+              "id": "BIB-4.3/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-4.1; reuse from Prolegomena's creeds/confessions dimension when available.",
+          "shortTitle": "Creeds and councils",
+          "routingNotes": [
+            "A–C → 4.4 and optionally 4.5. Record not only theoretical authority but the respondent's actual response to disputed teaching."
+          ],
+          "editorialNotes": [
+            "Distinguish binding authority of a council from one's agreement with its conclusions."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "creed",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-4.4",
+          "prompt": "Suppose your interpretation of a biblical passage conflicts with a longstanding teaching of the Church. What should you do?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-4.1/A",
+                "BIB-4.1/B",
+                "BIB-4.1/C",
+                "BIB-4.1/D"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-4.1/E"
+              ]
+            }
+          },
+          "displayNote": "After BIB-4.1 selects A–D; optional after E.",
+          "choices": [
+            {
+              "id": "BIB-4.4/A",
+              "label": "A",
+              "text": "Seriously reconsider my interpretation, but ultimately submit to Scripture even if that requires rejecting the tradition."
+            },
+            {
+              "id": "BIB-4.4/B",
+              "label": "B",
+              "text": "Defer to the Church's authoritative interpretation where it has definitively ruled."
+            },
+            {
+              "id": "BIB-4.4/C",
+              "label": "C",
+              "text": "Evaluate both interpretations without an automatic presumption that either must prevail."
+            },
+            {
+              "id": "BIB-4.4/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-4.1 selects A–D; optional after E.",
+          "shortTitle": "Interpretive disagreements with the Church",
+          "routingNotes": [
+            "Compare the practical rule with 4.1; where answers appear in tension, request clarification rather than marking contradiction."
+          ],
+          "editorialNotes": [
+            "A longstanding teaching and a formally binding doctrinal definition are not necessarily the same thing."
+          ]
+        },
+        {
+          "id": "BIB-4.5",
+          "prompt": "Can a doctrinal formulation developed centuries after the apostles become binding on all Christians?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "any": [
+                {
+                  "selectedAny": [
+                    "BIB-4.2/A",
+                    "BIB-4.2/C"
+                  ]
+                },
+                {
+                  "selectedAny": [
+                    "BIB-4.3/A",
+                    "BIB-4.3/B"
+                  ]
+                }
+              ]
+            },
+            "optional": {
+              "answered": "BIB-4.1"
+            }
+          },
+          "displayNote": "Especially after BIB-4.2 selects A or C, or BIB-4.3 selects A or B; also available after BIB-4.1.",
+          "choices": [
+            {
+              "id": "BIB-4.5/A",
+              "label": "A",
+              "text": "Yes, if it faithfully clarifies apostolic revelation through an authoritative Church judgment."
+            },
+            {
+              "id": "BIB-4.5/B",
+              "label": "B",
+              "text": "Yes, if it expresses what can be established from Scripture, whether expressly or by necessary implication."
+            },
+            {
+              "id": "BIB-4.5/C",
+              "label": "C",
+              "text": "No. Later developments should not become universally binding doctrines."
+            },
+            {
+              "id": "BIB-4.5/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "Especially after BIB-4.2 selects A or C, or BIB-4.3 selects A or B; also available after BIB-4.1.",
+          "shortTitle": "Later doctrinal development",
+          "routingNotes": [
+            "A/B → ask what makes a doctrinal development legitimate if future depth is requested; C → clarify whether the respondent rejects new formulations or only new doctrinal content."
+          ],
+          "editorialNotes": [
+            "A developed formulation need not imply a newly revealed doctrine."
+          ]
+        }
+      ],
+      "introduction": [
+        "How are biblical authority, apostolic Tradition, and the Church related?"
+      ]
+    },
+    {
+      "dimensionId": 10,
+      "title": "Biblical Canon",
+      "questions": [
+        {
+          "id": "BIB-5.1",
+          "prompt": "Which collection of Old Testament books do you recognize as canonical Scripture?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering Biblical Canon.",
+          "choices": [
+            {
+              "id": "BIB-5.1/A",
+              "label": "A",
+              "text": "The 39 books recognized in the Protestant Old Testament."
+            },
+            {
+              "id": "BIB-5.1/B",
+              "label": "B",
+              "text": "The 46 books recognized in the Roman Catholic Old Testament."
+            },
+            {
+              "id": "BIB-5.1/C",
+              "label": "C",
+              "text": "A longer Old Testament canon consistent with Eastern Orthodox tradition."
+            },
+            {
+              "id": "BIB-5.1/D",
+              "label": "D",
+              "text": "Another Christian canon or collection."
+            },
+            {
+              "id": "BIB-5.1/E",
+              "label": "E",
+              "text": "I'm uncertain."
+            }
+          ],
+          "shortTitle": "Old Testament canon",
+          "routingNotes": [
+            "A–D → 5.2 to distinguish which deuterocanonical writings are accepted and on what authority. D → invite specification of the actual collection. E → provide optional orientation before 5.2."
+          ],
+          "editorialNotes": [
+            "This is an initial group-level choice; Orthodox and other Christian canons require more granular inventory for precise classification."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "biblical-canon",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-5.2",
+          "prompt": "What status do you assign to the writings commonly called the Apocrypha or Deuterocanonical books?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-5.1/A",
+                "BIB-5.1/B",
+                "BIB-5.1/C",
+                "BIB-5.1/D"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-5.1/E"
+              ]
+            }
+          },
+          "displayNote": "After BIB-5.1 selects A–D; optional after E.",
+          "choices": [
+            {
+              "id": "BIB-5.2/A",
+              "label": "A",
+              "text": "They are divinely inspired Scripture with canonical authority."
+            },
+            {
+              "id": "BIB-5.2/B",
+              "label": "B",
+              "text": "They are valuable for historical and spiritual instruction but are not canonical Scripture."
+            },
+            {
+              "id": "BIB-5.2/C",
+              "label": "C",
+              "text": "Some possess canonical authority, while others do not."
+            },
+            {
+              "id": "BIB-5.2/D",
+              "label": "D",
+              "text": "I'm unfamiliar with these writings or undecided."
+            }
+          ],
+          "friendDisplayNote": "After BIB-5.1 selects A–D; optional after E.",
+          "shortTitle": "Deuterocanonical status",
+          "routingNotes": [
+            "A/C → request book-level inventory in a deeper version. B → record a noncanonical but useful status. D → avoid inferring a canon from uncertainty."
+          ],
+          "editorialNotes": [
+            "The labels 'Apocrypha' and 'Deuterocanonical' are not religiously neutral in every context."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "deuterocanonical-books",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-5.3",
+          "prompt": "Does the Church establish which books are Scripture, or recognize books already possessing divine authority?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-5.1/A",
+                "BIB-5.1/B",
+                "BIB-5.1/C",
+                "BIB-5.1/D"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-5.1/E"
+              ]
+            }
+          },
+          "displayNote": "After BIB-5.1 selects A–D; optional after E.",
+          "choices": [
+            {
+              "id": "BIB-5.3/A",
+              "label": "A",
+              "text": "God establishes their authority through inspiration; the Church recognizes that authority."
+            },
+            {
+              "id": "BIB-5.3/B",
+              "label": "B",
+              "text": "The Church's authoritative reception and determination are essential to establishing the recognized canon."
+            },
+            {
+              "id": "BIB-5.3/C",
+              "label": "C",
+              "text": "The canon developed through historical processes of communal acceptance without a guaranteed infallible determination."
+            },
+            {
+              "id": "BIB-5.3/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-5.1 selects A–D; optional after E.",
+          "shortTitle": "Canon recognition versus establishment",
+          "routingNotes": [
+            "A/B/C → cross-reference respondent's Church-authority answer (4.1). Clarify differences between intrinsic authority and authoritative recognition if needed."
+          ],
+          "editorialNotes": [
+            "The original question presents a sharp contrast; authentic traditions may affirm intrinsic inspiration and authoritative ecclesial discernment together."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "biblical-canon",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-5.4",
+          "prompt": "Is the biblical canon permanently closed?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "answered": "BIB-5.1"
+            }
+          },
+          "displayNote": "After BIB-5.1; independent of which historical collection was chosen.",
+          "choices": [
+            {
+              "id": "BIB-5.4/A",
+              "label": "A",
+              "text": "Yes. No additional writings can become canonical Scripture."
+            },
+            {
+              "id": "BIB-5.4/B",
+              "label": "B",
+              "text": "No. God could provide further writings with canonical authority."
+            },
+            {
+              "id": "BIB-5.4/C",
+              "label": "C",
+              "text": "I believe the question requires qualification."
+            },
+            {
+              "id": "BIB-5.4/D",
+              "label": "D",
+              "text": "I'm undecided."
+            }
+          ],
+          "friendDisplayNote": "After BIB-5.1; independent of which historical collection was chosen.",
+          "shortTitle": "Closure of the canon",
+          "routingNotes": [
+            "A/B/C → compare with inspiration claims, and later with views of contemporary revelation if already provided in Prolegomena."
+          ],
+          "editorialNotes": [
+            "'Could' may refer to logical possibility rather than a belief in actual future canonical revelation; flag for clarification."
+          ]
+        },
+        {
+          "id": "BIB-5.5",
+          "prompt": "How do you understand God's preservation of the biblical text?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
+          "display": {
+            "guided": {
+              "answered": "BIB-5.1"
+            }
+          },
+          "displayNote": "After BIB-5.1, or reuse BIB-2.4 on manuscript variation.",
+          "choices": [
+            {
+              "id": "BIB-5.5/A",
+              "label": "A",
+              "text": "God has providentially preserved Scripture sufficiently for its message and teachings to be reliably recovered, despite manuscript variations."
+            },
+            {
+              "id": "BIB-5.5/B",
+              "label": "B",
+              "text": "God has preserved the exact inspired wording in an identifiable textual tradition."
+            },
+            {
+              "id": "BIB-5.5/C",
+              "label": "C",
+              "text": "The text has been transmitted through ordinary historical processes without a guarantee of complete or reliable preservation."
+            },
+            {
+              "id": "BIB-5.5/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "reviewPriorAnswers": [
+            "BIB-2.4"
+          ],
+          "friendDisplayNote": "After BIB-5.1, or reuse BIB-2.4 on manuscript variation.",
+          "shortTitle": "Preservation of biblical text",
+          "routingNotes": [
+            "A/B/C → 5.6 to clarify textual approach. Check for apparent tensions with BIB-2.4 before assigning a label."
+          ],
+          "editorialNotes": [
+            "Faith in reliable transmission and judgment about a particular manuscript reading are separate questions."
+          ]
+        },
+        {
+          "id": "BIB-5.6",
+          "prompt": "When ancient biblical manuscripts contain different readings, how should the original text be determined?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-5.5/A",
+                "BIB-5.5/B",
+                "BIB-5.5/C"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-5.5/D"
+              ]
+            }
+          },
+          "displayNote": "After BIB-5.5 selects A, B, or C; optional after D.",
+          "choices": [
+            {
+              "id": "BIB-5.6/A",
+              "label": "A",
+              "text": "By examining manuscript evidence, language, and historical context to recover the earliest attainable reading."
+            },
+            {
+              "id": "BIB-5.6/B",
+              "label": "B",
+              "text": "By giving decisive preference to a particular received textual tradition."
+            },
+            {
+              "id": "BIB-5.6/C",
+              "label": "C",
+              "text": "By following the judgment of the Church's recognized textual and interpretive authorities."
+            },
+            {
+              "id": "BIB-5.6/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-5.5 selects A, B, or C; optional after D.",
+          "shortTitle": "Choosing among manuscript readings",
+          "routingNotes": [
+            "A/B/C → save a textual method only; do not automatically infer a doctrine of inspiration or an exact Bible version."
+          ],
+          "editorialNotes": [
+            "These approaches can overlap in practice, so the response set may need revision."
+          ]
+        }
+      ],
+      "introduction": [
+        "Which books are Scripture, and how are their authority and text recognized?"
+      ]
+    },
+    {
+      "dimensionId": 11,
+      "title": "Hermeneutics and Interpretation",
+      "questions": [
+        {
+          "id": "BIB-6.1",
+          "prompt": "What should be the primary goal when interpreting a biblical passage?",
+          "selection": "single",
+          "role": "FOUNDATIONAL",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "All respondents entering Hermeneutics.",
+          "choices": [
+            {
+              "id": "BIB-6.1/A",
+              "label": "A",
+              "text": "Discover the meaning intended by its original human author in the historical and literary context."
+            },
+            {
+              "id": "BIB-6.1/B",
+              "label": "B",
+              "text": "Discover the meaning intended by God through the passage within Scripture's larger canonical message."
+            },
+            {
+              "id": "BIB-6.1/C",
+              "label": "C",
+              "text": "Understand the passage according to the received interpretation and teaching of the historic Church."
+            },
+            {
+              "id": "BIB-6.1/D",
+              "label": "D",
+              "text": "Discern how the passage communicates meaning to the present community, even beyond its original context."
+            },
+            {
+              "id": "BIB-6.1/E",
+              "label": "E",
+              "text": "I'm uncertain."
+            }
+          ],
+          "shortTitle": "Primary interpretive goal",
+          "routingNotes": [
+            "A/B → 6.2 on human and divine intention. C → link to 4.1–4.4. D → explore how original context constrains current application. All → 6.3."
+          ],
+          "editorialNotes": [
+            "A, B, and C can be mutually compatible rather than exclusive; this is a priority question, not a full method inventory."
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "hermeneutics",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "BIB-6.2",
+          "prompt": "Can a biblical passage possess a divinely intended meaning beyond what its human author consciously understood?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-6.1/A",
+                "BIB-6.1/B",
+                "BIB-6.1/C",
+                "BIB-6.1/D"
+              ]
+            },
+            "optional": {
+              "selectedAny": [
+                "BIB-6.1/E"
+              ]
+            }
+          },
+          "displayNote": "After BIB-6.1 selects A–D; optional after E.",
+          "choices": [
+            {
+              "id": "BIB-6.2/A",
+              "label": "A",
+              "text": "Yes. God can intend fuller meanings that become apparent through subsequent revelation."
+            },
+            {
+              "id": "BIB-6.2/B",
+              "label": "B",
+              "text": "No. The meaning is established by the human author's intended communication, although later applications may develop."
+            },
+            {
+              "id": "BIB-6.2/C",
+              "label": "C",
+              "text": "Meaning can develop through the believing community without requiring a previously intended divine meaning."
+            },
+            {
+              "id": "BIB-6.2/D",
+              "label": "D",
+              "text": "I'm undecided."
+            }
+          ],
+          "friendDisplayNote": "After BIB-6.1 selects A–D; optional after E.",
+          "shortTitle": "Divine meaning beyond human intention",
+          "routingNotes": [
+            "A/B/C → 6.4 about Old Testament Christological interpretation. Track divine intention independently of methods of application."
+          ],
+          "editorialNotes": [
+            "Distinguish multiple senses of a text from multiple interpretations of the same sense."
+          ]
+        },
+        {
+          "id": "BIB-6.3",
+          "prompt": "How should literary genre influence biblical interpretation?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP",
+          "display": {
+            "guided": {
+              "answered": "BIB-6.1"
+            }
+          },
+          "displayNote": "After BIB-6.1; independent of which interpretive goal was selected.",
+          "choices": [
+            {
+              "id": "BIB-6.3/A",
+              "label": "A",
+              "text": "Genre is essential; poetry, prophecy, narrative, parable, and apocalyptic literature must be interpreted according to their literary conventions."
+            },
+            {
+              "id": "BIB-6.3/B",
+              "label": "B",
+              "text": "The text should ordinarily be understood as a straightforward literal description unless compelling evidence requires otherwise."
+            },
+            {
+              "id": "BIB-6.3/C",
+              "label": "C",
+              "text": "Spiritual, allegorical, or symbolic interpretations should ordinarily take priority over the surface literary sense."
+            },
+            {
+              "id": "BIB-6.3/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-6.1; independent of which interpretive goal was selected.",
+          "shortTitle": "Literary genre",
+          "routingNotes": [
+            "A/B/C → 6.5 to test responses to historical and scientific challenges. If A and B appear in tension, clarify what 'literal' means for each genre."
+          ],
+          "editorialNotes": [
+            "Genre-sensitive interpretation and a literal sense are not necessarily rivals."
+          ]
+        },
+        {
+          "id": "BIB-6.4",
+          "prompt": "Is it legitimate to interpret Old Testament passages as pointing to Christ beyond their immediate historical context?",
+          "selection": "single",
+          "role": "CONDITIONAL FOLLOW-UP",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "BIB-6.2/A",
+                "BIB-6.2/B",
+                "BIB-6.2/C"
+              ]
+            },
+            "optional": {
+              "answered": "BIB-6.2"
+            }
+          },
+          "displayNote": "After BIB-6.2 selects A–C, especially A or B; optional otherwise.",
+          "choices": [
+            {
+              "id": "BIB-6.4/A",
+              "label": "A",
+              "text": "Yes. God intentionally established patterns, promises, and types that find fuller meaning in Christ."
+            },
+            {
+              "id": "BIB-6.4/B",
+              "label": "B",
+              "text": "Yes, as legitimate later theological applications, though not necessarily meanings originally intended by the text."
+            },
+            {
+              "id": "BIB-6.4/C",
+              "label": "C",
+              "text": "Only where such a connection is expressly established by Scripture itself."
+            },
+            {
+              "id": "BIB-6.4/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "recommendWhen": {
+            "selectedAny": [
+              "BIB-6.2/A",
+              "BIB-6.2/B"
+            ]
+          },
+          "friendDisplayNote": "After BIB-6.2 selects A–C, especially A or B; optional otherwise.",
+          "shortTitle": "Christological reading of Old Testament",
+          "routingNotes": [
+            "A/B/C → distinguish intended divine typology, authorized apostolic interpretation, and later theological application."
+          ],
+          "editorialNotes": [
+            "Do not assume that requiring textual warrant precludes recognizing types and promises."
+          ]
+        },
+        {
+          "id": "BIB-6.5",
+          "prompt": "How should Christians respond when historical or scientific scholarship challenges a traditional biblical interpretation?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
+          "display": {
+            "guided": {
+              "answered": "BIB-6.3"
+            }
+          },
+          "displayNote": "After BIB-6.3; reuse from Prolegomena on faith and reason where substantively answered.",
+          "choices": [
+            {
+              "id": "BIB-6.5/A",
+              "label": "A",
+              "text": "Reevaluate the interpretation in light of the evidence, accepting revisions where warranted."
+            },
+            {
+              "id": "BIB-6.5/B",
+              "label": "B",
+              "text": "Examine the evidence seriously while maintaining a presumption in favor of the received interpretation."
+            },
+            {
+              "id": "BIB-6.5/C",
+              "label": "C",
+              "text": "Reject scholarly conclusions when they conflict with an authoritative understanding of Scripture."
+            },
+            {
+              "id": "BIB-6.5/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-6.3; reuse from Prolegomena on faith and reason where substantively answered.",
+          "shortTitle": "External scholarship and interpretation",
+          "routingNotes": [
+            "A/B/C → check against the respondent's general faith-reason method without manufacturing a contradiction."
+          ],
+          "editorialNotes": [
+            "The choices may differ in strength of presumption rather than ultimate intellectual principle."
+          ]
+        },
+        {
+          "id": "BIB-6.6",
+          "prompt": "What role does the Holy Spirit play in biblical interpretation?",
+          "selection": "single",
+          "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
+          "display": {
+            "guided": {
+              "answered": "BIB-6.1"
+            }
+          },
+          "displayNote": "After BIB-6.1; especially useful when Prolegomena addresses ongoing revelation.",
+          "choices": [
+            {
+              "id": "BIB-6.6/A",
+              "label": "A",
+              "text": "The Spirit illuminates believers to understand and receive Scripture's meaning without adding new revelation."
+            },
+            {
+              "id": "BIB-6.6/B",
+              "label": "B",
+              "text": "The Spirit guides the Church corporately in preserving and authoritatively interpreting the apostolic faith."
+            },
+            {
+              "id": "BIB-6.6/C",
+              "label": "C",
+              "text": "The Spirit can communicate new interpretations or doctrinal insights possessing divine authority."
+            },
+            {
+              "id": "BIB-6.6/D",
+              "label": "D",
+              "text": "I'm uncertain."
+            }
+          ],
+          "friendDisplayNote": "After BIB-6.1; especially useful when Prolegomena addresses ongoing revelation.",
+          "shortTitle": "Holy Spirit in interpretation",
+          "routingNotes": [
+            "A/B/C → cross-reference Prolegomena's question on continuing revelation; avoid equating illumination with new revelatory content."
+          ],
+          "editorialNotes": [
+            "A and B can both be affirmed; consider separating individual illumination and ecclesial guidance into two axes."
+          ]
+        }
+      ],
+      "introduction": [
+        "What determines biblical meaning, and how should Scripture be interpreted?"
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "FOUNDATIONAL — first question of a dimension; shown in default progression.",
+    "COMMON FOLLOW-UP — usually asked after the opening question, unless already answered elsewhere or inapplicable.",
+    "CONDITIONAL FOLLOW-UP — displayed when particular earlier answers create a need for clarification.",
+    "OPTIONAL DEPTH FOLLOW-UP — offered to interested users, not always needed for a base profile.",
+    "CROSS-CATEGORY — answered once and reused rather than duplicating a question from Prolegomena or another doctrinal category.",
+    "DISPLAY RULE states a proposed trigger. ROUTING captures next steps and reused answers. EDITORIAL NOTE flags uncertainties and potential changes to the answer set.",
+    "All six dimensions are independently accessible in topic mode. Guided progression is suggested, not locked. 'Unsure' should not be penalized, and apparent tensions should prompt clarification rather than an automatic contradiction label.",
+    "Draft caution: Some alternatives overlap (especially BIB-2.3, 5.3, and 6.1). This is the 30-question first pass, not an approved comprehensive taxonomy."
+  ],
+  "vocabulary": [
+    {
+      "id": "bibliology",
+      "term": "Bibliology",
+      "kind": "concept",
+      "definition": "The study of Scripture’s origin, authority, contents, and interpretation.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ],
+      "aliases": [
+        "Doctrine of Scripture"
+      ]
+    },
+    {
+      "id": "inspiration",
+      "term": "Inspiration of Scripture",
+      "kind": "concept",
+      "definition": "God’s action in the writing of Scripture through its human authors.",
+      "status": "draft",
+      "references": [
+        "DV 11",
+        "WCF 1.2–1.4"
+      ],
+      "aliases": [
+        "Biblical inspiration"
+      ]
+    },
+    {
+      "id": "inerrancy",
+      "term": "Inerrancy",
+      "kind": "concept",
+      "definition": "The claim that Scripture contains no error in what it affirms.",
+      "status": "draft",
+      "references": [
+        "CSBI arts. X–XIII"
+      ],
+      "aliases": [
+        "Biblical inerrancy"
+      ]
+    },
+    {
+      "id": "infallibility",
+      "term": "Infallibility of Scripture",
+      "kind": "concept",
+      "definition": "The claim that Scripture cannot fail or mislead in what it authoritatively teaches.",
+      "status": "draft",
+      "references": [
+        "BIB",
+        "CSBI art. XI"
+      ],
+      "expandedNote": "Some Christians use it alongside inerrancy to express Scripture’s truthfulness throughout. Others distinguish the words by using infallibility for Scripture’s reliability in accomplishing its purpose or teaching saving truth. The word alone may leave its intended scope open.",
+      "aliases": [
+        "Biblical infallibility"
+      ]
+    },
+    {
+      "id": "scripture-sufficiency",
+      "term": "Sufficiency of Scripture",
+      "kind": "concept",
+      "definition": "The claim that Scripture provides what is needed for a specified purpose, such as salvation or establishing binding doctrine.",
+      "status": "draft",
+      "references": [
+        "WCF 1.6",
+        "BIB"
+      ],
+      "aliases": [
+        "Scriptural sufficiency"
+      ]
+    },
+    {
+      "id": "sola-scriptura",
+      "term": "Sola Scriptura",
+      "kind": "position",
+      "definition": "The Protestant principle that Scripture is the Church’s only infallible rule of faith.",
+      "status": "draft",
+      "references": [
+        "WCF 1.10"
+      ],
+      "aliases": [
+        "Scripture alone"
+      ]
+    },
+    {
+      "id": "apostolic-tradition",
+      "term": "Apostolic Tradition",
+      "kind": "concept",
+      "definition": "The faith and teaching handed down from the apostles in the Church.",
+      "status": "draft",
+      "references": [
+        "DV 7–10",
+        "OCA Doctrine and Scripture",
+        "WCF 1.10"
+      ],
+      "expandedNote": "Catholic and Eastern Orthodox accounts connect Scripture closely to the faith received and handed on by the Church. They describe that relationship in their own terms. Across Protestant traditions, apostolic teaching is likewise authoritative, with disagreements over what counts as an authoritative transmission of it.",
+      "aliases": [
+        "Sacred Tradition",
+        "Holy Tradition"
+      ]
+    },
+    {
+      "id": "biblical-canon",
+      "term": "Biblical canon",
+      "kind": "concept",
+      "definition": "The collection of books a Christian community receives as Holy Scripture.",
+      "status": "draft",
+      "references": [
+        "DV 8",
+        "WCF 1.2–1.3",
+        "OCA Doctrine and Scripture"
+      ],
+      "aliases": [
+        "Canon of Scripture",
+        "Canon"
+      ]
+    },
+    {
+      "id": "deuterocanonical-books",
+      "term": "Deuterocanonical books",
+      "kind": "concept",
+      "definition": "The Old Testament books and additions that Roman Catholics call deuterocanonical, which most Protestant Bibles either omit or place in an Apocrypha section.",
+      "status": "draft",
+      "references": [
+        "CCC 120",
+        "WCF 1.3",
+        "BIB"
+      ],
+      "expandedNote": "The label reflects Catholic usage. Eastern Orthodox lists and terminology can differ, and “Apocrypha” can refer to different collections depending on the edition or tradition. Use the names of particular books whenever an answer’s scope depends on them.",
+      "aliases": [
+        "Deuterocanon"
+      ]
+    },
+    {
+      "id": "hermeneutics",
+      "term": "Hermeneutics",
+      "kind": "concept",
+      "definition": "The principles and methods people use to interpret texts, including how genre, context, and the whole of Scripture inform a passage’s meaning.",
+      "status": "draft",
+      "references": [
+        "DV 12",
+        "WCF 1.9",
+        "BIB"
+      ],
+      "aliases": [
+        "Biblical interpretation"
+      ]
+    }
+  ]
+}

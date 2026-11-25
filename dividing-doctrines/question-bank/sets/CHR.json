@@ -1,0 +1,953 @@
+{
+  "$schema": "../question-set.schema.json",
+  "schemaVersion": 1,
+  "id": "CHR",
+  "title": "Christology",
+  "plainLanguageTitle": "Jesus Christ",
+  "edition": "draft-v1",
+  "featuredQuestionId": null,
+  "sources": {
+    "workingBank": "CHR — Dividing Doctrines — Christology (Working Bank) v1",
+    "friendEdition": "CHR — Dividing Doctrines — Christology (Friend Feedback) v1"
+  },
+  "sections": [
+    {
+      "dimensionId": 22,
+      "title": "Deity and humanity of Christ",
+      "questions": [
+        {
+          "id": "CHR-01",
+          "prompt": "Who is Jesus Christ in relation to God and humanity?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "CHR-01/A",
+              "label": "A",
+              "text": "The eternal Son is fully divine and became fully human."
+            },
+            {
+              "id": "CHR-01/B",
+              "label": "B",
+              "text": "Jesus is fully human and uniquely bears God’s presence, but I do not confess him as eternally divine."
+            },
+            {
+              "id": "CHR-01/C",
+              "label": "C",
+              "text": "The Son is divine, but I do not think he assumed every aspect of human nature."
+            },
+            {
+              "id": "CHR-01/D",
+              "label": "D",
+              "text": "I am still working out what full divinity and full humanity mean together."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "incarnation",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "CHR-02",
+          "prompt": "When Jesus grew in wisdom, was he learning something he had not known in his human experience?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-02/A",
+              "label": "A",
+              "text": "Yes. He genuinely learned with a human mind while retaining divine knowledge."
+            },
+            {
+              "id": "CHR-02/B",
+              "label": "B",
+              "text": "Yes. In becoming human he set aside the exercise or possession of certain divine capacities. I want to clarify which."
+            },
+            {
+              "id": "CHR-02/C",
+              "label": "C",
+              "text": "His growth describes the unfolding or disclosure of knowledge already present in his humanity."
+            },
+            {
+              "id": "CHR-02/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "CHR-02a",
+          "prompt": "Which limitation do you mean?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "CHR-02/B"
+              ]
+            }
+          },
+          "displayNote": "↳ After CHR-02, if B is selected.",
+          "choices": [
+            {
+              "id": "CHR-02a/A",
+              "label": "A",
+              "text": "The Son retained divine attributes but freely refrained from exercising them in certain ways."
+            },
+            {
+              "id": "CHR-02a/B",
+              "label": "B",
+              "text": "Incarnation involved an actual surrender of certain divine properties for a time."
+            },
+            {
+              "id": "CHR-02a/C",
+              "label": "C",
+              "text": "I affirm a real self-emptying but would leave its precise nature open."
+            },
+            {
+              "id": "CHR-02a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "CHR-03",
+          "prompt": "What does calling Mary “Mother of God” affirm, if you use the title?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-03/A",
+              "label": "A",
+              "text": "The person she bore is God the Son, who received his humanity from her."
+            },
+            {
+              "id": "CHR-03/B",
+              "label": "B",
+              "text": "That claim about Jesus is true, but I prefer a different title for Mary to avoid misunderstanding."
+            },
+            {
+              "id": "CHR-03/C",
+              "label": "C",
+              "text": "I think the title attributes to Mary something that belongs only to the origin of divinity, so I reject it."
+            },
+            {
+              "id": "CHR-03/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "theotokos",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "Mother of God"
+            }
+          ]
+        }
+      ],
+      "reading": "John 1:1–18, Luke 2:52, Hebrews 2:14–18.",
+      "editorialNotes": [
+        "Distinguish who Christ is from how his human knowledge and dependence are understood."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Catechism of the Catholic Church, §§464–478, on Christ’s humanity, knowledge, and will.",
+          "url": "https://www.vatican.va/content/catechism/en/part_one/section_two/chapter_two/artcile_3/he_was_conceived_by_the_power_of_the_holy_spirit%2C_and_was_born_of_the_virgin_mary.html"
+        }
+      ]
+    },
+    {
+      "dimensionId": 23,
+      "title": "Hypostatic union",
+      "questions": [
+        {
+          "id": "CHR-04",
+          "prompt": "Which wording best expresses how divinity and humanity are united in the one Christ?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "CHR-04/A",
+              "label": "A",
+              "text": "One and the same Son is acknowledged in two natures that remain distinct without division or confusion."
+            },
+            {
+              "id": "CHR-04/B",
+              "label": "B",
+              "text": "I speak of one united incarnate nature of the Word, from divinity and humanity, with the reality of each preserved."
+            },
+            {
+              "id": "CHR-04/C",
+              "label": "C",
+              "text": "I can affirm both formulations when each is understood in the sense its adherents intend."
+            },
+            {
+              "id": "CHR-04/D",
+              "label": "D",
+              "text": "I affirm the one Christ as fully divine and fully human but have no settled view of these formulas."
+            },
+            {
+              "id": "CHR-04/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "hypostatic-union",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "CHR-05",
+          "prompt": "Can a Christian rightly say that God suffered on the cross?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-05/A",
+              "label": "A",
+              "text": "Yes. The person who suffered in his humanity is God the Son, while the divine nature remains impassible."
+            },
+            {
+              "id": "CHR-05/B",
+              "label": "B",
+              "text": "Yes. The Son’s suffering also involves suffering in God’s own divine life."
+            },
+            {
+              "id": "CHR-05/C",
+              "label": "C",
+              "text": "I would reserve the word “suffered” for Christ in his humanity and avoid saying “God suffered.”"
+            },
+            {
+              "id": "CHR-05/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "hypostatic-union",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "CHR-06",
+          "prompt": "When Jesus prays in Gethsemane, how is his human willing related to his divine willing?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-06/A",
+              "label": "A",
+              "text": "He has a genuine human will that freely follows the divine will."
+            },
+            {
+              "id": "CHR-06/B",
+              "label": "B",
+              "text": "I describe the incarnate Christ as having one united will, while affirming genuine human willing in him."
+            },
+            {
+              "id": "CHR-06/C",
+              "label": "C",
+              "text": "I affirm his real obedience but cannot infer a number of wills from the prayer."
+            },
+            {
+              "id": "CHR-06/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "John 1:14, Philippians 2:5–11, 1 Corinthians 2:8.",
+      "introduction": [
+        "The hypostatic union is the union of divinity and humanity in the one person of Christ. Write “Oriental Orthodox” where Coptic Christology is intended."
+      ],
+      "editorialNotes": [
+        "Give Chalcedonian and Oriental Orthodox formulations their own voice. Their shared rejection of confusion and division is important."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Paul VI and Shenouda III, Common Declaration (1973). Together they confess Christ is “perfect God with respect to His divinity, perfect man with respect to His humanity.”",
+          "url": "https://www.vatican.va/content/paul-vi/en/speeches/1973/may/documents/hf_p-vi_spe_19730510_dichiarazione-comune.html"
+        }
+      ]
+    },
+    {
+      "dimensionId": 24,
+      "title": "Christ's impeccability",
+      "questions": [
+        {
+          "id": "CHR-07",
+          "prompt": "When Jesus was tempted, was it possible for him to sin?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "CHR-07/A",
+              "label": "A",
+              "text": "No. The one who acted was the divine Son, who could not sin."
+            },
+            {
+              "id": "CHR-07/B",
+              "label": "B",
+              "text": "Yes. He could have chosen sin but always freely obeyed."
+            },
+            {
+              "id": "CHR-07/C",
+              "label": "C",
+              "text": "It depends on whether we mean a capacity belonging to human nature or a possibility for this particular person."
+            },
+            {
+              "id": "CHR-07/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "impeccability",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "CHR-07a",
+          "prompt": "What made the temptation real if Christ’s faithfulness was certain?",
+          "selection": "multiple",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "CHR-07/A",
+                "CHR-07/C"
+              ]
+            }
+          },
+          "displayNote": "↳ After CHR-07, if A or C is selected.",
+          "choices": [
+            {
+              "id": "CHR-07a/A",
+              "label": "A",
+              "text": "He really experienced hunger, fear, suffering, or the cost of obedience."
+            },
+            {
+              "id": "CHR-07a/B",
+              "label": "B",
+              "text": "The invitation to disobey was a genuine external test."
+            },
+            {
+              "id": "CHR-07a/C",
+              "label": "C",
+              "text": "He exercised a human will in freely choosing obedience."
+            },
+            {
+              "id": "CHR-07a/D",
+              "label": "D",
+              "text": "I am unsure how to reconcile the two claims.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "CHR-08",
+          "prompt": "In what sense is Jesus’ obedience a pattern a believer can follow if Jesus is the incarnate Son?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-08/A",
+              "label": "A",
+              "text": "His human trust and obedience show what faithful human life looks like, even where his vocation is unique."
+            },
+            {
+              "id": "CHR-08/B",
+              "label": "B",
+              "text": "His obedience is chiefly representative. Its saving significance cannot be reduced to imitation."
+            },
+            {
+              "id": "CHR-08/C",
+              "label": "C",
+              "text": "Both his representative obedience and his human example are indispensable to my answer."
+            },
+            {
+              "id": "CHR-08/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "incarnation",
+              "placement": "inline",
+              "status": "draft",
+              "anchor": "incarnate"
+            }
+          ]
+        }
+      ],
+      "reading": "Matthew 4:1–11, Hebrews 4:15, James 1:13.",
+      "introduction": [
+        "Impeccability means inability to sin. Sinlessness describes the fact that Christ did not sin."
+      ],
+      "editorialNotes": [
+        "The possibility of sinning and the reality of temptation are separate questions."
+      ]
+    },
+    {
+      "dimensionId": 25,
+      "title": "Extent and intent of the atonement",
+      "questions": [
+        {
+          "id": "CHR-09",
+          "prompt": "For whom did God intend Christ’s death to secure salvation?",
+          "selection": "single",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "CHR-09/A",
+              "label": "A",
+              "text": "For particular people whom Christ’s death effectually redeems."
+            },
+            {
+              "id": "CHR-09/B",
+              "label": "B",
+              "text": "For every person, with its saving benefits received through faith."
+            },
+            {
+              "id": "CHR-09/C",
+              "label": "C",
+              "text": "For all as a genuine provision, with a further intention to secure the salvation of particular people."
+            },
+            {
+              "id": "CHR-09/D",
+              "label": "D",
+              "text": "For everyone in a way that ultimately brings every person to salvation."
+            },
+            {
+              "id": "CHR-09/E",
+              "label": "E",
+              "text": "I affirm Christ died for sinners but cannot determine a more specific intention."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "atonement",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "limited-atonement",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "CHR-09a",
+          "prompt": "In what sense, if any, can someone say to any hearer, “Christ died for you”?",
+          "selection": "single",
+          "role": "Conditional follow-up",
+          "display": {
+            "guided": {
+              "selectedAny": [
+                "CHR-09/A",
+                "CHR-09/C"
+              ]
+            }
+          },
+          "displayNote": "↳ After CHR-09, if A or C is selected.",
+          "choices": [
+            {
+              "id": "CHR-09a/A",
+              "label": "A",
+              "text": "The worth of his death and the promise to every believer warrant a universal invitation, but I would qualify that particular assurance."
+            },
+            {
+              "id": "CHR-09a/B",
+              "label": "B",
+              "text": "His death was genuinely provided for each hearer, even though God also intends a particular saving outcome."
+            },
+            {
+              "id": "CHR-09a/C",
+              "label": "C",
+              "text": "I would use the assurance without resolving how general provision and particular intention relate."
+            },
+            {
+              "id": "CHR-09a/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        },
+        {
+          "id": "CHR-10",
+          "prompt": "When someone comes to faith, what relation does that have to what Christ accomplished on the cross?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-10/A",
+              "label": "A",
+              "text": "The person receives benefits already secured for that individual."
+            },
+            {
+              "id": "CHR-10/B",
+              "label": "B",
+              "text": "Faith is the condition on which a provision made for everyone becomes personally effective."
+            },
+            {
+              "id": "CHR-10/C",
+              "label": "C",
+              "text": "The person comes to know and live in a reconciliation already true of all humanity."
+            },
+            {
+              "id": "CHR-10/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "John 10:11–16, 1 Timothy 2:4–6, 1 John 2:2.",
+      "editorialNotes": [
+        "Distinguish worth, intention, and application. A universal provision alone establishes no conclusion about universal salvation."
+      ],
+      "furtherStudy": [
+        {
+          "text": "Canons of Dort, second head, articles 3 and 8, on the worth and saving purpose of Christ’s death.",
+          "url": "https://www.rca.org/about/theology/creeds-and-confessions/canons-of-dort/"
+        },
+        {
+          "text": "Church of the Nazarene, Articles of Faith, VI, on atonement.",
+          "url": "https://nazarene.org/resources/articles-of-faith/"
+        }
+      ]
+    },
+    {
+      "dimensionId": 26,
+      "title": "Models of the atonement",
+      "questions": [
+        {
+          "id": "CHR-11",
+          "prompt": "What did Christ accomplish through his death and resurrection?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "CHR-11/A",
+              "label": "A",
+              "text": "He bore the judgment due to sinners."
+            },
+            {
+              "id": "CHR-11/B",
+              "label": "B",
+              "text": "He offered obedient self-giving that repairs the dishonor or debt of sin."
+            },
+            {
+              "id": "CHR-11/C",
+              "label": "C",
+              "text": "He defeated sin, death, and the powers that enslave humanity."
+            },
+            {
+              "id": "CHR-11/D",
+              "label": "D",
+              "text": "He heals and renews human nature through union with himself."
+            },
+            {
+              "id": "CHR-11/E",
+              "label": "E",
+              "text": "He reveals divine love in a way that brings people to repentance and reconciliation."
+            },
+            {
+              "id": "CHR-11/F",
+              "label": "F",
+              "text": "He acts as humanity’s faithful representative and begins a new humanity."
+            },
+            {
+              "id": "CHR-11/G",
+              "label": "G",
+              "text": "He publicly upholds God’s moral government while making forgiveness possible."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "atonement",
+              "placement": "sidebar",
+              "status": "draft"
+            },
+            {
+              "termId": "christus-victor",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "penal-substitution",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "CHR-12",
+          "prompt": "Would an account of the cross be adequate if it affirmed forgiveness and victory over death but denied that Christ bore punishment in our place?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-12/A",
+              "label": "A",
+              "text": "No. Bearing sin’s penalty in our place is indispensable."
+            },
+            {
+              "id": "CHR-12/B",
+              "label": "B",
+              "text": "Yes. A different account of how Christ reconciles us can be sufficient."
+            },
+            {
+              "id": "CHR-12/C",
+              "label": "C",
+              "text": "It depends what “punishment” means. I affirm that Christ bore sin’s consequences but distinguish that from the Father punishing him."
+            },
+            {
+              "id": "CHR-12/D",
+              "label": "D",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "christus-victor",
+              "placement": "after_answer",
+              "status": "draft"
+            },
+            {
+              "termId": "penal-substitution",
+              "placement": "after_answer",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "id": "CHR-13",
+          "prompt": "Would the gospel’s account of salvation be complete if it ended with Jesus’ death and omitted his resurrection?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-13/A",
+              "label": "A",
+              "text": "No. In rising, Christ actually inaugurates the new life believers receive."
+            },
+            {
+              "id": "CHR-13/B",
+              "label": "B",
+              "text": "No. The resurrection is indispensable as divine vindication of Christ and confirmation of his completed sacrifice."
+            },
+            {
+              "id": "CHR-13/C",
+              "label": "C",
+              "text": "Both new life and divine vindication belong to what the resurrection accomplishes."
+            },
+            {
+              "id": "CHR-13/D",
+              "label": "D",
+              "text": "I distinguish the accomplishment of atonement at the cross from the indispensable proclamation of the resurrection."
+            },
+            {
+              "id": "CHR-13/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ]
+        }
+      ],
+      "reading": "Romans 3:21–26, Colossians 2:13–15, Hebrews 2:14–17.",
+      "editorialNotes": [
+        "These themes can coexist. Ask separately whether any one is indispensable."
+      ]
+    },
+    {
+      "dimensionId": 27,
+      "title": "Christ's offices and mediation",
+      "questions": [
+        {
+          "id": "CHR-14",
+          "prompt": "Which descriptions identify a continuing work of the risen Christ?",
+          "selection": "multiple",
+          "role": "Foundational",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Foundational  |  On entry to this dimension",
+          "choices": [
+            {
+              "id": "CHR-14/A",
+              "label": "A",
+              "text": "As prophet, Christ makes God known to his people."
+            },
+            {
+              "id": "CHR-14/B",
+              "label": "B",
+              "text": "As priest, Christ intercedes for us."
+            },
+            {
+              "id": "CHR-14/C",
+              "label": "C",
+              "text": "As king, Christ rules and brings his enemies under his feet."
+            },
+            {
+              "id": "CHR-14/D",
+              "label": "D",
+              "text": "I affirm that Christ acts today but find the three offices an inadequate framework."
+            },
+            {
+              "id": "CHR-14/E",
+              "label": "E",
+              "text": "I’m unsure.",
+              "exclusive": true
+            }
+          ]
+        },
+        {
+          "id": "CHR-15",
+          "prompt": "Does Christ’s unique mediation allow a Christian to ask departed saints for their prayers?",
+          "selection": "single",
+          "role": "Common follow-up",
+          "display": {
+            "guided": true
+          },
+          "displayNote": "Common follow-up  |  All readers of this dimension",
+          "choices": [
+            {
+              "id": "CHR-15/A",
+              "label": "A",
+              "text": "Yes. Their intercession depends wholly on Christ’s mediation."
+            },
+            {
+              "id": "CHR-15/B",
+              "label": "B",
+              "text": "The saints in heaven may intercede, but Christians should direct these requests to God."
+            },
+            {
+              "id": "CHR-15/C",
+              "label": "C",
+              "text": "I affirm mutual prayer among the living, but I see no grounds for affirming intercession by the departed."
+            },
+            {
+              "id": "CHR-15/D",
+              "label": "D",
+              "text": "I leave the question of the saints’ intercession open and would not make invocation obligatory."
+            },
+            {
+              "id": "CHR-15/E",
+              "label": "E",
+              "text": "I’m unsure."
+            }
+          ],
+          "vocabularyLinks": [
+            {
+              "termId": "intercession",
+              "placement": "sidebar",
+              "status": "draft"
+            }
+          ]
+        }
+      ],
+      "reading": "Deuteronomy 18:15, Hebrews 7:23–28, 1 Timothy 2:5.",
+      "editorialNotes": [
+        "Do not infer a view on invocation of saints from the affirmation of Christ’s unique mediation."
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Enter at any dimension. In guided mode, begin with its opening question, continue through the main questions in the order shown, and insert a follow-up only when its stated answer matches. After the branch, resume with the next main question. A skipped answer or uncertainty opens no conditional branch unless specified.",
+    "Choose the closest single answer unless multiple selections are invited. On multiple-response questions, an uncertainty or “none” choice stands alone. Treat unresolved tensions as invitations to clarify."
+  ],
+  "relatedSets": [
+    "TRI",
+    "SOT",
+    "SAC"
+  ],
+  "vocabulary": [
+    {
+      "id": "christology",
+      "term": "Christology",
+      "kind": "concept",
+      "definition": "The study of who Jesus Christ is and what he does.",
+      "status": "draft",
+      "references": [
+        "IDX"
+      ]
+    },
+    {
+      "id": "incarnation",
+      "term": "Incarnation",
+      "kind": "concept",
+      "definition": "The eternal Son of God taking on a human nature and becoming human in Jesus Christ.",
+      "status": "draft",
+      "references": [
+        "CHAL",
+        "OCA Incarnation"
+      ]
+    },
+    {
+      "id": "hypostatic-union",
+      "term": "Hypostatic union",
+      "kind": "concept",
+      "definition": "The union of full divinity and full humanity in the one person of Jesus Christ.",
+      "status": "draft",
+      "references": [
+        "CHAL",
+        "OCA Incarnation"
+      ]
+    },
+    {
+      "id": "theotokos",
+      "term": "Theotokos",
+      "kind": "concept",
+      "definition": "A title for Mary that identifies the person she bore as God the Son, who took his humanity from her.",
+      "status": "draft",
+      "references": [
+        "CHAL",
+        "OCA Incarnation"
+      ],
+      "aliases": [
+        "Mother of God",
+        "God-bearer"
+      ]
+    },
+    {
+      "id": "impeccability",
+      "term": "Christ’s impeccability",
+      "kind": "position",
+      "definition": "The view that the incarnate Son could not sin, even though he experienced real temptation.",
+      "status": "draft",
+      "references": [
+        "CHR",
+        "WCF 8.2"
+      ]
+    },
+    {
+      "id": "atonement",
+      "term": "Atonement",
+      "kind": "concept",
+      "definition": "Christ’s saving work that deals with sin and brings reconciliation with God, centered on his death.",
+      "status": "draft",
+      "references": [
+        "CHR",
+        "WCF 8.5",
+        "CCC 599–623"
+      ]
+    },
+    {
+      "id": "limited-atonement",
+      "term": "Definite atonement",
+      "kind": "position",
+      "definition": "The view that Christ’s death was intended to secure the salvation of the particular people God chose.",
+      "status": "draft",
+      "references": [
+        "DORT II.3, II.5, II.8",
+        "CHR"
+      ],
+      "expandedNote": "In the Canons of Dort, the saving intent and effect for the elect are distinguished from the infinite worth of Christ’s death and the offer of the gospel to all hearers. Related accounts differ over whether Christ also died for everyone in a distinct sense.",
+      "aliases": [
+        "Limited atonement",
+        "Particular redemption"
+      ]
+    },
+    {
+      "id": "penal-substitution",
+      "term": "Penal substitution",
+      "kind": "position",
+      "definition": "An account of the atonement in which Christ bears in sinners’ place the judgment they deserve.",
+      "status": "draft",
+      "references": [
+        "PSUB",
+        "WCF 8.5",
+        "CHR"
+      ],
+      "aliases": [
+        "Penal substitutionary atonement"
+      ]
+    },
+    {
+      "id": "christus-victor",
+      "term": "Christus Victor",
+      "kind": "position",
+      "definition": "An account of Christ’s saving work that emphasizes his victory over sin, death, and the powers that enslave humanity.",
+      "status": "draft",
+      "references": [
+        "CHR",
+        "CCC 654–655"
+      ],
+      "aliases": [
+        "Christ the Victor"
+      ]
+    }
+  ]
+}
