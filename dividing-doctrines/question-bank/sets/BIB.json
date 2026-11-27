@@ -17,6 +17,7 @@
       "questions": [
         {
           "id": "BIB-1.1",
+          "displayId": "BIB-01",
           "prompt": "What do you believe makes the Bible different from other religious or Christian writings?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -48,7 +49,7 @@
           ],
           "shortTitle": "Unique divine status",
           "routingNotes": [
-            "A/B → identify the scope and mode of inspiration (1.2–1.3). C → 1.2–1.4 to clarify what 'witness' and inspiration mean. D → offer further questions only by choice, without assuming divine inspiration."
+            "A/B → identify the scope and mode of inspiration (BIB-01a–BIB-01b). C → BIB-01a–BIB-01c to clarify what 'witness' and inspiration mean. D → offer further questions only by choice, without assuming divine inspiration."
           ],
           "editorialNotes": [
             "Do not infer a particular theory of inspiration from the mere affirmation that Scripture is uniquely inspired."
@@ -63,6 +64,7 @@
         },
         {
           "id": "BIB-1.2",
+          "displayId": "BIB-01a",
           "prompt": "How do you understand the process of biblical inspiration?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -80,7 +82,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-1.1 selects A, B, or C; optional after D.",
+          "displayNote": "After BIB-01 selects A, B, or C; optional after D.",
           "choices": [
             {
               "id": "BIB-1.2/A",
@@ -103,10 +105,10 @@
               "text": "I understand inspiration primarily as the spiritual significance of the writings rather than divine direction of their composition."
             }
           ],
-          "friendDisplayNote": "After BIB-1.1 selects A, B, or C; optional after D.",
+          "friendDisplayNote": "After BIB-01 selects A, B, or C; optional after D.",
           "shortTitle": "Mode of inspiration",
           "routingNotes": [
-            "A → 1.3 and 1.4 to test extent of inspiration. B/C → 1.3 and 1.4 to clarify whether the text's assertions are guaranteed true. D → record a non-superintendence account of inspiration without assuming rejection of Scripture's value."
+            "A → BIB-01b and BIB-01c to test extent of inspiration. B/C → BIB-01b and BIB-01c to clarify whether the text's assertions are guaranteed true. D → record a non-superintendence account of inspiration without assuming rejection of Scripture's value."
           ],
           "editorialNotes": [
             "The alternatives are draft descriptions; review whether B and C blur important distinctions."
@@ -121,6 +123,7 @@
         },
         {
           "id": "BIB-1.3",
+          "displayId": "BIB-01b",
           "prompt": "To what extent does divine inspiration apply to the biblical text?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -138,7 +141,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-1.1 selects A, B, or C; optional after D.",
+          "displayNote": "After BIB-01 selects A, B, or C; optional after D.",
           "choices": [
             {
               "id": "BIB-1.3/A",
@@ -161,10 +164,10 @@
               "text": "I don't believe inspiration should be understood as applying directly to the written text."
             }
           ],
-          "friendDisplayNote": "After BIB-1.1 selects A, B, or C; optional after D.",
+          "friendDisplayNote": "After BIB-01 selects A, B, or C; optional after D.",
           "shortTitle": "Extent of inspiration",
           "routingNotes": [
-            "A/B/C → 1.4 about whether inspired assertions are affirmed by God. C → later return to which books or passages are inspired (Canon). D → retain the respondent's distinction between inspired person, experience, and text."
+            "A/B/C → BIB-01c about whether inspired assertions are affirmed by God. C → later return to which books or passages are inspired (Canon). D → retain the respondent's distinction between inspired person, experience, and text."
           ],
           "editorialNotes": [
             "A view about the original writings should not be conflated with a claim about every surviving copy."
@@ -172,6 +175,7 @@
         },
         {
           "id": "BIB-1.4",
+          "displayId": "BIB-01c",
           "prompt": "Does biblical inspiration mean that everything Scripture actually asserts is also affirmed by God?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP / CROSS-CATEGORY",
@@ -184,7 +188,7 @@
               ]
             }
           },
-          "displayNote": "If BIB-1.1 selects A–C, especially after BIB-1.2 or 1.3.",
+          "displayNote": "If BIB-01 selects A–C, especially after BIB-01a or BIB-01b.",
           "choices": [
             {
               "id": "BIB-1.4/A",
@@ -207,10 +211,10 @@
               "text": "I haven't reached a conclusion."
             }
           ],
-          "friendDisplayNote": "If BIB-1.1 selects A–C, especially after BIB-1.2 or 1.3.",
+          "friendDisplayNote": "If BIB-01 selects A–C, especially after BIB-01a or BIB-01b.",
           "shortTitle": "Inspiration and divine affirmation",
           "routingNotes": [
-            "A → compare with BIB-2.1 on inerrancy; B/C → clarify which assertions or domains are excepted; D → no inerrancy classification until more information. Reuse this response in Inerrancy and Infallibility."
+            "A → compare with BIB-02 on inerrancy; B/C → clarify which assertions or domains are excepted; D → no inerrancy classification until more information. Reuse this response in Inerrancy and Infallibility."
           ],
           "editorialNotes": [
             "Differentiate what a passage asserts from what it merely quotes, narrates, or describes."
@@ -227,6 +231,7 @@
       "questions": [
         {
           "id": "BIB-2.1",
+          "displayId": "BIB-02",
           "prompt": "Can Scripture, as originally written and properly interpreted, contain a false assertion?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -258,7 +263,7 @@
           ],
           "shortTitle": "Truthfulness of original writings",
           "routingNotes": [
-            "A → 2.2–2.4, including how to handle apparent discrepancies. B/C → 2.2–2.3 to distinguish infallibility from unrestricted truthfulness. D → offer explanatory depth without labeling."
+            "A → BIB-02a–BIB-02c, including how to handle apparent discrepancies. B/C → BIB-02a–BIB-02b to distinguish infallibility from unrestricted truthfulness. D → offer explanatory depth without labeling."
           ],
           "editorialNotes": [
             "Avoid confusing an unresolved apparent contradiction with a demonstrated false assertion."
@@ -273,6 +278,7 @@
         },
         {
           "id": "BIB-2.2",
+          "displayId": "BIB-02a",
           "prompt": "What does it mean to say Scripture is infallible?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -281,7 +287,7 @@
               "answered": "BIB-2.1"
             }
           },
-          "displayNote": "After BIB-2.1, especially A, B, or C.",
+          "displayNote": "After BIB-02, especially A, B, or C.",
           "choices": [
             {
               "id": "BIB-2.2/A",
@@ -311,7 +317,7 @@
               "BIB-2.1/C"
             ]
           },
-          "friendDisplayNote": "After BIB-2.1, especially A, B, or C.",
+          "friendDisplayNote": "After BIB-02, especially A, B, or C.",
           "shortTitle": "Meaning of infallibility",
           "routingNotes": [
             "Record separately whether the respondent affirms inerrancy and the scope of infallibility. Do not assume they regard the two terms as synonyms."
@@ -329,6 +335,7 @@
         },
         {
           "id": "BIB-2.3",
+          "displayId": "BIB-02b",
           "prompt": "How should apparent contradictions between biblical passages be understood?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -346,7 +353,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-2.1 selects A, B, or C; optional after D.",
+          "displayNote": "After BIB-02 selects A, B, or C; optional after D.",
           "choices": [
             {
               "id": "BIB-2.3/A",
@@ -369,7 +376,7 @@
               "text": "I am uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-2.1 selects A, B, or C; optional after D.",
+          "friendDisplayNote": "After BIB-02 selects A, B, or C; optional after D.",
           "shortTitle": "Apparent contradictions",
           "routingNotes": [
             "A/B → distinguish confidence in noncontradiction from the interpretive method used to investigate it; C → ask whether alleged contradictions affect the author's intended claims. Link to Hermeneutics."
@@ -380,6 +387,7 @@
         },
         {
           "id": "BIB-2.4",
+          "displayId": "BIB-02c",
           "prompt": "How do manuscript variations and transmission errors affect claims of biblical inerrancy?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP / CROSS-CATEGORY",
@@ -392,7 +400,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-2.1 selects A–C, especially A; also accessible from BIB-5.5.",
+          "displayNote": "After BIB-02 selects A–C, especially A; also accessible from BIB-05d.",
           "choices": [
             {
               "id": "BIB-2.4/A",
@@ -420,10 +428,10 @@
               "BIB-2.1/A"
             ]
           },
-          "friendDisplayNote": "After BIB-2.1 selects A–C, especially A; also accessible from BIB-5.5.",
+          "friendDisplayNote": "After BIB-02 selects A–C, especially A; also accessible from BIB-05d.",
           "shortTitle": "Transmission and inerrancy",
           "routingNotes": [
-            "A/B/C → store textual-preservation convictions separately from inerrancy. Reuse in Biblical Canon (BIB-5.5–5.6)."
+            "A/B/C → store textual-preservation convictions separately from inerrancy. Reuse in Biblical Canon (BIB-05d–BIB-05e)."
           ],
           "editorialNotes": [
             "Preservation and inerrancy are related but independent claims; textual critics disagree about specific readings even while affirming inspiration."
@@ -447,6 +455,7 @@
       "questions": [
         {
           "id": "BIB-3.1",
+          "displayId": "BIB-03",
           "prompt": "Does Scripture contain everything necessary to know the way of salvation?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -478,7 +487,7 @@
           ],
           "shortTitle": "Sufficiency for salvation",
           "routingNotes": [
-            "A → 3.2 and 3.4. B/C → prioritize 3.2 and Scripture and Tradition 4.1–4.2. D → retain uncertainty without a theological label."
+            "A → BIB-03a and BIB-03c. B/C → prioritize BIB-03a and Scripture and Tradition BIB-04–BIB-04a. D → retain uncertainty without a theological label."
           ],
           "editorialNotes": [
             "Separate sufficiency of content from the alleged necessity of an authoritative interpreter."
@@ -493,6 +502,7 @@
         },
         {
           "id": "BIB-3.2",
+          "displayId": "BIB-03a",
           "prompt": "Must every doctrine binding upon Christians be established by Scripture?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
@@ -505,7 +515,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-3.1 selects A–C; also reusable from BIB-4.1.",
+          "displayNote": "After BIB-03 selects A–C; also reusable from BIB-04.",
           "choices": [
             {
               "id": "BIB-3.2/A",
@@ -528,10 +538,10 @@
               "text": "I am undecided."
             }
           ],
-          "friendDisplayNote": "After BIB-3.1 selects A–C; also reusable from BIB-4.1.",
+          "friendDisplayNote": "After BIB-03 selects A–C; also reusable from BIB-04.",
           "shortTitle": "Sufficiency for binding doctrine",
           "routingNotes": [
-            "A → 3.3 and 4.1. B/C → 4.2 and 4.5 for sources and development of authority. D → no sola Scriptura label."
+            "A → BIB-03b and BIB-04. B/C → BIB-04a and BIB-04d for sources and development of authority. D → no sola Scriptura label."
           ],
           "editorialNotes": [
             "An authority to interpret Scripture is not identical to an authority to supply new doctrinal content."
@@ -546,6 +556,7 @@
         },
         {
           "id": "BIB-3.3",
+          "displayId": "BIB-03b",
           "prompt": "How should Scripture regulate the worship and practices of the Church?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -563,7 +574,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-3.2 selects A–C; optional after D.",
+          "displayNote": "After BIB-03a selects A–C; optional after D.",
           "choices": [
             {
               "id": "BIB-3.3/A",
@@ -586,10 +597,10 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-3.2 selects A–C; optional after D.",
+          "friendDisplayNote": "After BIB-03a selects A–C; optional after D.",
           "shortTitle": "Sufficiency and worship",
           "routingNotes": [
-            "A/B → examine the respondent's understanding of warranted elements versus circumstances of worship; C → connect to 4.1 and 4.3. Do not equate practices with doctrine generally."
+            "A/B → examine the respondent's understanding of warranted elements versus circumstances of worship; C → connect to BIB-04 and BIB-04b. Do not equate practices with doctrine generally."
           ],
           "editorialNotes": [
             "The alternatives approximate different regulative and normative models but may require additional nuance."
@@ -597,6 +608,7 @@
         },
         {
           "id": "BIB-3.4",
+          "displayId": "BIB-03c",
           "prompt": "Is Scripture sufficiently clear for ordinary believers to understand its essential saving teachings?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -614,7 +626,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-3.1 selects A–C; optional after D.",
+          "displayNote": "After BIB-03 selects A–C; optional after D.",
           "choices": [
             {
               "id": "BIB-3.4/A",
@@ -637,7 +649,7 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-3.1 selects A–C; optional after D.",
+          "friendDisplayNote": "After BIB-03 selects A–C; optional after D.",
           "shortTitle": "Clarity of saving teaching",
           "routingNotes": [
             "A → record an affirmation of clarity of essential teaching; B/C → distinguish claims about clarity from institutional authority. Cross-reference Scripture and Tradition."
@@ -648,6 +660,7 @@
         },
         {
           "id": "BIB-3.5",
+          "displayId": "BIB-03d",
           "prompt": "Can general revelation through creation and conscience alone provide the knowledge necessary for saving faith?",
           "selection": "single",
           "role": "CROSS-CATEGORY / OPTIONAL DEPTH FOLLOW-UP",
@@ -656,7 +669,7 @@
               "answered": "BIB-3.1"
             }
           },
-          "displayNote": "After BIB-3.1, or reuse the respondent's Prolegomena revelation-and-salvation answer.",
+          "displayNote": "After BIB-03, or reuse the respondent's Prolegomena revelation-and-salvation answer.",
           "choices": [
             {
               "id": "BIB-3.5/A",
@@ -677,7 +690,7 @@
           "reviewPriorAnswers": [
             "P2.3"
           ],
-          "friendDisplayNote": "After BIB-3.1, or reuse the respondent's Prolegomena revelation-and-salvation answer.",
+          "friendDisplayNote": "After BIB-03, or reuse the respondent's Prolegomena revelation-and-salvation answer.",
           "shortTitle": "Necessity of special revelation",
           "routingNotes": [
             "Store or reuse from Prolegomena; avoid asking twice. If B, explore whether this is a statement about available saving knowledge or God's gracious provision apart from the gospel."
@@ -704,6 +717,7 @@
       "questions": [
         {
           "id": "BIB-4.1",
+          "displayId": "BIB-04",
           "prompt": "What should serve as the ultimate authority when Christians disagree about doctrine?",
           "selection": "single",
           "role": "FOUNDATIONAL / CROSS-CATEGORY",
@@ -743,7 +757,7 @@
           ],
           "shortTitle": "Ultimate authority in disputes",
           "routingNotes": [
-            "A → 4.2–4.4, often as consistency checks. B/C → 4.2–4.5 on unwritten tradition and Church authority. D → 4.3–4.4 to distinguish historical guidance from binding determination."
+            "A → BIB-04a–BIB-04c, often as consistency checks. B/C → BIB-04a–BIB-04d on unwritten tradition and Church authority. D → BIB-04b–BIB-04c to distinguish historical guidance from binding determination."
           ],
           "editorialNotes": [
             "This substantially overlaps Prolegomena's ultimate-authority question. Reuse that response if present and ask new questions only as needed."
@@ -758,6 +772,7 @@
         },
         {
           "id": "BIB-4.2",
+          "displayId": "BIB-04a",
           "prompt": "Can an unwritten apostolic tradition possess binding divine authority?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -776,7 +791,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-4.1 selects A, B, or C; optional after D or E.",
+          "displayNote": "After BIB-04 selects A, B, or C; optional after D or E.",
           "choices": [
             {
               "id": "BIB-4.2/A",
@@ -799,10 +814,10 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-4.1 selects A, B, or C; optional after D or E.",
+          "friendDisplayNote": "After BIB-04 selects A, B, or C; optional after D or E.",
           "shortTitle": "Unwritten apostolic Tradition",
           "routingNotes": [
-            "A → 4.5 about development and authoritative formulation. B → 4.3–4.4 as limits on church authority. C → record epistemic hesitation rather than rejecting tradition outright."
+            "A → BIB-04d about development and authoritative formulation. B → BIB-04b–BIB-04c as limits on church authority. C → record epistemic hesitation rather than rejecting tradition outright."
           ],
           "editorialNotes": [
             "Tradition as historical evidence, tradition as authentic apostolic revelation, and tradition as a binding authority are different."
@@ -817,6 +832,7 @@
         },
         {
           "id": "BIB-4.3",
+          "displayId": "BIB-04b",
           "prompt": "What authority should historic creeds and Church councils possess?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
@@ -825,7 +841,7 @@
               "answered": "BIB-4.1"
             }
           },
-          "displayNote": "After BIB-4.1; reuse from Prolegomena's creeds/confessions dimension when available.",
+          "displayNote": "After BIB-04; reuse from Prolegomena's creeds/confessions dimension when available.",
           "choices": [
             {
               "id": "BIB-4.3/A",
@@ -848,10 +864,10 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-4.1; reuse from Prolegomena's creeds/confessions dimension when available.",
+          "friendDisplayNote": "After BIB-04; reuse from Prolegomena's creeds/confessions dimension when available.",
           "shortTitle": "Creeds and councils",
           "routingNotes": [
-            "A–C → 4.4 and optionally 4.5. Record not only theoretical authority but the respondent's actual response to disputed teaching."
+            "A–C → BIB-04c and optionally BIB-04d. Record not only theoretical authority but the respondent's actual response to disputed teaching."
           ],
           "editorialNotes": [
             "Distinguish binding authority of a council from one's agreement with its conclusions."
@@ -866,6 +882,7 @@
         },
         {
           "id": "BIB-4.4",
+          "displayId": "BIB-04c",
           "prompt": "Suppose your interpretation of a biblical passage conflicts with a longstanding teaching of the Church. What should you do?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -884,7 +901,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-4.1 selects A–D; optional after E.",
+          "displayNote": "After BIB-04 selects A–D; optional after E.",
           "choices": [
             {
               "id": "BIB-4.4/A",
@@ -907,10 +924,10 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-4.1 selects A–D; optional after E.",
+          "friendDisplayNote": "After BIB-04 selects A–D; optional after E.",
           "shortTitle": "Interpretive disagreements with the Church",
           "routingNotes": [
-            "Compare the practical rule with 4.1; where answers appear in tension, request clarification rather than marking contradiction."
+            "Compare the practical rule with BIB-04; where answers appear in tension, request clarification rather than marking contradiction."
           ],
           "editorialNotes": [
             "A longstanding teaching and a formally binding doctrinal definition are not necessarily the same thing."
@@ -918,6 +935,7 @@
         },
         {
           "id": "BIB-4.5",
+          "displayId": "BIB-04d",
           "prompt": "Can a doctrinal formulation developed centuries after the apostles become binding on all Christians?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -942,7 +960,7 @@
               "answered": "BIB-4.1"
             }
           },
-          "displayNote": "Especially after BIB-4.2 selects A or C, or BIB-4.3 selects A or B; also available after BIB-4.1.",
+          "displayNote": "Especially after BIB-04a selects A or C, or BIB-04b selects A or B; also available after BIB-04.",
           "choices": [
             {
               "id": "BIB-4.5/A",
@@ -965,7 +983,7 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "Especially after BIB-4.2 selects A or C, or BIB-4.3 selects A or B; also available after BIB-4.1.",
+          "friendDisplayNote": "Especially after BIB-04a selects A or C, or BIB-04b selects A or B; also available after BIB-04.",
           "shortTitle": "Later doctrinal development",
           "routingNotes": [
             "A/B → ask what makes a doctrinal development legitimate if future depth is requested; C → clarify whether the respondent rejects new formulations or only new doctrinal content."
@@ -985,6 +1003,7 @@
       "questions": [
         {
           "id": "BIB-5.1",
+          "displayId": "BIB-05",
           "prompt": "Which collection of Old Testament books do you recognize as canonical Scripture?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -1021,7 +1040,7 @@
           ],
           "shortTitle": "Old Testament canon",
           "routingNotes": [
-            "A–D → 5.2 to distinguish which deuterocanonical writings are accepted and on what authority. D → invite specification of the actual collection. E → provide optional orientation before 5.2."
+            "A–D → BIB-05a to distinguish which deuterocanonical writings are accepted and on what authority. D → invite specification of the actual collection. E → provide optional orientation before BIB-05a."
           ],
           "editorialNotes": [
             "This is an initial group-level choice; Orthodox and other Christian canons require more granular inventory for precise classification."
@@ -1036,6 +1055,7 @@
         },
         {
           "id": "BIB-5.2",
+          "displayId": "BIB-05a",
           "prompt": "What status do you assign to the writings commonly called the Apocrypha or Deuterocanonical books?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -1054,7 +1074,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-5.1 selects A–D; optional after E.",
+          "displayNote": "After BIB-05 selects A–D; optional after E.",
           "choices": [
             {
               "id": "BIB-5.2/A",
@@ -1077,7 +1097,7 @@
               "text": "I'm unfamiliar with these writings or undecided."
             }
           ],
-          "friendDisplayNote": "After BIB-5.1 selects A–D; optional after E.",
+          "friendDisplayNote": "After BIB-05 selects A–D; optional after E.",
           "shortTitle": "Deuterocanonical status",
           "routingNotes": [
             "A/C → request book-level inventory in a deeper version. B → record a noncanonical but useful status. D → avoid inferring a canon from uncertainty."
@@ -1095,6 +1115,7 @@
         },
         {
           "id": "BIB-5.3",
+          "displayId": "BIB-05b",
           "prompt": "Does the Church establish which books are Scripture, or recognize books already possessing divine authority?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -1113,7 +1134,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-5.1 selects A–D; optional after E.",
+          "displayNote": "After BIB-05 selects A–D; optional after E.",
           "choices": [
             {
               "id": "BIB-5.3/A",
@@ -1136,10 +1157,10 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-5.1 selects A–D; optional after E.",
+          "friendDisplayNote": "After BIB-05 selects A–D; optional after E.",
           "shortTitle": "Canon recognition versus establishment",
           "routingNotes": [
-            "A/B/C → cross-reference respondent's Church-authority answer (4.1). Clarify differences between intrinsic authority and authoritative recognition if needed."
+            "A/B/C → cross-reference respondent's Church-authority answer (BIB-04). Clarify differences between intrinsic authority and authoritative recognition if needed."
           ],
           "editorialNotes": [
             "The original question presents a sharp contrast; authentic traditions may affirm intrinsic inspiration and authoritative ecclesial discernment together."
@@ -1154,6 +1175,7 @@
         },
         {
           "id": "BIB-5.4",
+          "displayId": "BIB-05c",
           "prompt": "Is the biblical canon permanently closed?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -1162,7 +1184,7 @@
               "answered": "BIB-5.1"
             }
           },
-          "displayNote": "After BIB-5.1; independent of which historical collection was chosen.",
+          "displayNote": "After BIB-05; independent of which historical collection was chosen.",
           "choices": [
             {
               "id": "BIB-5.4/A",
@@ -1185,7 +1207,7 @@
               "text": "I'm undecided."
             }
           ],
-          "friendDisplayNote": "After BIB-5.1; independent of which historical collection was chosen.",
+          "friendDisplayNote": "After BIB-05; independent of which historical collection was chosen.",
           "shortTitle": "Closure of the canon",
           "routingNotes": [
             "A/B/C → compare with inspiration claims, and later with views of contemporary revelation if already provided in Prolegomena."
@@ -1196,6 +1218,7 @@
         },
         {
           "id": "BIB-5.5",
+          "displayId": "BIB-05d",
           "prompt": "How do you understand God's preservation of the biblical text?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
@@ -1204,7 +1227,7 @@
               "answered": "BIB-5.1"
             }
           },
-          "displayNote": "After BIB-5.1, or reuse BIB-2.4 on manuscript variation.",
+          "displayNote": "After BIB-05, or reuse BIB-02c on manuscript variation.",
           "choices": [
             {
               "id": "BIB-5.5/A",
@@ -1230,10 +1253,10 @@
           "reviewPriorAnswers": [
             "BIB-2.4"
           ],
-          "friendDisplayNote": "After BIB-5.1, or reuse BIB-2.4 on manuscript variation.",
+          "friendDisplayNote": "After BIB-05, or reuse BIB-02c on manuscript variation.",
           "shortTitle": "Preservation of biblical text",
           "routingNotes": [
-            "A/B/C → 5.6 to clarify textual approach. Check for apparent tensions with BIB-2.4 before assigning a label."
+            "A/B/C → BIB-05e to clarify textual approach. Check for apparent tensions with BIB-02c before assigning a label."
           ],
           "editorialNotes": [
             "Faith in reliable transmission and judgment about a particular manuscript reading are separate questions."
@@ -1241,6 +1264,7 @@
         },
         {
           "id": "BIB-5.6",
+          "displayId": "BIB-05e",
           "prompt": "When ancient biblical manuscripts contain different readings, how should the original text be determined?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -1258,7 +1282,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-5.5 selects A, B, or C; optional after D.",
+          "displayNote": "After BIB-05d selects A, B, or C; optional after D.",
           "choices": [
             {
               "id": "BIB-5.6/A",
@@ -1281,7 +1305,7 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-5.5 selects A, B, or C; optional after D.",
+          "friendDisplayNote": "After BIB-05d selects A, B, or C; optional after D.",
           "shortTitle": "Choosing among manuscript readings",
           "routingNotes": [
             "A/B/C → save a textual method only; do not automatically infer a doctrine of inspiration or an exact Bible version."
@@ -1301,6 +1325,7 @@
       "questions": [
         {
           "id": "BIB-6.1",
+          "displayId": "BIB-06",
           "prompt": "What should be the primary goal when interpreting a biblical passage?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -1337,7 +1362,7 @@
           ],
           "shortTitle": "Primary interpretive goal",
           "routingNotes": [
-            "A/B → 6.2 on human and divine intention. C → link to 4.1–4.4. D → explore how original context constrains current application. All → 6.3."
+            "A/B → BIB-06a on human and divine intention. C → link to BIB-04–BIB-04c. D → explore how original context constrains current application. All → BIB-06b."
           ],
           "editorialNotes": [
             "A, B, and C can be mutually compatible rather than exclusive; this is a priority question, not a full method inventory."
@@ -1352,6 +1377,7 @@
         },
         {
           "id": "BIB-6.2",
+          "displayId": "BIB-06a",
           "prompt": "Can a biblical passage possess a divinely intended meaning beyond what its human author consciously understood?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -1370,7 +1396,7 @@
               ]
             }
           },
-          "displayNote": "After BIB-6.1 selects A–D; optional after E.",
+          "displayNote": "After BIB-06 selects A–D; optional after E.",
           "choices": [
             {
               "id": "BIB-6.2/A",
@@ -1393,10 +1419,10 @@
               "text": "I'm undecided."
             }
           ],
-          "friendDisplayNote": "After BIB-6.1 selects A–D; optional after E.",
+          "friendDisplayNote": "After BIB-06 selects A–D; optional after E.",
           "shortTitle": "Divine meaning beyond human intention",
           "routingNotes": [
-            "A/B/C → 6.4 about Old Testament Christological interpretation. Track divine intention independently of methods of application."
+            "A/B/C → BIB-06c about Old Testament Christological interpretation. Track divine intention independently of methods of application."
           ],
           "editorialNotes": [
             "Distinguish multiple senses of a text from multiple interpretations of the same sense."
@@ -1404,6 +1430,7 @@
         },
         {
           "id": "BIB-6.3",
+          "displayId": "BIB-06b",
           "prompt": "How should literary genre influence biblical interpretation?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -1412,7 +1439,7 @@
               "answered": "BIB-6.1"
             }
           },
-          "displayNote": "After BIB-6.1; independent of which interpretive goal was selected.",
+          "displayNote": "After BIB-06; independent of which interpretive goal was selected.",
           "choices": [
             {
               "id": "BIB-6.3/A",
@@ -1435,10 +1462,10 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-6.1; independent of which interpretive goal was selected.",
+          "friendDisplayNote": "After BIB-06; independent of which interpretive goal was selected.",
           "shortTitle": "Literary genre",
           "routingNotes": [
-            "A/B/C → 6.5 to test responses to historical and scientific challenges. If A and B appear in tension, clarify what 'literal' means for each genre."
+            "A/B/C → BIB-06d to test responses to historical and scientific challenges. If A and B appear in tension, clarify what 'literal' means for each genre."
           ],
           "editorialNotes": [
             "Genre-sensitive interpretation and a literal sense are not necessarily rivals."
@@ -1446,6 +1473,7 @@
         },
         {
           "id": "BIB-6.4",
+          "displayId": "BIB-06c",
           "prompt": "Is it legitimate to interpret Old Testament passages as pointing to Christ beyond their immediate historical context?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -1461,7 +1489,7 @@
               "answered": "BIB-6.2"
             }
           },
-          "displayNote": "After BIB-6.2 selects A–C, especially A or B; optional otherwise.",
+          "displayNote": "After BIB-06a selects A–C, especially A or B; optional otherwise.",
           "choices": [
             {
               "id": "BIB-6.4/A",
@@ -1490,7 +1518,7 @@
               "BIB-6.2/B"
             ]
           },
-          "friendDisplayNote": "After BIB-6.2 selects A–C, especially A or B; optional otherwise.",
+          "friendDisplayNote": "After BIB-06a selects A–C, especially A or B; optional otherwise.",
           "shortTitle": "Christological reading of Old Testament",
           "routingNotes": [
             "A/B/C → distinguish intended divine typology, authorized apostolic interpretation, and later theological application."
@@ -1501,6 +1529,7 @@
         },
         {
           "id": "BIB-6.5",
+          "displayId": "BIB-06d",
           "prompt": "How should Christians respond when historical or scientific scholarship challenges a traditional biblical interpretation?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
@@ -1509,7 +1538,7 @@
               "answered": "BIB-6.3"
             }
           },
-          "displayNote": "After BIB-6.3; reuse from Prolegomena on faith and reason where substantively answered.",
+          "displayNote": "After BIB-06b; reuse from Prolegomena on faith and reason where substantively answered.",
           "choices": [
             {
               "id": "BIB-6.5/A",
@@ -1532,7 +1561,7 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-6.3; reuse from Prolegomena on faith and reason where substantively answered.",
+          "friendDisplayNote": "After BIB-06b; reuse from Prolegomena on faith and reason where substantively answered.",
           "shortTitle": "External scholarship and interpretation",
           "routingNotes": [
             "A/B/C → check against the respondent's general faith-reason method without manufacturing a contradiction."
@@ -1543,6 +1572,7 @@
         },
         {
           "id": "BIB-6.6",
+          "displayId": "BIB-06e",
           "prompt": "What role does the Holy Spirit play in biblical interpretation?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP / CROSS-CATEGORY",
@@ -1551,7 +1581,7 @@
               "answered": "BIB-6.1"
             }
           },
-          "displayNote": "After BIB-6.1; especially useful when Prolegomena addresses ongoing revelation.",
+          "displayNote": "After BIB-06; especially useful when Prolegomena addresses ongoing revelation.",
           "choices": [
             {
               "id": "BIB-6.6/A",
@@ -1574,7 +1604,7 @@
               "text": "I'm uncertain."
             }
           ],
-          "friendDisplayNote": "After BIB-6.1; especially useful when Prolegomena addresses ongoing revelation.",
+          "friendDisplayNote": "After BIB-06; especially useful when Prolegomena addresses ongoing revelation.",
           "shortTitle": "Holy Spirit in interpretation",
           "routingNotes": [
             "A/B/C → cross-reference Prolegomena's question on continuing revelation; avoid equating illumination with new revelatory content."
@@ -1597,7 +1627,7 @@
     "CROSS-CATEGORY — answered once and reused rather than duplicating a question from Prolegomena or another doctrinal category.",
     "DISPLAY RULE states a proposed trigger. ROUTING captures next steps and reused answers. EDITORIAL NOTE flags uncertainties and potential changes to the answer set.",
     "All six dimensions are independently accessible in topic mode. Guided progression is suggested, not locked. 'Unsure' should not be penalized, and apparent tensions should prompt clarification rather than an automatic contradiction label.",
-    "Draft caution: Some alternatives overlap (especially BIB-2.3, 5.3, and 6.1). This is the 30-question first pass, not an approved comprehensive taxonomy."
+    "Draft caution: Some alternatives overlap (especially BIB-02b, BIB-05b, and BIB-06). This is the 30-question first pass, not an approved comprehensive taxonomy."
   ],
   "vocabulary": [
     {

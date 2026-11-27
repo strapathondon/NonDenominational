@@ -1,5 +1,6 @@
 """Validate question-set files. Run with Python 3.10+ and jsonschema 4.18+."""
 import json
+import re
 from pathlib import Path
 from jsonschema import Draft202012Validator
 
@@ -67,6 +68,7 @@ def validate():
     check(len(term_ids) == len(set(term_ids)), "Repeated vocabulary ID")
     source_ids = {r['id'] for r in read("vocabulary-sources.json")}
     seen, options, dims, related = set(), set(), set(), []
+    question_labels = set()
     questions, prior_answers = {}, []
     for bank, entry in zip(sets, catalog):
         validator.validate(bank)
@@ -84,6 +86,11 @@ def validate():
                 dims.add(dimension)
             for q in section["questions"]:
                 qid = q["id"]
+                label = q.get("displayId", qid)
+                check(re.fullmatch(rf"{bank['id']}-(?:R)?[0-9]{{2,}}[A-Za-z]?", label),
+                      f"Invalid question label {label} in {bank['id']}")
+                check(label not in question_labels, f"Repeated question label {label}")
+                question_labels.add(label)
                 check(qid not in seen, f"Repeated question {qid}")
                 for rule in [*q["display"].values(), q.get("recommendWhen", True)]:
                     check_rule(rule, before, options, {g["id"]: g["members"] for g in groups})

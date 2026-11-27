@@ -17,6 +17,7 @@
       "questions": [
         {
           "id": "E1",
+          "displayId": "ESCH-01",
           "prompt": "Which statement best describes your understanding of Jesus Christ’s return?",
           "selection": "single",
           "role": "Foundational",
@@ -61,6 +62,7 @@
         },
         {
           "id": "E1.1",
+          "displayId": "ESCH-01a",
           "prompt": "Must certain prophetic events occur before Christ returns?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -72,7 +74,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E1 = A or B",
+          "displayNote": "Conditional follow-up  |  ESCH-01 = A or B",
           "choices": [
             {
               "id": "E1.1/A",
@@ -98,6 +100,7 @@
         },
         {
           "id": "E1.2",
+          "displayId": "ESCH-01b",
           "prompt": "How do you understand the New Testament’s descriptions of Christ coming in glory?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -109,7 +112,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E1 = B or C",
+          "displayNote": "Conditional follow-up  |  ESCH-01 = B or C",
           "choices": [
             {
               "id": "E1.2/A",
@@ -145,6 +148,7 @@
       "questions": [
         {
           "id": "E2",
+          "displayId": "ESCH-02",
           "prompt": "What happens to a person between physical death and the final resurrection?",
           "selection": "single",
           "role": "Foundational",
@@ -199,6 +203,7 @@
         },
         {
           "id": "E2.1",
+          "displayId": "ESCH-02a",
           "prompt": "What happens to believers immediately after death?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -209,7 +214,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E2 = A",
+          "displayNote": "Conditional follow-up  |  ESCH-02 = A",
           "choices": [
             {
               "id": "E2.1/A",
@@ -247,6 +252,7 @@
         },
         {
           "id": "E2.2",
+          "displayId": "ESCH-02b",
           "prompt": "Can someone who dies unreconciled to God subsequently be reconciled to him?",
           "selection": "single",
           "role": "Common follow-up",
@@ -284,6 +290,7 @@
       "questions": [
         {
           "id": "E3",
+          "displayId": "ESCH-03",
           "prompt": "Which statement best describes the future resurrection of the dead?",
           "selection": "single",
           "role": "Foundational",
@@ -324,6 +331,7 @@
         },
         {
           "id": "E3.1",
+          "displayId": "ESCH-03a",
           "prompt": "Will the resurrection occur in one event or in distinct stages?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -334,7 +342,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E3 = A",
+          "displayNote": "Conditional follow-up  |  ESCH-03 = A",
           "choices": [
             {
               "id": "E3.1/A",
@@ -360,6 +368,7 @@
         },
         {
           "id": "E3.2",
+          "displayId": "ESCH-03b",
           "prompt": "How do you understand the final judgment?",
           "selection": "single",
           "role": "Common follow-up",
@@ -405,6 +414,7 @@
         },
         {
           "id": "E3.3",
+          "displayId": "ESCH-03c",
           "prompt": "How do believers participate in judgment?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -417,7 +427,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E3.2 = A, B, or D",
+          "displayNote": "Conditional follow-up  |  ESCH-03b = A, B, or D",
           "choices": [
             {
               "id": "E3.3/A",
@@ -458,6 +468,7 @@
       "questions": [
         {
           "id": "E4",
+          "displayId": "ESCH-04",
           "prompt": "What is the ultimate destiny of those who stand condemned before God?",
           "selection": "single",
           "role": "Foundational",
@@ -522,6 +533,7 @@
         },
         {
           "id": "E4.1",
+          "displayId": "ESCH-04a",
           "prompt": "How should biblical descriptions of eternal punishment be understood?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -532,7 +544,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E4 = A",
+          "displayNote": "Conditional follow-up  |  ESCH-04 = A",
           "choices": [
             {
               "id": "E4.1/A",
@@ -565,6 +577,7 @@
         },
         {
           "id": "E4.2",
+          "displayId": "ESCH-04b",
           "prompt": "What makes the punishment everlasting?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -575,7 +588,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E4 = B",
+          "displayNote": "Conditional follow-up  |  ESCH-04 = B",
           "choices": [
             {
               "id": "E4.2/A",
@@ -608,6 +621,7 @@
         },
         {
           "id": "E4.3",
+          "displayId": "ESCH-04c",
           "prompt": "How certain is universal reconciliation?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -618,7 +632,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E4 = C",
+          "displayNote": "Conditional follow-up  |  ESCH-04 = C",
           "choices": [
             {
               "id": "E4.3/A",
@@ -647,6 +661,7 @@
         },
         {
           "id": "E4.4",
+          "displayId": "ESCH-04d",
           "prompt": "How does final reconciliation occur?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -657,7 +672,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E4 = C",
+          "displayNote": "Conditional follow-up  |  ESCH-04 = C",
           "choices": [
             {
               "id": "E4.4/A",
@@ -693,6 +708,7 @@
       "questions": [
         {
           "id": "E5",
+          "displayId": "ESCH-05",
           "prompt": "What is the final state of creation and the redeemed?",
           "selection": "single",
           "role": "Foundational",
@@ -735,6 +751,7 @@
         },
         {
           "id": "E5.1",
+          "displayId": "ESCH-05a",
           "prompt": "How should descriptions of the New Jerusalem and renewed creation be understood?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -746,7 +763,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E5 = A or B",
+          "displayNote": "Conditional follow-up  |  ESCH-05 = A or B",
           "choices": [
             {
               "id": "E5.1/A",
@@ -772,6 +789,7 @@
         },
         {
           "id": "E5.2",
+          "displayId": "ESCH-05b",
           "prompt": "Will the redeemed continue meaningful activity in the new creation?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -783,7 +801,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E5 = A or B",
+          "displayNote": "Conditional follow-up  |  ESCH-05 = A or B",
           "choices": [
             {
               "id": "E5.2/A",
@@ -814,6 +832,7 @@
       "questions": [
         {
           "id": "E6",
+          "displayId": "ESCH-06",
           "prompt": "How do you understand the thousand-year reign described in Revelation 20?",
           "selection": "single",
           "role": "Foundational",
@@ -878,6 +897,7 @@
         },
         {
           "id": "E6.1",
+          "displayId": "ESCH-06a",
           "prompt": "Must the millennium last exactly one thousand calendar years?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -888,7 +908,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E6 = A",
+          "displayNote": "Conditional follow-up  |  ESCH-06 = A",
           "choices": [
             {
               "id": "E6.1/A",
@@ -916,6 +936,7 @@
         },
         {
           "id": "E6.2",
+          "displayId": "ESCH-06b",
           "prompt": "How should the first resurrection in Revelation 20 be understood?",
           "selection": "single",
           "role": "Common follow-up",
@@ -948,6 +969,7 @@
         },
         {
           "id": "E6.3",
+          "displayId": "ESCH-06c",
           "prompt": "What do you expect to happen to the gospel’s influence before Christ returns?",
           "selection": "single",
           "role": "Common follow-up",
@@ -985,6 +1007,7 @@
         },
         {
           "id": "E6.4",
+          "displayId": "ESCH-06d",
           "prompt": "What future role, if any, does national or ethnic Israel have in God’s promises?",
           "selection": "single",
           "role": "Optional depth",
@@ -1032,6 +1055,7 @@
       "questions": [
         {
           "id": "E7",
+          "displayId": "ESCH-07",
           "prompt": "How do you understand the great tribulation described in biblical prophecy?",
           "selection": "single",
           "role": "Foundational",
@@ -1082,6 +1106,7 @@
         },
         {
           "id": "E7.1",
+          "displayId": "ESCH-07a",
           "prompt": "How do you understand the gathering of believers to Christ in 1 Thessalonians 4?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -1093,7 +1118,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E1 = A or B",
+          "displayNote": "Conditional follow-up  |  ESCH-01 = A or B",
           "choices": [
             {
               "id": "E7.1/A",
@@ -1124,6 +1149,7 @@
         },
         {
           "id": "E7.2",
+          "displayId": "ESCH-07b",
           "prompt": "When does the initial gathering occur relative to a future tribulation?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -1135,7 +1161,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E7.1 = A or D",
+          "displayNote": "Conditional follow-up  |  ESCH-07a = A or D",
           "choices": [
             {
               "id": "E7.2/A",
@@ -1178,6 +1204,7 @@
         },
         {
           "id": "E7.3",
+          "displayId": "ESCH-07c",
           "prompt": "Will the church experience it?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -1204,7 +1231,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  E7 = C, or E7 = D with a future tribulation affirmed",
+          "displayNote": "Conditional follow-up  |  ESCH-07 = C, or ESCH-07 = D with a future tribulation affirmed",
           "choices": [
             {
               "id": "E7.3/A",
@@ -1245,6 +1272,7 @@
       "questions": [
         {
           "id": "X1",
+          "displayId": "ESCH-08",
           "prompt": "Which approaches best describe how you interpret Revelation’s visions?",
           "selection": "multiple",
           "role": "Optional depth",

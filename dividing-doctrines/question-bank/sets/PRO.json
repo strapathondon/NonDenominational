@@ -17,6 +17,7 @@
       "questions": [
         {
           "id": "P1.1",
+          "displayId": "PRO-01",
           "prompt": "Through which of the following can human beings genuinely learn something true about God?",
           "selection": "multiple",
           "role": "FOUNDATIONAL",
@@ -83,7 +84,7 @@
           ],
           "shortTitle": "Sources of knowledge",
           "routingNotes": [
-            "If at least one source A–H is selected, present P1.2. If J alone is selected, offer an optional clarification of whether the respondent rejects the premise of theological knowledge; do not force Christian-authority questions. If I is selected, allow the respondent to explore P1.2 without assigning a label."
+            "If at least one source A–H is selected, present PRO-01a. If J alone is selected, offer an optional clarification of whether the respondent rejects the premise of theological knowledge; do not force Christian-authority questions. If I is selected, allow the respondent to explore PRO-01a without assigning a label."
           ],
           "editorialNotes": [
             "A person can recognize multiple sources without considering all of them equally authoritative."
@@ -91,6 +92,7 @@
         },
         {
           "id": "P1.2",
+          "displayId": "PRO-01a",
           "prompt": "Which of these may legitimately establish a belief that Christians are obligated to accept?",
           "selection": "multiple",
           "role": "COMMON FOLLOW-UP",
@@ -113,7 +115,7 @@
               ]
             }
           },
-          "displayNote": "After P1.1 when any knowledge source A–H is recognized; optional when P1.1=I.",
+          "displayNote": "After PRO-01 when any knowledge source A–H is recognized; optional when PRO-01=I.",
           "choices": [
             {
               "id": "P1.2/A",
@@ -151,10 +153,10 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P1.1 recognizes a source of knowledge",
+          "friendDisplayNote": "If PRO-01 recognizes a source of knowledge",
           "shortTitle": "Sources of binding doctrinal authority",
           "routingNotes": [
-            "If B, C, or D is selected, flag P1.4 as especially important. If A–E are selected, show P1.3 to clarify ranking and final arbitration. If F is selected alongside A–E, ask the respondent to distinguish 'helpful or true' from 'binding' rather than immediately marking a contradiction."
+            "If B, C, or D is selected, flag PRO-01c as especially important. If A–E are selected, show PRO-01b to clarify ranking and final arbitration. If F is selected alongside A–E, ask the respondent to distinguish 'helpful or true' from 'binding' rather than immediately marking a contradiction."
           ],
           "editorialNotes": [
             "Keep 'source of knowledge' separate from 'authority to obligate belief'."
@@ -162,6 +164,7 @@
         },
         {
           "id": "P1.3",
+          "displayId": "PRO-01b",
           "prompt": "When disagreements arise over Christian doctrine, which description best reflects how the disagreement should ultimately be settled?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -182,7 +185,7 @@
               ]
             }
           },
-          "displayNote": "After P1.2 when any of A–E is chosen; optional when P1.2=F or G.",
+          "displayNote": "After PRO-01a when any of A–E is chosen; optional when PRO-01a=F or G.",
           "choices": [
             {
               "id": "P1.3/A",
@@ -215,10 +218,10 @@
               "text": "I have not determined how such disagreements should be resolved."
             }
           ],
-          "friendDisplayNote": "If P1.2 recognizes a binding doctrinal source",
+          "friendDisplayNote": "If PRO-01a recognizes a binding doctrinal source",
           "shortTitle": "Ultimate authority in disputes",
           "routingNotes": [
-            "If B, C, D, or E, offer P1.4 to clarify whether any doctrine could bind independently of Scripture. If A, optionally offer P1.4 as a consistency check. Save a provisional authority-model label, not a denomination."
+            "If B, C, D, or E, offer PRO-01c to clarify whether any doctrine could bind independently of Scripture. If A, optionally offer PRO-01c as a consistency check. Save a provisional authority-model label, not a denomination."
           ],
           "editorialNotes": [
             "Possible signals: sola Scriptura; Catholic Scripture–Tradition–Magisterium; Orthodox Holy Tradition; Wesleyan theological method; other models. These descriptions are not exclusive denominational categories."
@@ -243,6 +246,7 @@
         },
         {
           "id": "P1.4",
+          "displayId": "PRO-01c",
           "prompt": "Can Christians be obligated to believe a doctrine that cannot be established from Scripture, either directly or by sound inference?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -272,7 +276,7 @@
               ]
             }
           },
-          "displayNote": "Triggered by P1.2=B/C/D, or P1.3=B/C/D/E; optionally by P1.3=A for confirmation.",
+          "displayNote": "Triggered by PRO-01a=B/C/D, or PRO-01b=B/C/D/E; optionally by PRO-01b=A for confirmation.",
           "choices": [
             {
               "id": "P1.4/A",
@@ -305,10 +309,10 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P1.2 selects B, C, or D; or P1.3 selects B–E",
+          "friendDisplayNote": "If PRO-01a selects B, C, or D; or PRO-01b selects B–E",
           "shortTitle": "Extra-scriptural binding doctrine",
           "routingNotes": [
-            "B/C → later questions on apostolic continuity, doctrinal development, ecclesial authority. D → P2.4–P2.5 on contemporary revelation. E → record rejection of binding authority. A in combination with P1.2=B/C should prompt clarification, not an automatic inconsistency verdict."
+            "B/C → later questions on apostolic continuity, doctrinal development, ecclesial authority. D → PRO-02c–PRO-02d on contemporary revelation. E → record rejection of binding authority. A in combination with PRO-01a=B/C should prompt clarification, not an automatic inconsistency verdict."
           ],
           "editorialNotes": [
             "Differentiate authority to interpret, authority to define, and origin of the doctrine."
@@ -325,6 +329,7 @@
       "questions": [
         {
           "id": "P2.1",
+          "displayId": "PRO-02",
           "prompt": "Can someone learn genuine truths about God without ever reading or hearing the Bible?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -361,7 +366,7 @@
           ],
           "shortTitle": "Knowing God without the Bible",
           "routingNotes": [
-            "A → P2.2 and potentially P2.3. B → P2.3 (special communication without the Bible). C → skip P2.2 and P2.3 unless the respondent chooses them. D → optional explanation of general/special revelation. E → skip revelation follow-ups that presume revelation."
+            "A → PRO-02a and potentially PRO-02b. B → PRO-02b (special communication without the Bible). C → skip PRO-02a and PRO-02b unless the respondent chooses them. D → optional explanation of general/special revelation. E → skip revelation follow-ups that presume revelation."
           ],
           "editorialNotes": [
             "General revelation concerns what God makes broadly known; special revelation concerns particular divine self-disclosure."
@@ -376,6 +381,7 @@
         },
         {
           "id": "P2.2",
+          "displayId": "PRO-02a",
           "prompt": "What can humanity genuinely know about God through creation, conscience, or natural reasoning?",
           "selection": "multiple",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -386,7 +392,7 @@
               ]
             }
           },
-          "displayNote": "Only if P2.1=A.",
+          "displayNote": "Only if PRO-02=A.",
           "choices": [
             {
               "id": "P2.2/A",
@@ -424,10 +430,10 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P2.1 selects A",
+          "friendDisplayNote": "If PRO-02 selects A",
           "shortTitle": "Content of general revelation",
           "routingNotes": [
-            "If E is selected, prioritize P2.3 to determine whether knowledge available to all is considered sufficient for salvation. Other responses can optionally lead to P2.3. F paired with strong affirmations A–E may warrant a confidence-level follow-up."
+            "If E is selected, prioritize PRO-02b to determine whether knowledge available to all is considered sufficient for salvation. Other responses can optionally lead to PRO-02b. F paired with strong affirmations A–E may warrant a confidence-level follow-up."
           ],
           "editorialNotes": [
             "Do not infer a person's doctrine of salvation merely from affirming general revelation."
@@ -435,6 +441,7 @@
         },
         {
           "id": "P2.3",
+          "displayId": "PRO-02b",
           "prompt": "Is the knowledge available through general revelation sufficient for a person to be saved without receiving the explicit proclamation of Jesus Christ?",
           "selection": "single",
           "role": "CONDITIONAL / CROSS-CATEGORY",
@@ -451,7 +458,7 @@
               ]
             }
           },
-          "displayNote": "If P2.1=A or B; especially if P2.2=E. May instead be answered in Soteriology and reused here.",
+          "displayNote": "If PRO-02=A or B; especially if PRO-02a=E. May instead be answered in Soteriology and reused here.",
           "choices": [
             {
               "id": "P2.3/A",
@@ -484,10 +491,10 @@
               "P2.2/E"
             ]
           },
-          "friendDisplayNote": "If P2.1 selects A or B (especially if P2.2 selects E)",
+          "friendDisplayNote": "If PRO-02 selects A or B (especially if PRO-02a selects E)",
           "shortTitle": "Revelation and salvation",
           "routingNotes": [
-            "Store response once and link to Soteriology and religious exclusivism/inclusivism. If P2.1=B, clarify that the person may be describing special revelation to an individual rather than general revelation alone."
+            "Store response once and link to Soteriology and religious exclusivism/inclusivism. If PRO-02=B, clarify that the person may be describing special revelation to an individual rather than general revelation alone."
           ],
           "editorialNotes": [
             "This question reaches beyond Prolegomena. Do not duplicate it when the user later enters Soteriology."
@@ -503,6 +510,7 @@
         },
         {
           "id": "P2.4",
+          "displayId": "PRO-02c",
           "prompt": "Does God continue to communicate revelations to people beyond those recorded in Scripture?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -516,7 +524,7 @@
               ]
             }
           },
-          "displayNote": "After P2.1 for A–D; skip by default for P2.1=E.",
+          "displayNote": "After PRO-02 for A–D; skip by default for PRO-02=E.",
           "choices": [
             {
               "id": "P2.4/A",
@@ -544,10 +552,10 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P2.1 selects A–D",
+          "friendDisplayNote": "If PRO-02 selects A–D",
           "shortTitle": "Continuing special revelation",
           "routingNotes": [
-            "B/C → P2.5. C also flags P1.4 for review if user previously denied any extra-scriptural binding revelation. A/D → no required P2.5. A choice does not automatically imply cessationism."
+            "B/C → PRO-02d. C also flags PRO-01c for review if user previously denied any extra-scriptural binding revelation. A/D → no required PRO-02d. A choice does not automatically imply cessationism."
           ],
           "editorialNotes": [
             "Do not conflate a closed canon with cessationism or contemporary noncanonical prophecy."
@@ -567,6 +575,7 @@
         },
         {
           "id": "P2.5",
+          "displayId": "PRO-02d",
           "prompt": "How should a claim to have received a message from God be evaluated?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -594,7 +603,7 @@
               ]
             }
           },
-          "displayNote": "Only if P2.4=B or C (or P1.4=D where P2.4 has not yet been asked).",
+          "displayNote": "Only if PRO-02c=B or C (or PRO-01c=D where PRO-02c has not yet been asked).",
           "choices": [
             {
               "id": "P2.5/A",
@@ -627,10 +636,10 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P2.4 selects B or C",
+          "friendDisplayNote": "If PRO-02c selects B or C",
           "shortTitle": "Testing contemporary revelation",
           "routingNotes": [
-            "If E, optionally ask which tests apply and which have priority. Contrast with P1.2/P1.4 when respondent treats prophecy as universally binding."
+            "If E, optionally ask which tests apply and which have priority. Contrast with PRO-01a/PRO-01c when respondent treats prophecy as universally binding."
           ],
           "editorialNotes": [
             "Distinguish personal guidance, local prophetic claims, and public doctrinal authority."
@@ -647,6 +656,7 @@
       "questions": [
         {
           "id": "P3.1",
+          "displayId": "PRO-03",
           "prompt": "Can something genuinely revealed by God contradict what sound reasoning demonstrates to be true?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -683,7 +693,7 @@
           ],
           "shortTitle": "Harmony of faith and reason",
           "routingNotes": [
-            "A–D → offer P3.2 for a practical test of their method; A, C, or D can also lead to P3.3. E → allow a short explanation distinguishing 'above reason' from 'contrary to reason'."
+            "A–D → offer PRO-03a for a practical test of their method; A, C, or D can also lead to PRO-03b. E → allow a short explanation distinguishing 'above reason' from 'contrary to reason'."
           ],
           "editorialNotes": [
             "Do not infer 'fideism' or 'rationalism' from one answer alone."
@@ -691,6 +701,7 @@
         },
         {
           "id": "P3.2",
+          "displayId": "PRO-03a",
           "prompt": "Suppose a traditional interpretation of Scripture appears to conflict with a strongly supported conclusion from reason or scientific investigation. How should a Christian respond?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -709,7 +720,7 @@
               ]
             }
           },
-          "displayNote": "After P3.1=A–D; optional after E.",
+          "displayNote": "After PRO-03=A–D; optional after E.",
           "choices": [
             {
               "id": "P3.2/A",
@@ -742,7 +753,7 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P3.1 selects A–D",
+          "friendDisplayNote": "If PRO-03 selects A–D",
           "shortTitle": "When Scripture and evidence appear to conflict",
           "routingNotes": [
             "A–C → later Hermeneutics questions on interpretation, accommodation, genre, and what can legitimately revise an interpretation. D/E → optionally ask whether the conflict concerns revelation itself or its human interpretation."
@@ -753,13 +764,14 @@
         },
         {
           "id": "P3.3",
+          "displayId": "PRO-03b",
           "prompt": "Can human reasoning, without relying on Scripture, establish that God exists?",
           "selection": "single",
           "role": "OPTIONAL DEPTH FOLLOW-UP",
           "display": {
             "optional": true
           },
-          "displayNote": "After P3.1=A/C/D, or selected by a respondent interested in apologetics; may be offered to all if appropriate.",
+          "displayNote": "After PRO-03=A/C/D, or selected by a respondent interested in apologetics; may be offered to all if appropriate.",
           "choices": [
             {
               "id": "P3.3/A",
@@ -799,10 +811,10 @@
               "P3.1/D"
             ]
           },
-          "friendDisplayNote": "Optional deeper question, especially after P3.1 selects A, C, or D",
+          "friendDisplayNote": "Optional deeper question, especially after PRO-03 selects A, C, or D",
           "shortTitle": "Reason and God's existence",
           "routingNotes": [
-            "B–E → P3.4 is especially useful. A → optionally ask whether rational demonstration is necessary for justified faith. Record apologetic associations provisionally, not as definitive identifications."
+            "B–E → PRO-03c is especially useful. A → optionally ask whether rational demonstration is necessary for justified faith. Record apologetic associations provisionally, not as definitive identifications."
           ],
           "editorialNotes": [
             "Possible associations: natural theology, classical apologetics, evidentialism, presuppositionalism, fideism."
@@ -817,6 +829,7 @@
         },
         {
           "id": "P3.4",
+          "displayId": "PRO-03c",
           "prompt": "Must a person possess sufficient rational evidence before their religious faith is justified?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -852,7 +865,7 @@
               ]
             }
           },
-          "displayNote": "If P3.3=B/C/D/E, or if P3.1=B/C raises questions about justification; optional for P3.3=A.",
+          "displayNote": "If PRO-03b=B/C/D/E, or if PRO-03=B/C raises questions about justification; optional for PRO-03b=A.",
           "choices": [
             {
               "id": "P3.4/A",
@@ -885,7 +898,7 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P3.3 selects B–E, or P3.1 selects B or C",
+          "friendDisplayNote": "If PRO-03b selects B–E, or PRO-03 selects B or C",
           "shortTitle": "Rational justification of religious faith",
           "routingNotes": [
             "If C/D, do not merge as identical: C rests on the trustworthiness of revelation, D may reflect a broader rejection of justification. Later apologetics questions can differentiate these."
@@ -905,6 +918,7 @@
       "questions": [
         {
           "id": "P4.1",
+          "displayId": "PRO-04",
           "prompt": "What role should philosophy play in Christian theology?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -946,7 +960,7 @@
           ],
           "shortTitle": "Place of philosophy in theology",
           "routingNotes": [
-            "A–D → P4.2. A/B/E → P4.3. A–D → P4.4 as optional deeper question. F → offer an example before classification."
+            "A–D → PRO-04a. A/B/E → PRO-04b. A–D → PRO-04c as optional deeper question. F → offer an example before classification."
           ],
           "editorialNotes": [
             "Distinguish the use of philosophical tools from submitting theology to an entire philosophical system."
@@ -954,6 +968,7 @@
         },
         {
           "id": "P4.2",
+          "displayId": "PRO-04a",
           "prompt": "Is it legitimate for Christians to use philosophical concepts or terminology not explicitly found in the Bible to formulate doctrine? For example, the historical Church has used terms such as essence, person, and substance when discussing the Trinity.",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -967,7 +982,7 @@
               ]
             }
           },
-          "displayNote": "If P4.1=A/B/C/D.",
+          "displayNote": "If PRO-04=A/B/C/D.",
           "choices": [
             {
               "id": "P4.2/A",
@@ -995,10 +1010,10 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P4.1 selects A–D",
+          "friendDisplayNote": "If PRO-04 selects A–D",
           "shortTitle": "Extra-biblical philosophical terminology",
           "routingNotes": [
-            "A/B/C → may trigger P4.3 to distinguish clarifying doctrine from making philosophical premises doctrinally binding. D → later discuss use of extra-biblical language in the creeds."
+            "A/B/C → may trigger PRO-04b to distinguish clarifying doctrine from making philosophical premises doctrinally binding. D → later discuss use of extra-biblical language in the creeds."
           ],
           "editorialNotes": [
             "An extra-biblical term does not necessarily describe an extra-biblical doctrine."
@@ -1013,6 +1028,7 @@
         },
         {
           "id": "P4.3",
+          "displayId": "PRO-04b",
           "prompt": "Can a theological conclusion derived partly from philosophical reasoning legitimately become something Christians are obligated to believe?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -1046,7 +1062,7 @@
               ]
             }
           },
-          "displayNote": "If P4.1=A/B/E or P4.2=A/B/C; optional for other selections.",
+          "displayNote": "If PRO-04=A/B/E or PRO-04a=A/B/C; optional for other selections.",
           "choices": [
             {
               "id": "P4.3/A",
@@ -1079,10 +1095,10 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P4.1 selects A, B, or E; or P4.2 selects A–C",
+          "friendDisplayNote": "If PRO-04 selects A, B, or E; or PRO-04a selects A–C",
           "shortTitle": "Philosophical reasoning and binding doctrine",
           "routingNotes": [
-            "Compare A/B/D with P1.3–P1.4, where the respondent specifies the grounds of doctrinal authority. If apparent conflict, ask whether philosophy supplies an argument or independently establishes obligation."
+            "Compare A/B/D with PRO-01b–PRO-01c, where the respondent specifies the grounds of doctrinal authority. If apparent conflict, ask whether philosophy supplies an argument or independently establishes obligation."
           ],
           "editorialNotes": [
             "Separate discovering truth, defending truth, and possessing authority to require belief."
@@ -1090,6 +1106,7 @@
         },
         {
           "id": "P4.4",
+          "displayId": "PRO-04c",
           "prompt": "How should Christians approach philosophical systems that were developed outside Christianity?",
           "selection": "single",
           "role": "OPTIONAL DEPTH FOLLOW-UP",
@@ -1103,7 +1120,7 @@
               ]
             }
           },
-          "displayNote": "After P4.1=A/B/C/D; can also be selected directly by users exploring philosophical method.",
+          "displayNote": "After PRO-04=A/B/C/D; can also be selected directly by users exploring philosophical method.",
           "choices": [
             {
               "id": "P4.4/A",
@@ -1136,7 +1153,7 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "Optional deeper question after P4.1 selects A–D",
+          "friendDisplayNote": "Optional deeper question after PRO-04 selects A–D",
           "shortTitle": "Philosophical systems outside Christianity",
           "routingNotes": [
             "A/B/C → optionally present a concrete doctrinal argument and ask whether its assumptions are legitimate. D/E → optional example that tests the practical limits of their position."
@@ -1156,6 +1173,7 @@
       "questions": [
         {
           "id": "P5.1",
+          "displayId": "PRO-05",
           "prompt": "What authority should historic Christian creeds and confessions possess?",
           "selection": "single",
           "role": "FOUNDATIONAL",
@@ -1197,7 +1215,7 @@
           ],
           "shortTitle": "Status of creeds and confessions",
           "routingNotes": [
-            "A–D → P5.2 and P5.3 as appropriate. A/B/C → P5.5 to identify the respondent's confessional relationship. E → optionally ask whether their concern is with creed content or imposed authority."
+            "A–D → PRO-05a and PRO-05b as appropriate. A/B/C → PRO-05d to identify the respondent's confessional relationship. E → optionally ask whether their concern is with creed content or imposed authority."
           ],
           "editorialNotes": [
             "Affirming what a creed teaches and accepting an institution's authority to bind consciences are separate beliefs."
@@ -1219,6 +1237,7 @@
         },
         {
           "id": "P5.2",
+          "displayId": "PRO-05a",
           "prompt": "May a church legitimately require its members or leaders to affirm an established confession of faith?",
           "selection": "single",
           "role": "COMMON FOLLOW-UP",
@@ -1237,7 +1256,7 @@
               ]
             }
           },
-          "displayNote": "After P5.1=A/B/C/D; optional for P5.1=E if user wants to clarify opposition.",
+          "displayNote": "After PRO-05=A/B/C/D; optional for PRO-05=E if user wants to clarify opposition.",
           "choices": [
             {
               "id": "P5.2/A",
@@ -1270,7 +1289,7 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P5.1 selects A–D",
+          "friendDisplayNote": "If PRO-05 selects A–D",
           "shortTitle": "Requiring confessional agreement",
           "routingNotes": [
             "A–C → later Ecclesiology questions on ministerial subscription, membership, discipline, and permissible exceptions. D/E → note non-binding or anti-subscription stance."
@@ -1289,6 +1308,7 @@
         },
         {
           "id": "P5.3",
+          "displayId": "PRO-05b",
           "prompt": "If you become convinced that an established creed or confession contains an error, what should you do?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -1302,7 +1322,7 @@
               ]
             }
           },
-          "displayNote": "If P5.1=A/B/C/D; skip by default if P5.1=E.",
+          "displayNote": "If PRO-05=A/B/C/D; skip by default if PRO-05=E.",
           "choices": [
             {
               "id": "P5.3/A",
@@ -1330,10 +1350,10 @@
               "text": "I am unsure."
             }
           ],
-          "friendDisplayNote": "If P5.1 selects A–D",
+          "friendDisplayNote": "If PRO-05 selects A–D",
           "shortTitle": "Individual conviction versus confession",
           "routingNotes": [
-            "Compare with P1.3 and P5.1. Apparent tension between A and C can prompt a specific question about the respondent's criteria for identifying a legitimate doctrinal error."
+            "Compare with PRO-01b and PRO-05. Apparent tension between A and C can prompt a specific question about the respondent's criteria for identifying a legitimate doctrinal error."
           ],
           "editorialNotes": [
             "This tests how claimed authority functions under actual disagreement."
@@ -1341,13 +1361,14 @@
         },
         {
           "id": "P5.4",
+          "displayId": "PRO-05c",
           "prompt": "Which of these historic Christian doctrinal statements do you affirm?",
           "selection": "multiple",
           "role": "COMMON / OPTIONAL INVENTORY",
           "display": {
             "optional": true
           },
-          "displayNote": "Available to every respondent; suggest after P5.1=A/B/C/D, and always accessible from topic exploration.",
+          "displayNote": "Available to every respondent; suggest after PRO-05=A/B/C/D, and always accessible from topic exploration.",
           "choices": [
             {
               "id": "P5.4/A",
@@ -1393,7 +1414,7 @@
               "P5.1/D"
             ]
           },
-          "friendDisplayNote": "Optional creed inventory after P5.1",
+          "friendDisplayNote": "Optional creed inventory after PRO-05",
           "shortTitle": "Historic creeds actually affirmed",
           "routingNotes": [
             "If B → offer a careful Filioque follow-up in a later Christology/Pneumatology module. If C → avoid assuming identical interpretations among Chalcedonian and Oriental Orthodox traditions. If E → collect the named document. If F → label knowledge as undetermined, not rejection. If G occurs with specific creeds A–D, clarify acceptance of content versus rejection of binding use."
@@ -1411,6 +1432,7 @@
         },
         {
           "id": "P5.5",
+          "displayId": "PRO-05d",
           "prompt": "Does your own theological position, or that of your church, formally adhere to an established confession or doctrinal standard?",
           "selection": "single",
           "role": "CONDITIONAL FOLLOW-UP",
@@ -1437,7 +1459,7 @@
               ]
             }
           },
-          "displayNote": "After P5.1=A/B/C or a meaningful selection in P5.4; accessible directly for users who identify a confession.",
+          "displayNote": "After PRO-05=A/B/C or a meaningful selection in PRO-05c; accessible directly for users who identify a confession.",
           "choices": [
             {
               "id": "P5.5/A",
@@ -1470,7 +1492,7 @@
               "text": "Unsure."
             }
           ],
-          "friendDisplayNote": "If P5.1 selects A–C, or the respondent affirms a creed in P5.4",
+          "friendDisplayNote": "If PRO-05 selects A–C, or the respondent affirms a creed in PRO-05c",
           "shortTitle": "Formal confessional identity",
           "routingNotes": [
             "If A/B/C → ask 'Which confession or statement?' with examples: Westminster Standards; Three Forms of Unity; Augsburg Confession; Thirty-Nine Articles; Baptist confessions; Methodist doctrinal standards; other. Do not infer full personal agreement from formal affiliation."
@@ -1495,10 +1517,10 @@
     "DISPLAY RULE lists the proposed answer-level trigger. ROUTING lists what to show or save after an answer. These are draft product rules, not immutable theological classifications.",
     "All questions remain accessible in topic mode regardless of conditional routing. Default guided progression prioritizes foundational questions and the follow-ups needed to classify a response responsibly.",
     "Use 'unsure' without penalty. Avoid claiming contradiction until an apparent tension has been clarified. A source of knowledge, a binding authority, a confession's doctrinal content, and acceptance of that confession's authority are not equivalent.",
-    "1. The five FOUNDATIONAL items are P1.1, P2.1, P3.1, P4.1, and P5.1. The remaining 17 are common, conditional, inventory, or optional-depth follow-ups.",
+    "1. The five FOUNDATIONAL items are PRO-01, PRO-02, PRO-03, PRO-04, and PRO-05. The remaining 17 are common, conditional, inventory, or optional-depth follow-ups.",
     "2. Suggested triggers are editorial defaults. Branching should be evaluated with real respondents and expert theological review before making it deterministic.",
     "3. Use stable IDs for choices and questions; store selections and uncertainty separately. Avoid treating multi-select choices as ordered unless a subsequent question specifically asks for priority.",
-    "4. Preserve answers across both guided and topical modes. If the same underlying issue is encountered twice (such as P2.3 and Soteriology), reuse the existing response and permit revision.",
+    "4. Preserve answers across both guided and topical modes. If the same underlying issue is encountered twice (such as PRO-02b and Soteriology), reuse the existing response and permit revision.",
     "5. Report provisional classifications with explicit explanations. A denomination or tradition must never be inferred confidently from a single response.",
     "6. Future specialized follow-ups, such as Filioque, ministerial subscription, or continuationism/cessationism, belong in their own doctrinal modules and can be linked here.",
     "7. This is an evolving question bank; conceptual framing and answer wording should be checked for fidelity by representatives of the traditions characterized."

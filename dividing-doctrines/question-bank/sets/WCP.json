@@ -17,6 +17,7 @@
       "questions": [
         {
           "id": "WCP-76.1",
+          "displayId": "WCP-01",
           "prompt": "What determines which practices are acceptable in a Christian worship service?",
           "selection": "single",
           "role": "Foundational",
@@ -66,6 +67,7 @@
         },
         {
           "id": "WCP-76.1a",
+          "displayId": "WCP-01a",
           "prompt": "What establishes sufficient biblical warrant for an element of worship?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -76,7 +78,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  WCP-76.1 = A",
+          "displayNote": "Conditional follow-up  |  WCP-01 = A",
           "choices": [
             {
               "id": "WCP-76.1a/A",
@@ -102,6 +104,7 @@
         },
         {
           "id": "WCP-76.2",
+          "displayId": "WCP-02",
           "prompt": "Should Christians distinguish between the elements of worship and their circumstances?",
           "selection": "single",
           "role": "Common follow-up",
@@ -151,6 +154,7 @@
         },
         {
           "id": "WCP-76.3",
+          "displayId": "WCP-03",
           "prompt": "What authority does a church have to require worship practices not explicitly commanded in Scripture?",
           "selection": "single",
           "role": "Common follow-up",
@@ -198,6 +202,7 @@
       "questions": [
         {
           "id": "WCP-77.1",
+          "displayId": "WCP-04",
           "prompt": "What form should a regular Christian worship service ordinarily take?",
           "selection": "single",
           "role": "Foundational",
@@ -247,6 +252,7 @@
         },
         {
           "id": "WCP-77.1a",
+          "displayId": "WCP-04a",
           "prompt": "Why should historic liturgical forms be retained?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -258,7 +264,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  WCP-77.1 = A or B",
+          "displayNote": "Conditional follow-up  |  WCP-04 = A or B",
           "choices": [
             {
               "id": "WCP-77.1a/A",
@@ -292,6 +298,7 @@
         },
         {
           "id": "WCP-77.2",
+          "displayId": "WCP-05",
           "prompt": "Which elements should be present in every ordinary principal weekly worship service?",
           "selection": "multiple",
           "role": "Common follow-up",
@@ -349,6 +356,7 @@
         },
         {
           "id": "WCP-77.3",
+          "displayId": "WCP-06",
           "prompt": "What kinds of songs are appropriate for congregational worship?",
           "selection": "single",
           "role": "Common follow-up",
@@ -386,6 +394,7 @@
         },
         {
           "id": "WCP-77.3a",
+          "displayId": "WCP-06a",
           "prompt": "How strictly should song lyrics be evaluated for theological precision?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -397,7 +406,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  WCP-77.3 = C or D",
+          "displayNote": "Conditional follow-up  |  WCP-06 = C or D",
           "choices": [
             {
               "id": "WCP-77.3a/A",
@@ -423,6 +432,7 @@
         },
         {
           "id": "WCP-77.4",
+          "displayId": "WCP-07",
           "prompt": "What role should musical instruments have in corporate worship?",
           "selection": "single",
           "role": "Common follow-up",
@@ -460,6 +470,7 @@
         },
         {
           "id": "WCP-77.5",
+          "displayId": "WCP-08",
           "prompt": "Should churches observe recurring Christian festivals and seasons, such as Christmas, Easter, Advent, and Lent?",
           "selection": "single",
           "role": "Common follow-up",
@@ -497,6 +508,7 @@
         },
         {
           "id": "WCP-77.6",
+          "displayId": "WCP-09",
           "prompt": "What should occupy the central place in the regular gathered worship of the Church?",
           "selection": "single",
           "role": "Common follow-up",
@@ -534,6 +546,7 @@
         },
         {
           "id": "WCP-77.7",
+          "displayId": "WCP-10",
           "prompt": "Are dramatic presentations or choreographed dance appropriate within a Christian worship service?",
           "selection": "single",
           "role": "Common follow-up",
@@ -581,6 +594,7 @@
       "questions": [
         {
           "id": "WCP-78.1",
+          "displayId": "WCP-11",
           "prompt": "How does the biblical Sabbath command apply to Christians under the New Covenant?",
           "selection": "single",
           "role": "Foundational",
@@ -631,6 +645,7 @@
         },
         {
           "id": "WCP-78.1a",
+          "displayId": "WCP-11a",
           "prompt": "What activities should ordinarily be avoided on the Sabbath?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -643,7 +658,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  WCP-78.1 = A, B, or C",
+          "displayNote": "Conditional follow-up  |  WCP-11 = A, B, or C",
           "choices": [
             {
               "id": "WCP-78.1a/A",
@@ -669,6 +684,7 @@
         },
         {
           "id": "WCP-78.1b",
+          "displayId": "WCP-11b",
           "prompt": "What status should Sunday worship have?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -680,7 +696,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  WCP-78.1 = D or E",
+          "displayNote": "Conditional follow-up  |  WCP-11 = D or E",
           "choices": [
             {
               "id": "WCP-78.1b/A",
@@ -706,6 +722,7 @@
         },
         {
           "id": "WCP-78.2",
+          "displayId": "WCP-12",
           "prompt": "To what extent is regular corporate worship obligatory for Christians?",
           "selection": "single",
           "role": "Common follow-up",
@@ -743,6 +760,7 @@
         },
         {
           "id": "WCP-78.3",
+          "displayId": "WCP-13",
           "prompt": "How should churches treat members who differ over Sabbath or Lord's Day observance?",
           "selection": "single",
           "role": "Common follow-up",
@@ -793,6 +811,7 @@
       "questions": [
         {
           "id": "WCP-79.1",
+          "displayId": "WCP-14",
           "prompt": "To whom may Christian prayer properly be addressed?",
           "selection": "single",
           "role": "Foundational",
@@ -828,6 +847,7 @@
         },
         {
           "id": "WCP-79.2",
+          "displayId": "WCP-15",
           "prompt": "May Christians request the intercession of departed saints?",
           "selection": "single",
           "role": "Common follow-up",
@@ -873,6 +893,7 @@
         },
         {
           "id": "WCP-79.2a",
+          "displayId": "WCP-15a",
           "prompt": "How important should the invocation of saints be in Christian devotional life?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -883,7 +904,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  WCP-79.2 = C",
+          "displayNote": "Conditional follow-up  |  WCP-15 = C",
           "choices": [
             {
               "id": "WCP-79.2a/A",
@@ -917,6 +938,7 @@
         },
         {
           "id": "WCP-79.3",
+          "displayId": "WCP-16",
           "prompt": "Should Christians pray for people who have died?",
           "selection": "single",
           "role": "Common follow-up",
@@ -954,6 +976,7 @@
         },
         {
           "id": "WCP-79.4",
+          "displayId": "WCP-17",
           "prompt": "What relationship should established written prayers and spontaneous prayers have in Christian worship?",
           "selection": "single",
           "role": "Common follow-up",
@@ -991,6 +1014,7 @@
         },
         {
           "id": "WCP-79.5",
+          "displayId": "WCP-18",
           "prompt": "Is fasting an expected practice for Christians today?",
           "selection": "single",
           "role": "Common follow-up",
@@ -1028,6 +1052,7 @@
         },
         {
           "id": "WCP-79.5a",
+          "displayId": "WCP-18a",
           "prompt": "Should churches organize or prescribe periods of corporate fasting?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -1039,7 +1064,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  WCP-79.5 = B or C",
+          "displayNote": "Conditional follow-up  |  WCP-18 = B or C",
           "choices": [
             {
               "id": "WCP-79.5a/A",
@@ -1075,6 +1100,7 @@
       "questions": [
         {
           "id": "WCP-80.1",
+          "displayId": "WCP-19",
           "prompt": "Is it permissible to create visual depictions of Jesus Christ?",
           "selection": "single",
           "role": "Foundational",
@@ -1114,6 +1140,7 @@
         },
         {
           "id": "WCP-80.1a",
+          "displayId": "WCP-19a",
           "prompt": "What role may images of Christ have in gathered worship?",
           "selection": "single",
           "role": "Conditional follow-up",
@@ -1125,7 +1152,7 @@
               ]
             }
           },
-          "displayNote": "Conditional follow-up  |  WCP-80.1 = B or C",
+          "displayNote": "Conditional follow-up  |  WCP-19 = B or C",
           "choices": [
             {
               "id": "WCP-80.1a/A",
@@ -1163,6 +1190,7 @@
         },
         {
           "id": "WCP-80.2",
+          "displayId": "WCP-20",
           "prompt": "Is it permissible to represent God the Father visually?",
           "selection": "single",
           "role": "Common follow-up",
@@ -1200,6 +1228,7 @@
         },
         {
           "id": "WCP-80.3",
+          "displayId": "WCP-21",
           "prompt": "What role may images of angels, Mary, and other saints have in Christian religious settings?",
           "selection": "single",
           "role": "Common follow-up",
@@ -1249,6 +1278,7 @@
         },
         {
           "id": "WCP-80.4",
+          "displayId": "WCP-22",
           "prompt": "How should acts such as bowing before, kissing, or offering incense to sacred images be understood?",
           "selection": "single",
           "role": "Common follow-up",
@@ -1298,6 +1328,7 @@
         },
         {
           "id": "WCP-80.5",
+          "displayId": "WCP-23",
           "prompt": "Are crosses and crucifixes appropriate for display in churches?",
           "selection": "single",
           "role": "Common follow-up",
@@ -1335,6 +1366,7 @@
         },
         {
           "id": "WCP-80.6",
+          "displayId": "WCP-24",
           "prompt": "Should relics or physical objects associated with saints have a role in Christian devotion?",
           "selection": "single",
           "role": "Common follow-up",
